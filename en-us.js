@@ -379,14 +379,18 @@ _h$["e"] = _h$["e"] || {
 	], 
 	picture: [
 		"Upload image", 
-		"Select an image (JPG, PNG)", 
+		"Select an image (JPG, PNG, GIF, WebP, AVIF, HEIC)", 
 		"Upload", 
 		"Select again", 
 		"You can upload up to 10 photos in each post.", 
-		"$ext is selected, but only JPG & PNG are supported", 
-		"Oops, the uploaded file isn't a valid image.", 
+		"$ext is selected, but only JPG, PNG, GIF, WebP, AVIF & HEIC are supported", 
 		"Image uploaded", 
 		"Download will begin shortly"
+	], 
+	picture_err: [
+		"Unsupported image format or incorrect file extension (only supports: JPG, PNG, GIF, WebP, AVIF, HEIC)", 
+		"Image file exceeds 6MB; please compress before uploading", 
+		"Image file cannot be read or is corrupted"
 	], 
 	picture_remove: [
 		"Confirm to remove the image? (can't be undo)", "Remove", "Image removed"
@@ -689,7 +693,12 @@ _h$["a"] = _h$["a"] || {
 	pwd_apply: ["Change", "Confirm"], 
 	pwd_ok: ["Password changed. Please sign in with your new password next time.", 
 				"Please keep your password safe and private to prevent unauthorized access."], 
-	avatar: ["Select an image (JPG, PNG)", "$ext is selected, but only JPG & PNG are supported", "Select again", "Avatar uploaded"], 
+	avatar: ["Select an image (JPG, PNG, GIF, WebP, AVIF, HEIC)", "$ext is selected, but only JPG, PNG, GIF, WebP, AVIF & HEIC are supported", "Select again", "Avatar uploaded"], 
+	avatar_err: [
+		"Unsupported image format or incorrect file extension (only supports: JPG, PNG, GIF, WebP, AVIF, HEIC)", 
+		"Image file exceeds 6MB; please compress before uploading", 
+		"Image file cannot be read or is corrupted"
+	], 
 	email_new: "Change account email", 
 	email_confirm: 'Confirm to change your email to "$email"?', 
 	email_invalid: "Email address is invalid", 
@@ -738,7 +747,6 @@ _h$["a"] = _h$["a"] || {
 		"Get 40% off exclusive discount on annual renewal (Prepaid Plan)", 
 		"Purchase"
 	], 
-	line_set: ['To connect LINE Notify, please select mode "1-on-1 chat".', "LINE Notify was connected on $date.", "Connect now", "Start over", "LINE Notify is now connected to your account."], 
 
 	// DOMs
 	title: "My Account", 
@@ -754,7 +762,6 @@ _h$["a"] = _h$["a"] || {
 	pfont: ["Post Fonts", "Font preview"], 
 	language: "Language", 
 	timezone: "Time Zone", 
-	line: ["Channel", "Connect to LINE Notify"], 
 	newsletter: ["Newsletter", "Opt-in (occasional news & stories)"], 
 	newsletter_shop: ["Shop letters", "Opt-in (product Releases & promotions)"], 
 	rate: ["Love & Hug", "Rate us 5 stars"], 
@@ -873,7 +880,6 @@ _h$["pv"] = _h$["pv"] || {
 	verify3: ["Not receiving verification code?", "Please provide your Hearty ID & phone number for manual verification.", "Send us a message"], 
 	code: ["SMS verification code", "Try again", "It should be a 6-digit number.", "The code is invalid.", "The code is expired, please start over."], 
 	fail: "Google Auth isn't properly loaded, please refresh the page.", 
-	line: "Join our LINE@ channel to get exclusive stories?", 
 
 	// DOMs
 	title: "Verify Phone Number", 

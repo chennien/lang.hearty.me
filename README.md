@@ -1,4 +1,4 @@
-[![Hearty Journal 溫度日記](https://i0.wp.com/cdn.jsdelivr.net/gh/chennien/web.hearty.me@main/img/header.png)](https://hearty.me) 
+[![Hearty Journal 溫度日記](https://i0.wp.com/cdn.jsdelivr.net/gh/heartyme/web.hearty.me@main/img/header.png)](https://hearty.me) 
 
 
 # Language Packs of Hearty Journal 溫度日記語系檔
