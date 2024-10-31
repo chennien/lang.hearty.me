@@ -389,7 +389,8 @@ _h$["e"] = _h$["e"] || {
 	picture_err: [
 		"相片格式不支援，或副檔名不正確（僅支援：JPG、PNG、GIF、WebP、AVIF、HEIC）", 
 		"圖檔超過 6MB，需先壓縮再上傳", 
-		"圖檔無法讀取或已損壞"
+		"圖檔無法讀取或已損壞", 
+		"HEIC/HEIF 圖片轉檔失敗，請換一張圖片試試"
 	], 
 	picture_remove: [
 		"確定要刪掉這張相片嗎？", 
@@ -697,7 +698,8 @@ _h$["a"] = _h$["a"] || {
 	avatar_err: [
 		"相片格式不支援，或副檔名不正確（僅支援：JPG、PNG、GIF、WebP、AVIF、HEIC）", 
 		"圖檔超過 6MB，需先壓縮再上傳", 
-		"圖檔無法讀取或已損壞"
+		"圖檔無法讀取或已損壞", 
+		"HEIC/HEIF 圖片轉檔失敗，請換一張圖片試試"
 	], 
 	email_new: "修改 Email", 
 	email_confirm: "確認修改 Email 為「$email」？", 

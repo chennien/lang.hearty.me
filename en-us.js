@@ -390,7 +390,8 @@ _h$["e"] = _h$["e"] || {
 	picture_err: [
 		"Unsupported image format or incorrect file extension (only supports: JPG, PNG, GIF, WebP, AVIF, HEIC)", 
 		"Image file exceeds 6MB; please compress before uploading", 
-		"Image file cannot be read or is corrupted"
+		"Image file cannot be read or is corrupted", 
+		"HEIC/HEIF conversion failed. Please try another image."
 	], 
 	picture_remove: [
 		"Confirm to remove the image? (can't be undo)", "Remove", "Image removed"
@@ -697,7 +698,8 @@ _h$["a"] = _h$["a"] || {
 	avatar_err: [
 		"Unsupported image format or incorrect file extension (only supports: JPG, PNG, GIF, WebP, AVIF, HEIC)", 
 		"Image file exceeds 6MB; please compress before uploading", 
-		"Image file cannot be read or is corrupted"
+		"Image file cannot be read or is corrupted", 
+		"HEIC/HEIF conversion failed. Please try another image."
 	], 
 	email_new: "Change account email", 
 	email_confirm: 'Confirm to change your email to "$email"?', 

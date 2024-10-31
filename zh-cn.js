@@ -389,7 +389,8 @@ _h$["e"] = _h$["e"] || {
 	picture_err: [
 		"相片格式不支援，或扩展名不正确（仅支援：JPG、PNG、GIF、WebP、AVIF、HEIC）", 
 		"图档超过 6MB，需先压缩再上传", 
-		"图档无法读取或已损坏"
+		"图档无法读取或已损坏", 
+		"HEIC/HEIF 图片转档失败，请换一张图片试试"
 	], 
 	picture_remove: [
 		"确定要删掉这张相片吗？", 
@@ -697,7 +698,8 @@ _h$["a"] = _h$["a"] || {
 	avatar_err: [
 		"相片格式不支援，或扩展名不正确（仅支援：JPG、PNG、GIF、WebP、AVIF、HEIC）", 
 		"图档超过 6MB，需先压缩再上传", 
-		"图档无法读取或已损坏"
+		"图档无法读取或已损坏", 
+		"HEIC/HEIF 图片转档失败，请换一张图片试试"
 	], 
 	email_new: "修改 Email", 
 	email_confirm: "确认修改 Email 为「$email」？", 
