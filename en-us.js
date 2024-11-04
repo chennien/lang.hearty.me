@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 0 */
+/* Hearty Journal Language Pack: Ver 2 */
 
 var _h$ = {};
 
