@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 2 */
+/* Hearty Journal Language Pack: Ver 3 */
 
 var _h$ = {};
 
@@ -443,6 +443,7 @@ _h$["e"] = _h$["e"] || {
 		"$d$th day", // Eng: $d$th
 		"Next: after $d days"
 	], 
+	headline: ["Headline", "Enter new headline of your journal", "Next", 'New headline: "$headline"', "My dear diary"], 
 
 	// DOMs
 	title: "My Journal", 
@@ -731,7 +732,6 @@ _h$["a"] = _h$["a"] || {
 	id_taken: '<b>"$id"</b>is already in used. Please choose another.', 
 	id_edited: 'Your Hearty ID is now "<b>$id</b>"', 
 	id_signout: "Sign in with your new Hearty ID", 
-	name: ["Title", "Enter new title of journal", "Next", 'New title: "$title"', "My dear diary"], 
 	dl: "Export to TXT file", 
 	dl_pc: 'Use a computer to download your backup.<br>Open "<u>www.hearty.me</u>" on a PC or Mac.', 
 	dl_pwd: ["Enter your password to decrypt journal", "Account password (6 ~ 20 chars)", "Export to TXT file", "File export has started", "Your backup is exported. Please keep it private and safe."], 

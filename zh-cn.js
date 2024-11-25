@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 2 */
+/* Hearty Journal Language Pack: Ver 3 */
 
 var _h$ = {};
 
@@ -444,6 +444,8 @@ _h$["e"] = _h$["e"] || {
 		"今天：第 $d天", // Eng: $d$th, 
 		"下次来：$d天后"
 	], 
+	// 自订日记本
+	headline: ["自订书名", "我的日记本叫作：", "取名字", "新书名「$headline」", "Alice 的日记小本本"], 
 
 	// DOMs
 	title: "我的日记", 
@@ -731,7 +733,6 @@ _h$["a"] = _h$["a"] || {
 	id_taken: "「<b>$id</b>」有人使用了，请重新选择", 
 	id_edited: "温度 ID 已更新为「<b>$id</b>」", 
 	id_signout: "登出，以新 ID 登录", 
-	name: ["自订书名", "我的日记本本叫作：", "取名字", "新书名「$title」", "Alice 的日记小本本"], 
 	dl: "汇出备份", 
 	dl_pc: "要下载日记备份档，需使用电脑版<br>请在电脑上打开「www.hearty.me」", 
 	dl_pwd: ["备份日记，请输入温度密码以解密：", "密码格式：6 ~ 20 字之间", "解密并汇出", "开始备份", "已将日记解密并转存文字档，<br>敬请妥善保管"], 
