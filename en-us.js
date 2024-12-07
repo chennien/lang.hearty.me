@@ -501,7 +501,7 @@ _h$["e"] = _h$["e"] || {
 		"Help Center", "Touch Gestures", "Touch Gestures for Stickers"
 	], 
 	book: [
-		"About", "Hearty Journal is a beautiful diary and personal journal application with a focus on privacy. Securely record your thoughts, feelings, ideas and private moments with the ease of writing on a pad of paper. Its aesthetic looks like a piece of notebook paper with handwritten words on it. Also, beautiful themes, lovely journal stickers and luxury fonts are available in the app. Hearty Journal works on both your computer and phone (Windows, macOS, iOS and Android are supported). Moreover, to keep your memories safe, entries will be encrypted synced to the cloud for backup. A sanctuary for your mind and soul, Hearty Journal will help pour your feelings/brain dump, increase your positive energy, be more grateful and a calmer mind by building healthy thinking through journaling."
+		"About", "In a bustling era, Hearty Journal offers a warm and tranquil haven. Here, people shed their weariness, confess their unspoken fears, and rediscover their most genuine selves. The skies may not always be blue, yet we remain steadfast and gentle."
 	], 
 	promo: ["[Special Offer] Get 3 months of VIP Premium for only NT$99"], 
 	403: "Please sign in to read the private post. 🔒", 
@@ -610,7 +610,7 @@ _h$["A"] = _h$["A"] || {
 	penpal_guest: ["Hey, this is your $day$th day on Hearty Journal. Please keep a diary for at least 7 days to see the penpal list.", "Noted"], // Eng: $day$th
 	comment_limit: [
 		"You may posted duplicate comments. Tap to remove or modify the previous ones.", 
-		"You've wrote $chars chars. All comments must be less than 200 char long.", 
+		"You've wrote $chars chars. All comments must be less than 85 char long.", 
 		"All comments must be at least 4 char long."
 	], 
 	comment_ban: [
@@ -629,7 +629,7 @@ _h$["A"] = _h$["A"] || {
 	title: "Alice's Guestbook", 
 	board: "Alice's guestbook", 
 	tabs: ["Comments", "Article Index", "Penpals", "Share", "Rate us 5 stars", "Message in Bottles"], 
-	comment: ["Reply", "Sign in to reply"], 
+	comment: ["Reply", "Sign in to reply", "Character limit exceeded (85 chars)"], 
 	profile: ["Invite as penpal", "My journal"], 
 	gotop: "Top", 
 	goleft: "Go back"
