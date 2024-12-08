@@ -450,7 +450,8 @@ _h$["e"] = _h$["e"] || {
 		"Enter new headline of your journal", 
 		"Next", 
 		'New headline: "$headline"', 
-		"My dear diary"
+		"My dear diary", 
+		"Hearty Journal"
 	], 
 	style: [
 		"Customize My Journal", 
@@ -464,12 +465,14 @@ _h$["e"] = _h$["e"] || {
 		"Best ratio: 1.91:1", 
 		"Confirm", // crop
 		"Cancel", 
-		"Cover image uploaded"
+		"Cover image uploaded", 
+		"Cover image reset"
 	], 
 	bg: [
 		"Background Image", 
 		"Upload background image", 
-		"Background image updated"
+		"Background image updated", 
+		"Background image reset"
 	], 
 	color: [
 		"Pick a Color", 
