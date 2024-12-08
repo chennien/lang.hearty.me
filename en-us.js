@@ -444,6 +444,7 @@ _h$["e"] = _h$["e"] || {
 		"Next: after $d days"
 	], 
 
+	// customize my journal
 	headline: [
 		"Headline", 
 		"Enter new headline of your journal", 
@@ -452,6 +453,7 @@ _h$["e"] = _h$["e"] || {
 		"My dear diary"
 	], 
 	style: [
+		"Customize My Journal", 
 		"Switch to default", 
 		"Need inspiration?", 
 		"//en.faq.hearty.me/tutorial/diary"

@@ -457,6 +457,7 @@ _h$["e"] = _h$["e"] || {
 		"Alice 的日記小本本"
 	], 
 	style: [
+		"自訂日記本", 
 		"切回預設", 
 		"沒有靈感", 
 		"//faq.hearty.me/tutorial/diary"
