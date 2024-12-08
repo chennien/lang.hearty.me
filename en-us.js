@@ -443,7 +443,36 @@ _h$["e"] = _h$["e"] || {
 		"$d$th day", // Eng: $d$th
 		"Next: after $d days"
 	], 
-	headline: ["Headline", "Enter new headline of your journal", "Next", 'New headline: "$headline"', "My dear diary"], 
+
+	headline: [
+		"Headline", 
+		"Enter new headline of your journal", 
+		"Next", 
+		'New headline: "$headline"', 
+		"My dear diary"
+	], 
+	style: [
+		"Switch to default", 
+		"Need inspiration?", 
+		"//en.faq.hearty.me/tutorial/diary"
+	],
+	cover: [
+		"Cover Image", 
+		"Upload cover image", 
+		"Best ratio: 1.91:1", 
+		"Confirm", // crop
+		"Cancel", 
+		"Cover image uploaded"
+	], 
+	bg: [
+		"Background Image", 
+		"Upload background image", 
+		"Background image updated"
+	], 
+	color: [
+		"Pick a Color", 
+		"Color updated"
+	], 
 
 	// DOMs
 	title: "My Journal", 
