@@ -792,6 +792,7 @@ _h$["a"] = _h$["a"] || {
 	pincode: "Support PIN", 
 	bday: "Birth", 
 	email: ["Send a verification email", "Resend a verification email", " secs to resend"], 
+	style: ["Design", "Customize My Journal"], 
 	gender: ["Gender", "Male", "Female"], 
 	phone: ["Mobile", "Verify phone number"], 
 	pwd: "Password", 
