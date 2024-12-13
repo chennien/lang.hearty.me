@@ -448,10 +448,9 @@ _h$["e"] = _h$["e"] || {
 	headline: [
 		"Headline", 
 		"Enter new headline of your journal", 
-		"Next", 
+		"Save", 
 		'New headline: "$headline"', 
-		"My dear diary", 
-		"Hearty Journal"
+		"can be left blank"
 	], 
 	style: [
 		"Customize My Journal", 
