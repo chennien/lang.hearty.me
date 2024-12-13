@@ -786,7 +786,7 @@ _h$["a"] = _h$["a"] || {
 	// DOMs
 	title: "My Account", 
 	tab: ["My Account", "Plan Details"], 
-	book: ["Cover", "My Dear Diary"], 
+	headline: ["Book", "Add a headline"], // deprecated
 	nickname: ["Nickname", "Update"], 
 	pincode: "Support PIN", 
 	bday: "Birth", 
