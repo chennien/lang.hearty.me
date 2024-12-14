@@ -461,7 +461,7 @@ _h$["e"] = _h$["e"] || {
 	cover: [
 		"Cover Image", 
 		"Upload cover image", 
-		"Best ratio: 1.91:1", 
+		"Best ratio: 1.9:1", 
 		"Confirm", // crop
 		"Cancel", 
 		"The image format is unsupported: $ext .", 
@@ -586,7 +586,8 @@ _h$["p"] = _h$["p"] || {
 		"Add Your Favorite YouTube Videos", 
 		"Name your Journal, Change Post Dates", 
 		"Easy to Search", 
-		"Export to TXT & Save as Images"
+		"Export to TXT & Save as Images", 
+		""
 	], 
 	remark: [
 		"Why upgrade to VIP premium?", 
