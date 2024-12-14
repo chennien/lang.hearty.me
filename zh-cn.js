@@ -786,7 +786,7 @@ _h$["a"] = _h$["a"] || {
 	// DOMs
 	title: "我的帐号", 
 	tab: ["个人信息", "我的方案"], 
-	headline: ["书名", "自订书名"], // deprecated
+	headline: ["书名"], // deprecated
 	nickname: ["笔名", "修改"], 
 	pincode: "客服 PIN 码", 
 	bday: "生日", 
