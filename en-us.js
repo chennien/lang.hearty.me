@@ -464,12 +464,14 @@ _h$["e"] = _h$["e"] || {
 		"Best ratio: 1.91:1", 
 		"Confirm", // crop
 		"Cancel", 
+		"The image format is unsupported: $ext .", 
 		"Cover image uploaded", 
 		"Cover image reset"
 	], 
 	bg: [
 		"Background Image", 
 		"Upload background image", 
+		"The image format is unsupported: $ext .", 
 		"Background image updated", 
 		"Background image reset"
 	], 
