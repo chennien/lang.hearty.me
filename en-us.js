@@ -937,11 +937,15 @@ _h$["pv"] = _h$["pv"] || {
 _h$["pt"] = _h$["pt"] || {
 	// JS
 	ok: "Confirm", 
+	no: "Cancel", 
 	back: "Back", 
 	close: "Close", 
 	copy: "Copy", 
+	signin: [
+		"Sign In", 
+		"Please sign in to Hearty Journal first."
+	], 
 	redeem: [
-		"Please log in to Hearty Journal first.", 
 		"Are you sure you want to redeem $pkg for $p points?", 
 		"Insufficient points. You cannot redeem $pkg.", 
 		"This plan is not yet available for redemption."
