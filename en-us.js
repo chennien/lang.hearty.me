@@ -946,7 +946,7 @@ _h$["pt"] = _h$["pt"] || {
 		"Please sign in to Hearty Journal first."
 	], 
 	redeem: [
-		"Are you sure you want to redeem $pkg for $p points?", 
+		"Are you sure you want to redeem <u>$pkg</u> for $p points?", 
 		"Insufficient points. You cannot redeem $pkg.", 
 		"This plan is not yet available for redemption."
 	], 
@@ -968,8 +968,8 @@ _h$["pt"] = _h$["pt"] || {
 	points: ["My Hearty Points", "points"], 
 	tip: [
 		"Digital code, redeem within 90 days", 
-		"14 days VIP membership", 
-		"30 days VIP membership", 
+		"14-day VIP membership", 
+		"30-day VIP membership", 
 		"Courses are in Mandarin Chinese"
 	], 
 	label: [
