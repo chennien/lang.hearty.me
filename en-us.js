@@ -936,12 +936,15 @@ _h$["pv"] = _h$["pv"] || {
 // points
 _h$["pt"] = _h$["pt"] || {
 	// JS
+	ok: "Confirm", 
 	back: "Back", 
 	close: "Close", 
 	copy: "Copy", 
 	redeem: [
-		"Are you sure you want to redeem $pkg for $points points?", 
-		"Insufficient points. You cannot redeem $pkg." 
+		"Please log in to Hearty Journal first.", 
+		"Are you sure you want to redeem $pkg for $p points?", 
+		"Insufficient points. You cannot redeem $pkg.", 
+		"This plan is not yet available for redemption."
 	], 
 	ec_ok: [
 		"Your Hearty Life shopping voucher (NT$$amt) code: <b>$code</b>", 
@@ -974,5 +977,6 @@ _h$["pt"] = _h$["pt"] || {
 	], 
 	use: [
 		"Redeem Now"
-	]
+	], 
+	agree: ["Please read and agree to the terms."]
 };
