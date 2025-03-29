@@ -964,8 +964,9 @@ _h$["pt"] = _h$["pt"] || {
 	points: ["My Hearty Points", "points"], 
 	tip: [
 		"Digital code, redeem within 90 days", 
-		"14 days validity", 
-		"30 days validity"
+		"14 days VIP membership", 
+		"30 days VIP membership", 
+		"Courses are in Mandarin Chinese"
 	], 
 	label: [
 		"Best", 
