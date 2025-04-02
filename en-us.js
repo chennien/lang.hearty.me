@@ -943,7 +943,6 @@ _h$["pt"] = _h$["pt"] || {
 	no: "Cancel", 
 	back: "Back", 
 	close: "Close", 
-	copy: "Copy", 
 	signin: [
 		"Sign In", 
 		"Please sign in to Hearty Journal first."
@@ -971,7 +970,8 @@ _h$["pt"] = _h$["pt"] || {
 		"Code", 
 		"Creation", 
 		"Expiration", 
-		"You do not have any coupons yet."
+		"Used", 
+		"You do not have any codes yet."
 	], 
 	label: [
 		"Best", 
@@ -982,7 +982,7 @@ _h$["pt"] = _h$["pt"] || {
 		"Coming Soon"
 	], 
 	use: [
-		"Redeem Now"
+		"Use coupon in-store"
 	], 
 	agree: ["Please read and agree to the terms."], 
 	get: [
