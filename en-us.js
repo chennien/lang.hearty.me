@@ -954,7 +954,7 @@ _h$["pt"] = _h$["pt"] || {
 	], 
 	ec_ok: [
 		"Your Hearty Life shopping voucher (NT$$amt) code: <b>$code</b>", 
-		"Please keep the code and use it within 90 days."
+		"Please keep the code and use it before $exp."
 	], 
 	vip_ok: [
 		"Redemption successful! You have received $days days of VIP premium membership, valid until $exp.", 
@@ -965,7 +965,8 @@ _h$["pt"] = _h$["pt"] || {
 	title: "Hearty Point Reward Program", 
 	points: ["My Hearty Points", "points"], 
 	coupons: [
-		"My Coupons", 
+		"My Records", 
+		"My Redemption Records", 
 		"Plan", 
 		"Code", 
 		"Creation", 
@@ -976,10 +977,6 @@ _h$["pt"] = _h$["pt"] || {
 	label: [
 		"Best", 
 		"Hot"
-	], 
-	more: [
-		"View Plan", 
-		"Coming Soon"
 	], 
 	use: [
 		"Use coupon in-store"
@@ -994,17 +991,17 @@ _h$["pt"] = _h$["pt"] || {
 	// Plans
 	pkg_vip14: [
 		"Hearty Journal VIP Premium", 
-		"14-day membership", 
-		"Membership extends with instant activation"
+		"14-day membership"
+		// , "Membership extends with instant activation"
 	], 
 	pkg_vip30: [
 		"Hearty Journal VIP Premium", 
-		"30-day membership", 
-		"Membership extends with instant activation"
+		"30-day membership"
+		// , "Membership extends with instant activation"
 	], 
 	pkg_ec100: [
 		"Hearty Life Shopping Voucher (Online Courses)", 
-		"NT$ 100", 
-		"Courses are in Mandarin Chinese"
+		"NT$ 100"
+		// , "Courses are in Mandarin Chinese"
 	]
 };
