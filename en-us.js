@@ -723,6 +723,7 @@ _h$["a"] = _h$["a"] || {
 	retry: "Try again", 
 	signin: ["Sign in", "Sign in to use the requested feature"], 
 	usage: "You wrote $chars chars in $num posts.", 
+	points: "$p points | View redemption plans", 
 	year: "CE", // CE
 	bday_ask: ["Is $bday your birthday?", "Date of birth is unchangeable.", "Birthday updated"], 
 	age: "Age $age", 
@@ -963,7 +964,7 @@ _h$["pt"] = _h$["pt"] || {
 
 	// DOMs
 	title: "Hearty Point Reward Program", 
-	points: ["My Hearty Points", "points"], 
+	points: ["My Hearty Points", "P"], 
 	coupons: [
 		"My Records", 
 		"My Redemption Records", 
@@ -972,7 +973,7 @@ _h$["pt"] = _h$["pt"] || {
 		"Creation", 
 		"Expiration", 
 		"Used", 
-		"You do not have any codes yet."
+		"You do not have any code yet."
 	], 
 	label: [
 		"Best", 
@@ -991,12 +992,12 @@ _h$["pt"] = _h$["pt"] || {
 	// Plans
 	pkg_vip14: [
 		"Hearty Journal VIP Premium", 
-		"14-day membership"
+		"14-day"
 		// , "Membership extends with instant activation"
 	], 
 	pkg_vip30: [
 		"Hearty Journal VIP Premium", 
-		"30-day membership"
+		"30-day"
 		// , "Membership extends with instant activation"
 	], 
 	pkg_ec100: [
