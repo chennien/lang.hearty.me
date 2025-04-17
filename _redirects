@@ -1,0 +1,18 @@
+https://heartylang.netlify.app/* https://lang.hearty.me/:splat 301!
+
+/ https://cdn.jsdelivr.net/gh/chennien/lang.hearty.me@main/zh-tw.min.js 200 Country=tw,hk,sg,my
+/ https://cdn.jsdelivr.net/gh/chennien/lang.hearty.me@main/zh-cn.min.js 200 Country=cn,mo
+/ https://cdn.jsdelivr.net/gh/chennien/lang.hearty.me@main/en-us.min.js 200
+
+/zh-tw https://cdn.jsdelivr.net/gh/chennien/lang.hearty.me@main/zh-tw.min.js 200
+/zh-cn https://cdn.jsdelivr.net/gh/chennien/lang.hearty.me@main/zh-cn.min.js 200
+/en-us https://cdn.jsdelivr.net/gh/chennien/lang.hearty.me@main/en-us.min.js 200
+
+/zh-tw/:ver https://cdn.jsdelivr.net/gh/chennien/lang.hearty.me@:ver/zh-tw.min.js 200
+/zh-cn/:ver https://cdn.jsdelivr.net/gh/chennien/lang.hearty.me@:ver/zh-cn.min.js 200
+/en-us/:ver https://cdn.jsdelivr.net/gh/chennien/lang.hearty.me@:ver/en-us.min.js 200
+
+/wp-admin https://api.hearty.app/wp-admin 200
+/wp-login.php https://api.hearty.app/wp-admin 200
+
+/* https://go.hearty.me/hj 302
