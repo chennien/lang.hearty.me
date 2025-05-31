@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 8 */
+/* Hearty Journal Language Pack: Ver 9 */
 
 var _h$ = {};
 
@@ -783,7 +783,7 @@ _h$["a"] = _h$["a"] || {
 	dl_pc: 'Open "<u>www.hearty.me</u>" on a computer to download your backup.', 
 	dl_pwd: ["Enter your password to decrypt journal", "Account password (6 ~ 20 chars)", "Export to TXT file", "File export has started", "Your backup is exported. Please check your download folder and keep the file private and safe."], 
 	vip_only: ["This", " is a premium features.", "Upgrade Deals", "Not now"], 
-	suspend: ["Not using your Hearty account any longer?<br>You'll not able to sign up with this Hearty ID as well as your account email after account deletion. ALL YOUR DATA WILL BE WIPED. (can't be undone)", "Or click <u>here</u> to change your ID", "DESTROY ACCOUNT PERMANENTLY"], 
+	suspend: ["Are you sure you want to delete account? If you don't need it for now, you can keep it! We will continue to launch new features and lovely stickers — you might want to come back and check it out someday.", "Or click <u>here</u> to change your ID", "Delete it", "Keep it for now"], 
 	auth_log: ["Last Account Activity", "$browser, $device", "Enhance security", "//go.hearty.me/hj-sec"], 
 	redeem: ["Voucher code", "Redeem"], 
 	coupon_ok: ['"$coupon" is redeemed and is now under review.', 
