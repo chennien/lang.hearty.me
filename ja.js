@@ -137,7 +137,7 @@ _h$["i"] = _h$["i"] || {
 	// DOMs
 	title: ["溫度日記 Hearty Journal", "手繪風的私密日誌本，溫柔收藏你的每寸時光"], 
 	topbar: [
-		"登入", "Windows 桌面版", "macOS App"
+		"註冊/登入", "Windows 桌面版", "macOS App"
 	], 
 	slogan: [
 		"溫度日記", "<br>手繪風的私密日誌本", "，", 

@@ -135,7 +135,7 @@ _h$["i"] = _h$["i"] || {
 	// DOMs
 	title: ["Hearty Journal 溫度日記", "Keep your precious memories"], 
 	topbar: [
-		"Sign In", "for Windows", "for macOS"
+		"Sign Up / Sign In", "Windows App", "macOS App"
 	], 
 	slogan: [
 		"Hearty Journal", "<br>keep your precious memories", ", ", 
