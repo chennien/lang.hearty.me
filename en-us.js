@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 9 */
+/* Hearty Journal Language Pack: Ver 10 */
 
 var _h$ = {};
 
@@ -34,7 +34,7 @@ _h$["m"] = _h$["m"] || {
 		"My Account", "Sign in", "VIP Premium, Hearty Journal"
 	], 
 	menu: [
-		"Verse of the Day", "Alice's Guestbook", "Post Feed", "My Journal", "Gallery", "Life Shop", "Upgrade", "Tutorials", "About", "Sign out", "for Windows", "for macOS", "Windows/macOS App", "Mobile App", "Language 語言", "Rate us 5 stars", "🐞 Debug"
+		"Verse of the Day", "Alice's Guestbook", "Post Feed", "Hearty Blog", "My Journal", "Gallery", "Life Shop", "Upgrade", "Tutorials", "About", "Sign out", "for Windows", "for macOS", "Windows/macOS App", "Mobile App", "Language 語言", "Rate us 5 stars", "🐞 Debug"
 	]
 };
 

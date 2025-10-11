@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 9 */
+/* Hearty Journal Language Pack: Ver 10 */
 
 var _h$ = {};
 
@@ -34,7 +34,7 @@ _h$["m"] = _h$["m"] || {
 		"我的帳號", "登入", "VIP版"
 	], 
 	menu: [
-		"今日經文", "Alice 說晚安", "投稿日記牆", "我的日記", "相片集", "療癒商城", "升級 VIP", "使用指南", "關於我們", "登出", "Windows 電腦版", "macOS 應用程式", "Windows/macOS 電腦版", "手機 App", "語言 Language", "給溫度 5顆小星星", "🐞 開發除錯"
+		"今日經文", "Alice 說晚安", "投稿日記牆", "溫度補給站", "我的日記", "相片集", "療癒商城", "升級 VIP", "使用指南", "關於我們", "登出", "Windows 電腦版", "macOS 應用程式", "Windows/macOS 電腦版", "手機 App", "語言 Language", "給溫度 5顆小星星", "🐞 開發除錯"
 	]
 };
 
