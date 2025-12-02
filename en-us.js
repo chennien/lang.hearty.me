@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 10 */
+/* Hearty Journal Language Pack: Ver 11 */
 
 var _h$ = {};
 
@@ -630,17 +630,30 @@ _h$["p"] = _h$["p"] || {
 	due_days: ["Expires in  ", "days", "then you'll be downgraded to lite edition"], 
 	due_tomorrow: ["Expires tomorrow", "then you'll be downgraded to lite edition"], 
 	due_today: ["Expires today", "then you'll be downgraded to lite edition"], 
-
-	iap: [
+	iap_ios: [
 		"billed monthly, cancel anytime", 
 		"◆ Hearty Journal VIP Premium", 
 		"unlimited access to all features for a flat rate", 
 		"NT$150/month (tax included)", 
-		"Your plan will be automatically renewed and your iTunes account charged 24 hours before your plan's expiration date.", 
+		"Your plan will be automatically renewed and your Apple ID charged 24 hours before your plan's expiration date.", 
 		"To prevent your plan from renewing itself automatically, please turn off the auto-renewal option at least 24 hours before the expiration date.", 
 		"You can still use your plan until it expires after canceling auto-renewal.", 
 		"If you cancel your plan in the middle of a payment period, you won't be refunded the last payment you made.", 
 		"To view or cancel an existing plan, check your App Store purchase history from your device's settings.", 
+		"", 
+		"Terms of Services", 
+		"Privacy Policy"
+	], 
+	iap_and: [
+		"billed monthly, cancel anytime", 
+		"◆ Hearty Journal VIP Premium", 
+		"unlimited access to all features for a flat rate", 
+		"NT$150/month (tax included)", 
+		"Your plan will be automatically renewed and your Google account charged 24 hours before your plan's expiration date.", 
+		"To prevent your plan from renewing itself automatically, please turn off the auto-renewal option at least 24 hours before the expiration date.", 
+		"You can still use your plan until it expires after canceling auto-renewal.", 
+		"If you cancel your plan in the middle of a payment period, you won't be refunded the last payment you made.", 
+		"To view or cancel an existing plan, check your Google Play purchase history from your device's settings.", 
 		"", 
 		"Terms of Services", 
 		"Privacy Policy"

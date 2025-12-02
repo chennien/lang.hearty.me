@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 10 */
+/* Hearty Journal Language Pack: Ver 11 */
 
 var _h$ = {};
 
@@ -630,17 +630,30 @@ _h$["p"] = _h$["p"] || {
 	due_days: ["Vence en ", "días", "luego se cambiará a la edición Lite"], 
 	due_tomorrow: ["Vence mañana", "luego se cambiará a la edición Lite"], 
 	due_today: ["Vence hoy", "luego se cambiará a la edición Lite"], 
-
-	iap: [
+	iap_ios: [
 		"facturación mensual, cancela cuando quieras", 
 		"◆ Hearty Journal VIP Premium", 
 		"acceso ilimitado a todas las funciones por una tarifa plana", 
 		"NT$150/mes (impuestos incluidos)", 
-		"Tu plan se renovará automáticamente y se cargará a tu cuenta de iTunes 24 horas antes de la fecha de vencimiento.", 
+		"Tu plan se renovará automáticamente y se cargará a tu cuenta de Apple 24 horas antes de la fecha de vencimiento.", 
 		"Para evitar la renovación automática, desactiva la opción de renovación automática al menos 24 horas antes de la fecha de vencimiento.", 
 		"Podrás seguir usando tu plan hasta que expire después de cancelar la renovación automática.", 
 		"Si cancelas tu plan a mitad de un período de pago, no se reembolsará el último pago realizado.", 
 		"Para ver o cancelar un plan existente, revisa tu historial de compras en la App Store desde la configuración de tu dispositivo.", 
+		"", 
+		"Términos del servicio", 
+		"Política de privacidad"
+	], 
+	iap_and: [
+		"facturación mensual, cancela cuando quieras", 
+		"◆ Hearty Journal VIP Premium", 
+		"acceso ilimitado a todas las funciones por una tarifa plana", 
+		"NT$150/mes (impuestos incluidos)", 
+		"Tu plan se renovará automáticamente y se cargará a tu cuenta de Google 24 horas antes de la fecha de vencimiento.", 
+		"Para evitar la renovación automática, desactiva la opción de renovación automática al menos 24 horas antes de la fecha de vencimiento.", 
+		"Podrás seguir usando tu plan hasta que expire después de cancelar la renovación automática.", 
+		"Si cancelas tu plan a mitad de un período de pago, no se reembolsará el último pago realizado.", 
+		"Para ver o cancelar un plan existente, revisa tu historial de compras en Google Play desde la configuración de tu dispositivo.", 
 		"", 
 		"Términos del servicio", 
 		"Política de privacidad"
