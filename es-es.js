@@ -631,33 +631,32 @@ _h$["p"] = _h$["p"] || {
 	due_tomorrow: ["Vence mañana", "luego se cambiará a la edición Lite"], 
 	due_today: ["Vence hoy", "luego se cambiará a la edición Lite"], 
 	iap_ios: [
-		"facturación mensual, cancela cuando quieras", 
-		"◆ Hearty Journal VIP Premium", 
-		"acceso ilimitado a todas las funciones por una tarifa plana", 
-		"NT$150/mes (impuestos incluidos)", 
-		"Tu plan se renovará automáticamente y se cargará a tu cuenta de Apple 24 horas antes de la fecha de vencimiento.", 
-		"Para evitar la renovación automática, desactiva la opción de renovación automática al menos 24 horas antes de la fecha de vencimiento.", 
-		"Podrás seguir usando tu plan hasta que expire después de cancelar la renovación automática.", 
-		"Si cancelas tu plan a mitad de un período de pago, no se reembolsará el último pago realizado.", 
-		"Para ver o cancelar un plan existente, revisa tu historial de compras en la App Store desde la configuración de tu dispositivo.", 
-		"", 
-		"Términos del servicio", 
-		"Política de privacidad"
+		"逐月自動續訂，可隨時取消", 
+		"【溫度日記 VIP 版】iOS 訂閱說明", 
+		"基本版可體驗部分功能與素材，升級 VIP 即可盡情使用所有內容", 
+		"訂閱方案以一個月為一期，依照您首次訂閱的價格續訂", 
+		"開通後，會透過 Apple 帳號自動續訂及扣款", 
+		"每期訂閱一經開始，無法中途取消或退費", 
+		"方案到期前 24小時將自動續訂，若無意願，記得提前取消自動續訂哦", 
+		"您可以隨時在 Apple 帳號的「訂閱項目」中管理或更改您的方案", 
+		"我們不會以電話方式要求您操作 ATM 或轉帳，若接到可疑來電，請撥打 165 反詐騙專線確認", 
+		"完成訂購後，試用期會同步結束。如果還想多體驗一下，可以等試用結束後再訂購哦", 
+		"服務條款", 
+		"隱私政策"
 	], 
 	iap_and: [
-		"facturación mensual, cancela cuando quieras", 
-		"◆ Hearty Journal VIP Premium", 
-		"acceso ilimitado a todas las funciones por una tarifa plana", 
-		"NT$150/mes (impuestos incluidos)", 
-		"Tu plan se renovará automáticamente y se cargará a tu cuenta de Google 24 horas antes de la fecha de vencimiento.", 
-		"Para evitar la renovación automática, desactiva la opción de renovación automática al menos 24 horas antes de la fecha de vencimiento.", 
-		"Podrás seguir usando tu plan hasta que expire después de cancelar la renovación automática.", 
-		"Si cancelas tu plan a mitad de un período de pago, no se reembolsará el último pago realizado.", 
-		"Para ver o cancelar un plan existente, revisa tu historial de compras en Google Play desde la configuración de tu dispositivo.", 
-		"", 
-		"Términos del servicio", 
-		"Política de privacidad"
-	]
+			"Renovación automática mensual, cancela en cualquier momento",
+			"[Hearty Journal] Términos de Suscripción Android",
+			"La edición básica ofrece funciones y recursos limitados; actualiza a VIP para acceso completo",
+			"La suscripción se renueva mensualmente al precio de tu compra inicial",
+			"Después de la activación, se renueva automáticamente y cobra a través de Google Play",
+			"Una vez que comience un período de suscripción, no se puede cancelar ni reembolsar a mitad de camino",
+			"Se renueva automáticamente 24 horas antes de la expiración; recuerda cancelar temprano si no lo deseas",
+			"Gestiona o cambia tu plan en cualquier momento en Google Play > Pagos y suscripciones",
+			"Nunca solicitamos operaciones ATM o transferencias bancarias por teléfono; si es sospechoso, llama a la línea antifraude 165",
+			"Términos de Servicio",
+			"Política de Privacidad"
+		]
 };
 
 // Alice
