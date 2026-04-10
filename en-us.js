@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 11 */
+/* Hearty Journal Language Pack: Ver 12 */
 
 var _h$ = {};
 
@@ -942,7 +942,7 @@ _h$["pv"] = _h$["pv"] || {
 	no: "Cancel", 
 	signin: ["Sign in", "Please sign in first."], 
 	format: ["Number seems to be too short.", "Number is invalid.", "You've reached the quota limit. Please try again later."], 
-	verify1: ["Verify", "Enter the verification code: ", "<br><small>A mobile message is sent, please wait for 45 secs and check your phone.</small>", "$no is now verified!"], 
+	verify1: ["Verify", "Enter the verification code: ", "<br><small>A <b>Firebase SMS</b> is sent, please wait for 45 secs and check your phone.</small>", "$no is now verified!"], 
 	verify2: ["Not receiving verification code?", "Send a SMS message to us for manual verification. (Cellular rate may apply)", "Send", "Manual verification will be completed within 72 business hours.", "[Verify] Hearty ID: "], 
 	verify3: ["Not receiving verification code?", "Please provide your Hearty ID & phone number for manual verification.", "Send us a message"], 
 	code: ["SMS verification code", "Try again", "It should be a 6-digit number.", "The code is invalid.", "The code is expired, please start over."], 
