@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 12 */
+/* Hearty Journal Language Pack: Ver 13 */
 
 var _h$ = {};
 
@@ -65,14 +65,14 @@ _h$["i"] = _h$["i"] || {
 		"Hearty ID is invalid.", 
 		"Reset link was sent. Please check your email inbox.", 
 		"Reset link was sent to ***@$domain . Please check your inbox.", 
-		"Open $url to check email？", 
+		"Open $url to check email?", 
 		"The Hearty ID doesn't exist."
 	], 
 	ref: [
 		"🎁 You're invited by $user."
 	], 
 	cookie: [
-		"Please enable browser cookie for use.", "How"
+		"Please enable browser cookies to sign in.", "How"
 	], 
 	browser: [
 		"Your browser is too old to work.", "Internet Explorer is retired."
@@ -84,17 +84,17 @@ _h$["i"] = _h$["i"] || {
 		"$user doesn't exist", 
 		"$user isn't registered", 
 		"$user is deleted or suspended", 
-		"$user has been suspended for policy violations or requested for deletion", 
+		"$user has been suspended for policy violations or has requested deletion", 
 		"Wrong password", 
-		"Password should be at least 6 char long", 
+		"Password should be at least 6 chars long", 
 		'Sign in to "$client" via Hearty ID'
 	], 
 	signup: [
 		"Hearty ID should be alphanumeric", 
-		"Hearty ID should be 4 - 20 char long", 
+		"Hearty ID should be 4 - 20 chars long", 
 		"Email address is invalid", 
-		"Please enter the real email", 
-		"Password should be 6 - 20 char long", 
+		"Please enter a real email", 
+		"Password should be 6 - 20 chars long", 
 		"Passwords didn't match", 
 		"⚠ Yahoo! email service isn't recommended for use.\nDo you still want to use it?", 
 		"Email or password is invalid.", 
@@ -127,7 +127,7 @@ _h$["i"] = _h$["i"] || {
 	], 
 	id_notice: [
 		"All your data will be encrypted and synced to the cloud.", 
-		"Your Hearty ID is only key to access the private data from your devices, including computers and phones."
+		"Your Hearty ID is the only key to access your private data from your devices, including computers and phones."
 	], 
 	song: ["Harmony - 溫度日記", "Soundtrack of Hearty Journal"], 
 	404: "Oops, the page doesn't exist.", 
@@ -146,20 +146,20 @@ _h$["i"] = _h$["i"] || {
 	feature: [
 		"Always be with you", "Securely record your thoughts, feelings, ideas and private moments.", 
 		"Beautiful interface", "Beautiful themes, various lovely stickers and luxury fonts", 
-		"Share with your loved ones", "Design for friends, besties, family and lovers", 
+		"Share with your loved ones", "Designed for friends, besties, family and lovers", 
 		"Focus on Privacy", "Keep your diaries private and safe"
 	], 
 	testimonial: [
 		"Join 100,000+ happy users on Hearty Journal", 
 		"Hearty Journal is a sanctuary for your mind and soul.", "Haitaibear, Writer & Psychologist", 
 		"A nice place to date myself.", "Cindy Liu", 
-		"Hearty is pretty and lovely, come with a plenty of useful functions.", "Wu Chi", 
-		"Hearty helps me to get out of depressions. I'm healthier than before.", "Yan-Xuan", 
+		"Hearty is pretty and lovely, and comes with plenty of useful features.", "Wu Chi", 
+		"Hearty helped me through my depression. I'm healthier than before.", "Yan-Xuan", 
 		"Easy to use on my lap and in my pocket.", "Xiao-Jun"
 	], 
 	press: [
 		"Media", 
-		"Bnext Media", "Free Group", "Aotter girls", "Womany", "Sheaspire", "SEinsights", "Taiwan Startup Stadium", "Innosuare, New Taipei", "UDN", "Vita News"
+		"Bnext Media", "Free Group", "Aotter girls", "Womany", "Sheaspire", "SEinsights", "Taiwan Startup Stadium", "Innosquare, New Taipei", "UDN", "Vita News"
 	], 
 	action: [
 		"Ready for a healthier mind?", "Start Journaling"
@@ -190,7 +190,7 @@ _h$["i"] = _h$["i"] || {
 	auth: [
 		"Sign up for free", 
 		"Already have an account?", 
-		"Forget ID/Password", 
+		"Forgot ID/Password", 
 		"Sign in now", 
 		"Hearty ID", "💡 Hearty ID or account email", 
 		"Password", "🔑 6 ~ 20 chars", 
@@ -209,7 +209,7 @@ _h$["e"] = _h$["e"] || {
 		"//bitly.com/3E0ZJ7Q"
 	], 
 	ok: ["Sure", "Got it", "Of course"], 
-	no: ["No", "Canel"], 
+	no: ["No", "Cancel"], 
 	retry: "Try again", 
 	back: "Back", 
 	gotop: "Top", 
@@ -239,7 +239,7 @@ _h$["e"] = _h$["e"] || {
 		"Prev", 
 		"Next"
 	], 
-	sticker: ["Zoom-In", "Rotate", "Paste", "Removed", "Wonna have more stickers on a post?", "Upgrade to VIP premium"], 
+	sticker: ["Zoom-In", "Rotate", "Paste", "Removed", "Want more stickers on a post?", "Upgrade to VIP premium"], 
 	verify_required: [
 		"Please update profile and verify your $item to $act.", 
 		"phone", "access the info", 
@@ -253,7 +253,7 @@ _h$["e"] = _h$["e"] || {
 		"Avoid duplicates and await moderation. (;´ㅁ`)-3"
 	], 
 	publish: [
-		"Feed posts should at least 100 char long. Please write more.", 
+		"Feed posts should be at least 100 chars long. Please write more.", 
 		"Sure, I have an idea!", 
 		'Want to post "$title" to the public feed?', 
 		"Make the post public and post it to public feed?", 
@@ -269,14 +269,15 @@ _h$["e"] = _h$["e"] || {
 	], 
 	penpal_add: [
 		"Invite new penpal. Enter his/her Hearty ID (or account email): ", 
-		"For the lite edition, you can have up to 2 penpals; up to 8 for the VIP premium.", 
+		"The lite edition allows up to 2 penpals; unlimited with VIP Premium.", 
 		"Hearty ID or account email", 
 		"invite", 
 		"Please upgrade your plan to invite more penpals.", 
+		'Invite "<b>$name</b>" (Hearty ID: $user) to be your penpal?', 
 		"$name is now your penpal", 
 		'"$user" is already your penpal', 
 		'"$user" does not exist', 
-		'Oops, you has been blocked by "$user".', 
+		'Oops, you have been blocked by "$user".', 
 		"Oops, you can't invite yourself."
 	], 
 	penpal_delete: [
@@ -330,7 +331,7 @@ _h$["e"] = _h$["e"] || {
 		"Remove", 
 		"Turn off the light", 
 		"Click ➕ to add a song you love", 
-		"Let you listen to favorite songs in the background when writing.", 
+		"Listen to your favorite songs in the background while writing.", 
 		"My favorite songs", 
 		"Play"
 	], 
@@ -346,7 +347,7 @@ _h$["e"] = _h$["e"] || {
 		"Has anyone ever triggered this notification?"
 	], 
 	chars: [
-		"In sum, you've wrote $chars chars exceeded the quota of lite version ($limit chars).", 
+		"You've written $chars chars, exceeding the quota of the lite edition ($limit chars).", 
 		"Upgrade deals for VIP premium", 
 		"Remind me later"
 	], 
@@ -399,19 +400,19 @@ _h$["e"] = _h$["e"] || {
 		"HEIC/HEIF conversion failed. Please try another image."
 	], 
 	picture_remove: [
-		"Confirm to remove the image? (can't be undo)", "Remove", "Image removed"
+		"Confirm to remove the image? (can't be undone)", "Remove", "Image removed"
 	], 
 	file: "Hearty_Journal", 
 	trial: [
-		"As a gift for new comers, your 30-day free trial of Hearty VIP premium is now started. You can enjoy all features during the trial.", 
-		"No worry. After $exp, you'll NOT be charged, and you'll be downgraded to the free lite edition. All your entries will also remain in your journal. ( ´･ヮ･) ♡", 
+		"As a gift for newcomers, your 30-day free trial of Hearty VIP premium has started. You can enjoy all features during the trial.", 
+		"No worries. After $exp, you'll NOT be charged, and you'll be downgraded to the free lite edition. All your entries will also remain in your journal. ( ´･ヮ･) ♡", 
 		"Learn more", 
 		"Start journaling"
 	], 
 	purchased: [
 		"Your VIP premium plan is ready!", 
 		"If you have 3 mins and would like to share your feedback, we’d love to hear from you.", 
-		"You'll receive an additional 7-day of the premium plan for free on your first order!", 
+		"You'll receive an additional 7 days of the premium plan for free on your first survey!", 
 		"Take the survey", 
 		"Not now (or done before)"
 	], 
@@ -421,7 +422,7 @@ _h$["e"] = _h$["e"] || {
 	], 
 	n_verify_phone: "Verify your phone number to enhance account security", 
 	n_vip_prefix: "Your VIP plan", 
-	n_char_limit_exceed: "You've wrote $chars words, the text quota for lite edition reached.", 
+	n_char_limit_exceed: "You've written $chars chars and reached the text quota of the lite edition.", 
 	n_daily_checkin: [
 		"Your point is waiting — check in now!", 
 		"You've checked in today."
@@ -433,7 +434,7 @@ _h$["e"] = _h$["e"] || {
 		"You just got 1P. You have $pP now.", 
 		"You've already checked in today.", 
 		"Come back tomorrow.", 
-		"Hearty Point is a reward program that provides points for users to earn and spend. The  product offerings will be announced in the future."
+		"Hearty Point is a reward program that provides points for users to earn and spend. The product offerings will be announced in the future."
 	], 
 	reward: [
 		"View the reward plans"
@@ -563,7 +564,7 @@ _h$["e"] = _h$["e"] || {
 		"//i.hearty.app/b/images/tutorials/en/d4.jpg"
 	], 
 	stickers: ["All stickers", // Start with 1
-		"Words", "Weathers", "Moods", "Life", "Dress up", "Daily Necessities", "Diets", "Travel & Landscapes", "Seasons & Festivals", "Plants", "Animals", "Cute Characters", "Fantasy"
+		"Words", "Weather", "Moods", "Life", "Dress up", "Daily Necessities", "Food", "Travel & Landscapes", "Seasons & Festivals", "Plants", "Animals", "Cute Characters", "Fantasy"
 	]
 };
 
@@ -627,7 +628,7 @@ _h$["p"] = _h$["p"] || {
 	due: "My Subscription", 
 	due_active: ["Active Subscription"], 
 	due_date: ["Expires on ", "", "then you'll be downgraded to lite edition"], 
-	due_days: ["Expires in  ", "days", "then you'll be downgraded to lite edition"], 
+	due_days: ["Expires in ", " days", "then you'll be downgraded to lite edition"], 
 	due_tomorrow: ["Expires tomorrow", "then you'll be downgraded to lite edition"], 
 	due_today: ["Expires today", "then you'll be downgraded to lite edition"], 
 	iap_ios: [
@@ -641,7 +642,7 @@ _h$["p"] = _h$["p"] || {
 		"Manage or change your plan anytime in Apple Account > Subscriptions",
 		"We never ask for ATM transfers or bank operations over phone; if suspicious, call 165 anti-fraud hotline",
 		"After purchase, trial period ends immediately. If you want more trial time, wait until trial ends to subscribe",
-		"Terms of Services",
+		"Terms of Service",
 		"Privacy Policy"
 	], 
 	iap_and: [
@@ -655,7 +656,7 @@ _h$["p"] = _h$["p"] || {
 		"Manage or change your plan anytime in Google Play > Payments & Subscriptions",
 		"We never ask for ATM transfers or bank operations over phone; if suspicious, call 165 anti-fraud hotline",
 		"",
-		"Terms of Services",
+		"Terms of Service",
 		"Privacy Policy"
 	]
 };
@@ -669,9 +670,9 @@ _h$["A"] = _h$["A"] || {
 	no_post: "Oops, the article doesn't exist.", 
 	penpal_guest: ["Hey, this is your $day$th day on Hearty Journal. Please keep a diary for at least 7 days to see the penpal list.", "Noted"], // Eng: $day$th
 	comment_limit: [
-		"You may posted duplicate comments. Tap to remove or modify the previous ones.", 
-		"You've wrote $chars chars. All comments must be less than 85 char long.", 
-		"All comments must be at least 4 char long."
+		"You may have posted duplicate comments. Tap to remove or modify the previous ones.", 
+		"You've written $chars chars. Comments must be 85 chars or fewer.", 
+		"All comments must be at least 4 chars long."
 	], 
 	comment_ban: [
 		"Your comment will be posted once approved by the moderator.", 
@@ -682,7 +683,7 @@ _h$["A"] = _h$["A"] || {
 	comment_edit: ["Modify the comment?", "Yes"], 
 	report_ask: ["Report the comment for abuse/spam?", "Report it", "Thanks for your report."], 
 	url: ["Copy", "Link to the Article", "Download QRcode"], 
-	penpal_add: ['Invite "<b>$id</b>" to be your penpal?', "For the quality of interactions, you are suggested not to have more than 2 panpals.", "Next"], 
+	penpal_add: ['Invite "<b>$id</b>" to be your penpal?', "For the quality of interactions, we suggest having no more than 2 penpals.", "Next"], 
 	verify: ["Please verify your Email address and phone number first.", "My Account"], 
 
 	// DOMs
@@ -702,7 +703,7 @@ _h$["f"] = _h$["f"] || {
 	signin: ["Sign in", "Sign in to use the requested feature"], 
 	no: "Cancel", 
 	url: ["Copy", "Post link & QRcode"], 
-	publish_ask: ["Wonna publish your post on the public feed?", "In your journal, tap", "to publish a post.", "Got it", "My journal"], 
+	publish_ask: ["Want to publish your post on the public feed?", "In your journal, tap", "to publish a post.", "Got it", "My journal"], 
 	report_ask: ['Report "$title" for abuse/spam?', "Report", '"$title" is reported. Thank you.'], 
 
 	// DOMs
@@ -722,10 +723,9 @@ _h$["I"] = _h$["I"] || {
 	title: "Gallery", 
 	upload: "Upload an image", 
 	empty: ["No uploaded image", "Add one now?"], 
-	viponly: "Image gallery is a premium feature", 
-	learnmore: "VIP premium offers many benefits, tap to learn more.", 
 	add: "Add images", 
-	gotop: "Go Top"
+	gotop: "Go Top", 
+	layout: ["Grid", "Masonry"]
 };
 
 // account
@@ -749,7 +749,7 @@ _h$["a"] = _h$["a"] || {
 	pwd_edited: "Changed", 
 	pwd_enter: "Enter your new password.", 
 	pwd_confirm: "Enter password again to confirm.", 
-	pwd_invalid: "Password should be 6 ~ 20 char long. Please try again.", 
+	pwd_invalid: "Password should be 6 ~ 20 chars long. Please try again.", 
 	pwd_mismatch: "The passwords didn't match. Please try again.", 
 	pwd_format: "6 ~ 20 chars", 
 	pwd_apply: ["Change", "Confirm"], 
@@ -775,38 +775,38 @@ _h$["a"] = _h$["a"] || {
 		"Luxury Fonts", 
 		"i/fonts_en.png", 
 		"Justfont webfont service, commercial and open source fonts are used.", 
-		"Licences"
+		"Licenses"
 	], 
 	font_change: 'Font swapping: "$font". Please wait.', 
 	gender_edited: "Gender modified", 
 	newsletter_edited: "Change applied", 
 	lang: "Switching to: $lang", 
-	timezone_edited: '"Time Zone "$tz"', 
+	timezone_edited: 'Time zone set to "$tz"', 
 	id: "Hearty ID: ", 
 	id_edit: "Change my ID", 
-	id_public: "Hearty ID and nickname are shown public", 
-	id_new: "Enter the new ID you desired", 
-	id_format: "A valid Hearty ID should be alphanumeric, 4 ~ 20 char long. You can only change your ID 1 time.", 
+	id_public: "Hearty ID and nickname are public", 
+	id_new: "Enter your new ID", 
+	id_format: "A valid Hearty ID should be alphanumeric, 4 ~ 20 chars long. You can only change your ID once.", 
 	id_invalid: "The ID you entered doesn't meet the requirements.", 
 	id_same: "It should be different from the original one.", 
-	id_taken: '<b>"$id"</b>is already in used. Please choose another.', 
+	id_taken: '<b>"$id"</b> is already in use. Please choose another.', 
 	id_edited: 'Your Hearty ID is now "<b>$id</b>"', 
 	id_signout: "Sign in with your new Hearty ID", 
 	dl: "Export to TXT file", 
 	dl_pc: 'Open "<u>www.hearty.me</u>" on a computer to download your backup.', 
 	dl_pwd: ["Enter your password to decrypt journal", "Account password (6 ~ 20 chars)", "Export to TXT file", "File export has started", "Your backup is exported. Please check your download folder and keep the file private and safe."], 
-	vip_only: ["This", " is a premium features.", "Upgrade Deals", "Not now"], 
+	vip_only: ["This", " is a premium feature.", "Upgrade Deals", "Not now"], 
 	suspend: ["Are you sure you want to delete account? If you don't need it for now, you can keep it! We will continue to launch new features and lovely stickers — you might want to come back and check it out someday.", "Or click <u>here</u> to change your ID", "Delete it", "Keep it for now"], 
 	auth_log: ["Last Account Activity", "$browser, $device", "Enhance security", "//go.hearty.me/hj-sec"], 
 	redeem: ["Voucher code", "Redeem"], 
 	coupon_ok: ['"$coupon" is redeemed and is now under review.', 
-				"After review, You'll receive account credit in 3 business days. Please refer to section [Plan Details] few days later."], 
+				"After review, you'll receive account credit within 3 business days. Please check [Plan Details] in a few days."], 
 	voucher_ok: 'Code "$code" is redeemed successfully! You\'ve received $days days of VIP access, valid until $exp.', 
 	voucher_invalid: "The voucher code is redeemed or invalid.", 
-	voucher_disqualified: "Each account can only redeem a trial voucher. You have already redeemed one before.", 
+	voucher_disqualified: "Each account can only redeem one trial voucher. You have already redeemed one.", 
 	voucher_vvip: [
 		"VVIP Loyalty Program Offer", 
-		"Get 40% off exclusive discount on annual renewal (Prepaid Plan)", 
+		"Get an exclusive 40% off on annual renewal (Prepaid Plan)", 
 		"Purchase"
 	], 
 	voucher_ec: [
@@ -879,7 +879,7 @@ _h$["o"] = _h$["o"] || {
 	back: "Back", 
 	redeem: "Redeem Your Gift", 
 	buy: ["Try VIP premium", "Renew my plan"], 
-	plan: ["My Plan", "For plan changes or to update the credit card on file, please contact us and provide your Hearty ID.", '"VIP Premium (Free trial)" is a free gift for new comers.<br>No worry, you\'ll be downgraded to the free lite edition after the trial period automatically.'], 
+	plan: ["My Plan", "For plan changes or to update the credit card on file, please contact us and provide your Hearty ID.", '"VIP Premium (Free trial)" is a free gift for newcomers.<br>No worries, you\'ll be downgraded to the free lite edition after the trial period automatically.'], 
 	order: ["My Orders"], 
 	plan_th: ["Status", "Plan", "Started On", "Expires On", "Hearty Journal "], 
 	order_th: ["Status", "No.", "Item", "TWD$", "Payment ", "Invoice"], 
@@ -943,7 +943,7 @@ _h$["pv"] = _h$["pv"] || {
 	signin: ["Sign in", "Please sign in first."], 
 	format: ["Number seems to be too short.", "Number is invalid.", "You've reached the quota limit. Please try again later."], 
 	verify1: ["Verify", "Enter the verification code: ", "<br><small>A <b>Firebase SMS</b> is sent, please wait for 45 secs and check your phone.</small>", "$no is now verified!"], 
-	verify2: ["Not receiving verification code?", "Send a SMS message to us for manual verification. (Cellular rate may apply)", "Send", "Manual verification will be completed within 72 business hours.", "[Verify] Hearty ID: "], 
+	verify2: ["Not receiving verification code?", "Send an SMS to us for manual verification. (Carrier rates may apply)", "Send", "Manual verification will be completed within 72 business hours.", "[Verify] Hearty ID: "], 
 	verify3: ["Not receiving verification code?", "Please provide your Hearty ID & phone number for manual verification.", "Send us a message"], 
 	code: ["SMS verification code", "Try again", "It should be a 6-digit number.", "The code is invalid.", "The code is expired, please start over."], 
 	fail: "Google Auth isn't properly loaded, please refresh the page.", 
@@ -952,6 +952,27 @@ _h$["pv"] = _h$["pv"] || {
 	title: "Verify Phone Number", 
 	back: "My Account", 
 	verify: ["Verify Phone Number", "Your phone number", "Verify", "Enter the code", "Not receiving SMS message?", "Send again", "Retry after 30 secs"]
+};
+
+// email
+_h$["em"] = _h$["em"] || {
+	title: [
+		"Unsubscribe: Member Newsletter", 
+		"Unsubscribe: Hearty Life Shop Newsletter"
+	], 
+	unsubscribe: "Unsubscribe", 
+	ask: [
+		"After unsubscribing, you'll no longer receive site messages or penpal notifications.", 
+		"After unsubscribing, you'll no longer receive new product or promotion updates.", 
+		"Yes, unsubscribe me"
+	], 
+	ok: "OK", 
+	back: "Back", 
+	unsubscribed: '"$email" has been unsubscribed. The change takes effect tomorrow.', 
+	remarks: [
+		"You'll still receive important account notices (password resets, policy updates, etc.).", 
+		"To stop receiving all emails, please delete your Hearty Journal account."
+	]
 };
 
 // points
@@ -1017,7 +1038,7 @@ _h$["pt"] = _h$["pt"] || {
 		"30-day"
 	], 
 	pkg_ec100: [
-		"Hearty Life Shopping Voucher (Online Courses)", 
+		"Hearty Life Shopping Voucher (Digital Products)", 
 		"NT$ 100"
 	]
 };
