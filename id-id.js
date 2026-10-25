@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 13 */
+/* Hearty Journal Language Pack: Ver 14 */
 
 var _h$ = {};
 
@@ -67,6 +67,10 @@ _h$["i"] = _h$["i"] || {
 		"Tautan atur ulang telah dikirim ke ***@$domain . Silakan cek kotak masukmu.",
 		"Buka $url untuk mengecek email?",
 		"Hearty ID tidak ditemukan."
+	],
+	captcha: [
+		"Verifikasi keamanan gagal. Muat ulang halaman dan coba lagi.",
+		"Selesaikan verifikasi keamanan di bawah ini."
 	],
 	ref: [
 		"🎁 Kamu diundang oleh $user."

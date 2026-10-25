@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 13 */
+/* Hearty Journal Language Pack: Ver 14 */
 
 var _h$ = {};
 
@@ -67,6 +67,10 @@ _h$["i"] = _h$["i"] || {
 		"Kiungo cha kuweka upya kimetumwa kwa ***@$domain . Tafadhali angalia kikasha chako.",
 		"Fungua $url ili kuangalia barua pepe?",
 		"Hearty ID hii haipo."
+	],
+	captcha: [
+		"Ukaguzi wa usalama umeshindwa. Tafadhali onyesha upya ukurasa kisha ujaribu tena.",
+		"Tafadhali kamilisha ukaguzi wa usalama ulio hapa chini."
 	],
 	ref: [
 		"🎁 Umealikwa na $user."

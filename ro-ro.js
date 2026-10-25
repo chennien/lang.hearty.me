@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 13 */
+/* Hearty Journal Language Pack: Ver 14 */
 
 var _h$ = {};
 
@@ -67,6 +67,10 @@ _h$["i"] = _h$["i"] || {
 		"Linkul de resetare a fost trimis la ***@$domain . Verifică-ți căsuța de e-mail.",
 		"Deschizi $url pentru a verifica e-mailul?",
 		"Acest Hearty ID nu există."
+	],
+	captcha: [
+		"Verificarea de securitate a eșuat. Reîmprospătează pagina și încearcă din nou.",
+		"Finalizează verificarea de securitate de mai jos."
 	],
 	ref: [
 		"🎁 Ai fost invitat(ă) de $user."

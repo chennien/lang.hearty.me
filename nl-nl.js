@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 13 */
+/* Hearty Journal Language Pack: Ver 14 */
 
 var _h$ = {};
 
@@ -67,6 +67,10 @@ _h$["i"] = _h$["i"] || {
 		"De resetlink is verzonden naar ***@$domain . Controleer je inbox.",
 		"$url openen om je e-mail te bekijken?",
 		"Deze Hearty ID bestaat niet."
+	],
+	captcha: [
+		"De beveiligingscontrole is mislukt. Vernieuw de pagina en probeer het opnieuw.",
+		"Voltooi de beveiligingscontrole hieronder."
 	],
 	ref: [
 		"🎁 Je bent uitgenodigd door $user."

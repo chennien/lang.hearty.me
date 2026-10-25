@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 13 */
+/* Hearty Journal Language Pack: Ver 14 */
 
 var _h$ = {};
 
@@ -67,6 +67,10 @@ _h$["i"] = _h$["i"] || {
 		"Sıfırlama bağlantısı ***@$domain adresine gönderildi. Lütfen gelen kutunu kontrol et.",
 		"E-postanı kontrol etmek için $url açılsın mı?",
 		"Bu Hearty ID mevcut değil."
+	],
+	captcha: [
+		"Güvenlik doğrulaması başarısız oldu. Lütfen sayfayı yenileyip tekrar dene.",
+		"Lütfen aşağıdaki güvenlik doğrulamasını tamamla."
 	],
 	ref: [
 		"🎁 $user seni davet etti."

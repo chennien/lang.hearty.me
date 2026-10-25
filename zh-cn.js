@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 13 */
+/* Hearty Journal Language Pack: Ver 14 */
 
 var _h$ = {};
 
@@ -67,6 +67,10 @@ _h$["i"] = _h$["i"] || {
 		"重设链结已寄至您的 ***@$domain 邮箱", 
 		"要到 $url 收信吗？", 
 		"没有这个帐号"
+	], 
+	captcha: [
+		"安全验证未通过，请刷新页面后再试一次", 
+		"请完成下方的安全验证"
 	], 
 	ref: [
 		"🎁 $user 邀请你来到这裡"

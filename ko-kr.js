@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 13 */
+/* Hearty Journal Language Pack: Ver 14 */
 
 var _h$ = {};
 
@@ -67,6 +67,10 @@ _h$["i"] = _h$["i"] || {
 		"***@$domain 주소로 재설정 링크를 보냈어요. 받은편지함을 확인해 주세요.",
 		"$url에서 이메일을 확인하시겠어요?",
 		"존재하지 않는 Hearty ID예요."
+	],
+	captcha: [
+		"보안 인증에 실패했습니다. 페이지를 새로고침한 후 다시 시도해 주세요.",
+		"아래의 보안 인증을 완료해 주세요."
 	],
 	ref: [
 		"🎁 $user 님이 초대했어요."

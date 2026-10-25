@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 13 */
+/* Hearty Journal Language Pack: Ver 14 */
 
 var _h$ = {};
 
@@ -67,6 +67,10 @@ _h$["i"] = _h$["i"] || {
 		"A ligação de redefinição foi enviada para ***@$domain . Verifica a tua caixa de correio.",
 		"Abrir $url para ver o e-mail?",
 		"Este Hearty ID não existe."
+	],
+	captcha: [
+		"A verificação de segurança falhou. Atualiza a página e tenta novamente.",
+		"Conclui a verificação de segurança abaixo."
 	],
 	ref: [
 		"🎁 Foste convidado por $user."

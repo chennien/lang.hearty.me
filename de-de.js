@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 13 */
+/* Hearty Journal Language Pack: Ver 14 */
 
 var _h$ = {};
 
@@ -67,6 +67,10 @@ _h$["i"] = _h$["i"] || {
 		"Der Link zum Zurücksetzen wurde an ***@$domain gesendet. Bitte prüfe dein Postfach.",
 		"$url öffnen, um deine E-Mails abzurufen?",
 		"Diese Hearty ID existiert nicht."
+	],
+	captcha: [
+		"Die Sicherheitsprüfung ist fehlgeschlagen. Bitte lade die Seite neu und versuche es erneut.",
+		"Bitte schließe die Sicherheitsprüfung unten ab."
 	],
 	ref: [
 		"🎁 Du wurdest von $user eingeladen."

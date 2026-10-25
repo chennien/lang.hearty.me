@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 13 */
+/* Hearty Journal Language Pack: Ver 14 */
 
 var _h$ = {};
 
@@ -67,6 +67,10 @@ _h$["i"] = _h$["i"] || {
 		"重設連結已寄至您的 ***@$domain 信箱", 
 		"要到 $url 收信嗎？", 
 		"沒有這個帳號"
+	], 
+	captcha: [
+		"安全驗證未通過，請重新整理頁面後再試一次", 
+		"請完成下方的安全驗證"
 	], 
 	ref: [
 		"🎁 $user 邀請你來到這裡"

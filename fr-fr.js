@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 13 */
+/* Hearty Journal Language Pack: Ver 14 */
 
 var _h$ = {};
 
@@ -67,6 +67,10 @@ _h$["i"] = _h$["i"] || {
 		"Le lien de réinitialisation a été envoyé à ***@$domain . Vérifie ta boîte de réception.",
 		"Ouvrir $url pour consulter tes e-mails ?",
 		"Cet identifiant Hearty n'existe pas."
+	],
+	captcha: [
+		"La vérification de sécurité a échoué. Actualise la page et réessaie.",
+		"Merci de compléter la vérification de sécurité ci-dessous."
 	],
 	ref: [
 		"🎁 $user t'a invité(e)."

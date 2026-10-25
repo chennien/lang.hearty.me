@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 13 */
+/* Hearty Journal Language Pack: Ver 14 */
 
 var _h$ = {};
 
@@ -67,6 +67,10 @@ _h$["i"] = _h$["i"] || {
 		"Đã gửi liên kết đặt lại đến ***@$domain . Vui lòng kiểm tra hộp thư.",
 		"Mở $url để kiểm tra email?",
 		"Hearty ID này không tồn tại."
+	],
+	captcha: [
+		"Xác minh bảo mật không thành công. Vui lòng tải lại trang và thử lại.",
+		"Vui lòng hoàn tất xác minh bảo mật bên dưới."
 	],
 	ref: [
 		"🎁 Bạn được $user mời tham gia."
