@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 14 */
+/* Hearty Journal Language Pack: Ver 15 */
 
 var _h$ = {};
 
@@ -799,6 +799,8 @@ _h$["a"] = _h$["a"] || {
 	dl: "Exportă ca fișier TXT",
 	dl_pc: "Deschide „<u>www.hearty.me</u>” pe un computer pentru a descărca copia de rezervă.",
 	dl_pwd: ["Introdu parola pentru a decripta jurnalul", "Parola contului (6 ~ 20 caractere)", "Exportă ca fișier TXT", "Exportul fișierului a început", "Copia de rezervă a fost exportată. Verifică dosarul de descărcări și păstrează fișierul privat și în siguranță."],
+	dl_fmt: ["Alege formatul de export", "Fișier text (.txt)", "Document Word (.docx)", "Înainte"],
+	dl_doc: ["$posts postări, $images fotografii", "Începe exportul", "Se convertește: $done / $total fotografii, te rugăm să aștepți", "Se convertește, te rugăm să aștepți", "Documentul Word a fost salvat. Păstrează-l într-un loc sigur.", "$n fotografii nu au putut fi încărcate și au fost omise", "Exportul a fost întrerupt. Încearcă din nou mai târziu.", "Exportul în Word funcționează doar în Chrome sau Edge pe computer. Schimbă browserul sau alege fișierul text.", "Exportat pe $date · $posts postări", "Parolă incorectă. Încearcă din nou.", "Încă nu există postări de exportat", "Exportă în Word"],
 	vip_only: ["Această funcție", " este o funcție Premium.", "Oferte de upgrade", "Nu acum"],
 	suspend: ["Sigur vrei să ștergi contul? Dacă nu ai nevoie de el acum, îl poți păstra! Vom continua să lansăm funcții noi și autocolante drăguțe — poate vei vrea să revii cândva să le vezi.", "Sau apasă <u>aici</u> pentru a-ți schimba ID-ul", "Șterge-l", "Îl păstrez deocamdată"],
 	auth_log: ["Ultima activitate a contului", "$browser, $device", "Crește securitatea", "//go.hearty.me/hj-sec"],

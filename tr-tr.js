@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 14 */
+/* Hearty Journal Language Pack: Ver 15 */
 
 var _h$ = {};
 
@@ -799,6 +799,8 @@ _h$["a"] = _h$["a"] || {
 	dl: "TXT dosyasına aktar",
 	dl_pc: "Yedeğini indirmek için bir bilgisayarda “<u>www.hearty.me</u>” adresini aç.",
 	dl_pwd: ["Günlüğünün şifresini çözmek için şifreni gir", "Hesap şifresi (6 ~ 20 karakter)", "TXT dosyasına aktar", "Dışa aktarma başladı", "Yedeğin dışa aktarıldı. Lütfen indirilenler klasörünü kontrol et ve dosyayı gizli ve güvende tut."],
+	dl_fmt: ["Dışa aktarma biçimini seçin", "Metin dosyası (.txt)", "Word belgesi (.docx)", "İleri"],
+	dl_doc: ["$posts gönderi, $images fotoğraf", "Dışa aktarmayı başlat", "Dönüştürülüyor: $done / $total fotoğraf, lütfen bekleyin", "Dönüştürülüyor, lütfen bekleyin", "Word belgeniz kaydedildi. Lütfen güvenli bir yerde saklayın.", "$n fotoğraf yüklenemedi ve atlandı", "Dışa aktarma yarıda kesildi. Lütfen daha sonra tekrar deneyin.", "Word'e aktarma yalnızca bilgisayardaki Chrome veya Edge'de desteklenir. Lütfen tarayıcınızı değiştirin ya da metin dosyasını seçin.", "Dışa aktarma tarihi: $date · $posts gönderi", "Şifre yanlış. Lütfen tekrar deneyin.", "Henüz dışa aktarılacak gönderi yok", "Word'e aktar"],
 	vip_only: ["Bu", " bir Premium özelliktir.", "Yükseltme Fırsatları", "Şimdi değil"],
 	suspend: ["Hesabını silmek istediğinden emin misin? Şimdilik ihtiyacın yoksa saklayabilirsin! Yeni özellikler ve sevimli çıkartmalar eklemeye devam edeceğiz — belki bir gün geri dönüp göz atmak istersin.", "Ya da ID'ni değiştirmek için <u>buraya</u> tıkla", "Sil", "Şimdilik sakla"],
 	auth_log: ["Son Hesap Etkinliği", "$browser, $device", "Güvenliği artır", "//go.hearty.me/hj-sec"],

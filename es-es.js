@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 14 */
+/* Hearty Journal Language Pack: Ver 15 */
 
 var _h$ = {};
 
@@ -801,6 +801,8 @@ _h$["a"] = _h$["a"] || {
 	dl: "Exportar copia de seguridad",
 	dl_pc: 'Para descargar la copia de seguridad,<br>abre "<u>www.hearty.me</u>" en un ordenador.',
 	dl_pwd: ["Introduce tu contraseña de Hearty para descifrar tu diario:", "Contraseña: 6 ~ 20 caracteres", "Descifrar y exportar", "Iniciar copia de seguridad", "Tu diario se ha exportado como archivo de texto. Búscalo en tu carpeta de Descargas y guárdalo en un lugar seguro."],
+	dl_fmt: ["Elige el formato de exportación", "Archivo de texto (.txt)", "Documento de Word (.docx)", "Siguiente"],
+	dl_doc: ["$posts entradas, $images fotos", "Empezar a exportar", "Convirtiendo: $done / $total fotos, espera por favor", "Convirtiendo, espera por favor", "Tu documento de Word se ha guardado. Guárdalo en un lugar privado y seguro.", "No se pudieron cargar $n fotos y se omitieron", "La exportación se interrumpió. Inténtalo de nuevo más tarde.", "La exportación a Word solo funciona en Chrome o Edge para ordenador. Cambia de navegador o elige el archivo de texto.", "Exportado el $date · $posts entradas", "Contraseña incorrecta. Inténtalo de nuevo.", "Aún no hay entradas para exportar", "Exportar a Word"],
 	vip_only: ["Esta", " es una función exclusiva VIP.", "Ver ofertas VIP", "Más tarde"],
 	suspend: ["¿Seguro que quieres eliminar tu cuenta? Si no la necesitas por ahora, ¡puedes conservarla! Seguiremos lanzando funciones nuevas y pegatinas bonitas; quizá algún día te apetezca volver a echar un vistazo.", "Si quieres cambiar tu ID, haz clic <u>aquí</u>", "Eliminar", "Mejor la conservo"],
 	auth_log: ["Inicios de sesión recientes", "$browser en $device", "Mejorar la seguridad", "//go.hearty.me/hj-sec"],

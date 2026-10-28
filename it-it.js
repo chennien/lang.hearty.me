@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 14 */
+/* Hearty Journal Language Pack: Ver 15 */
 
 var _h$ = {};
 
@@ -799,6 +799,8 @@ _h$["a"] = _h$["a"] || {
 	dl: "Esporta in file TXT",
 	dl_pc: "Apri «<u>www.hearty.me</u>» su un computer per scaricare il backup.",
 	dl_pwd: ["Inserisci la password per decrittare il diario", "Password dell'account (6 ~ 20 caratteri)", "Esporta in file TXT", "Esportazione del file avviata", "Il backup è stato esportato. Controlla la cartella Download e conserva il file in un luogo privato e sicuro."],
+	dl_fmt: ["Scegli il formato di esportazione", "File di testo (.txt)", "Documento Word (.docx)", "Avanti"],
+	dl_doc: ["$posts post, $images foto", "Avvia esportazione", "Conversione: $done / $total foto, attendi", "Conversione, attendi", "Il documento Word è stato salvato. Conservalo in un luogo sicuro.", "Impossibile caricare $n foto, sono state saltate", "Esportazione interrotta. Riprova più tardi.", "L'esportazione in Word è supportata solo su Chrome o Edge per computer. Cambia browser o scegli il file di testo.", "Esportato il $date · $posts post", "Password errata. Riprova.", "Nessun post da esportare", "Esporta in Word"],
 	vip_only: ["Questa", " è una funzione Premium.", "Offerte upgrade", "Non ora"],
 	suspend: ["Vuoi davvero eliminare l'account? Se per ora non ti serve, puoi tenerlo! Continueremo a lanciare nuove funzioni e adesivi adorabili: magari un giorno vorrai tornare a dare un'occhiata.", "Oppure clicca <u>qui</u> per cambiare ID", "Elimina", "Per ora lo tengo"],
 	auth_log: ["Ultima attività dell'account", "$browser, $device", "Aumenta la sicurezza", "//go.hearty.me/hj-sec"],

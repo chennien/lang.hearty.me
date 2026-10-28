@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 14 */
+/* Hearty Journal Language Pack: Ver 15 */
 
 var _h$ = {};
 
@@ -799,6 +799,8 @@ _h$["a"] = _h$["a"] || {
 	dl: "Ekspor ke file TXT",
 	dl_pc: 'Buka "<u>www.hearty.me</u>" di komputer untuk mengunduh cadanganmu.',
 	dl_pwd: ["Masukkan kata sandimu untuk mendekripsi jurnal", "Kata sandi akun (6 ~ 20 karakter)", "Ekspor ke file TXT", "Ekspor file telah dimulai", "Cadanganmu telah diekspor. Silakan cek folder unduhan dan simpan file tersebut dengan aman dan rahasia."],
+	dl_fmt: ["Pilih format ekspor", "File teks (.txt)", "Dokumen Word (.docx)", "Berikutnya"],
+	dl_doc: ["$posts tulisan, $images foto", "Mulai ekspor", "Mengonversi: $done / $total foto, mohon tunggu", "Mengonversi, mohon tunggu", "Dokumen Word telah disimpan. Simpan baik-baik dan jaga kerahasiaannya.", "$n foto tidak dapat dimuat dan dilewati", "Ekspor terhenti. Silakan coba lagi nanti.", "Ekspor Word hanya didukung di Chrome atau Edge versi komputer. Silakan ganti browser, atau pilih file teks.", "Diekspor pada $date · $posts tulisan", "Kata sandi salah. Silakan coba lagi.", "Belum ada tulisan untuk diekspor", "Ekspor ke Word"],
 	vip_only: ["Fitur", " ini adalah fitur premium.", "Penawaran Upgrade", "Nanti saja"],
 	suspend: ["Yakin ingin menghapus akun? Jika belum membutuhkannya sekarang, kamu bisa menyimpannya! Kami akan terus meluncurkan fitur baru dan stiker lucu — mungkin suatu hari nanti kamu ingin kembali melihatnya.", "Atau klik <u>di sini</u> untuk mengubah ID-mu", "Hapus", "Simpan dulu"],
 	auth_log: ["Aktivitas Akun Terakhir", "$browser, $device", "Tingkatkan keamanan", "//go.hearty.me/hj-sec"],

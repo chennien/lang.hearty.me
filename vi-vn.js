@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 14 */
+/* Hearty Journal Language Pack: Ver 15 */
 
 var _h$ = {};
 
@@ -799,6 +799,8 @@ _h$["a"] = _h$["a"] || {
 	dl: "Xuất ra tệp TXT",
 	dl_pc: 'Mở "<u>www.hearty.me</u>" trên máy tính để tải bản sao lưu.',
 	dl_pwd: ["Nhập mật khẩu để giải mã nhật ký", "Mật khẩu tài khoản (6 ~ 20 ký tự)", "Xuất ra tệp TXT", "Đã bắt đầu xuất tệp", "Đã xuất bản sao lưu. Vui lòng kiểm tra thư mục tải xuống và giữ tệp riêng tư, an toàn."],
+	dl_fmt: ["Chọn định dạng xuất", "Tệp văn bản (.txt)", "Tài liệu Word (.docx)", "Tiếp theo"],
+	dl_doc: ["$posts bài viết, $images ảnh", "Bắt đầu xuất", "Đang chuyển đổi: $done / $total ảnh, vui lòng chờ", "Đang chuyển đổi, vui lòng chờ", "Đã lưu tài liệu Word. Hãy cất giữ cẩn thận.", "Không tải được $n ảnh, đã bỏ qua", "Quá trình xuất bị gián đoạn. Vui lòng thử lại sau.", "Chỉ có thể xuất Word trên Chrome hoặc Edge dành cho máy tính. Vui lòng đổi trình duyệt hoặc chọn tệp văn bản.", "Ngày xuất: $date · $posts bài viết", "Mật khẩu không đúng. Vui lòng nhập lại.", "Chưa có bài viết nào để xuất", "Xuất ra Word"],
 	vip_only: ["Tính năng", " này chỉ dành cho Premium.", "Ưu đãi nâng cấp", "Để sau"],
 	suspend: ["Bạn có chắc muốn xóa tài khoản? Nếu tạm thời chưa cần, bạn có thể giữ lại! Chúng tôi sẽ tiếp tục ra mắt tính năng mới và nhãn dán dễ thương — biết đâu một ngày nào đó bạn sẽ muốn quay lại xem.", "Hoặc nhấn <u>vào đây</u> để đổi ID", "Xóa tài khoản", "Tạm giữ lại"],
 	auth_log: ["Hoạt động tài khoản gần đây", "$browser, $device", "Tăng cường bảo mật", "//go.hearty.me/hj-sec"],

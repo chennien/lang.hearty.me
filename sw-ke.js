@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 14 */
+/* Hearty Journal Language Pack: Ver 15 */
 
 var _h$ = {};
 
@@ -799,6 +799,8 @@ _h$["a"] = _h$["a"] || {
 	dl: "Hamisha kwenye faili la TXT",
 	dl_pc: 'Fungua "<u>www.hearty.me</u>" kwenye kompyuta ili kupakua nakala yako ya akiba.',
 	dl_pwd: ["Weka nenosiri lako ili kufungua shajara iliyosimbwa", "Nenosiri la akaunti (herufi 6 ~ 20)", "Hamisha kwenye faili la TXT", "Uhamishaji wa faili umeanza", "Nakala yako ya akiba imehamishwa. Tafadhali angalia folda yako ya vipakuliwa na uweke faili hilo kwa faragha na usalama."],
+	dl_fmt: ["Chagua muundo wa kuhamisha", "Faili la maandishi (.txt)", "Hati ya Word (.docx)", "Endelea"],
+	dl_doc: ["Machapisho $posts, picha $images", "Anza kuhamisha", "Inabadilisha: picha $done / $total, tafadhali subiri", "Inabadilisha, tafadhali subiri", "Hati yako ya Word imehifadhiwa. Tafadhali iweke mahali salama.", "Picha $n hazikuweza kupakiwa na zimerukwa", "Uhamishaji umekatizwa. Tafadhali jaribu tena baadaye.", "Kuhamisha kwenda Word kunawezekana tu kwenye Chrome au Edge ya kompyuta. Tafadhali badilisha kivinjari, au chagua faili la maandishi.", "Imehamishwa tarehe $date · machapisho $posts", "Nenosiri si sahihi. Tafadhali jaribu tena.", "Bado hakuna machapisho ya kuhamisha", "Hamisha kwenda Word"],
 	vip_only: ["Kipengele hiki cha", " ni cha Premium.", "Ofa za Kupandisha Daraja", "Si sasa"],
 	suspend: ["Una uhakika unataka kufuta akaunti? Ikiwa huihitaji kwa sasa, unaweza kuibakiza! Tutaendelea kuzindua vipengele vipya na vibandiko vya kupendeza — huenda ukataka kurudi kuangalia siku moja.", "Au bofya <u>hapa</u> kubadilisha ID yako", "Ifute", "Ibakize kwa sasa"],
 	auth_log: ["Shughuli ya Mwisho ya Akaunti", "$browser, $device", "Imarisha usalama", "//go.hearty.me/hj-sec"],
