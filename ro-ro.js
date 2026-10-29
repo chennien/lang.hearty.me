@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 15 */
+/* Hearty Journal Language Pack: Ver 16 */
 
 var _h$ = {};
 
@@ -603,7 +603,7 @@ _h$["p"] = _h$["p"] || {
 		"Personalizează coperta și fundalul jurnalului",
 		"Redenumește jurnalul și editează datele intrărilor",
 		"Căutare ușoară",
-		"Export ca TXT sau imagini"
+		"Export ca Word, TXT sau imagini"
 	],
 	remark: [
 		"De ce să faci upgrade la VIP Premium?",

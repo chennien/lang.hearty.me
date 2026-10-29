@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 15 */
+/* Hearty Journal Language Pack: Ver 16 */
 
 var _h$ = {};
 
@@ -604,7 +604,7 @@ _h$["p"] = _h$["p"] || {
 		"自订日记本封面、背景图", 
 		"自订书名 & 发文日期", 
 		"全文搜索", 
-		"转存图片、汇出备份"
+		"转存图片、汇出备份(Word、TXT)"
 	], 
 	remark: [
 		"为什么要升级为 VIP？", 

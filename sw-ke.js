@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 15 */
+/* Hearty Journal Language Pack: Ver 16 */
 
 var _h$ = {};
 
@@ -603,7 +603,7 @@ _h$["p"] = _h$["p"] || {
 		"Binafsisha Jalada na Mandharinyuma ya Shajara",
 		"Badilisha Jina la Shajara na Tarehe za Machapisho",
 		"Utafutaji Rahisi",
-		"Hamisha kama TXT au Picha"
+		"Hamisha kama Word, TXT au Picha"
 	],
 	remark: [
 		"Kwa nini upandishe hadi VIP Premium?",

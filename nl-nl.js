@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 15 */
+/* Hearty Journal Language Pack: Ver 16 */
 
 var _h$ = {};
 
@@ -603,7 +603,7 @@ _h$["p"] = _h$["p"] || {
 		"Omslag & achtergrond van je dagboek aanpassen",
 		"Dagboek hernoemen & berichtdatums wijzigen",
 		"Eenvoudig zoeken",
-		"Exporteren als TXT of afbeeldingen"
+		"Exporteren als Word, TXT of afbeeldingen"
 	],
 	remark: [
 		"Waarom upgraden naar VIP Premium?",

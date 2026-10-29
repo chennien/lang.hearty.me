@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 15 */
+/* Hearty Journal Language Pack: Ver 16 */
 
 var _h$ = {};
 
@@ -603,7 +603,7 @@ _h$["p"] = _h$["p"] || {
 		"일기장 표지 & 배경 꾸미기",
 		"일기장 이름 변경 & 일기 날짜 수정",
 		"간편한 검색",
-		"TXT 또는 이미지로 내보내기"
+		"Word, TXT 또는 이미지로 내보내기"
 	],
 	remark: [
 		"VIP 프리미엄으로 업그레이드해야 하는 이유",

@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 15 */
+/* Hearty Journal Language Pack: Ver 16 */
 
 var _h$ = {};
 
@@ -603,7 +603,7 @@ _h$["p"] = _h$["p"] || {
 		"Customize Journal Cover & Background", 
 		"Rename Journal & Edit Entry Dates", 
 		"Easy to Search", 
-		"Export as TXT or Images"
+		"Export as Word, TXT or Images"
 	], 
 	remark: [
 		"Why upgrade to VIP premium?", 

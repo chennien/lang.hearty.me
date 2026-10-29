@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 15 */
+/* Hearty Journal Language Pack: Ver 16 */
 
 var _h$ = {};
 
@@ -603,7 +603,7 @@ _h$["p"] = _h$["p"] || {
 		"Tùy chỉnh bìa & nền nhật ký",
 		"Đổi tên nhật ký & sửa ngày viết",
 		"Tìm kiếm dễ dàng",
-		"Xuất ra TXT hoặc hình ảnh"
+		"Xuất ra Word, TXT hoặc hình ảnh"
 	],
 	remark: [
 		"Vì sao nên nâng cấp lên VIP Premium?",

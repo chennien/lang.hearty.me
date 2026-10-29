@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 15 */
+/* Hearty Journal Language Pack: Ver 16 */
 
 var _h$ = {};
 
@@ -605,7 +605,7 @@ _h$["p"] = _h$["p"] || {
 		"Personaliza la portada y el fondo del diario",
 		"Título del diario y fecha de las entradas personalizados",
 		"Búsqueda de texto completo",
-		"Exporta como imagen o copia de seguridad"
+		"Exporta como imagen o copia de seguridad (Word, TXT)"
 	],
 	remark: [
 		"¿Por qué hacerte VIP?",

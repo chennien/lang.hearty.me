@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 15 */
+/* Hearty Journal Language Pack: Ver 16 */
 
 var _h$ = {};
 
@@ -603,7 +603,7 @@ _h$["p"] = _h$["p"] || {
 		"Günlük Kapağını ve Arka Planını Özelleştir",
 		"Günlüğü Yeniden Adlandır ve Gönderi Tarihlerini Düzenle",
 		"Kolay Arama",
-		"TXT veya Görsel Olarak Dışa Aktar"
+		"Word, TXT veya Görsel Olarak Dışa Aktar"
 	],
 	remark: [
 		"Neden VIP Premium'a yükseltmeli?",

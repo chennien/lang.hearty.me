@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 15 */
+/* Hearty Journal Language Pack: Ver 16 */
 
 var _h$ = {};
 
@@ -603,7 +603,7 @@ _h$["p"] = _h$["p"] || {
 		"Własna okładka i tło dziennika",
 		"Zmiana nazwy dziennika i dat wpisów",
 		"Łatwe wyszukiwanie",
-		"Eksport do TXT lub obrazów"
+		"Eksport do Word, TXT lub obrazów"
 	],
 	remark: [
 		"Dlaczego warto przejść na VIP Premium?",

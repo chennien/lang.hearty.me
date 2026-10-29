@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 15 */
+/* Hearty Journal Language Pack: Ver 16 */
 
 var _h$ = {};
 
@@ -603,7 +603,7 @@ _h$["p"] = _h$["p"] || {
 		"Personalizza copertina e sfondo del diario",
 		"Rinomina il diario e modifica la data delle pagine",
 		"Ricerca semplice",
-		"Esporta in TXT o come immagini"
+		"Esporta in Word, TXT o come immagini"
 	],
 	remark: [
 		"Perché passare a VIP Premium?",

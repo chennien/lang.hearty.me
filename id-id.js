@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 15 */
+/* Hearty Journal Language Pack: Ver 16 */
 
 var _h$ = {};
 
@@ -603,7 +603,7 @@ _h$["p"] = _h$["p"] || {
 		"Sesuaikan Sampul & Latar Jurnal",
 		"Ganti Nama Jurnal & Ubah Tanggal Tulisan",
 		"Mudah Dicari",
-		"Ekspor sebagai TXT atau Gambar"
+		"Ekspor sebagai Word, TXT atau Gambar"
 	],
 	remark: [
 		"Mengapa upgrade ke VIP Premium?",

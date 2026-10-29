@@ -1,4 +1,4 @@
-/* Hearty Journal Language Pack: Ver 15 */
+/* Hearty Journal Language Pack: Ver 16 */
 
 var _h$ = {};
 
@@ -607,7 +607,7 @@ _h$["p"] = _h$["p"] || {
 		"日記帳のカバー・背景をカスタマイズ",
 		"タイトルと日記の日付を自由に設定",
 		"全文検索",
-		"画像保存・バックアップのエクスポート"
+		"画像保存・バックアップのエクスポート（Word、TXT）"
 	],
 	remark: [
 		"VIPにアップグレードする理由",
