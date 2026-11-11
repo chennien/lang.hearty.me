@@ -40,6 +40,15 @@ _h$["m"] = _h$["m"] || {
 
 // index
 _h$["i"] = _h$["i"] || {
+	passkey: [
+		"Đăng nhập bằng Passkey",
+		"hoặc",
+		"Chưa có Passkey? Hãy đăng nhập bằng mật khẩu, rồi tạo trong \"Tài khoản của tôi\"",
+		"Passkey này đã bị xóa khỏi tài khoản. Vui lòng đăng nhập bằng cách khác",
+		"Xác minh Passkey đã hết thời gian. Vui lòng thử lại",
+		"Đăng nhập bằng Passkey thất bại. Vui lòng thử lại",
+		"Tài khoản này đã bị xóa hoặc bị đình chỉ"
+	],
 	url: [
 		"//go.hearty.me/hj-faq",
 		"//go.hearty.me/hj-data",
@@ -734,6 +743,38 @@ _h$["I"] = _h$["I"] || {
 
 // account
 _h$["a"] = _h$["a"] || {
+	passkey: [
+		"Passkey (khóa truy cập)",
+		"Thêm Passkey",
+		"Chưa có Passkey",
+		"Passkey là gì?",
+		"Passkey (khóa truy cập) cho phép bạn đăng nhập bằng Face ID, vân tay hoặc khóa màn hình của thiết bị, không cần nhập Hearty ID và mật khẩu, cũng không lo bị trang web lừa đảo đánh cắp.<br><br>Passkey được lưu trên thiết bị hoặc trong trình quản lý mật khẩu của bạn (như Chuỗi khóa iCloud, Trình quản lý mật khẩu của Google). Hearty Journal chỉ lưu khóa công khai, không thể dùng để đăng nhập.<br><br>Xóa Passkey sẽ không đăng xuất các thiết bị đã đăng nhập. Sau khi đổi Hearty ID, trình quản lý mật khẩu có thể vẫn hiển thị tên cũ, nhưng không ảnh hưởng đến việc đăng nhập.",
+		"Sau khi tạo, lần sau bạn có thể đăng nhập mà không cần nhập Hearty ID và mật khẩu",
+		"Đổi tên",
+		"Tên Passkey (tối đa 20 ký tự)",
+		"Tên phải dài 1 ~ 20 ký tự",
+		"Xóa",
+		"Bạn có chắc muốn xóa \"$name\"?<br>Sau khi xóa, bạn sẽ không thể dùng nó để đăng nhập Hearty Journal. Các thiết bị đã đăng nhập sẽ không bị đăng xuất.<br>Hãy xóa cả Passkey này trong trình quản lý mật khẩu.",
+		"Đây là Passkey cuối cùng của bạn và tài khoản chưa đặt mật khẩu. Sau khi xóa, bạn chỉ có thể đăng nhập bằng tài khoản bên ngoài.",
+		"Đây là Passkey mà thiết bị này đang dùng để đăng nhập. Sau khi xóa, thiết bị này vẫn giữ trạng thái đăng nhập.",
+		"Đã xóa Passkey",
+		"Sẽ đồng bộ sang các thiết bị khác",
+		"Chỉ lưu trên thiết bị này",
+		"Chưa đồng bộ",
+		"Đang sử dụng",
+		"Tạo ngày $date",
+		"Dùng lần cuối $date",
+		"Chưa sử dụng",
+		"Vui lòng nhập mật khẩu hiện tại để xác nhận đó là bạn",
+		"Sai mật khẩu",
+		"Đã đạt giới hạn Passkey (10). Vui lòng xóa Passkey không dùng đến trước",
+		"Thiết bị hoặc trình quản lý mật khẩu này đã có Passkey",
+		"Đã tạo Passkey! Lần sau bạn có thể đăng nhập bằng Passkey",
+		"Vui lòng xác nhận danh tính bằng Passkey hiện có",
+		"Tiếp",
+		"Hết thời gian. Vui lòng thử lại",
+		"Quá nhiều lần xác minh thất bại. Vui lòng thử lại sau 15 phút"
+	],
 	// JS
 	ok: ["Đồng ý", "Xác nhận", "Tất nhiên", "Đúng"],
 	next: "Tiếp",

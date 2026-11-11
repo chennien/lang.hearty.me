@@ -40,6 +40,15 @@ _h$["m"] = _h$["m"] || {
 
 // index
 _h$["i"] = _h$["i"] || {
+	passkey: [
+		"Zaloguj się kluczem Passkey",
+		"lub",
+		"Nie masz jeszcze klucza Passkey? Zaloguj się hasłem, a potem utwórz go w sekcji „Moje konto”",
+		"Ten klucz Passkey został usunięty z konta. Zaloguj się w inny sposób",
+		"Upłynął limit czasu weryfikacji klucza Passkey. Spróbuj ponownie",
+		"Nie udało się zalogować kluczem Passkey. Spróbuj ponownie",
+		"To konto zostało usunięte lub zawieszone"
+	],
 	url: [
 		"//go.hearty.me/hj-faq",
 		"//go.hearty.me/hj-data",
@@ -734,6 +743,38 @@ _h$["I"] = _h$["I"] || {
 
 // account
 _h$["a"] = _h$["a"] || {
+	passkey: [
+		"Klucze Passkey",
+		"Dodaj klucz Passkey",
+		"Brak kluczy Passkey",
+		"Czym jest Passkey?",
+		"Passkey (klucz dostępu) pozwala logować się za pomocą Face ID, odcisku palca lub blokady ekranu urządzenia – bez wpisywania Hearty ID i hasła i bez ryzyka przejęcia przez strony phishingowe.<br><br>Klucze Passkey są przechowywane na Twoim urządzeniu lub w menedżerze haseł (np. pęku kluczy iCloud, Menedżerze haseł Google). Hearty Journal przechowuje tylko klucz publiczny, którego nie da się użyć do logowania.<br><br>Usunięcie klucza Passkey nie wylogowuje zalogowanych urządzeń. Po zmianie Hearty ID menedżer haseł może nadal pokazywać starą nazwę – nie wpływa to na logowanie.",
+		"Po utworzeniu zalogujesz się bez wpisywania Hearty ID i hasła",
+		"Zmień nazwę",
+		"Nazwa klucza Passkey (maks. 20 znaków)",
+		"Nazwa musi mieć od 1 do 20 znaków",
+		"Usuń",
+		"Czy na pewno usunąć „$name”?<br>Po usunięciu nie zalogujesz się nim do Hearty Journal. Zalogowane urządzenia nie zostaną wylogowane.<br>Usuń też ten klucz Passkey z menedżera haseł.",
+		"To Twój ostatni klucz Passkey, a konto nie ma ustawionego hasła. Po usunięciu zalogujesz się tylko przez konto zewnętrzne.",
+		"To urządzenie jest obecnie zalogowane tym kluczem Passkey. Po usunięciu pozostanie zalogowane.",
+		"Usunięto klucz Passkey",
+		"Synchronizowany z innymi urządzeniami",
+		"Tylko na tym urządzeniu",
+		"Jeszcze niezsynchronizowany",
+		"Obecnie używany",
+		"Utworzono $date",
+		"Ostatnio użyto $date",
+		"Jeszcze nieużywany",
+		"Wpisz obecne hasło, aby potwierdzić, że to Ty",
+		"Nieprawidłowe hasło",
+		"Osiągnięto limit kluczy Passkey (10). Najpierw usuń nieużywany klucz",
+		"Na tym urządzeniu lub w tym menedżerze haseł utworzono już klucz Passkey",
+		"Utworzono klucz Passkey! Następnym razem zaloguj się kluczem Passkey",
+		"Potwierdź tożsamość istniejącym kluczem Passkey",
+		"Dalej",
+		"Upłynął limit czasu. Spróbuj ponownie",
+		"Zbyt wiele nieudanych prób. Spróbuj ponownie za 15 minut"
+	],
 	// JS
 	ok: ["OK", "Potwierdź", "Oczywiście", "Zgadza się"],
 	next: "Dalej",

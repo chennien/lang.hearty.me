@@ -40,6 +40,15 @@ _h$["m"] = _h$["m"] || {
 
 // index
 _h$["i"] = _h$["i"] || {
+	passkey: [
+		"Iniciar sesión con Passkey",
+		"o",
+		"¿Aún no tienes una Passkey? Inicia sesión con tu contraseña y créala en «Mi cuenta»",
+		"Esta Passkey se ha eliminado de tu cuenta. Inicia sesión de otra forma",
+		"Se agotó el tiempo de verificación de la Passkey. Inténtalo de nuevo",
+		"No se pudo iniciar sesión con la Passkey. Inténtalo de nuevo",
+		"Esta cuenta ha sido eliminada o suspendida"
+	],
 	url: [
 		"//go.hearty.me/hj-faq",
 		"//go.hearty.me/hj-data",
@@ -736,6 +745,38 @@ _h$["I"] = _h$["I"] || {
 
 // account
 _h$["a"] = _h$["a"] || {
+	passkey: [
+		"Passkeys (llaves de acceso)",
+		"Añadir Passkey",
+		"Aún no tienes Passkeys",
+		"¿Qué es una Passkey?",
+		"Una Passkey (llave de acceso) te permite iniciar sesión con Face ID, la huella digital o el bloqueo de pantalla de tu dispositivo, sin introducir tu Hearty ID ni tu contraseña, y te protege de los sitios de phishing.<br><br>Las Passkeys se guardan en tu dispositivo o en un gestor de contraseñas (como el Llavero de iCloud o el Gestor de contraseñas de Google). Hearty Journal solo guarda una clave pública que no sirve para iniciar sesión.<br><br>Eliminar una Passkey no cierra la sesión en los dispositivos ya conectados. Si cambias tu Hearty ID, es posible que el gestor de contraseñas siga mostrando el nombre anterior; esto no afecta al inicio de sesión.",
+		"Una vez creada, podrás iniciar sesión sin introducir tu Hearty ID ni tu contraseña",
+		"Cambiar nombre",
+		"Nombre de la Passkey (máx. 20 caracteres)",
+		"El nombre debe tener entre 1 y 20 caracteres",
+		"Eliminar",
+		"¿Seguro que quieres eliminar «$name»?<br>Ya no podrás usarla para iniciar sesión en Hearty Journal. Los dispositivos con la sesión iniciada no se desconectarán.<br>Elimina también esta Passkey de tu gestor de contraseñas.",
+		"Es tu última Passkey y tu cuenta no tiene contraseña. Después de eliminarla, solo podrás iniciar sesión con una cuenta externa.",
+		"Este dispositivo ha iniciado sesión con esta Passkey. Seguirá con la sesión iniciada tras eliminarla.",
+		"Passkey eliminada",
+		"Se sincroniza con tus otros dispositivos",
+		"Solo en este dispositivo",
+		"Aún no sincronizada",
+		"En uso",
+		"Creada el $date",
+		"Último uso: $date",
+		"Sin usar",
+		"Introduce tu contraseña actual para confirmar que eres tú",
+		"Contraseña incorrecta",
+		"Has alcanzado el límite de Passkeys (10). Elimina primero las que no uses",
+		"Ya se ha creado una Passkey en este dispositivo o gestor de contraseñas",
+		"¡Passkey creada! La próxima vez podrás iniciar sesión con ella",
+		"Confirma tu identidad con una Passkey existente",
+		"Siguiente",
+		"Se agotó el tiempo. Inténtalo de nuevo",
+		"Demasiados intentos fallidos. Inténtalo de nuevo en 15 minutos"
+	],
 	// JS
 	ok: ["Aceptar", "Sí", "¡Hecho!", "Correcto"],
 	next: "Siguiente",

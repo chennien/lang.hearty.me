@@ -40,6 +40,15 @@ _h$["m"] = _h$["m"] || {
 
 // index
 _h$["i"] = _h$["i"] || {
+	passkey: [
+		"Accedi con Passkey",
+		"oppure",
+		"Non hai ancora una Passkey? Accedi con la password, poi creala in «Il mio account»",
+		"Questa Passkey è stata rimossa dal tuo account. Accedi in un altro modo",
+		"Tempo scaduto per la verifica della Passkey. Riprova",
+		"Accesso con Passkey non riuscito. Riprova",
+		"Questo account è stato eliminato o sospeso"
+	],
 	url: [
 		"//go.hearty.me/hj-faq",
 		"//go.hearty.me/hj-data",
@@ -734,6 +743,38 @@ _h$["I"] = _h$["I"] || {
 
 // account
 _h$["a"] = _h$["a"] || {
+	passkey: [
+		"Passkey (chiavi d'accesso)",
+		"Aggiungi Passkey",
+		"Nessuna Passkey",
+		"Cos'è una Passkey?",
+		"Una Passkey (chiave d'accesso) ti permette di accedere con Face ID, impronta digitale o blocco schermo del dispositivo, senza inserire Hearty ID e password, ed è al sicuro dai siti di phishing.<br><br>Le Passkey sono salvate sul tuo dispositivo o in un gestore di password (come Portachiavi iCloud o Gestore delle password di Google). Hearty Journal conserva solo una chiave pubblica, che non può essere usata per accedere.<br><br>Rimuovere una Passkey non disconnette i dispositivi già collegati. Dopo aver cambiato Hearty ID, il gestore di password potrebbe mostrare ancora il vecchio nome, ma l'accesso non ne risente.",
+		"Dopo averla creata, potrai accedere senza inserire Hearty ID e password",
+		"Rinomina",
+		"Nome della Passkey (max 20 caratteri)",
+		"Il nome deve avere da 1 a 20 caratteri",
+		"Rimuovi",
+		"Vuoi rimuovere «$name»?<br>Non potrai più usarla per accedere a Hearty Journal. I dispositivi già collegati non verranno disconnessi.<br>Elimina questa Passkey anche dal tuo gestore di password.",
+		"Questa è la tua ultima Passkey e l'account non ha una password. Dopo la rimozione potrai accedere solo con un account esterno.",
+		"Questo dispositivo ha effettuato l'accesso con questa Passkey. Dopo la rimozione resterà connesso.",
+		"Passkey rimossa",
+		"Sincronizzata con gli altri dispositivi",
+		"Solo su questo dispositivo",
+		"Non ancora sincronizzata",
+		"In uso",
+		"Creata il $date",
+		"Ultimo utilizzo: $date",
+		"Mai usata",
+		"Inserisci la password attuale per confermare che sei tu",
+		"Password errata",
+		"Hai raggiunto il limite di Passkey (10). Rimuovi prima quelle che non usi",
+		"Su questo dispositivo o gestore di password è già stata creata una Passkey",
+		"Passkey creata! La prossima volta potrai accedere con la Passkey",
+		"Conferma la tua identità con una Passkey esistente",
+		"Avanti",
+		"Tempo scaduto. Riprova",
+		"Troppi tentativi non riusciti. Riprova tra 15 minuti"
+	],
 	// JS
 	ok: ["OK", "Conferma", "Certo", "Esatto"],
 	next: "Avanti",

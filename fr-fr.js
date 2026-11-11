@@ -40,6 +40,15 @@ _h$["m"] = _h$["m"] || {
 
 // index
 _h$["i"] = _h$["i"] || {
+	passkey: [
+		"Se connecter avec une Passkey",
+		"ou",
+		"Pas encore de Passkey ? Connecte-toi avec ton mot de passe, puis crée-la dans « Mon compte »",
+		"Cette Passkey a été retirée de ton compte. Connecte-toi d'une autre manière",
+		"La vérification de la Passkey a expiré. Réessaie",
+		"Échec de la connexion avec la Passkey. Réessaie",
+		"Ce compte a été supprimé ou suspendu"
+	],
 	url: [
 		"//go.hearty.me/hj-faq",
 		"//go.hearty.me/hj-data",
@@ -734,6 +743,38 @@ _h$["I"] = _h$["I"] || {
 
 // account
 _h$["a"] = _h$["a"] || {
+	passkey: [
+		"Passkeys (clés d'accès)",
+		"Ajouter une Passkey",
+		"Aucune Passkey pour l'instant",
+		"Qu'est-ce qu'une Passkey ?",
+		"Une Passkey (clé d'accès) te permet de te connecter avec Face ID, ton empreinte digitale ou le verrouillage d'écran de ton appareil, sans saisir d'identifiant ni de mot de passe, et sans risque de vol par des sites d'hameçonnage.<br><br>Les Passkeys sont stockées sur ton appareil ou dans un gestionnaire de mots de passe (comme le trousseau iCloud ou le Gestionnaire de mots de passe de Google). Hearty Journal ne conserve qu'une clé publique, inutilisable pour se connecter.<br><br>Retirer une Passkey ne déconnecte pas les appareils déjà connectés. Après un changement d'identifiant Hearty, ton gestionnaire de mots de passe peut encore afficher l'ancien nom, sans effet sur la connexion.",
+		"Une fois créée, tu pourras te connecter sans saisir d'identifiant ni de mot de passe",
+		"Renommer",
+		"Nom de la Passkey (20 caractères max.)",
+		"Le nom doit contenir de 1 à 20 caractères",
+		"Retirer",
+		"Retirer « $name » ?<br>Tu ne pourras plus l'utiliser pour te connecter à Hearty Journal. Les appareils déjà connectés ne seront pas déconnectés.<br>Pense aussi à supprimer cette Passkey de ton gestionnaire de mots de passe.",
+		"C'est ta dernière Passkey et ton compte n'a pas de mot de passe. Après l'avoir retirée, tu pourras te connecter uniquement avec un compte externe.",
+		"Cet appareil est actuellement connecté avec cette Passkey. Il restera connecté après son retrait.",
+		"Passkey retirée",
+		"Synchronisée avec tes autres appareils",
+		"Uniquement sur cet appareil",
+		"Pas encore synchronisée",
+		"En cours d'utilisation",
+		"Créée le $date",
+		"Dernière utilisation le $date",
+		"Jamais utilisée",
+		"Saisis ton mot de passe actuel pour confirmer que c'est bien toi",
+		"Mot de passe incorrect",
+		"Limite de Passkeys atteinte (10). Retire d'abord celles que tu n'utilises plus",
+		"Une Passkey a déjà été créée sur cet appareil ou dans ce gestionnaire de mots de passe",
+		"Passkey créée ! La prochaine fois, tu pourras te connecter avec elle",
+		"Confirme ton identité avec une Passkey existante",
+		"Suivant",
+		"Délai dépassé. Réessaie",
+		"Trop de tentatives échouées. Réessaie dans 15 minutes"
+	],
 	// JS
 	ok: ["OK", "Confirmer", "Bien sûr", "C'est exact"],
 	next: "Suivant",

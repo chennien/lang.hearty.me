@@ -40,6 +40,15 @@ _h$["m"] = _h$["m"] || {
 
 // index
 _h$["i"] = _h$["i"] || {
+	passkey: [
+		"Mit Passkey anmelden",
+		"oder",
+		"Noch keinen Passkey? Melde dich mit deinem Passwort an und erstelle ihn unter „Mein Konto“",
+		"Dieser Passkey wurde aus deinem Konto entfernt. Bitte melde dich auf andere Weise an",
+		"Zeitüberschreitung bei der Passkey-Bestätigung. Bitte versuche es erneut",
+		"Anmeldung mit Passkey fehlgeschlagen. Bitte versuche es erneut",
+		"Dieses Konto wurde gelöscht oder gesperrt"
+	],
 	url: [
 		"//go.hearty.me/hj-faq",
 		"//go.hearty.me/hj-data",
@@ -734,6 +743,38 @@ _h$["I"] = _h$["I"] || {
 
 // account
 _h$["a"] = _h$["a"] || {
+	passkey: [
+		"Passkeys",
+		"Passkey hinzufügen",
+		"Noch keine Passkeys",
+		"Was ist ein Passkey?",
+		"Mit einem Passkey meldest du dich per Face ID, Fingerabdruck oder Bildschirmsperre deines Geräts an – ganz ohne Hearty ID und Passwort und sicher vor Phishing-Seiten.<br><br>Passkeys werden auf deinem Gerät oder in einem Passwortmanager (z. B. iCloud-Schlüsselbund, Google Passwortmanager) gespeichert. Hearty Journal speichert nur einen öffentlichen Schlüssel, mit dem man sich nicht anmelden kann.<br><br>Das Entfernen eines Passkeys meldet bereits angemeldete Geräte nicht ab. Nach einer Änderung deiner Hearty ID zeigt der Passwortmanager eventuell noch den alten Namen an – die Anmeldung funktioniert trotzdem.",
+		"Danach kannst du dich ohne Hearty ID und Passwort anmelden",
+		"Umbenennen",
+		"Passkey-Name (max. 20 Zeichen)",
+		"Der Name muss 1 ~ 20 Zeichen lang sein",
+		"Entfernen",
+		"„$name“ wirklich entfernen?<br>Danach kannst du dich damit nicht mehr bei Hearty Journal anmelden. Bereits angemeldete Geräte bleiben angemeldet.<br>Lösche diesen Passkey bitte auch in deinem Passwortmanager.",
+		"Das ist dein letzter Passkey und für dein Konto ist kein Passwort festgelegt. Nach dem Entfernen kannst du dich nur noch mit einem externen Konto anmelden.",
+		"Dieses Gerät ist gerade mit diesem Passkey angemeldet. Nach dem Entfernen bleibt es angemeldet.",
+		"Passkey entfernt",
+		"Wird mit deinen anderen Geräten synchronisiert",
+		"Nur auf diesem Gerät",
+		"Noch nicht synchronisiert",
+		"Wird gerade verwendet",
+		"Erstellt am $date",
+		"Zuletzt verwendet am $date",
+		"Noch nicht verwendet",
+		"Gib dein aktuelles Passwort ein, um zu bestätigen, dass du es bist",
+		"Falsches Passwort",
+		"Maximal 10 Passkeys möglich. Bitte entferne zuerst einen, den du nicht mehr nutzt",
+		"Auf diesem Gerät bzw. in diesem Passwortmanager wurde bereits ein Passkey erstellt",
+		"Passkey erstellt! Ab dem nächsten Mal kannst du dich mit Passkey anmelden",
+		"Bitte bestätige deine Identität mit einem vorhandenen Passkey",
+		"Weiter",
+		"Zeitüberschreitung. Bitte versuche es erneut",
+		"Zu viele fehlgeschlagene Versuche. Bitte versuche es in 15 Minuten erneut"
+	],
 	// JS
 	ok: ["OK", "Bestätigen", "Natürlich", "Richtig"],
 	next: "Weiter",

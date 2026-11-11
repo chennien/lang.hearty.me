@@ -40,6 +40,15 @@ _h$["m"] = _h$["m"] || {
 
 // index
 _h$["i"] = _h$["i"] || {
+	passkey: [
+		"Masuk dengan Passkey",
+		"atau",
+		"Belum punya Passkey? Masuk dengan kata sandi, lalu buat di \"Akunku\"",
+		"Passkey ini telah dihapus dari akunmu. Silakan masuk dengan cara lain",
+		"Waktu verifikasi Passkey habis. Silakan coba lagi",
+		"Gagal masuk dengan Passkey. Silakan coba lagi",
+		"Akun ini telah dihapus atau ditangguhkan"
+	],
 	url: [
 		"//go.hearty.me/hj-faq",
 		"//go.hearty.me/hj-data",
@@ -734,6 +743,38 @@ _h$["I"] = _h$["I"] || {
 
 // account
 _h$["a"] = _h$["a"] || {
+	passkey: [
+		"Passkey (kunci sandi)",
+		"Tambah Passkey",
+		"Belum ada Passkey",
+		"Apa itu Passkey?",
+		"Passkey (kunci sandi) memungkinkanmu masuk dengan Face ID, sidik jari, atau kunci layar perangkat, tanpa mengetik Hearty ID dan kata sandi, serta aman dari situs phishing.<br><br>Passkey disimpan di perangkatmu atau di pengelola sandi (seperti Rantai Kunci iCloud atau Pengelola Sandi Google). Hearty Journal hanya menyimpan kunci publik yang tidak bisa digunakan untuk masuk.<br><br>Menghapus Passkey tidak akan mengeluarkan perangkat yang sudah masuk. Setelah mengubah Hearty ID, pengelola sandi mungkin masih menampilkan nama lama; hal ini tidak memengaruhi proses masuk.",
+		"Setelah dibuat, kamu bisa masuk tanpa mengetik Hearty ID dan kata sandi",
+		"Ganti nama",
+		"Nama Passkey (maks. 20 karakter)",
+		"Nama harus 1 ~ 20 karakter",
+		"Hapus",
+		"Yakin ingin menghapus \"$name\"?<br>Setelah dihapus, kamu tidak bisa lagi masuk ke Hearty Journal dengannya. Perangkat yang sudah masuk tidak akan dikeluarkan.<br>Hapus juga Passkey ini dari pengelola sandimu.",
+		"Ini Passkey terakhirmu dan akunmu belum memiliki kata sandi. Setelah dihapus, kamu hanya bisa masuk dengan akun eksternal.",
+		"Perangkat ini sedang masuk dengan Passkey ini. Setelah dihapus, perangkat ini tetap masuk.",
+		"Passkey dihapus",
+		"Disinkronkan ke perangkat lain",
+		"Hanya di perangkat ini",
+		"Belum disinkronkan",
+		"Sedang digunakan",
+		"Dibuat $date",
+		"Terakhir digunakan $date",
+		"Belum pernah digunakan",
+		"Masukkan kata sandimu saat ini untuk memastikan bahwa ini kamu",
+		"Kata sandi salah",
+		"Passkey sudah mencapai batas (10). Hapus dulu Passkey yang tidak digunakan",
+		"Perangkat atau pengelola sandi ini sudah memiliki Passkey",
+		"Passkey berhasil dibuat! Lain kali kamu bisa masuk dengan Passkey",
+		"Konfirmasi identitasmu dengan Passkey yang sudah ada",
+		"Berikutnya",
+		"Waktu habis. Silakan coba lagi",
+		"Terlalu banyak percobaan gagal. Silakan coba lagi dalam 15 menit"
+	],
 	// JS
 	ok: ["Oke", "Konfirmasi", "Tentu saja", "Benar"],
 	next: "Berikutnya",

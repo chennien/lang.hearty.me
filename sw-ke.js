@@ -40,6 +40,15 @@ _h$["m"] = _h$["m"] || {
 
 // index
 _h$["i"] = _h$["i"] || {
+	passkey: [
+		"Ingia kwa Passkey",
+		"au",
+		"Bado huna Passkey? Ingia kwa nenosiri, kisha uiunde katika \"Akaunti Yangu\"",
+		"Passkey hii imeondolewa kwenye akaunti yako. Tafadhali ingia kwa njia nyingine",
+		"Muda wa kuthibitisha Passkey umeisha. Tafadhali jaribu tena",
+		"Imeshindwa kuingia kwa Passkey. Tafadhali jaribu tena",
+		"Akaunti hii imefutwa au imesimamishwa"
+	],
 	url: [
 		"//go.hearty.me/hj-faq",
 		"//go.hearty.me/hj-data",
@@ -734,6 +743,38 @@ _h$["I"] = _h$["I"] || {
 
 // account
 _h$["a"] = _h$["a"] || {
+	passkey: [
+		"Passkey",
+		"Ongeza Passkey",
+		"Bado hakuna Passkey",
+		"Passkey ni nini?",
+		"Passkey hukuwezesha kuingia kwa Face ID, alama ya kidole au kufuli ya skrini ya kifaa chako, bila kuandika Hearty ID na nenosiri, na iko salama dhidi ya tovuti za ulaghai (phishing).<br><br>Passkey huhifadhiwa kwenye kifaa chako au kwenye kidhibiti cha manenosiri (kama iCloud Keychain au Google Password Manager). Hearty Journal huhifadhi tu ufunguo wa umma, ambao hauwezi kutumika kuingia.<br><br>Kuondoa Passkey hakutoi vifaa ambavyo tayari vimeingia. Baada ya kubadilisha Hearty ID, kidhibiti cha manenosiri kinaweza bado kuonyesha jina la zamani; hili haliathiri kuingia.",
+		"Baada ya kuiunda, utaweza kuingia bila kuandika Hearty ID na nenosiri",
+		"Badilisha jina",
+		"Jina la Passkey (hadi herufi 20)",
+		"Jina lazima liwe na herufi 1 ~ 20",
+		"Ondoa",
+		"Una uhakika unataka kuondoa \"$name\"?<br>Baada ya kuiondoa, hutaweza tena kuitumia kuingia kwenye Hearty Journal. Vifaa vilivyoingia havitatolewa.<br>Tafadhali futa pia Passkey hii kwenye kidhibiti chako cha manenosiri.",
+		"Hii ndiyo Passkey yako ya mwisho na akaunti haina nenosiri. Baada ya kuiondoa, utaweza kuingia kwa akaunti ya nje pekee.",
+		"Hii ndiyo Passkey inayotumiwa na kifaa hiki kuingia sasa. Baada ya kuiondoa, kifaa hiki kitabaki kimeingia.",
+		"Passkey imeondolewa",
+		"Husawazishwa na vifaa vyako vingine",
+		"Iko kwenye kifaa hiki pekee",
+		"Bado haijasawazishwa",
+		"Inatumika sasa",
+		"Iliundwa $date",
+		"Ilitumika mwisho $date",
+		"Bado haijatumika",
+		"Weka nenosiri lako la sasa ili kuthibitisha kuwa ni wewe",
+		"Nenosiri si sahihi",
+		"Umefikia kikomo cha Passkey (10). Tafadhali ondoa kwanza Passkey usiyoitumia",
+		"Kifaa hiki au kidhibiti hiki cha manenosiri tayari kina Passkey",
+		"Passkey imeundwa! Wakati ujao unaweza kuingia kwa Passkey",
+		"Tafadhali thibitisha utambulisho wako kwa Passkey iliyopo",
+		"Endelea",
+		"Muda umeisha. Tafadhali jaribu tena",
+		"Majaribio mengi mno yameshindwa. Tafadhali jaribu tena baada ya dakika 15"
+	],
 	// JS
 	ok: ["Sawa", "Thibitisha", "Bila shaka", "Sahihi"],
 	next: "Endelea",

@@ -40,6 +40,15 @@ _h$["m"] = _h$["m"] || {
 
 // index
 _h$["i"] = _h$["i"] || {
+	passkey: [
+		"Sign in with Passkey", 
+		"or", 
+		"No Passkey yet? Sign in with your password, then create one in My Account", 
+		"This Passkey has been removed from your account. Please sign in another way", 
+		"Passkey verification timed out. Please try again", 
+		"Passkey sign-in failed. Please try again", 
+		"This account has been deleted or suspended"
+	], 
 	url: [
 		"//go.hearty.me/hj-faq", 
 		"//go.hearty.me/hj-data", 
@@ -734,6 +743,38 @@ _h$["I"] = _h$["I"] || {
 
 // account
 _h$["a"] = _h$["a"] || {
+	passkey: [
+		"Passkeys", 
+		"Add Passkey", 
+		"No Passkeys yet", 
+		"What is a Passkey?", 
+		"A Passkey lets you sign in with your device's Face ID, fingerprint or screen lock. No need to enter your ID or password, and it's safe from phishing sites.<br><br>Passkeys are stored on your device or in a password manager (such as iCloud Keychain or Google Password Manager). Hearty Journal only keeps a public key, which can't be used to sign in.<br><br>Removing a Passkey won't sign out devices that are already signed in. After you change your Hearty ID, your password manager may still show the old name. This won't affect sign-in.", 
+		"Once created, you can sign in next time without entering your ID or password", 
+		"Rename", 
+		"Passkey name (up to 20 chars)", 
+		"Name must be 1 ~ 20 chars", 
+		"Remove", 
+		"Remove \"$name\"?<br>You won't be able to sign in to Hearty Journal with it anymore. Devices already signed in will stay signed in.<br>Please also delete this Passkey from your password manager.", 
+		"This is your last Passkey and your account has no password. After removing it, you can only sign in with an external account.", 
+		"This device is currently signed in with this Passkey. It will stay signed in after removal.", 
+		"Passkey removed", 
+		"Syncs to your other devices", 
+		"Only on this device", 
+		"Not synced yet", 
+		"Currently in use", 
+		"Created $date", 
+		"Last used $date", 
+		"Never used", 
+		"Enter your current password to confirm it's you", 
+		"Wrong password", 
+		"Passkey limit reached (10). Please remove one you no longer use", 
+		"A Passkey has already been created on this device or password manager", 
+		"Passkey created! You can sign in with it next time", 
+		"Please verify with an existing Passkey", 
+		"Next", 
+		"Timed out. Please try again", 
+		"Too many failed attempts. Please try again in 15 minutes"
+	], 
 	// JS
 	ok: ["OK", "Confirm", "Of course", "Correct"], 
 	next: "Next", 

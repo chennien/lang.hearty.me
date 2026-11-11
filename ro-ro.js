@@ -40,6 +40,15 @@ _h$["m"] = _h$["m"] || {
 
 // index
 _h$["i"] = _h$["i"] || {
+	passkey: [
+		"Conectează-te cu Passkey",
+		"sau",
+		"Nu ai încă un Passkey? Conectează-te cu parola, apoi creează-l în „Contul meu”",
+		"Acest Passkey a fost eliminat din cont. Conectează-te în alt mod",
+		"Verificarea Passkey a expirat. Încearcă din nou",
+		"Conectarea cu Passkey a eșuat. Încearcă din nou",
+		"Acest cont a fost șters sau suspendat"
+	],
 	url: [
 		"//go.hearty.me/hj-faq",
 		"//go.hearty.me/hj-data",
@@ -734,6 +743,38 @@ _h$["I"] = _h$["I"] || {
 
 // account
 _h$["a"] = _h$["a"] || {
+	passkey: [
+		"Passkey-uri (chei de acces)",
+		"Adaugă Passkey",
+		"Încă nu ai Passkey-uri",
+		"Ce este un Passkey?",
+		"Un Passkey (cheie de acces) îți permite să te conectezi cu Face ID, amprenta sau blocarea ecranului dispozitivului, fără să introduci Hearty ID-ul și parola, și te protejează de site-urile de phishing.<br><br>Passkey-urile sunt stocate pe dispozitivul tău sau într-un manager de parole (de exemplu Portchei iCloud sau Managerul de parole Google). Hearty Journal păstrează doar o cheie publică, ce nu poate fi folosită pentru conectare.<br><br>Eliminarea unui Passkey nu deconectează dispozitivele deja conectate. După ce îți schimbi Hearty ID-ul, managerul de parole poate afișa încă numele vechi, fără să afecteze conectarea.",
+		"După creare, te poți conecta fără să introduci Hearty ID-ul și parola",
+		"Redenumește",
+		"Numele Passkey-ului (max. 20 de caractere)",
+		"Numele trebuie să aibă între 1 și 20 de caractere",
+		"Elimină",
+		"Sigur vrei să elimini „$name”?<br>Nu te vei mai putea conecta cu el la Hearty Journal. Dispozitivele deja conectate nu vor fi deconectate.<br>Șterge acest Passkey și din managerul de parole.",
+		"Acesta este ultimul tău Passkey, iar contul nu are parolă. După eliminare te vei putea conecta doar cu un cont extern.",
+		"Acest dispozitiv este conectat acum cu acest Passkey. După eliminare, rămâne conectat.",
+		"Passkey eliminat",
+		"Se sincronizează cu celelalte dispozitive",
+		"Doar pe acest dispozitiv",
+		"Încă nesincronizat",
+		"În uz acum",
+		"Creat pe $date",
+		"Ultima utilizare: $date",
+		"Neutilizat încă",
+		"Introdu parola actuală pentru a confirma că ești tu",
+		"Parolă greșită",
+		"Ai atins limita de Passkey-uri (10). Elimină mai întâi unul pe care nu îl folosești",
+		"Pe acest dispozitiv sau în acest manager de parole a fost deja creat un Passkey",
+		"Passkey creat! Data viitoare te poți conecta cu Passkey",
+		"Confirmă-ți identitatea cu un Passkey existent",
+		"Următorul",
+		"Timpul a expirat. Încearcă din nou",
+		"Prea multe încercări eșuate. Încearcă din nou peste 15 minute"
+	],
 	// JS
 	ok: ["OK", "Confirmă", "Desigur", "Corect"],
 	next: "Următorul",

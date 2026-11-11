@@ -40,6 +40,15 @@ _h$["m"] = _h$["m"] || {
 
 // index
 _h$["i"] = _h$["i"] || {
+	passkey: [
+		"Passkey ile giriş yap",
+		"veya",
+		"Henüz Passkey'in yok mu? Şifrenle giriş yaptıktan sonra “Hesabım” bölümünden oluşturabilirsin",
+		"Bu Passkey hesabından kaldırıldı. Lütfen başka bir yöntemle giriş yap",
+		"Passkey doğrulaması zaman aşımına uğradı. Lütfen tekrar dene",
+		"Passkey ile giriş başarısız oldu. Lütfen tekrar dene",
+		"Bu hesap silinmiş veya askıya alınmış"
+	],
 	url: [
 		"//go.hearty.me/hj-faq",
 		"//go.hearty.me/hj-data",
@@ -734,6 +743,38 @@ _h$["I"] = _h$["I"] || {
 
 // account
 _h$["a"] = _h$["a"] || {
+	passkey: [
+		"Passkey (geçiş anahtarları)",
+		"Passkey ekle",
+		"Henüz Passkey yok",
+		"Passkey nedir?",
+		"Passkey (geçiş anahtarı), cihazının Face ID, parmak izi veya ekran kilidiyle giriş yapmanı sağlar. Hearty ID ve şifre girmen gerekmez, kimlik avı sitelerine karşı da güvendesin.<br><br>Passkey'ler cihazında veya bir şifre yöneticisinde (iCloud Anahtar Zinciri, Google Şifre Yöneticisi gibi) saklanır. Hearty Journal yalnızca giriş için kullanılamayan bir açık anahtar saklar.<br><br>Bir Passkey'i kaldırmak, giriş yapılmış cihazlarda oturumu kapatmaz. Hearty ID'ni değiştirdikten sonra şifre yöneticin eski adı göstermeye devam edebilir; bu girişi etkilemez.",
+		"Oluşturduktan sonra Hearty ID ve şifre girmeden giriş yapabilirsin",
+		"Yeniden adlandır",
+		"Passkey adı (en fazla 20 karakter)",
+		"Ad 1 ~ 20 karakter olmalıdır",
+		"Kaldır",
+		"“$name” kaldırılsın mı?<br>Kaldırdıktan sonra bununla Hearty Journal'a giriş yapamazsın. Giriş yapılmış cihazların oturumu kapanmaz.<br>Bu Passkey'i şifre yöneticinden de silmeyi unutma.",
+		"Bu son Passkey'in ve hesabında şifre tanımlı değil. Kaldırdıktan sonra yalnızca harici bir hesapla giriş yapabilirsin.",
+		"Bu cihaz şu anda bu Passkey ile giriş yapmış durumda. Kaldırsan da bu cihazda oturum açık kalır.",
+		"Passkey kaldırıldı",
+		"Diğer cihazlarınla eşzamanlanır",
+		"Yalnızca bu cihazda",
+		"Henüz eşzamanlanmadı",
+		"Şu anda kullanılıyor",
+		"Oluşturulma: $date",
+		"Son kullanım: $date",
+		"Henüz kullanılmadı",
+		"Sen olduğunu doğrulamak için mevcut şifreni gir",
+		"Şifre yanlış",
+		"Passkey sınırına ulaşıldı (10). Önce kullanmadığın bir Passkey'i kaldır",
+		"Bu cihazda veya şifre yöneticisinde zaten bir Passkey oluşturulmuş",
+		"Passkey oluşturuldu! Bir dahaki sefere Passkey ile giriş yapabilirsin",
+		"Mevcut bir Passkey ile kimliğini doğrula",
+		"İleri",
+		"Zaman aşımı. Lütfen tekrar dene",
+		"Çok fazla başarısız deneme. Lütfen 15 dakika sonra tekrar dene"
+	],
 	// JS
 	ok: ["Tamam", "Onayla", "Elbette", "Doğru"],
 	next: "İleri",

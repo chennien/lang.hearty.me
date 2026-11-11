@@ -40,6 +40,15 @@ _h$["m"] = _h$["m"] || {
 
 // index
 _h$["i"] = _h$["i"] || {
+	passkey: [
+		"Iniciar sessão com Passkey",
+		"ou",
+		"Ainda não tens uma Passkey? Inicia sessão com a palavra-passe e cria-a em «A minha conta»",
+		"Esta Passkey foi removida da tua conta. Inicia sessão de outra forma",
+		"A verificação da Passkey expirou. Tenta novamente",
+		"Falha ao iniciar sessão com Passkey. Tenta novamente",
+		"Esta conta foi eliminada ou suspensa"
+	],
 	url: [
 		"//go.hearty.me/hj-faq",
 		"//go.hearty.me/hj-data",
@@ -734,6 +743,38 @@ _h$["I"] = _h$["I"] || {
 
 // account
 _h$["a"] = _h$["a"] || {
+	passkey: [
+		"Passkeys (chaves de acesso)",
+		"Adicionar Passkey",
+		"Ainda não tens Passkeys",
+		"O que é uma Passkey?",
+		"Uma Passkey (chave de acesso) permite iniciar sessão com o Face ID, a impressão digital ou o bloqueio de ecrã do dispositivo, sem introduzir o Hearty ID e a palavra-passe, e protege-te de sites de phishing.<br><br>As Passkeys ficam guardadas no teu dispositivo ou num gestor de palavras-passe (como o Porta-chaves iCloud ou o Gestor de palavras-passe da Google). O Hearty Journal guarda apenas uma chave pública, que não pode ser usada para iniciar sessão.<br><br>Remover uma Passkey não termina a sessão nos dispositivos já ligados. Depois de alterares o Hearty ID, o gestor de palavras-passe pode continuar a mostrar o nome antigo, sem afetar o início de sessão.",
+		"Depois de criada, podes iniciar sessão sem introduzir o Hearty ID e a palavra-passe",
+		"Mudar o nome",
+		"Nome da Passkey (máx. 20 caracteres)",
+		"O nome deve ter entre 1 e 20 caracteres",
+		"Remover",
+		"Remover «$name»?<br>Deixarás de poder usá-la para iniciar sessão no Hearty Journal. Os dispositivos com sessão iniciada não serão desligados.<br>Elimina também esta Passkey do teu gestor de palavras-passe.",
+		"Esta é a tua última Passkey e a conta não tem palavra-passe. Depois de a removeres, só poderás iniciar sessão com uma conta externa.",
+		"Este dispositivo tem sessão iniciada com esta Passkey. Depois de a removeres, continua com sessão iniciada.",
+		"Passkey removida",
+		"Sincroniza com os teus outros dispositivos",
+		"Apenas neste dispositivo",
+		"Ainda não sincronizada",
+		"Em utilização",
+		"Criada em $date",
+		"Última utilização: $date",
+		"Nunca utilizada",
+		"Introduz a palavra-passe atual para confirmar que és tu",
+		"Palavra-passe incorreta",
+		"Atingiste o limite de Passkeys (10). Remove primeiro as que não usas",
+		"Já foi criada uma Passkey neste dispositivo ou gestor de palavras-passe",
+		"Passkey criada! Da próxima vez, podes iniciar sessão com a Passkey",
+		"Confirma a tua identidade com uma Passkey existente",
+		"Seguinte",
+		"Tempo esgotado. Tenta novamente",
+		"Demasiadas tentativas falhadas. Tenta novamente daqui a 15 minutos"
+	],
 	// JS
 	ok: ["OK", "Confirmar", "Com certeza", "Correto"],
 	next: "Seguinte",

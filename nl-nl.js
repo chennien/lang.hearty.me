@@ -40,6 +40,15 @@ _h$["m"] = _h$["m"] || {
 
 // index
 _h$["i"] = _h$["i"] || {
+	passkey: [
+		"Inloggen met Passkey",
+		"of",
+		"Nog geen Passkey? Log in met je wachtwoord en maak er een aan via ‘Mijn account’",
+		"Deze Passkey is uit je account verwijderd. Log op een andere manier in",
+		"Passkey-verificatie is verlopen. Probeer het opnieuw",
+		"Inloggen met Passkey mislukt. Probeer het opnieuw",
+		"Dit account is verwijderd of geblokkeerd"
+	],
 	url: [
 		"//go.hearty.me/hj-faq",
 		"//go.hearty.me/hj-data",
@@ -734,6 +743,38 @@ _h$["I"] = _h$["I"] || {
 
 // account
 _h$["a"] = _h$["a"] || {
+	passkey: [
+		"Passkeys (toegangssleutels)",
+		"Passkey toevoegen",
+		"Nog geen Passkeys",
+		"Wat is een Passkey?",
+		"Met een Passkey (toegangssleutel) log je in met Face ID, je vingerafdruk of de schermvergrendeling van je apparaat, zonder Hearty ID en wachtwoord in te voeren. Phishingsites kunnen hem niet misbruiken.<br><br>Passkeys worden bewaard op je apparaat of in een wachtwoordmanager (zoals iCloud-sleutelhanger of Google Wachtwoordmanager). Hearty Journal bewaart alleen een openbare sleutel waarmee niet kan worden ingelogd.<br><br>Een Passkey verwijderen logt ingelogde apparaten niet uit. Na het wijzigen van je Hearty ID kan je wachtwoordmanager nog de oude naam tonen; dat heeft geen invloed op het inloggen.",
+		"Daarna kun je inloggen zonder Hearty ID en wachtwoord in te voeren",
+		"Naam wijzigen",
+		"Passkey-naam (max. 20 tekens)",
+		"Naam moet 1 ~ 20 tekens lang zijn",
+		"Verwijderen",
+		"Weet je zeker dat je ‘$name’ wilt verwijderen?<br>Je kunt er daarna niet meer mee inloggen bij Hearty Journal. Ingelogde apparaten worden niet uitgelogd.<br>Verwijder deze Passkey ook uit je wachtwoordmanager.",
+		"Dit is je laatste Passkey en je account heeft geen wachtwoord. Na verwijderen kun je alleen nog inloggen met een extern account.",
+		"Dit apparaat is nu ingelogd met deze Passkey. Na verwijderen blijft het ingelogd.",
+		"Passkey verwijderd",
+		"Wordt gesynchroniseerd met je andere apparaten",
+		"Alleen op dit apparaat",
+		"Nog niet gesynchroniseerd",
+		"Nu in gebruik",
+		"Aangemaakt op $date",
+		"Laatst gebruikt op $date",
+		"Nog niet gebruikt",
+		"Voer je huidige wachtwoord in om te bevestigen dat jij het bent",
+		"Onjuist wachtwoord",
+		"Maximum aantal Passkeys bereikt (10). Verwijder eerst een Passkey die je niet gebruikt",
+		"Op dit apparaat of in deze wachtwoordmanager is al een Passkey aangemaakt",
+		"Passkey aangemaakt! Volgende keer kun je inloggen met je Passkey",
+		"Bevestig je identiteit met een bestaande Passkey",
+		"Volgende",
+		"Time-out. Probeer het opnieuw",
+		"Te veel mislukte pogingen. Probeer het over 15 minuten opnieuw"
+	],
 	// JS
 	ok: ["OK", "Bevestigen", "Natuurlijk", "Klopt"],
 	next: "Volgende",
