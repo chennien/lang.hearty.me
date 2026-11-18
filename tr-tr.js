@@ -9,10 +9,10 @@ _h$["h"] = _h$["h"] || {
 	ok: "Tamam",
 	qr: "QRcode_Hearty",
 	copy: "Kopyalandı",
-	err: "Sunucu şu anda yoğun, lütfen daha sonra tekrar dene. Sorun devam ederse lütfen bize bildir.",
-	satisfy: ["Bizi ister sev ister daha iyisini yapabileceğimizi düşün, fikrini bilmek istiyoruz!", "Bayıldım!", "Geliştirilmeli"],
-	rate: ["Yorumun, küçük ekibimizi Hearty Journal'ı daha da iyi hale getirmek için motive ediyor.", "Bize 5 yıldız verir misin?", "Değerlendirmen için teşekkürler.", "༼ つ ◕_◕ ༽つ"],
-	notify: ["Bildirimler açılsın mı?", "Kişiselleştirilmiş bildirimler almak ister misin? (ör. mektup arkadaşı mesajları)", "Evet", "Şimdi değil"],
+	err: "Sunucu yoğun. Sonra tekrar dene, sorun sürerse bize bildir.",
+	satisfy: ["Bizi sevdin mi, yoksa geliştirelim mi? Söyle!", "Bayıldım!", "Geliştirilmeli"],
+	rate: ["Yorumun küçük ekibimizi motive ediyor.", "Bize 5 yıldız verir misin?", "Değerlendirmen için teşekkürler.", "༼ つ ◕_◕ ༽つ"],
+	notify: ["Bildirimler açılsın mı?", "Kişisel bildirimler alınsın mı? (ör. mektup arkadaşlarından)", "Evet", "Şimdi değil"],
 	downloading: "İndirme başlıyor"
 };
 
@@ -27,14 +27,14 @@ _h$["m"] = _h$["m"] || {
 	no: "Hayır",
 	back: "Geri",
 	nav: ["Menü", "Hearty Journal", "Günlüğüm"],
-	signout: ["Çıkış yap", "Şimdi çıkış yapmak istiyor musun?"],
+	signout: ["Çıkış yap", "Çıkış yapılsın mı?"],
 
 	// DOMs
 	avatar: [
 		"Hesabım", "Giriş yap", "VIP Premium, Hearty Journal"
 	],
 	menu: [
-		"Günün Ayeti", "Alice'in Ziyaretçi Defteri", "Gönderi Akışı", "Hearty Blog", "Günlüğüm", "Galeri", "Life Shop", "Yükselt", "Rehberler", "Hakkında", "Çıkış yap", "Windows için", "macOS için", "Windows/macOS Uygulaması", "Mobil Uygulama", "Dil 語言", "Bize 5 yıldız ver", "🐞 Hata Ayıklama"
+		"Günün Ayeti", "Alice'in Ziyaretçi Defteri", "Gönderi Akışı", "Hearty Blog", "Günlüğüm", "Galeri", "Life Shop", "Yükselt", "Rehberler", "Hakkında", "Çıkış yap", "Windows için", "macOS için", "Windows/macOS", "Mobil Uygulama", "Dil 語言", "Bize 5 yıldız ver", "🐞 Hata Ayıklama"
 	]
 };
 
@@ -43,11 +43,11 @@ _h$["i"] = _h$["i"] || {
 	passkey: [
 		"Passkey ile giriş yap",
 		"veya",
-		"Henüz Passkey'in yok mu? Şifrenle giriş yaptıktan sonra “Hesabım” bölümünden oluşturabilirsin",
-		"Bu Passkey hesabından kaldırıldı. Lütfen başka bir yöntemle giriş yap",
-		"Passkey doğrulaması zaman aşımına uğradı. Lütfen tekrar dene",
-		"Passkey ile giriş başarısız oldu. Lütfen tekrar dene",
-		"Bu hesap silinmiş veya askıya alınmış"
+		"Passkey'in yok mu? Şifrenle girip “Hesabım”dan oluştur",
+		"Passkey kaldırıldı. Başka yöntemle giriş yap",
+		"Passkey doğrulaması zaman aşımına uğradı. Tekrar dene",
+		"Passkey ile giriş başarısız. Tekrar dene",
+		"Hesap silinmiş veya askıda"
 	],
 	url: [
 		"//go.hearty.me/hj-faq",
@@ -65,30 +65,30 @@ _h$["i"] = _h$["i"] || {
 	back: "Geri",
 	copy: ["Kopyala", "Kopyalandı: "],
 	email: [
-		"E-posta adresi doğrulandı.", "E-posta adresi zaten doğrulanmış.", "Bağlantı geçersiz.", "Bağlantı bozuk."
+		"E-posta doğrulandı.", "E-posta zaten doğrulanmış.", "Bağlantı geçersiz.", "Bağlantı bozuk."
 	],
 	reset: [
 		"Şifreyi sıfırla",
 		"Otomatik giriş yapılıyor",
 		"Bağlantı geçersiz.",
 		"Hearty ID geçersiz.",
-		"Sıfırlama bağlantısı gönderildi. Lütfen e-posta gelen kutunu kontrol et.",
-		"Sıfırlama bağlantısı ***@$domain adresine gönderildi. Lütfen gelen kutunu kontrol et.",
-		"E-postanı kontrol etmek için $url açılsın mı?",
-		"Bu Hearty ID mevcut değil."
+		"Bağlantı gönderildi. Gelen kutunu kontrol et.",
+		"Bağlantı ***@$domain adresine gönderildi.",
+		"$url açılsın mı?",
+		"Hearty ID bulunamadı."
 	],
 	captcha: [
-		"Güvenlik doğrulaması başarısız oldu. Lütfen sayfayı yenileyip tekrar dene.",
-		"Lütfen aşağıdaki güvenlik doğrulamasını tamamla."
+		"Doğrulama başarısız. Sayfayı yenile.",
+		"Güvenlik doğrulamasını tamamla."
 	],
 	ref: [
 		"🎁 $user seni davet etti."
 	],
 	cookie: [
-		"Giriş yapmak için lütfen tarayıcı çerezlerini etkinleştir.", "Nasıl?"
+		"Giriş için çerezleri etkinleştir.", "Nasıl?"
 	],
 	browser: [
-		"Tarayıcın bu site için çok eski.", "Internet Explorer artık desteklenmiyor."
+		"Tarayıcın çok eski.", "Internet Explorer artık desteklenmiyor."
 	],
 	signin: [
 		"Giriş yap",
@@ -97,29 +97,29 @@ _h$["i"] = _h$["i"] || {
 		"$user mevcut değil",
 		"$user kayıtlı değil",
 		"$user silinmiş veya askıya alınmış",
-		"$user politika ihlali nedeniyle askıya alınmış veya silinmesi talep edilmiş",
+		"$user ihlal nedeniyle askıda veya silinmesi istenmiş",
 		"Yanlış şifre",
-		"Şifre en az 6 karakter olmalı",
+		"Şifre: en az 6 karakter",
 		"Hearty ID ile “$client” hizmetine giriş yap"
 	],
 	signup: [
-		"Hearty ID yalnızca harf ve rakamlardan oluşmalı",
-		"Hearty ID 4 - 20 karakter uzunluğunda olmalı",
-		"E-posta adresi geçersiz",
-		"Lütfen gerçek bir e-posta adresi gir",
-		"Şifre 6 - 20 karakter uzunluğunda olmalı",
+		"Hearty ID: yalnızca harf ve rakam",
+		"Hearty ID: 4 - 20 karakter",
+		"Geçersiz e-posta",
+		"Gerçek bir e-posta gir",
+		"Şifre: 6 - 20 karakter",
 		"Şifreler eşleşmedi",
-		"⚠ Yahoo! e-posta hizmetinin kullanılması önerilmez.\nYine de kullanmak istiyor musun?",
+		"⚠ Yahoo! Mail önerilmez.\nYine de kullanılsın mı?",
 		"E-posta veya şifre geçersiz.",
 
-		"$user oluşturuldu! Lütfen e-posta gelen kutunu kontrol et.",
+		"$user oluşturuldu! Gelen kutunu kontrol et.",
 		"$user oluşturuldu!",
-		"$user zaten oluşturulmuş. Lütfen giriş yap.",
-		"Bu e-posta adresi zaten kayıtlı. Lütfen giriş yap.",
-		"Bu ID alınmış. Lütfen başka bir tane seç.",
-		"E-posta adresi geçersiz.",
-		"Geçici e-posta adresleri kabul edilmez.",
-		"Üzgünüz, lütfen daha sonra tekrar dene."
+		"$user zaten var. Giriş yap.",
+		"E-posta zaten kayıtlı. Giriş yap.",
+		"ID alınmış. Başka bir tane seç.",
+		"Geçersiz e-posta.",
+		"Geçici e-postalar kabul edilmez.",
+		"Daha sonra tekrar dene."
 	],
 	box: [
 		"Kaydol",
@@ -127,23 +127,23 @@ _h$["i"] = _h$["i"] || {
 		"Şifreyi Sıfırla",
 		"Hesap Oluştur",
 		"Hearty Journal'a giriş yap",
-		"Hearty ID'yi Bul | Şifreyi Sıfırla",
-		"💡 ID'ni seç ( 4 ~ 20 karakter)",
-		"💡 Hearty ID / Hesap E-postası"
+		"ID'yi Bul | Şifreyi Sıfırla",
+		"💡 ID'n (4 ~ 20 karakter)",
+		"💡 Hearty ID / e-posta"
 	],
 	timer: "Yeniden gönder ($min:$sec)",
 	chat: [
 		"Destek",
-		"Destek almak için lütfen önce giriş yap.",
-		"Bize e-postayla ulaş",
-		"Destek e-posta adresimiz: "
+		"Destek için giriş yap.",
+		"Bize yaz",
+		"Destek e-postası: "
 	],
 	id_notice: [
-		"Tüm verilerin şifrelenecek ve buluta senkronize edilecek.",
-		"Hearty ID'n, bilgisayarların ve telefonların dahil tüm cihazlarından özel verilerine erişmenin tek anahtarıdır."
+		"Verilerin şifrelenir ve buluta senkronize edilir.",
+		"Hearty ID'n, bilgisayar ve telefondaki verilerinin tek anahtarıdır."
 	],
 	song: ["Harmony - 溫度日記", "Hearty Journal Tema Şarkısı"],
-	404: "Hay aksi, bu sayfa mevcut değil.",
+	404: "Hay aksi, sayfa bulunamadı.",
 
 	// DOMs
 	title: ["Hearty Journal 溫度日記", "Değerli anılarını sakla"],
@@ -152,30 +152,30 @@ _h$["i"] = _h$["i"] || {
 	],
 	slogan: [
 		"Hearty Journal", "<br>değerli anılarını sakla", ", ",
-		"Apple Editörlerin Seçimi | 300.000+ Mutlu Kullanıcı | 4,9 Yıldız Puanı", "Bağlantın TLS 1.3 ile güvenli ve şifrelidir."
+		"Apple'ın Seçimi | 300.000+ Kullanıcı | 4,9 Yıldız", "TLS 1.3 ile şifreli güvenli bağlantı."
 	],
 	scroll: "Aşağı kaydır",
 	preview: ["Önizleme", "Kapat"],
 	feature: [
-		"Her zaman yanında", "Düşüncelerini, duygularını, fikirlerini ve özel anlarını güvenle kaydet.",
-		"Güzel arayüz", "Güzel temalar, birbirinden sevimli çıkartmalar ve şık yazı tipleri",
-		"Sevdiklerinle paylaş", "Arkadaşlar, can dostlar, aile ve sevgililer için tasarlandı",
-		"Gizlilik Odaklı", "Günlüklerini gizli ve güvende tut"
+		"Her zaman yanında", "Düşünce, duygu, fikir ve özel anlarını güvenle kaydet.",
+		"Güzel arayüz", "Güzel temalar, sevimli çıkartmalar, şık yazı tipleri",
+		"Sevdiklerinle paylaş", "Arkadaşlar, aile ve sevgililer için",
+		"Gizlilik Odaklı", "Günlüklerin gizli ve güvende"
 	],
 	testimonial: [
-		"Hearty Journal'daki 100.000+ mutlu kullanıcıya katıl",
+		"100.000+ mutlu kullanıcı",
 		"Hearty Journal, zihnin ve ruhun için bir sığınak.", "Haitaibear, Yazar ve Psikolog",
-		"Kendimle baş başa kalabileceğim güzel bir yer.", "Cindy Liu",
-		"Hearty hem şık hem sevimli, üstelik pek çok kullanışlı özelliği var.", "Wu Chi",
-		"Hearty depresyonumu atlatmama yardım etti. Artık eskisinden daha sağlıklıyım.", "Yan-Xuan",
-		"Hem dizüstümde hem cebimde kullanması çok kolay.", "Xiao-Jun"
+		"Kendimle buluştuğum güzel bir yer.", "Cindy Liu",
+		"Şık, sevimli ve kullanışlı özelliklerle dolu.", "Wu Chi",
+		"Hearty depresyonu atlatmama yardım etti. Artık daha iyiyim.", "Yan-Xuan",
+		"Dizüstünde de telefonda da kolay.", "Xiao-Jun"
 	],
 	press: [
 		"Medya",
 		"Bnext Media", "Free Group", "Aotter girls", "Womany", "Sheaspire", "SEinsights", "Taiwan Startup Stadium", "Innosquare, New Taipei", "UDN", "Vita News"
 	],
 	action: [
-		"Daha sağlıklı bir zihne hazır mısın?", "Günlük Yazmaya Başla"
+		"Daha sağlıklı bir zihne hazır mısın?", "Yazmaya Başla"
 	],
 	rate: "Bize 5 yıldız ver",
 	footer: [
@@ -197,18 +197,18 @@ _h$["i"] = _h$["i"] || {
 		"Ticari Marka",
 		"Hakkımızda"
 	],
-	cookies: ["Siteyi kullanmaya devam ederek çerez kullanımımızı ve gizlilik politikamızı kabul etmiş olursun.", "Tamam"],
+	cookies: ["Siteyi kullanarak çerezleri ve gizlilik politikasını kabul edersin.", "Tamam"],
 	copyright: "2016-"+new Date().getFullYear().toString()+" Hearty Creative Inc. ve iştirakleri",
 	isp: "Cloudways üzerinde barındırılmaktadır",
 	auth: [
 		"Ücretsiz kaydol",
-		"Zaten hesabın var mı?",
+		"Hesabın var mı?",
 		"ID/Şifremi unuttum",
 		"Hemen giriş yap",
-		"Hearty ID", "💡 Hearty ID veya hesap e-postası",
+		"Hearty ID", "💡 Hearty ID veya e-posta",
 		"Şifre", "🔑 6 ~ 20 karakter",
-		"Şifre tekrar", "🔑 Şifreyi tekrar gir", "Şifreleri göster",
-		"Beni hatırla", "Kaydol'a tıklayarak Hizmet Şartları'nı ve Gizlilik Politikası'nı kabul ediyorum."
+		"Şifre tekrar", "🔑 Şifre tekrar", "Şifreleri göster",
+		"Beni hatırla", "Hizmet Şartları'nı ve Gizlilik Politikası'nı kabul ediyorum."
 	],
 	lang: "Dil değiştiriliyor: $lang"
 };
@@ -228,16 +228,16 @@ _h$["e"] = _h$["e"] || {
 	gotop: "Yukarı",
 	signin: ["Giriş yap", "Bu özelliği kullanmak için ", "giriş yap"],
 	signout: "Çıkış yap",
-	name: ["Takma adım", "Merhaba, takma adın ne?<br>Bu ad herkese açık kimliğin olacak.", "Selam $name.", "Günlük yazman için her gün hatırlatma ister misin?", "Evet, aç"],
-	get_stickers: ["Yaşasın! Çıkartma paketini kazandın!", "Hediyeyi aç"],
-	welcome: ["Merhaba $name", "Günlüğüme git", "Giriş yapmak için tıkla"],
+	name: ["Takma adım", "Takma adın ne?<br>Herkese açık olacak.", "Selam $name.", "Günlük yazma hatırlatıcısı istensin mi?", "Evet, aç"],
+	get_stickers: ["Yaşasın! Çıkartma paketi kazandın!", "Hediyeyi aç"],
+	welcome: ["Merhaba $name", "Günlüğüme git", "Giriş yap"],
 	year: "",
-	maintenance: ["Planlı bakım: ", "Yaklaşık 1 saatlik kesinti bekleniyor"],
-	update: ["Hearty Journal'ın yeni sürümü yayında.", "Şimdi güncelle", "Yarın hatırlat"],
+	maintenance: ["Planlı bakım: ", "yaklaşık 1 saat kesinti"],
+	update: ["Yeni sürüm yayında.", "Şimdi güncelle", "Yarın hatırlat"],
 	search: ["Gönderilerde ara", "aranacak kelime", "Ara", "Sonuç yok"],
 	bookmark: [
 		"1 favori gönderi",
-		"$no favori gönderi",
+		"$no favori",
 		"Favori",
 		"Başlıksız"
 	],
@@ -246,67 +246,67 @@ _h$["e"] = _h$["e"] || {
 		"$no gönderi",
 		"Yeni gönderi",
 		"Gönderi yok",
-		"Mektup arkadaşından gelen gönderi yok",
-		"Bu ilk ya da son gönderi.",
-		"Gösterilecek gönderi yok",
+		"Mektup arkadaşlarından gönderi yok",
+		"İlk ya da son gönderi.",
+		"Gönderi yok",
 		"Önceki",
 		"Sonraki"
 	],
-	sticker: ["Yakınlaştır", "Döndür", "Yapıştır", "Kaldırıldı", "Bir gönderide daha fazla çıkartma mı istiyorsun?", "VIP Premium'a yükselt"],
+	sticker: ["Yakınlaştır", "Döndür", "Yapıştır", "Kaldırıldı", "Gönderiye daha çok çıkartma?", "VIP Premium'a yükselt"],
 	verify_required: [
-		"Lütfen profilini güncelle ve $act için $item doğrula.",
+		"$act için $item doğrula.",
 		"telefon numaranı", "bilgilere erişmek",
-		"gönderinin görünürlüğünü değiştirmek", "gönderiyi herkese açık akışta yayınlamak", "mektup arkadaşı eklemek", "gönderini bir mektup arkadaşıyla paylaşmak"
+		"görünürlüğü değiştirmek", "akışta yayınlamak", "mektup arkadaşı eklemek", "mektup arkadaşıyla paylaşmak"
 	],
 	privacy: [
-		"Gönderi artık herkese açık", "Gönderi artık gizli",
+		"Gönderi herkese açık", "Gönderi gizli",
 		'Gönderin, <a target="_blank" href="//go.hearty.me/publish"><u>herkese açık gönderi kurallarına</u></a> uygunluğu için inceleniyor. ',
-		"Onaylandıktan sonra herkese açık olarak paylaşılacak.",
-		"Onaylandıktan sonra herkese açık olarak yayınlanacak.",
-		"Tekrar göndermekten kaçın ve onayı bekle. (;´ㅁ`)-3"
+		"Onaydan sonra paylaşılacak.",
+		"Onaydan sonra yayınlanacak.",
+		"Tekrar gönderme, onayı bekle. (;´ㅁ`)-3"
 	],
 	publish: [
-		"Akış gönderileri en az 100 karakter olmalı. Lütfen biraz daha yaz.",
-		"Tamam, bir fikrim var!",
-		"“$title” herkese açık akışta yayınlansın mı?",
-		"Gönderi herkese açık yapılıp akışta yayınlansın mı?",
+		"Akış için en az 100 karakter. Biraz daha yaz.",
+		"Bir fikrim var!",
+		"“$title” akışta yayınlansın mı?",
+		"Herkese açık yapılıp akışta yayınlansın mı?",
 		"Yayınla",
 		"“$title” yayınlandı.",
 		"Göz at",
 		"Geri dön",
 		'Lütfen <a target="_blank" href="//go.hearty.me/publish"><u>[herkese açık gönderi kurallarına]</u></a> uy. <small>Ayrıca kişisel bilgilerin paylaşılmasına izin verilmez.</small>',
-		"“$title” gönderisi akıştan kaldırılsın mı?",
+		"“$title” akıştan kaldırılsın mı?",
 		"Evet",
-		"Akış gönderisi kaldırıldı",
-		"Günde yalnızca bir akış gönderisi paylaşabilirsin."
+		"Akıştan kaldırıldı",
+		"Günde bir akış gönderisi."
 	],
 	penpal_add: [
-		"Yeni mektup arkadaşı davet et. Onun Hearty ID'sini (veya hesap e-postasını) gir: ",
-		"Lite sürümde en fazla 2 mektup arkadaşı olabilir; VIP Premium ile sınırsız.",
-		"Hearty ID veya hesap e-postası",
+		"Hearty ID (veya e-posta) ile davet et: ",
+		"Lite: en fazla 2 arkadaş. VIP Premium: sınırsız.",
+		"Hearty ID veya e-posta",
 		"davet et",
-		"Daha fazla mektup arkadaşı davet etmek için lütfen planını yükselt.",
-		"“<b>$name</b>” (Hearty ID: $user) mektup arkadaşın olmaya davet edilsin mi?",
+		"Daha fazla arkadaş için planını yükselt.",
+		"“<b>$name</b>” (Hearty ID: $user) davet edilsin mi?",
 		"$name artık mektup arkadaşın",
 		"“$user” zaten mektup arkadaşın",
 		"“$user” mevcut değil",
-		"Hay aksi, “$user” seni engellemiş.",
-		"Hay aksi, kendini davet edemezsin."
+		"“$user” seni engellemiş.",
+		"Kendini davet edemezsin."
 	],
 	penpal_delete: [
-		"Seçilen mektup arkadaşı listenden kaldırılacak ve birbirinizi tekrar eklemeniz engellenecek. Aynı anda, daha önce birbirinizle paylaştığınız gönderilerin paylaşımı da anında kaldırılacak. (geri alınamaz)",
-		"Silinecek mektup arkadaşını seç",
+		"Arkadaş kaldırılacak, birbirinizi tekrar ekleyemeyeceksiniz ve paylaşılan gönderiler anında kaldırılacak. (geri alınamaz)",
+		"Kimi sileceksin?",
 		"- Bir kişi seç -",
-		"“$user” listenden silinsin mi?",
+		"“$user” silinsin mi?",
 		"Evet",
-		"Tamamlandı, “$user” silindi."
+		"“$user” silindi."
 	],
 	penpal_send: [
 		"$add ile paylaşıldı",
 		"Ayarlar güncellendi"
 	],
 	pin: [
-		"Destek PIN'i: ", "Destek PIN'i, destek ekibiyle iletişime geçtiğinde kimliğini doğrulamak için kullanılan bir güvenlik önlemidir."
+		"Destek PIN'i: ", "Destekle iletişimde kimliğini doğrular."
 	],
 	chat: [
 		"Hearty ID: "
@@ -318,139 +318,139 @@ _h$["e"] = _h$["e"] || {
 		"Talep No. #$no",
 		"Lütfen adını yaz.",
 		"E-posta geçersiz.",
-		"Yazdığın metin çok kısa.",
-		", talep oluşturduğun için teşekkürler. 24 iş saati içinde e-postayla yanıt alacaksın. E-postayı gelen kutunda göremezsen lütfen gereksiz/spam klasörünü kontrol et.",
+		"Çok kısa.",
+		", teşekkürler! 24 iş saati içinde e-postayla yanıtlayacağız. Spam klasörüne de bak.",
 		"Tamam",
-		"VIP Premium planı hakkında daha fazla bilgi",
-		"Hay aksi, lütfen daha sonra tekrar dene."
+		"VIP Premium hakkında",
+		"Hay aksi, sonra tekrar dene."
 	],
 	video: [
-		"YouTube Video Bağlantısı",
-		"veya yüklemek için buraya tıkla",
+		"YouTube Bağlantısı",
+		"veya yükle",
 		"Ayarla",
 		"Çalma listesine ekle",
 		"Video eklendi",
-		"YouTube video bağlantısı geçersiz",
-		"Video gizli, silinmiş veya yerleştirmeye kapalı olabilir",
-		"Verilen bağlantıyı kontrol et",
+		"Geçersiz YouTube bağlantısı",
+		"Video gizli, silinmiş veya yerleştirilemez",
+		"Bağlantıyı kontrol et",
 		"“$title” kaldırılsın mı?",
 		"Kaldır",
-		"Ayarla (temizlemek için boş bırak)", // 預留未使用
-		"https://youtu.be/vYFnZdUiUyg (temizlemek için boş bırak)"
+		"Ayarla (boş = temizle)", // 預留未使用
+		"https://youtu.be/vYFnZdUiUyg (boş = temizle)"
 	],
 	yt: [
 		"Çalma Listesi",
 		"Sırala",
 		"Kaldır",
 		"Işıkları kapat",
-		"Sevdiğin bir şarkıyı eklemek için ➕ simgesine tıkla",
-		"Yazarken en sevdiğin şarkıları arka planda dinle.",
+		"Şarkı eklemek için ➕'ya tıkla",
+		"Yazarken sevdiğin şarkıları dinle.",
 		"En sevdiğim şarkılar",
 		"Oynat"
 	],
 	gps: [
-		"Gönderiye hava durumu bilgisi eklensin mi?",
+		"Hava durumu eklensin mi?",
 		'⛅ Lütfen konum isteğine İZİN VER ve birkaç saniye bekle.',
-		"Hava durumu bilgisi eklendi",
+		"Hava durumu eklendi",
 		"GPS sinyali yok",
-		"Daha fazla bilgi için lütfen adres çubuğundaki uyarıyı kontrol et."
+		"Adres çubuğundaki uyarıya bak."
 	],
 	chars_max: [
-		"Bu gönderi $chars karakterle 10.000 karakter sınırını (semboller dahil) aşıyor.",
-		"Bu bildirimi gerçekten gören biri oldu mu acaba?"
+		"$chars karakter: 10.000 sınırı (semboller dahil) aşıldı.",
+		"Bunu gören oldu mu acaba?"
 	],
 	chars: [
-		"$chars karakter yazdın; Lite sürümün kotasını ($limit karakter) aştın.",
-		"VIP Premium yükseltme fırsatları",
+		"$chars karakter: Lite kotası ($limit) aşıldı.",
+		"VIP Premium fırsatları",
 		"Daha sonra hatırlat"
 	],
-	leave: "Kaydedilmemiş değişikliklerin olabilir.",
-	date: ["Gönderi Tarihi", "Değiştirilme tarihi: ", "Gönderiler tarihe göre yeniden eskiye sıralanır."],
+	leave: "Kaydedilmemiş değişiklik olabilir.",
+	date: ["Gönderi Tarihi", "Değiştirilme tarihi: ", "En yeniler önce."],
 	subject: ["Yeni Gönderi, $date", "Gönderi Başlığı", "Yeni başlık: “$title”", "Güncelle"],
 	archive: [
-		"“$title” kaldırılsın mı? (geri alınamaz)", "Kaldır ve unut", "“$title” kaldırıldı"
+		"“$title” kaldırılsın mı? (kalıcı)", "Kaldır ve unut", "“$title” kaldırıldı"
 	],
-	unsafe: "Bu bağlantı Google Safe Browsing tarafından zararlı olarak işaretlendi.",
+	unsafe: "Google Safe Browsing zararlı olarak işaretledi.",
 	offline: "Bağlantı Kararsız",
 	lock: [
-		"İki aşamalı doğrulama olarak şifre kilidi etkinleştirilsin mi?",
+		"Şifre kilidi (2FA) açılsın mı?",
 		"Etkinleştir",
-		"Şifre kilidini devre dışı bırak",
-		"Kilit devre dışı bırakıldı",
-		"İkisini de unuttum.",
-		"Hem <u>kilit şifresini</u> hem de <u>hesap şifreni</u> unuttuysan lütfen çıkış yap ve hesap şifreni sıfırla. Sıfırlama tamamlandığında şifre kilidi devre dışı bırakılacak."
+		"Kilidi kapat",
+		"Kilit kapatıldı",
+		"İkisini de mi unuttun?",
+		"<u>Kilit şifresini</u> ve <u>hesap şifreni</u> unuttuysan çıkış yap ve şifreni sıfırla; kilit kapanacak."
 	],
 	pincode: [
-		"Lütfen kilit şifreni gir",
+		"Kilit şifreni gir",
 		"Kilit şifreni onayla",
-		"Kilit şifresini veya hesap şifreni gir",
+		"Kilit şifresi veya hesap şifresi",
 		"Yanlış Şifre",
 		"Şifreler eşleşmedi",
-		"Lütfen PIN kodunu tekrar gir",
-		"Kilit şifresi yalnızca rakamlardan oluşmalı",
-		"Kilit etkinleştirildi. 2FA kilit şifren: $pin."
+		"Şifreyi tekrar gir",
+		"Yalnızca rakam",
+		"Kilit açıldı. 2FA şifren: $pin."
 	],
-	screenshot: "Görsel oluşturuluyor. İndirmenin başlaması 10 saniyeyi bulabilir.",
+	screenshot: "Görsel oluşturuluyor. İndirme 10 saniye içinde başlar.",
 	pc: [
-		"Masaüstü uygulamasını edin", 'PC/Mac\'inde “www.hearty.me” adresini ziyaret et <i class="fal fa-globe"></i>',
-		"Masaüstü Uygulamasının Avantajları", "Büyük ekranda rahat okuma", "Fiziksel klavyeyle rahat yazma", "Gönderiler tüm cihazlarında senkronize", "Dene"
+		"Masaüstü uygulaması", 'PC/Mac\'inde “www.hearty.me” adresini ziyaret et <i class="fal fa-globe"></i>',
+		"Masaüstü Avantajları", "Büyük ekranda rahat okuma", "Klavyeyle rahat yazma", "Tüm cihazlarda senkronize", "Dene"
 	],
 	picture: [
 		"Görsel yükle",
-		"Bir görsel seç (JPG, PNG, GIF, WebP, AVIF, HEIC)",
+		"Görsel (JPG, PNG, GIF, WebP, AVIF, HEIC)",
 		"Yükle",
 		"Yeniden seç",
-		"Her gönderiye en fazla 10 fotoğraf yükleyebilirsin.",
-		"$ext seçildi, ancak yalnızca JPG, PNG, GIF, WebP, AVIF ve HEIC desteklenir",
+		"Gönderi başına en fazla 10 fotoğraf.",
+		"$ext desteklenmiyor; yalnızca JPG, PNG, GIF, WebP, AVIF ve HEIC",
 		"Görsel yüklendi",
-		"İndirme birazdan başlayacak",
-		"Kaydedilen görseli görmek için İndirilenler klasörüne git"
+		"İndirme başlıyor",
+		"İndirilenler klasörüne kaydedildi"
 	],
 	picture_err: [
-		"Desteklenmeyen görsel biçimi veya hatalı dosya uzantısı (yalnızca: JPG, PNG, GIF, WebP, AVIF, HEIC)",
-		"Görsel dosyası 6MB'ı aşıyor; lütfen yüklemeden önce sıkıştır",
-		"Görsel dosyası okunamıyor veya bozuk",
-		"HEIC/HEIF dönüştürme başarısız oldu. Lütfen başka bir görsel dene."
+		"Desteklenmeyen biçim veya uzantı (JPG, PNG, GIF, WebP, AVIF, HEIC)",
+		"6MB'ı aşıyor; önce sıkıştır",
+		"Görsel okunamıyor veya bozuk",
+		"HEIC/HEIF dönüştürülemedi. Başka görsel dene."
 	],
 	picture_remove: [
-		"Görsel kaldırılsın mı? (geri alınamaz)", "Kaldır", "Görsel kaldırıldı"
+		"Görsel kaldırılsın mı? (kalıcı)", "Kaldır", "Görsel kaldırıldı"
 	],
 	file: "Hearty_Journal",
 	trial: [
-		"Yeni gelenlere hediyemiz olarak 30 günlük ücretsiz Hearty VIP Premium denemen başladı. Deneme süresince tüm özelliklerin keyfini çıkarabilirsin.",
-		"Endişelenme. $exp tarihinden sonra senden ücret ALINMAYACAK ve ücretsiz Lite sürüme geçeceksin. Tüm gönderilerin de günlüğünde kalmaya devam edecek. ( ´･ヮ･) ♡",
+		"Hoş geldin hediyesi: tüm özellikleriyle 30 gün ücretsiz Hearty VIP Premium.",
+		"$exp sonrası ücret ALINMAZ; ücretsiz Lite'a geçersin, gönderilerin kalır. ( ´･ヮ･) ♡",
 		"Daha fazla bilgi",
-		"Günlük yazmaya başla"
+		"Yazmaya başla"
 	],
 	purchased: [
-		"VIP Premium planın hazır!",
-		"3 dakikan varsa ve görüşlerini paylaşmak istersen, seni dinlemeyi çok isteriz.",
-		"İlk anketinde 7 gün ek Premium planı ücretsiz kazanacaksın!",
+		"VIP Premium aktif!",
+		"Görüşlerin için 3 dakikan var mı?",
+		"İlk ankete 7 gün ücretsiz Premium!",
 		"Ankete katıl",
-		"Şimdi değil (veya daha önce katıldım)"
+		"Şimdi değil / katıldım"
 	],
 	n_verify_email: [
-		"Bazı özelliklerin kilidini açmak için $item doğrula",
-		"Yanıt alabilmek için e-posta doğrulaması gerekiyor."
+		"Özellikler için $item doğrula",
+		"Yanıt için e-postanı doğrula."
 	],
-	n_verify_phone: "Hesap güvenliğini artırmak için telefon numaranı doğrula",
+	n_verify_phone: "Güvenlik için telefonunu doğrula",
 	n_vip_prefix: "VIP planın",
-	n_char_limit_exceed: "$chars karakter yazdın ve Lite sürümün metin kotasına ulaştın.",
+	n_char_limit_exceed: "$chars karakter: Lite kotası doldu.",
 	n_daily_checkin: [
-		"Puanın seni bekliyor — hemen yoklama yap!",
+		"Puanın bekliyor — yoklama yap!",
 		"Bugün yoklama yaptın."
 	],
 	checkin: [
 		"Yoklama",
 		"Hearty Puanlarım: ", "P",
-		"Günlük yoklama ödülü: 1P",
-		"1P kazandın. Şu anda $pP puanın var.",
+		"Günlük yoklama: 1P",
+		"+1P! Toplam $pP.",
 		"Bugün zaten yoklama yaptın.",
 		"Yarın tekrar gel.",
-		"Hearty Puan, kullanıcıların puan kazanıp harcayabildiği bir ödül programıdır. Ürün seçenekleri ileride duyurulacaktır."
+		"Hearty Puan kazan ve harca. Ödüller yakında."
 	],
 	reward: [
-		"Ödül planlarını gör"
+		"Ödüller"
 	],
 	pd: [
 		"Regl Takvimi",
@@ -472,7 +472,7 @@ _h$["e"] = _h$["e"] || {
 	// customize my journal
 	headline: [
 		"Başlık",
-		"Günlüğün için yeni başlık gir",
+		"Yeni günlük başlığı",
 		"Kaydet",
 		"Yeni başlık: “$headline”",
 		"boş bırakılabilir"
@@ -480,25 +480,25 @@ _h$["e"] = _h$["e"] || {
 	style: [
 		"Günlüğümü Özelleştir",
 		"Varsayılana dön",
-		"İlhama mı ihtiyacın var?",
+		"İlham lazım mı?",
 		"//en.faq.hearty.me/tutorial/styles"
 	],
 	cover: [
 		"Kapak Görseli",
-		"Kapak görseli yükle",
-		"En iyi oran: 1.9:1",
+		"Kapak yükle",
+		"İdeal: 1.9:1",
 		"Onayla", // crop
 		"İptal",
-		"Görsel biçimi desteklenmiyor: $ext .",
-		"Kapak görseli yüklendi",
-		"Kapak görseli sıfırlandı"
+		"Desteklenmiyor: $ext .",
+		"Kapak yüklendi",
+		"Kapak sıfırlandı"
 	],
 	bg: [
 		"Arka Plan Görseli",
-		"Arka plan görseli yükle",
-		"Görsel biçimi desteklenmiyor: $ext .",
-		"Arka plan görseli güncellendi",
-		"Arka plan görseli sıfırlandı"
+		"Arka plan yükle",
+		"Desteklenmiyor: $ext .",
+		"Arka plan güncellendi",
+		"Arka plan sıfırlandı"
 	],
 	color: [
 		"Bir Renk Seç",
@@ -511,46 +511,46 @@ _h$["e"] = _h$["e"] || {
 		"Günlükler", "Bildirimlerim", "Çıkartmalar", "Fiyatlandırma", "Yardım Merkezi", "Bitti"
 	],
 	notification: [
-		"Okunmamış bildirim yok",
+		"Yeni bir şey yok",
 		"Masaüstü Uygulaması",
 		"Yardım Merkezi",
 		"Yenile",
 		"Hata Ayıklama Modu",
-		"VIP Premium özelliklerini edin"
+		"VIP Premium'a geç"
 	],
 	link: [
-		"Harici Bir Bağlantıya Gidiliyor",
+		"Harici Bağlantı",
 		"Google Safe Browsing ile tarandı",
 		"Git"
 	],
 	share: [
-		"Gönderi gizliliği", "Bağlantı", "Gizli", "Şifre koruması", "Herkese açık", "Akışta yayınla", "Özel veya gizli bilgi içeren gönderilerin herkese açık yapılmasına izin verilmez."
+		"Gönderi gizliliği", "Bağlantı", "Gizli", "Şifre koruması", "Herkese açık", "Akışta yayınla", "Özel veya gizli bilgileri herkese açma."
 	],
 	penpal: [
-		"Mektup Arkadaşı", "Mektup arkadaşı davet et", "Mektup arkadaşını sil", "Davet edilmiş mektup arkadaşı yok", "Şununla paylaş: "
+		"Mektup Arkadaşı", "Davet et", "Sil", "Mektup arkadaşı yok", "Şununla paylaş: "
 	],
 	qa: [
-		"Yardım Merkezi", "Genel ve Ürün Özellikleri", "Hesap ve Faturalandırma", "Veri Güvenliği ve Gizlilik", "Ağ Testi", "Hata Bildir ve Talep Oluştur", "Durum Güncellemesi", "Tüm Sistemler Çalışıyor"
+		"Yardım Merkezi", "Genel ve Özellikler", "Hesap ve Faturalandırma", "Veri ve Gizlilik", "Ağ Testi", "Hata / Talep", "Durum Güncellemesi", "Her Şey Yolunda"
 	],
 	cs: [
-		"Talep Oluştur", "Özelliklerle ilgili sorular için buraya tıkla.", "Ürün Geri Bildirimi, Hata Bildirimi veya Bir Sarılma",
-		"Yakında e-postayla yanıt alacaksın.", "Gönder", "Destek PIN'im: ",
-		"Beta özellikleri etkin"
+		"Talep Oluştur", "Soruların mı var? Tıkla.", "Geri Bildirim, Hata veya Sarılma",
+		"Yakında e-postayla yanıtlayacağız.", "Gönder", "Destek PIN'im: ",
+		"Beta açık"
 	],
 	csform: ["Ad", "VIP Premium", "Lite", "Ek"],
 	gift: [
-		"Çıkartmalarını al", "Hediye kutusunu aç", "50 özel günlük çıkartması"
+		"Çıkartmalarını al", "Hediye kutusunu aç", "50 özel çıkartma"
 	],
-	prologue: "Bugün günün nasıl geçti?",
+	prologue: "Günün nasıl geçti?",
 	pwd: "Şifre Koruması",
 	warn: [
 		"Planlı Bakım", "Yavaş Bağlantı", "Bağlantı Kararsız", "Düşük Pil"
 	],
 	tool: [
-		"Kaydet", "Yeni gönderi", "Kaldır", "Paylaş", "Görsel olarak kaydet", "Önceki gönderi", "Sonraki gönderi", "Tam ekran", "Kitabı aç", "Sayfayı çevir"
+		"Kaydet", "Yeni gönderi", "Kaldır", "Paylaş", "Görsel kaydet", "Önceki gönderi", "Sonraki gönderi", "Tam ekran", "Kitabı aç", "Sayfayı çevir"
 	],
 	rmenu: [
-		"Yardım Merkezi", "Hakkında", "Tam ekran", "繁/简", "Yazı Boyutunu Büyüt", "Yazı Boyutunu Küçült", "Sayfayı çevir", "Dikey Okuma Modu"
+		"Yardım Merkezi", "Hakkında", "Tam ekran", "繁/简", "Yazıyı Büyüt", "Yazıyı Küçült", "Sayfayı çevir", "Dikey Okuma Modu"
 	],
 	image: [
 		"Görsel", "Döndür", "Filtre uygula", "İndir", "Kaldır"
@@ -558,14 +558,14 @@ _h$["e"] = _h$["e"] || {
 	tab: [
 		"Benim", "Mektup arkadaşımın",
 		"🔍 Ara", "🔖 Favoriler", "🎧 Müzik Listesi", "🌙 Regl Takvimi", "🔒 Şifre Kilidi",
-		"Yardım Merkezi", "Dokunma Hareketleri", "Çıkartmalar için Dokunma Hareketleri"
+		"Yardım Merkezi", "Dokunma Hareketleri", "Çıkartma Hareketleri"
 	],
 	book: [
-		"Hakkında", "Telaşlı bir çağda Hearty Journal, sıcak ve huzurlu bir sığınak sunuyor. Burada insanlar yorgunluklarından sıyrılıyor, dile getiremedikleri korkularını itiraf ediyor ve en içten hallerini yeniden keşfediyor. Gökyüzü her zaman mavi olmayabilir; yine de kararlı ve nazik kalmaya devam ediyoruz."
+		"Hakkında", "Telaşlı bir çağda Hearty Journal sıcak ve huzurlu bir sığınak: yorgunluğunu bırak, söyleyemediğin korkuları anlat ve kendini yeniden bul. Gökyüzü hep mavi olmasa da kararlı ve nazik kalıyoruz."
 	],
-	promo: ["[Özel Teklif] 3 aylık VIP Premium yalnızca NT$99"],
-	403: "Gizli gönderiyi okumak için lütfen giriş yap. 🔒",
-	404: "Hay aksi, gönderi bağlantısı hatalı olabilir.",
+	promo: ["[Teklif] 3 ay VIP Premium NT$99"],
+	403: "Gizli gönderi: giriş yap. 🔒",
+	404: "Hay aksi, bağlantı hatalı olabilir.",
 	tutorial: [
 		"//i.hearty.app/b/images/tutorials/en/m1.jpg",
 		"//i.hearty.app/b/images/tutorials/en/m2.jpg",
@@ -577,7 +577,7 @@ _h$["e"] = _h$["e"] || {
 		"//i.hearty.app/b/images/tutorials/en/d4.jpg"
 	],
 	stickers: ["Tüm çıkartmalar", // Start with 1
-		"Yazılar", "Hava Durumu", "Ruh Hali", "Yaşam", "Giyim", "Günlük Eşyalar", "Yiyecek", "Seyahat ve Manzaralar", "Mevsimler ve Bayramlar", "Bitkiler", "Hayvanlar", "Sevimli Karakterler", "Fantastik"
+		"Yazılar", "Hava Durumu", "Ruh Hali", "Yaşam", "Giyim", "Günlük Eşyalar", "Yiyecek", "Seyahat", "Mevsimler ve Bayramlar", "Bitkiler", "Hayvanlar", "Karakterler", "Fantastik"
 	]
 };
 
@@ -592,42 +592,42 @@ _h$["p"] = _h$["p"] || {
 	vip: ["Hearty VIP Premium", "VIP Premium", "(Ücretsiz Deneme)"],
 	feat_lite: [
 		"Gizlilik Odaklı, Reklamsız",
-		"Metin (Kota: 5.785 karakter)",
-		"90 Çıkartma ve 20 Şık Yazı Tipi",
-		"Yerel Hava Durumu, Günlük Hatırlatıcı",
-		"Mektup Arkadaşlarınla Paylaş (En fazla 2 kişi)",
-		"2FA Şifre Kilidi, Müzik Listesi ve Regl Takvimi",
-		"iOS, Android, Windows ve macOS'ta çalışır",
-		"Amazon Web Services Destekli Otomatik Bulut Senkronizasyonu",
-		"TLS 1.3 ile Şifreli Bağlantı",
+		"Metin (en fazla 5.785 karakter)",
+		"90 Çıkartma, 20 Yazı Tipi",
+		"Hava Durumu, Günlük Hatırlatıcı",
+		"En fazla 2 Arkadaşla Paylaş",
+		"2FA Kilit, Müzik Listesi, Regl Takvimi",
+		"iOS, Android, Windows ve macOS",
+		"Otomatik Bulut Senkronizasyonu (AWS)",
+		"TLS 1.3 Şifreleme",
 		"Tayvan'da ♥ ile yapıldı",
 	],
 	feat_vip: [
-		"Lite sürümün tüm özelliklerine ek olarak: ",
+		"Lite'ın tümü, artı: ",
 		"Sınırsız Kelime",
-		"Görsel Ekleme (Gönderi başına en fazla 10)",
-		"15 Fotoğraf Efektli Görsel Galerisi",
-		"1.300+ Çıkartma (düzenli olarak güncellenir)",
-		"En Sevdiğin YouTube Videolarını Ekle",
-		"Günlük Kapağını ve Arka Planını Özelleştir",
-		"Günlüğü Yeniden Adlandır ve Gönderi Tarihlerini Düzenle",
+		"Gönderi Başına 10 Görsel",
+		"15 Efektli Galeri",
+		"1.300+ Çıkartma (sürekli yeni)",
+		"YouTube Videoları",
+		"Özel Kapak ve Arka Plan",
+		"Başlık ve Tarih Düzenleme",
 		"Kolay Arama",
-		"Word, TXT veya Görsel Olarak Dışa Aktar"
+		"Word, TXT veya Görsel Dışa Aktarım"
 	],
 	remark: [
-		"Neden VIP Premium'a yükseltmeli?",
-		"[İlk Alışveriş Kampanyası] 3 aylık VIP Premium yalnızca NT$99",
-		"aylık faturalandırılır, istediğin zaman bize ulaşarak iptal edebilirsin",
-		"Yeni müşterilere 30 gün para iade garantisi",
+		"Neden VIP Premium?",
+		"[İlk Alışveriş] 3 ay VIP Premium NT$99",
+		"aylık, istediğin zaman iptal",
+		"Yeni müşterilere 30 gün iade garantisi",
 		"Premium Özellikler"
 	],
 	act: [
-		"Ücretsiz Kaydol", "Ücretsiz Denemeyi Başlat (30 gün)", "Yükseltme Fırsatları", "Hemen Yenile", "Yükseltmek için Giriş Yap"
+		"Ücretsiz Kaydol", "30 Gün Ücretsiz Dene", "Yükseltme Fırsatları", "Hemen Yenile", "Giriş Yap ve Yükselt"
 	],
-	deposit: ["Ön Ödemeli", "Hemen satın al", "Ödeme yöntemleri: Kredi kartı, Google Pay, Alipay, Tayvan ATM"],
-	subscription: ["Aylık Plan", "Hemen Abone Ol", "(Kredi Kartı Teklifi)", "İlk alışverişte 3 ay yalnızca NT$99", "Ardından aylık NT$99 ile yenilenir", "Kredi kartı kabul edilir"],
+	deposit: ["Ön Ödemeli", "Hemen satın al", "Kredi kartı, Google Pay, Alipay, Tayvan ATM"],
+	subscription: ["Aylık Plan", "Hemen Abone Ol", "(Kredi Kartına Özel)", "İlk alışveriş: 3 ay NT$99", "Sonra aylık NT$99", "Kredi kartı"],
 	selected: ["Seçili", "En İyi"],
-	currency: ["Güncel döviz kuruna göre, "],
+	currency: ["Güncel kurla, "],
 	term: [
 		"3 ay", "6 ay", "1 yıl"
 	],
@@ -640,34 +640,34 @@ _h$["p"] = _h$["p"] || {
 
 	due: "Aboneliğim",
 	due_active: ["Aktif Abonelik"],
-	due_date: ["Bitiş tarihi: ", "", "ardından Lite sürüme geçeceksin"],
-	due_days: ["Bitişe kalan: ", " gün", "ardından Lite sürüme geçeceksin"],
-	due_tomorrow: ["Yarın sona eriyor", "ardından Lite sürüme geçeceksin"],
-	due_today: ["Bugün sona eriyor", "ardından Lite sürüme geçeceksin"],
+	due_date: ["Bitiş tarihi: ", "", "sonra Lite"],
+	due_days: ["Bitişe kalan: ", " gün", "sonra Lite"],
+	due_tomorrow: ["Yarın sona eriyor", "sonra Lite"],
+	due_today: ["Bugün sona eriyor", "sonra Lite"],
 	iap_ios: [
-		"Aylık otomatik yenileme, istediğin zaman iptal et",
-		"[Hearty Journal] iOS Abonelik Koşulları",
-		"Lite sürüm sınırlı özellik ve kaynak sunar; tam erişim için VIP'e yükselt",
-		"Abonelik, ilk satın alma fiyatın üzerinden her ay yenilenir",
-		"Etkinleştirildikten sonra otomatik olarak yenilenir ve Apple hesabın üzerinden ücretlendirilir",
-		"Bir abonelik dönemi başladıktan sonra dönem ortasında iptal veya iade yapılamaz",
-		"Süre bitiminden 24 saat önce otomatik yenilenir; istemiyorsan erkenden iptal etmeyi unutma",
-		"Planını istediğin zaman Apple Hesabı > Abonelikler bölümünden yönetebilir veya değiştirebilirsin",
-		"Senden asla telefonla ATM havalesi veya banka işlemi istemeyiz; şüpheli bir durumda Tayvan 165 dolandırıcılık ihbar hattını ara",
-		"Satın alma sonrası deneme süresi hemen sona erer. Daha uzun denemek istiyorsan abone olmak için denemenin bitmesini bekle",
+		"Aylık yenilenir, istediğin zaman iptal et",
+		"[Hearty Journal] iOS Koşulları",
+		"Lite sınırlıdır; VIP tam erişim sunar",
+		"İlk fiyattan her ay yenilenir",
+		"Apple hesabından otomatik yenilenir ve ücretlendirilir",
+		"Başlayan dönem iptal veya iade edilemez",
+		"Bitişten 24 saat önce yenilenir; istemiyorsan önceden iptal et",
+		"Apple Hesabı > Abonelikler'den yönet",
+		"Telefonla asla ATM veya banka işlemi istemeyiz; şüphelenirsen 165'i ara (Tayvan)",
+		"Satın alma denemeyi hemen bitirir. Tamamını kullanmak için sonra abone ol",
 		"Hizmet Şartları",
 		"Gizlilik Politikası"
 	],
 	iap_and: [
-		"Aylık otomatik yenileme, istediğin zaman iptal et",
-		"[Hearty Journal] Android Abonelik Koşulları",
-		"Lite sürüm sınırlı özellik ve kaynak sunar; tam erişim için VIP'e yükselt",
-		"Abonelik, ilk satın alma fiyatın üzerinden her ay yenilenir",
-		"Etkinleştirildikten sonra otomatik olarak yenilenir ve Google Play üzerinden ücretlendirilir",
-		"Bir abonelik dönemi başladıktan sonra dönem ortasında iptal veya iade yapılamaz",
-		"Süre bitiminden 24 saat önce otomatik yenilenir; istemiyorsan erkenden iptal etmeyi unutma",
-		"Planını istediğin zaman Google Play > Ödemeler ve Abonelikler bölümünden yönetebilir veya değiştirebilirsin",
-		"Senden asla telefonla ATM havalesi veya banka işlemi istemeyiz; şüpheli bir durumda Tayvan 165 dolandırıcılık ihbar hattını ara",
+		"Aylık yenilenir, istediğin zaman iptal et",
+		"[Hearty Journal] Android Koşulları",
+		"Lite sınırlıdır; VIP tam erişim sunar",
+		"İlk fiyattan her ay yenilenir",
+		"Google Play üzerinden otomatik yenilenir ve ücretlendirilir",
+		"Başlayan dönem iptal veya iade edilemez",
+		"Bitişten 24 saat önce yenilenir; istemiyorsan önceden iptal et",
+		"Google Play > Ödemeler ve Abonelikler'den yönet",
+		"Telefonla asla ATM veya banka işlemi istemeyiz; şüphelenirsen 165'i ara (Tayvan)",
 		"",
 		"Hizmet Şartları",
 		"Gizlilik Politikası"
@@ -680,31 +680,31 @@ _h$["A"] = _h$["A"] || {
 	signin: ["Giriş yap", "Yanıtlamak için giriş yap", "Önce giriş yap"],
 	back: "Geri",
 	no: "Hayır",
-	no_post: "Hay aksi, bu makale mevcut değil.",
-	penpal_guest: ["Selam, bugün Hearty Journal'daki $day. günün. Mektup arkadaşı listesini görmek için lütfen en az 7 gün günlük tut.", "Anladım"], // Eng: $day$th
+	no_post: "Makale bulunamadı.",
+	penpal_guest: ["Bugün Hearty Journal'daki $day. günün. Mektup arkadaşlarını görmek için 7 gün yaz.", "Anladım"], // Eng: $day$th
 	comment_limit: [
-		"Yinelenen yorumlar göndermiş olabilirsin. Öncekileri kaldırmak veya düzenlemek için dokun.",
-		"$chars karakter yazdın. Yorumlar en fazla 85 karakter olmalı.",
-		"Tüm yorumlar en az 4 karakter olmalı."
+		"Yorumlar yinelenmiş olabilir. Düzenlemek veya kaldırmak için dokun.",
+		"$chars karakter; en fazla 85.",
+		"En az 4 karakter."
 	],
 	comment_ban: [
-		"Yorumun moderatör tarafından onaylandıktan sonra yayınlanacak.",
-		"Verdiğimiz rahatsızlık için özür dileriz. 🥺",
-		"Hatırlatma olarak, lütfen şunlara uy: ",
+		"Yorumun onaydan sonra görünecek.",
+		"Kusura bakma! 🥺",
+		"Lütfen şunlara uy: ",
 		"Herkese Açık Gönderi Kuralları."
 	],
 	comment_edit: ["Yorum düzenlensin mi?", "Evet"],
-	report_ask: ["Bu yorum kötüye kullanım/spam olarak bildirilsin mi?", "Bildir", "Bildirimin için teşekkürler."],
+	report_ask: ["Kötüye kullanım/spam olarak bildirilsin mi?", "Bildir", "Bildirimin için teşekkürler."],
 	url: ["Kopyala", "Makalenin Bağlantısı", "QRcode'u İndir"],
-	penpal_add: ["“<b>$id</b>” mektup arkadaşın olmaya davet edilsin mi?", "Etkileşimlerin kalitesi için en fazla 2 mektup arkadaşı edinmeni öneririz.", "İleri"],
-	verify: ["Lütfen önce e-posta adresini ve telefon numaranı doğrula.", "Hesabım"],
+	penpal_add: ["“<b>$id</b>” davet edilsin mi?", "En fazla 2 mektup arkadaşı öneririz.", "İleri"],
+	verify: ["Önce e-posta ve telefonunu doğrula.", "Hesabım"],
 
 	// DOMs
 	title: "Alice'in Ziyaretçi Defteri",
 	board: "Alice'in ziyaretçi defteri",
 	tabs: ["Yorumlar", "Makale Dizini", "Mektup Arkadaşları", "Paylaş", "Bize 5 yıldız ver", "Şişedeki Mesajlar"],
-	comment: ["Yanıtla", "Yanıtlamak için giriş yap", "Karakter sınırı aşıldı (85 karakter)"],
-	profile: ["Mektup arkadaşı olarak davet et", "Günlüğüm"],
+	comment: ["Yanıtla", "Yanıtlamak için giriş yap", "En fazla 85 karakter"],
+	profile: ["Davet et", "Günlüğüm"],
 	gotop: "Yukarı",
 	goleft: "Geri dön"
 };
@@ -713,14 +713,14 @@ _h$["A"] = _h$["A"] || {
 _h$["f"] = _h$["f"] || {
 	// JS
 	refresh: ["Yükleniyor", "Aşağı çek", "Yenilemek için bırak"],
-	signin: ["Giriş yap", "İstenen özelliği kullanmak için giriş yap"],
+	signin: ["Giriş yap", "Kullanmak için giriş yap"],
 	no: "İptal",
 	url: ["Kopyala", "Gönderi bağlantısı ve QRcode"],
-	publish_ask: ["Gönderini herkese açık akışta yayınlamak ister misin?", "Günlüğünde", "simgesine dokunarak gönderi yayınlayabilirsin.", "Anladım", "Günlüğüm"],
+	publish_ask: ["Akışta yayınlansın mı?", "Günlüğünde", "simgesine dokunarak yayınla.", "Anladım", "Günlüğüm"],
 	report_ask: ["“$title” kötüye kullanım/spam olarak bildirilsin mi?", "Bildir", "“$title” bildirildi. Teşekkürler."],
 
 	// DOMs
-	title: "Herkese Açık Gönderi Akışı (Sayfa $p)",
+	title: "Herkese Açık Akış (Sayfa $p)",
 	share: "Paylaş",
 	report: "Kötüye Kullanımı Bildir",
 	focus_post: "Akışta göster",
@@ -728,14 +728,14 @@ _h$["f"] = _h$["f"] || {
 	publish: "Yayınla",
 	gotop: "Yukarı Git",
 	back: "Geri",
-	health: ["Sağlık bilgileri için lütfen CDC'nin web sitesine başvur. ( • ̀ω•́ )", "//www.cdc.gov.tw"]
+	health: ["Sağlık bilgisi: CDC web sitesi. ( • ̀ω•́ )", "//www.cdc.gov.tw"]
 };
 
 // img
 _h$["I"] = _h$["I"] || {
 	title: "Galeri",
 	upload: "Görsel yükle",
-	empty: ["Yüklenmiş görsel yok", "Şimdi bir tane eklemek ister misin?"],
+	empty: ["Görsel yok", "Bir tane eklensin mi?"],
 	add: "Görsel ekle",
 	gotop: "Yukarı Git",
 	layout: ["Izgara", "Döşeme"]
@@ -744,36 +744,36 @@ _h$["I"] = _h$["I"] || {
 // account
 _h$["a"] = _h$["a"] || {
 	passkey: [
-		"Passkey (geçiş anahtarları)",
+		"Passkey",
 		"Passkey ekle",
 		"Henüz Passkey yok",
 		"Passkey nedir?",
-		"Passkey (geçiş anahtarı), cihazının Face ID, parmak izi veya ekran kilidiyle giriş yapmanı sağlar. Hearty ID ve şifre girmen gerekmez, kimlik avı sitelerine karşı da güvendesin.<br><br>Passkey'ler cihazında veya bir şifre yöneticisinde (iCloud Anahtar Zinciri, Google Şifre Yöneticisi gibi) saklanır. Hearty Journal yalnızca giriş için kullanılamayan bir açık anahtar saklar.<br><br>Bir Passkey'i kaldırmak, giriş yapılmış cihazlarda oturumu kapatmaz. Hearty ID'ni değiştirdikten sonra şifre yöneticin eski adı göstermeye devam edebilir; bu girişi etkilemez.",
-		"Oluşturduktan sonra Hearty ID ve şifre girmeden giriş yapabilirsin",
+		"Face ID, parmak izi veya ekran kilidiyle giriş yap; Hearty ID ve şifre gerekmez, kimlik avına karşı güvenlisin.<br><br>Passkey'ler cihazında veya şifre yöneticisinde (ör. iCloud Anahtar Zinciri, Google Şifre Yöneticisi) saklanır. Hearty Journal yalnızca girişte kullanılamayan bir açık anahtar tutar.<br><br>Kaldırmak açık oturumları kapatmaz. ID değişikliğinden sonra eski ad görünebilir; girişi etkilemez.",
+		"Hearty ID ve şifre olmadan giriş",
 		"Yeniden adlandır",
 		"Passkey adı (en fazla 20 karakter)",
-		"Ad 1 ~ 20 karakter olmalıdır",
+		"Ad: 1 ~ 20 karakter",
 		"Kaldır",
-		"“$name” kaldırılsın mı?<br>Kaldırdıktan sonra bununla Hearty Journal'a giriş yapamazsın. Giriş yapılmış cihazların oturumu kapanmaz.<br>Bu Passkey'i şifre yöneticinden de silmeyi unutma.",
-		"Bu son Passkey'in ve hesabında şifre tanımlı değil. Kaldırdıktan sonra yalnızca harici bir hesapla giriş yapabilirsin.",
-		"Bu cihaz şu anda bu Passkey ile giriş yapmış durumda. Kaldırsan da bu cihazda oturum açık kalır.",
+		"“$name” kaldırılsın mı?<br>Artık bununla giriş yapamazsın; açık oturumlar kalır.<br>Şifre yöneticinden de sil.",
+		"Son Passkey ve şifre yok: sonra yalnızca harici hesapla giriş yapabilirsin.",
+		"Bu cihaz bu Passkey'i kullanıyor; oturum açık kalır.",
 		"Passkey kaldırıldı",
-		"Diğer cihazlarınla eşzamanlanır",
+		"Cihazlarınla eşzamanlanır",
 		"Yalnızca bu cihazda",
 		"Henüz eşzamanlanmadı",
 		"Şu anda kullanılıyor",
 		"Oluşturulma: $date",
 		"Son kullanım: $date",
 		"Henüz kullanılmadı",
-		"Sen olduğunu doğrulamak için mevcut şifreni gir",
+		"Doğrulamak için mevcut şifreni gir",
 		"Şifre yanlış",
-		"Passkey sınırına ulaşıldı (10). Önce kullanmadığın bir Passkey'i kaldır",
-		"Bu cihazda veya şifre yöneticisinde zaten bir Passkey oluşturulmuş",
-		"Passkey oluşturuldu! Bir dahaki sefere Passkey ile giriş yapabilirsin",
-		"Mevcut bir Passkey ile kimliğini doğrula",
+		"En fazla 10 Passkey. Kullanılmayanı kaldır",
+		"Bu cihazda veya yöneticide zaten Passkey var",
+		"Passkey oluşturuldu! Sonraki girişte kullan",
+		"Mevcut Passkey ile doğrula",
 		"İleri",
-		"Zaman aşımı. Lütfen tekrar dene",
-		"Çok fazla başarısız deneme. Lütfen 15 dakika sonra tekrar dene"
+		"Zaman aşımı. Tekrar dene",
+		"Çok fazla deneme. 15 dakika sonra dene"
 	],
 	// JS
 	ok: ["Tamam", "Onayla", "Elbette", "Doğru"],
@@ -783,81 +783,81 @@ _h$["a"] = _h$["a"] || {
 	upload: "Yükle",
 	rotate: "Döndür",
 	retry: "Tekrar dene",
-	signin: ["Giriş yap", "İstenen özelliği kullanmak için giriş yap"],
-	usage: "$num gönderide $chars karakter yazdın.",
-	points: "$p puan (Kullanım planlarını gör)",
+	signin: ["Giriş yap", "Kullanmak için giriş yap"],
+	usage: "$num gönderide $chars karakter.",
+	points: "$p puan (kullan)",
 	year: "", // CE
-	bday_ask: ["Doğum günün $bday mi?", "Doğum tarihi değiştirilemez.", "Doğum günü güncellendi"],
+	bday_ask: ["Doğum günün $bday mi?", "Sonradan değiştirilemez.", "Doğum günü kaydedildi"],
 	age: "$age yaşında",
 	nickname_edited: "Yeni takma adın: “$n”",
 	pwd_edit: "Şifreyi Değiştir",
 	pwd_edited: "Değiştirildi",
 	pwd_enter: "Yeni şifreni gir.",
-	pwd_confirm: "Onaylamak için şifreni tekrar gir.",
-	pwd_invalid: "Şifre 6 ~ 20 karakter uzunluğunda olmalı. Lütfen tekrar dene.",
-	pwd_mismatch: "Şifreler eşleşmedi. Lütfen tekrar dene.",
+	pwd_confirm: "Şifreyi tekrar gir.",
+	pwd_invalid: "Şifre: 6 ~ 20 karakter.",
+	pwd_mismatch: "Şifreler eşleşmedi.",
 	pwd_format: "6 ~ 20 karakter",
 	pwd_apply: ["Değiştir", "Onayla"],
-	pwd_ok: ["Şifre değiştirildi. Bir dahaki sefere lütfen yeni şifrenle giriş yap.",
-				"Yetkisiz erişimi önlemek için lütfen şifreni güvende ve gizli tut."],
-	avatar: ["Bir görsel seç (JPG, PNG, GIF, WebP, AVIF, HEIC)", "$ext seçildi, ancak yalnızca JPG, PNG, GIF, WebP, AVIF ve HEIC desteklenir", "Yeniden seç", "Profil fotoğrafı yüklendi"],
+	pwd_ok: ["Şifre değişti. Sonraki girişte yenisini kullan.",
+				"Şifreni gizli tut."],
+	avatar: ["Görsel (JPG, PNG, GIF, WebP, AVIF, HEIC)", "$ext desteklenmiyor; yalnızca JPG, PNG, GIF, WebP, AVIF ve HEIC", "Yeniden seç", "Profil fotoğrafı yüklendi"],
 	avatar_err: [
-		"Desteklenmeyen görsel biçimi veya hatalı dosya uzantısı (yalnızca: JPG, PNG, GIF, WebP, AVIF, HEIC)",
-		"Görsel dosyası 6MB'ı aşıyor; lütfen yüklemeden önce sıkıştır",
-		"Görsel dosyası okunamıyor veya bozuk",
-		"HEIC/HEIF dönüştürme başarısız oldu. Lütfen başka bir görsel dene."
+		"Desteklenmeyen biçim veya uzantı (JPG, PNG, GIF, WebP, AVIF, HEIC)",
+		"6MB'ı aşıyor; önce sıkıştır",
+		"Görsel okunamıyor veya bozuk",
+		"HEIC/HEIF dönüştürülemedi. Başka görsel dene."
 	],
-	email_new: "Hesap e-postasını değiştir",
-	email_confirm: "E-posta adresin “$email” olarak değiştirilsin mi?",
-	email_invalid: "E-posta adresi geçersiz",
-	email_verify: ["Hesap güvenliği için önce e-postanı doğrulaman gerekiyor, ardından ", "bazı özelliklerin kilidini açabilirsin.", "Şimdi doğrula"],
-	email_send: "Doğrulama e-postası tekrar gönderilsin mi?",
-	email_sent: ["Doğrulama e-postası gönderildi, e-postanı $isp üzerinde kontrol etmek ister misin?",
-				"Doğrulama e-postası gönderildi, lütfen gelen kutunu kontrol et."],
-	email_verified: "E-posta adresi zaten doğrulanmış.",
-	pin: ["Destek PIN'i: $pin<br><small>(Destek PIN'i, destek ekibiyle iletişime geçtiğinde kimliğini doğrulamak için kullanılan bir güvenlik önlemidir.)</small>", "İndir"],
+	email_new: "E-postayı değiştir",
+	email_confirm: "E-posta “$email” olsun mu?",
+	email_invalid: "Geçersiz e-posta",
+	email_verify: ["Güvenlik için e-postanı doğrula, böylece ", "özelliklerin kilidini açabilirsin.", "Şimdi doğrula"],
+	email_send: "Doğrulama tekrar gönderilsin mi?",
+	email_sent: ["E-posta gönderildi. $isp açılsın mı?",
+				"E-posta gönderildi, gelen kutuna bak."],
+	email_verified: "E-posta zaten doğrulanmış.",
+	pin: ["Destek PIN'i: $pin<br><small>(Destekle iletişimde kimliğini doğrular.)</small>", "İndir"],
 	font: [
 		"Şık Yazı Tipleri",
 		"i/fonts_en.png",
-		"Justfont web yazı tipi hizmetinin yanı sıra ticari ve açık kaynaklı yazı tipleri kullanılmaktadır.",
+		"Justfont, ticari ve açık kaynak yazı tipleri.",
 		"Lisanslar"
 	],
-	font_change: "Yazı tipi değiştiriliyor: “$font”. Lütfen bekle.",
+	font_change: "Yazı tipi: “$font”…",
 	gender_edited: "Cinsiyet güncellendi",
 	newsletter_edited: "Değişiklik uygulandı",
 	lang: "Dil değiştiriliyor: $lang",
-	timezone_edited: "Saat dilimi “$tz” olarak ayarlandı",
+	timezone_edited: "Saat dilimi: “$tz”",
 	id: "Hearty ID: ",
 	id_edit: "ID'mi değiştir",
-	id_public: "Hearty ID ve takma ad herkese açıktır",
+	id_public: "ID ve takma ad herkese açık",
 	id_new: "Yeni ID'ni gir",
-	id_format: "Geçerli bir Hearty ID yalnızca harf ve rakamlardan oluşmalı ve 4 ~ 20 karakter uzunluğunda olmalıdır. ID'ni yalnızca bir kez değiştirebilirsin.",
-	id_invalid: "Girdiğin ID gereksinimleri karşılamıyor.",
+	id_format: "4 ~ 20 harf ve rakam. Yalnızca bir kez değiştirilebilir.",
+	id_invalid: "Geçersiz ID.",
 	id_same: "Mevcut ID'den farklı olmalı.",
-	id_taken: "<b>“$id”</b> zaten kullanımda. Lütfen başka bir tane seç.",
-	id_edited: "Hearty ID'n artık “<b>$id</b>”",
-	id_signout: "Yeni Hearty ID'nle giriş yap",
-	dl: "TXT dosyasına aktar",
-	dl_pc: "Yedeğini indirmek için bir bilgisayarda “<u>www.hearty.me</u>” adresini aç.",
-	dl_pwd: ["Günlüğünün şifresini çözmek için şifreni gir", "Hesap şifresi (6 ~ 20 karakter)", "TXT dosyasına aktar", "Dışa aktarma başladı", "Yedeğin dışa aktarıldı. Lütfen indirilenler klasörünü kontrol et ve dosyayı gizli ve güvende tut."],
-	dl_fmt: ["Yedekleme biçimini seçin", "Metin dosyası (.txt)", "Fotoğraflı Word belgesi (.docx)", "İleri"],
-	dl_doc: ["$posts gönderi, $images fotoğraf<br>Dönüştürme birkaç dakikadan onlarca dakikaya kadar sürebilir, lütfen sabırlı olun", "Dışa aktarmayı başlat", "Dönüştürülüyor: $done / $total fotoğraf, lütfen bekleyin", "Dönüştürülüyor, lütfen bekleyin", "Word belgeniz kaydedildi. Lütfen güvenli bir yerde saklayın.", "$n fotoğraf yüklenemedi ve atlandı", "Dışa aktarma yarıda kesildi. Lütfen daha sonra tekrar deneyin.", "Word'e aktarma yalnızca bilgisayardaki Chrome veya Edge'de desteklenir. Lütfen tarayıcınızı değiştirin ya da metin dosyasını seçin.", "Dışa aktarma tarihi: $date · $posts gönderi", "Şifre yanlış. Lütfen tekrar deneyin.", "Henüz dışa aktarılacak gönderi yok", "Word'e aktar"],
+	id_taken: "<b>“$id”</b> kullanımda. Başka seç.",
+	id_edited: "Yeni Hearty ID: “<b>$id</b>”",
+	id_signout: "Yeni ID ile giriş yap",
+	dl: "TXT'ye aktar",
+	dl_pc: "Yedeği bilgisayardan “<u>www.hearty.me</u>” üzerinden indir.",
+	dl_pwd: ["Şifre çözme için şifren", "Hesap şifresi (6 ~ 20 karakter)", "TXT'ye aktar", "Aktarım başladı", "Yedek İndirilenler'e aktarıldı. Güvende tut."],
+	dl_fmt: ["Yedek biçimi", "Metin dosyası (.txt)", "Fotoğraflı Word (.docx)", "İleri"],
+	dl_doc: ["$posts gönderi, $images fotoğraf<br>Dönüştürme dakikalar ile yarım saat sürebilir", "Dışa aktarmayı başlat", "Dönüştürülüyor: $done / $total fotoğraf…", "Dönüştürülüyor…", "Word kaydedildi. Güvende tut.", "$n fotoğraf atlandı (yüklenemedi)", "Aktarım kesildi. Sonra tekrar dene.", "Word yalnızca bilgisayarda Chrome/Edge'de. Tarayıcını değiştir ya da metni seç.", "Dışa aktarma tarihi: $date · $posts gönderi", "Şifre yanlış.", "Aktarılacak gönderi yok", "Word'e aktar"],
 	vip_only: ["Bu", " bir Premium özelliktir.", "Yükseltme Fırsatları", "Şimdi değil"],
-	suspend: ["Hesabını silmek istediğinden emin misin? Şimdilik ihtiyacın yoksa saklayabilirsin! Yeni özellikler ve sevimli çıkartmalar eklemeye devam edeceğiz — belki bir gün geri dönüp göz atmak istersin.", "Ya da ID'ni değiştirmek için <u>buraya</u> tıkla", "Sil", "Şimdilik sakla"],
-	auth_log: ["Son Hesap Etkinliği", "$browser, $device", "Güvenliği artır", "//go.hearty.me/hj-sec"],
+	suspend: ["Hesap silinsin mi? Saklayabilirsin de — sürekli yeni özellik ve çıkartma ekliyoruz, belki bir gün dönersin.", "Ya da ID'ni <u>buradan</u> değiştir", "Sil", "Şimdilik sakla"],
+	auth_log: ["Son Etkinlik", "$browser, $device", "Güvenliği artır", "//go.hearty.me/hj-sec"],
 	redeem: ["Kupon kodu", "Kullan"],
-	coupon_ok: ["“$coupon” kullanıldı ve şu anda inceleniyor.",
-				"İncelemeden sonra 3 iş günü içinde hesabına kredi tanımlanacak. Lütfen birkaç gün içinde [Plan Ayrıntıları] bölümünü kontrol et."],
-	voucher_ok: "“$code” kodu başarıyla kullanıldı! $exp tarihine kadar geçerli $days günlük VIP erişimi kazandın.",
-	voucher_invalid: "Kupon kodu zaten kullanılmış veya geçersiz.",
-	voucher_disqualified: "Her hesap yalnızca bir deneme kuponu kullanabilir. Zaten bir tane kullandın.",
+	coupon_ok: ["“$coupon” kullanıldı, inceleniyor.",
+				"Kredi incelemeden sonra 3 iş günü içinde gelir; [Plan Ayrıntıları]'na bak."],
+	voucher_ok: "“$code” kullanıldı! $exp'e kadar $days gün VIP.",
+	voucher_invalid: "Kod kullanılmış veya geçersiz.",
+	voucher_disqualified: "Hesap başına bir deneme kuponu; zaten kullanıldı.",
 	voucher_vvip: [
-		"VVIP Sadakat Programı Teklifi",
-		"Yıllık yenilemede özel %40 indirim (Ön Ödemeli Plan)",
+		"VVIP Teklifi",
+		"Yıllık yenilemede %40 indirim (ön ödemeli)",
 		"Satın al"
 	],
 	voucher_ec: [
-		"Bu bir <u>Hearty Life Shop alışveriş kuponudur</u>.",
+		"<u>Hearty Life Shop kuponu</u>.",
 		"Alışverişe başla"
 	],
 
@@ -868,16 +868,16 @@ _h$["a"] = _h$["a"] || {
 	nickname: ["Takma ad", "Güncelle"],
 	pincode: "Destek PIN'i",
 	bday: "Doğum",
-	email: ["Doğrulama e-postası gönder", "Doğrulama e-postasını tekrar gönder", " saniye sonra tekrar gönder"],
+	email: ["Doğrulama gönder", "Doğrulamayı tekrar gönder", " saniye sonra tekrar gönder"],
 	style: ["Tasarım", "Günlüğümü Özelleştir"],
 	gender: ["Cinsiyet", "Erkek", "Kadın"],
-	phone: ["Telefon", "Telefon numarasını doğrula"],
+	phone: ["Telefon", "Telefonu doğrula"],
 	pwd: "Şifre",
 	pfont: ["Gönderi Yazı Tipleri", "Yazı tipi önizlemesi"],
 	language: "Dil",
 	timezone: "Saat Dilimi",
-	newsletter: ["Bülten", "Abone ol (ara sıra haberler ve hikayeler)"],
-	newsletter_shop: ["Mağaza bülteni", "Abone ol (yeni ürünler ve kampanyalar)"],
+	newsletter: ["Bülten", "Abone ol (haberler ve hikayeler)"],
+	newsletter_shop: ["Mağaza bülteni", "Abone ol (ürünler ve kampanyalar)"],
 	rate: ["Sevgi ve Sarılma", "Bize 5 yıldız ver"],
 	misc: "Diğer",
 	auth: ["Etkinlik", "Sil"],
@@ -926,37 +926,37 @@ _h$["o"] = _h$["o"] || {
 	back: "Geri",
 	redeem: "Hediyeni Kullan",
 	buy: ["VIP Premium'u dene", "Planımı yenile"],
-	plan: ["Planım", "Plan değişiklikleri veya kayıtlı kredi kartını güncellemek için lütfen bizimle iletişime geç ve Hearty ID'ni belirt.", "“VIP Premium (Ücretsiz deneme)” yeni gelenlere özel ücretsiz bir hediyedir.<br>Endişelenme, deneme süresi bittiğinde otomatik olarak ücretsiz Lite sürüme geçeceksin."],
+	plan: ["Planım", "Plan veya kart değişikliği için Hearty ID'nle bize yaz.", "“VIP Premium (Ücretsiz deneme)” hoş geldin hediyesidir.<br>Bitince otomatik olarak ücretsiz Lite'a geçersin."],
 	order: ["Siparişlerim"],
 	plan_th: ["Durum", "Plan", "Başlangıç", "Bitiş", "Hearty Journal "],
 	order_th: ["Durum", "No.", "Ürün", "TWD$", "Ödeme ", "Fatura"],
 	order_status: ["Ödenmedi", "Ödendi",  "Etkinleştirildi", "Gecikmiş", "İptal edildi"],
 	plan_status: ["Aktif", "Süresi doldu"],
-	url: ["Bağlantıyı paylaş | QRcode", "Kopyala"],
+	url: ["Bağlantı | QRcode", "Kopyala"],
 
 	// bill
 	fail: [
 		"Ödeme Başarısız",
-		"Önce aynı kredi kartıyla tekrar denemeni ya da farklı bir kart kullanmanı öneririz. Çoğu durumda bu sorunu çözer.",
-		"Herhangi bir sorun olursa lütfen bize bildir."
+		"Aynı ya da başka bir kartla tekrar dene; genelde çözülür.",
+		"Sorun olursa bize bildir."
 	],
 	fail_info: [
 		"Yaygın Neden", "Ayrıntı",
-		"Kart Bilgileri Hatalı", "Kart numarası, CVV veya son kullanma tarihi yanlış girildi.",
-		"Yetersiz Bakiye", "Kullanılabilir bakiyene veya kredi limitine ulaşıldı.",
-		"Kart Uygun Değil", "Kartın çevrim içi/yurt dışı kullanıma açık olmayabilir. Bu durumda kartına çevrim içi/yurt dışı alışveriş izni tanımlaması için kartını veren bankayla iletişime geç.",
-		"Ödeme Reddedildi", "Olağan dışı veya yurt dışı işlemler, kartı veren bankanın otomatik dolandırıcılık önleme sistemini tetikleyerek ödemeyi reddetmesine neden olabilir. Bu durumda bankana bilgi vererek işlemin engelini kaldırmasını istemek işe yarayabilir."
+		"Kart Bilgileri Hatalı", "Kart no, CVV veya son kullanma tarihi yanlış.",
+		"Yetersiz Bakiye", "Bakiye veya limit doldu.",
+		"Kart Uygun Değil", "Kartın çevrim içi/yurt dışı kullanıma kapalı olabilir. Bankandan açmasını iste.",
+		"Ödeme Reddedildi", "Bankanın dolandırıcılık sistemi olağan dışı veya yurt dışı ödemeleri reddedebilir. Bankandan engeli kaldırmasını iste."
 	],
 	fail_btn: [
 		"Tekrar dene",
-		"Destekle İletişime Geç",
+		"Destekle İletişim",
 	],
 
 
 	// thankyou
 	thx: [
-		"Siparişin tamamlandı! Teşekkür ederiz!",
-		"Siparişin için çok teşekkür ederiz; uzun ve sağlıklı bir birliktelik dileriz. Herhangi bir şeye ihtiyacın olursa lütfen bizimle iletişime geçmekten çekinme."
+		"Sipariş tamamlandı! Teşekkürler!",
+		"Uzun bir birliktelik dileriz. Bir şeye ihtiyacın olursa bize yaz."
 	],
 	thx_th: [
 		"Paket",
@@ -967,16 +967,16 @@ _h$["o"] = _h$["o"] || {
 		"Tutar",
 		"Ödeme yöntemi",
 		"Fatura",
-		"Plan değişiklikleri veya kayıtlı kredi kartını güncellemek için lütfen bizimle iletişime geç ve Hearty ID'ni belirt."
+		"Plan veya kart değişikliği için Hearty ID'nle bize yaz."
 		//
 		// "For monthly plan users, you can cancel your subscription anytime by contacting us with your Hearty ID."
 	],
 	thx_inv: [
-		"Hearty Creative Inc. tarafından düzenlenen Tayvan KDV faturası",
+		"Hearty Creative Inc. Tayvan faturası",
 		"Görüntüle"
 	],
 	thx_btn: [
-		"VIP Anketi (yeni müşteriler için)",
+		"VIP Anketi (yeni müşteriler)",
 		"Ekran görüntüsü",
 		"Günlüğe Dön"
 	]
@@ -987,18 +987,18 @@ _h$["pv"] = _h$["pv"] || {
 	// JS
 	ok: "Tamam",
 	no: "İptal",
-	signin: ["Giriş yap", "Lütfen önce giriş yap."],
-	format: ["Numara çok kısa görünüyor.", "Numara geçersiz.", "Kota sınırına ulaştın. Lütfen daha sonra tekrar dene."],
-	verify1: ["Doğrula", "Doğrulama kodunu gir: ", "<br><small>Bir <b>Firebase SMS</b> gönderildi, lütfen 45 saniye bekle ve telefonunu kontrol et.</small>", "$no artık doğrulandı!"],
-	verify2: ["Doğrulama kodu gelmedi mi?", "Manuel doğrulama için bize bir SMS gönder. (Operatör ücretleri uygulanabilir)", "Gönder", "Manuel doğrulama 72 iş saati içinde tamamlanacak.", "[Doğrulama] Hearty ID: "],
-	verify3: ["Doğrulama kodu gelmedi mi?", "Manuel doğrulama için lütfen Hearty ID'ni ve telefon numaranı ilet.", "Bize mesaj gönder"],
-	code: ["SMS doğrulama kodu", "Tekrar dene", "6 haneli bir sayı olmalı.", "Kod geçersiz.", "Kodun süresi doldu, lütfen baştan başla."],
-	fail: "Google Auth düzgün yüklenemedi, lütfen sayfayı yenile.",
+	signin: ["Giriş yap", "Önce giriş yap."],
+	format: ["Numara çok kısa.", "Numara geçersiz.", "Sınıra ulaşıldı. Sonra tekrar dene."],
+	verify1: ["Doğrula", "Doğrulama kodu: ", "<br><small><b>Firebase SMS</b> gönderildi; 45 saniye bekle.</small>", "$no doğrulandı!"],
+	verify2: ["Kod gelmedi mi?", "Manuel doğrulama için bize SMS gönder (ücret olabilir).", "Gönder", "Manuel doğrulama 72 iş saati içinde.", "[Doğrulama] Hearty ID: "],
+	verify3: ["Kod gelmedi mi?", "Manuel doğrulama için Hearty ID ve numaranı gönder.", "Bize mesaj gönder"],
+	code: ["SMS doğrulama kodu", "Tekrar dene", "6 haneli olmalı.", "Kod geçersiz.", "Kodun süresi doldu, baştan başla."],
+	fail: "Google Auth yüklenemedi, sayfayı yenile.",
 
 	// DOMs
 	title: "Telefon Numarasını Doğrula",
 	back: "Hesabım",
-	verify: ["Telefon Numarasını Doğrula", "Telefon numaran", "Doğrula", "Kodu gir", "SMS gelmedi mi?", "Tekrar gönder", "30 saniye sonra tekrar dene"]
+	verify: ["Telefon Numarasını Doğrula", "Telefon numaran", "Doğrula", "Kodu gir", "SMS gelmedi mi?", "Tekrar gönder", "30 sn sonra tekrar dene"]
 };
 
 // email
@@ -1009,16 +1009,16 @@ _h$["em"] = _h$["em"] || {
 	],
 	unsubscribe: "Abonelikten Çık",
 	ask: [
-		"Abonelikten çıktıktan sonra artık site mesajları veya mektup arkadaşı bildirimleri almayacaksın.",
-		"Abonelikten çıktıktan sonra artık yeni ürün veya kampanya duyuruları almayacaksın.",
-		"Evet, aboneliğimi iptal et"
+		"Artık site mesajları ve mektup arkadaşı bildirimleri gelmeyecek.",
+		"Artık ürün ve kampanya duyuruları gelmeyecek.",
+		"Evet, iptal et"
 	],
 	ok: "Tamam",
 	back: "Geri",
-	unsubscribed: "“$email” aboneliği iptal edildi. Değişiklik yarın geçerli olacak.",
+	unsubscribed: "“$email” aboneliği iptal edildi (yarından itibaren).",
 	remarks: [
-		"Önemli hesap bildirimlerini (şifre sıfırlama, politika güncellemeleri vb.) almaya devam edeceksin.",
-		"Hiçbir e-posta almak istemiyorsan lütfen Hearty Journal hesabını sil."
+		"Önemli bildirimler (şifre, politika vb.) gelmeye devam edecek.",
+		"Hiç e-posta istemiyorsan hesabını sil."
 	]
 };
 
@@ -1031,25 +1031,25 @@ _h$["pt"] = _h$["pt"] || {
 	close: "Kapat",
 	signin: [
 		"Giriş Yap",
-		"Lütfen önce Hearty Journal'a giriş yap."
+		"Önce giriş yap."
 	],
 	redeem: [
-		"<u>$pkg</u> için $p puan kullanmak istediğinden emin misin?",
-		"“Onayla”ya tıklayarak koşulları kabul etmiş olursun",
-		"Yetersiz puan. $pkg alınamıyor.",
-		"Bu plan henüz puanla alınamıyor."
+		"<u>$pkg</u> için $p puan kullanılsın mı?",
+		"“Onayla” ile koşulları kabul edersin",
+		"$pkg için puan yetersiz.",
+		"Henüz kullanılamıyor."
 	],
 	ec_ok: [
-		"Hearty Life alışveriş kuponu (NT$$amt) kodun: <b>$code</b>",
-		"“Kayıtlarım” bölümünden kontrol edebilirsin. $exp tarihinden önce kullanmayı unutma."
+		"Hearty Life kuponu (NT$$amt): <b>$code</b>",
+		"“Kayıtlarım”da bulabilirsin. $exp'e kadar kullan."
 	],
 	vip_ok: [
-		"Puan kullanımı başarılı! $exp tarihine kadar geçerli $days günlük VIP Premium üyeliği kazandın.",
+		"Başarılı! $exp'e kadar $days gün VIP Premium.",
 		"Şimdi görüntüle"
 	],
 
 	// DOMs
-	title: "Hearty Puan Ödül Programı",
+	title: "Hearty Puan Ödülleri",
 	points: ["Hearty Puanlarım", "P"],
 	coupons: [
 		"Kayıtlarım",
@@ -1059,19 +1059,19 @@ _h$["pt"] = _h$["pt"] || {
 		"Oluşturma",
 		"Son Kullanma",
 		"Kullanıldı",
-		"Henüz hiç kodun yok."
+		"Kod yok."
 	],
 	label: [
 		"En İyi",
 		"Popüler"
 	],
 	use: [
-		"Kuponu mağazada kullan"
+		"Mağazada kullan"
 	],
-	agree: ["Lütfen koşulları oku ve kabul et."],
+	agree: ["Koşulları kabul et."],
 	get: [
 		"Nasıl puan kazanılır?",
-		"Her gün yoklama yaparak puan kazanabilirsin. Yoklama ekranına ulaşmak için günlüğün sağ üst köşesindeki zil simgesine tıklaman yeterli.",
+		"Her gün yoklama yap: günlüğün sağ üstündeki zile tıkla.",
 		"Şimdi Yoklama Yap"
 	],
 
@@ -1085,7 +1085,7 @@ _h$["pt"] = _h$["pt"] || {
 		"30 günlük"
 	],
 	pkg_ec100: [
-		"Hearty Life Alışveriş Kuponu (Dijital Ürünler)",
+		"Hearty Life Kuponu (Dijital)",
 		"NT$ 100"
 	]
 };

@@ -9,10 +9,10 @@ _h$["h"] = _h$["h"] || {
 	ok: "Certo",
 	qr: "QRcode_Hearty",
 	copy: "Copiato",
-	err: "Il server è occupato, riprova più tardi. Se il problema persiste, faccelo sapere.",
-	satisfy: ["Che tu ci adori o pensi che potremmo fare di meglio, vogliamo saperlo!", "Lo adoro!", "Da migliorare"],
-	rate: ["La tua recensione motiva il nostro piccolo team a rendere Hearty Journal ancora migliore.", "Ci daresti 5 stelle?", "Grazie per la tua recensione.", "༼ つ ◕_◕ ༽つ"],
-	notify: ["Attivare le notifiche?", "Vuoi ricevere notifiche personalizzate? (es. messaggi dagli amici di penna)", "Certo", "Non ora"],
+	err: "Server occupato, riprova più tardi. Se persiste, avvisaci.",
+	satisfy: ["Ci adori o possiamo migliorare? Diccelo!", "Lo adoro!", "Da migliorare"],
+	rate: ["La tua recensione motiva il nostro piccolo team.", "Ci daresti 5 stelle?", "Grazie per la tua recensione.", "༼ つ ◕_◕ ༽つ"],
+	notify: ["Attivare le notifiche?", "Ricevere notifiche personalizzate? (es. dagli amici di penna)", "Certo", "Non ora"],
 	downloading: "Download in corso"
 };
 
@@ -27,14 +27,14 @@ _h$["m"] = _h$["m"] || {
 	no: "No",
 	back: "Indietro",
 	nav: ["Menu", "Hearty Journal", "Il mio diario"],
-	signout: ["Esci", "Vuoi uscire adesso?"],
+	signout: ["Esci", "Uscire ora?"],
 
 	// DOMs
 	avatar: [
 		"Il mio account", "Accedi", "VIP Premium, Hearty Journal"
 	],
 	menu: [
-		"Versetto del giorno", "Il libro degli ospiti di Alice", "Bacheca dei post", "Hearty Blog", "Il mio diario", "Galleria", "Life Shop", "Passa a VIP", "Tutorial", "Chi siamo", "Esci", "per Windows", "per macOS", "App Windows/macOS", "App mobile", "Lingua 語言", "Dacci 5 stelle", "🐞 Debug"
+		"Versetto del giorno", "Libro degli ospiti di Alice", "Bacheca dei post", "Hearty Blog", "Il mio diario", "Galleria", "Life Shop", "Passa a VIP", "Tutorial", "Chi siamo", "Esci", "per Windows", "per macOS", "Windows/macOS", "App mobile", "Lingua 語言", "Dai 5 stelle", "🐞 Debug"
 	]
 };
 
@@ -43,11 +43,11 @@ _h$["i"] = _h$["i"] || {
 	passkey: [
 		"Accedi con Passkey",
 		"oppure",
-		"Non hai ancora una Passkey? Accedi con la password, poi creala in «Il mio account»",
-		"Questa Passkey è stata rimossa dal tuo account. Accedi in un altro modo",
-		"Tempo scaduto per la verifica della Passkey. Riprova",
+		"Niente Passkey? Accedi con la password e creala in «Il mio account»",
+		"Passkey rimossa. Accedi in un altro modo",
+		"Verifica Passkey scaduta. Riprova",
 		"Accesso con Passkey non riuscito. Riprova",
-		"Questo account è stato eliminato o sospeso"
+		"Account eliminato o sospeso"
 	],
 	url: [
 		"//go.hearty.me/hj-faq",
@@ -65,30 +65,30 @@ _h$["i"] = _h$["i"] || {
 	back: "Indietro",
 	copy: ["Copia", "Copiato: "],
 	email: [
-		"Indirizzo email verificato.", "L'indirizzo email è già stato verificato.", "Il link non è valido.", "Il link è danneggiato."
+		"Email verificata.", "Email già verificata.", "Link non valido.", "Link danneggiato."
 	],
 	reset: [
 		"Reimposta password",
 		"Accesso automatico",
-		"Il link non è valido.",
+		"Link non valido.",
 		"Hearty ID non valido.",
-		"Link di reimpostazione inviato. Controlla la tua casella email.",
-		"Link di reimpostazione inviato a ***@$domain . Controlla la tua casella di posta.",
-		"Aprire $url per controllare l'email?",
+		"Link inviato. Controlla la posta.",
+		"Link inviato a ***@$domain . Controlla la posta.",
+		"Aprire $url?",
 		"Questo Hearty ID non esiste."
 	],
 	captcha: [
-		"Verifica di sicurezza non riuscita. Aggiorna la pagina e riprova.",
-		"Completa la verifica di sicurezza qui sotto."
+		"Verifica non riuscita. Aggiorna la pagina.",
+		"Completa la verifica di sicurezza."
 	],
 	ref: [
 		"🎁 $user ti ha invitato."
 	],
 	cookie: [
-		"Abilita i cookie del browser per accedere.", "Come fare"
+		"Abilita i cookie per accedere.", "Come fare"
 	],
 	browser: [
-		"Il tuo browser è troppo vecchio per funzionare.", "Internet Explorer non è più supportato."
+		"Browser troppo vecchio.", "Internet Explorer non è più supportato."
 	],
 	signin: [
 		"Accedi",
@@ -96,30 +96,30 @@ _h$["i"] = _h$["i"] || {
 		"Hearty ID non valido",
 		"$user non esiste",
 		"$user non è registrato",
-		"L'account $user è stato eliminato o sospeso",
-		"L'account $user è stato sospeso per violazione delle regole o ne è stata richiesta l'eliminazione",
+		"$user è eliminato o sospeso",
+		"$user è sospeso per violazioni o ha chiesto l'eliminazione",
 		"Password errata",
-		"La password deve contenere almeno 6 caratteri",
+		"Password: almeno 6 caratteri",
 		"Accedi a «$client» con Hearty ID"
 	],
 	signup: [
-		"L'Hearty ID deve contenere solo lettere e numeri",
-		"L'Hearty ID deve essere di 4 - 20 caratteri",
-		"Indirizzo email non valido",
-		"Inserisci un indirizzo email reale",
-		"La password deve essere di 6 - 20 caratteri",
+		"Hearty ID: solo lettere e numeri",
+		"Hearty ID: 4 - 20 caratteri",
+		"Email non valida",
+		"Usa un'email reale",
+		"Password: 6 - 20 caratteri",
 		"Le password non coincidono",
-		"⚠ Sconsigliamo il servizio email di Yahoo!.\nVuoi usarlo comunque?",
+		"⚠ Yahoo! Mail è sconsigliato.\nUsarlo comunque?",
 		"Email o password non valida.",
 
-		"Account $user creato! Controlla la tua casella email.",
-		"Account $user creato!",
-		"L'account $user esiste già. Accedi.",
-		"Indirizzo email già registrato. Accedi.",
-		"Questo ID è già in uso. Scegline un altro.",
-		"Indirizzo email non valido.",
-		"Gli indirizzi email temporanei non sono accettati.",
-		"Spiacenti, riprova più tardi."
+		"$user creato! Controlla la posta.",
+		"$user creato!",
+		"$user esiste già. Accedi.",
+		"Email già registrata. Accedi.",
+		"ID già in uso. Scegline un altro.",
+		"Email non valida.",
+		"Email temporanee non accettate.",
+		"Riprova più tardi."
 	],
 	box: [
 		"Registrati",
@@ -128,22 +128,22 @@ _h$["i"] = _h$["i"] || {
 		"Crea un account",
 		"Accedi a Hearty Journal",
 		"Recupera Hearty ID | Reimposta password",
-		"💡 Scegli il tuo ID ( 4 ~ 20 caratteri)",
-		"💡 Hearty ID / Email dell'account"
+		"💡 Il tuo ID (4 ~ 20 caratteri)",
+		"💡 Hearty ID / email"
 	],
 	timer: "Invia di nuovo ($min:$sec)",
 	chat: [
 		"Assistenza",
 		"Accedi per ricevere assistenza.",
-		"Contattaci via email",
-		"La nostra email di assistenza: "
+		"Scrivici",
+		"Email di assistenza: "
 	],
 	id_notice: [
-		"Tutti i tuoi dati saranno crittografati e sincronizzati sul cloud.",
-		"Il tuo Hearty ID è l'unica chiave per accedere ai tuoi dati privati dai tuoi dispositivi, computer e telefoni compresi."
+		"I tuoi dati sono crittografati e sincronizzati sul cloud.",
+		"Il tuo Hearty ID è l'unica chiave dei tuoi dati, su computer e telefono."
 	],
 	song: ["Harmony - 溫度日記", "Colonna sonora di Hearty Journal"],
-	404: "Ops, la pagina non esiste.",
+	404: "Ops, pagina non trovata.",
 
 	// DOMs
 	title: ["Hearty Journal 溫度日記", "Custodisci i tuoi ricordi più preziosi"],
@@ -152,23 +152,23 @@ _h$["i"] = _h$["i"] || {
 	],
 	slogan: [
 		"Hearty Journal", "<br>custodisci i tuoi ricordi più preziosi", ", ",
-		"Scelto dalla redazione Apple | Oltre 300.000 utenti felici | Valutazione di 4,9 stelle", "La tua connessione è sicura e crittografata con TLS 1.3."
+		"Scelto da Apple | 300.000+ utenti | 4,9 stelle", "Connessione sicura, crittografata TLS 1.3."
 	],
 	scroll: "Scorri in basso",
 	preview: ["Anteprima", "Chiudi"],
 	feature: [
-		"Sempre con te", "Annota in sicurezza pensieri, emozioni, idee e momenti privati.",
-		"Un'interfaccia bellissima", "Temi bellissimi, tanti adesivi adorabili e font eleganti",
-		"Condividi con chi ami", "Pensato per amici, migliori amiche, famiglia e coppie",
+		"Sempre con te", "Annota al sicuro pensieri, emozioni, idee e momenti privati.",
+		"Un'interfaccia bellissima", "Temi belli, adesivi adorabili, font eleganti",
+		"Condividi con chi ami", "Per amici, famiglia e coppie",
 		"Privacy al primo posto", "I tuoi diari restano privati e al sicuro"
 	],
 	testimonial: [
-		"Unisciti a oltre 100.000 utenti felici su Hearty Journal",
+		"Oltre 100.000 utenti felici",
 		"Hearty Journal è un rifugio per la mente e per l'anima.", "Haitaibear, scrittore e psicologo",
-		"Un bel posto per passare del tempo con me.", "Cindy Liu",
-		"Hearty è carino e delizioso, e offre tantissime funzioni utili.", "Wu Chi",
-		"Hearty mi ha aiutato a superare la depressione. Ora sto meglio di prima.", "Yan-Xuan",
-		"Comodo da usare sia sul portatile che in tasca.", "Xiao-Jun"
+		"Un bel posto per un appuntamento con me.", "Cindy Liu",
+		"Carino, delizioso e pieno di funzioni utili.", "Wu Chi",
+		"Hearty mi ha aiutato con la depressione. Ora sto meglio.", "Yan-Xuan",
+		"Comodo su portatile e telefono.", "Xiao-Jun"
 	],
 	press: [
 		"Dicono di noi",
@@ -177,7 +177,7 @@ _h$["i"] = _h$["i"] || {
 	action: [
 		"Una mente più serena ti aspetta", "Inizia a scrivere"
 	],
-	rate: "Dacci 5 stelle",
+	rate: "Dai 5 stelle",
 	footer: [
 		"Lingua 語言",
 		"per Windows",
@@ -197,18 +197,18 @@ _h$["i"] = _h$["i"] || {
 		"Marchio registrato",
 		"Chi siamo"
 	],
-	cookies: ["Continuando a navigare sul sito, accetti l'uso dei cookie e la nostra informativa sulla privacy.", "OK"],
+	cookies: ["Navigando accetti i cookie e l'informativa sulla privacy.", "OK"],
 	copyright: "2016-"+new Date().getFullYear().toString()+" Hearty Creative Inc. e società affiliate",
 	isp: "ospitato su Cloudways",
 	auth: [
 		"Registrati gratis",
-		"Hai già un account?",
+		"Hai un account?",
 		"ID/password dimenticati",
 		"Accedi ora",
-		"Hearty ID", "💡 Hearty ID o email dell'account",
+		"Hearty ID", "💡 Hearty ID o email",
 		"Password", "🔑 6 ~ 20 caratteri",
-		"Ripeti password", "🔑 Inserisci di nuovo la password", "Mostra le password",
-		"Ricordami", "Registrandomi, accetto i Termini di servizio e l'Informativa sulla privacy."
+		"Ripeti password", "🔑 Ripeti la password", "Mostra",
+		"Ricordami", "Accetto i Termini di servizio e l'Informativa sulla privacy."
 	],
 	lang: "Passaggio a: $lang"
 };
@@ -228,16 +228,16 @@ _h$["e"] = _h$["e"] || {
 	gotop: "Su",
 	signin: ["Accedi", "Accedi per ", "usare questa funzione"],
 	signout: "Esci",
-	name: ["Il mio nickname", "Ciao, qual è il tuo nickname?<br>Sarà la tua identità pubblica.", "Ciao $name.", "Vuoi un promemoria quotidiano per scrivere il diario?", "Sì, attivalo"],
-	get_stickers: ["Evviva! Hai ricevuto il pacchetto di adesivi!", "Apri il regalo"],
-	welcome: ["Ciao $name", "Vai al mio diario", "Clicca per accedere"],
+	name: ["Il mio nickname", "Qual è il tuo nickname?<br>Sarà pubblico.", "Ciao $name.", "Promemoria quotidiano per scrivere?", "Sì, attivalo"],
+	get_stickers: ["Evviva! Pacchetto adesivi ricevuto!", "Apri il regalo"],
+	welcome: ["Ciao $name", "Il mio diario", "Accedi"],
 	year: "",
-	maintenance: ["Manutenzione programmata: ", "è prevista 1 ora di interruzione"],
-	update: ["È disponibile una nuova versione di Hearty Journal.", "Aggiorna ora", "Ricordamelo domani"],
-	search: ["Cerca nei post", "parola chiave da cercare", "Cerca", "Nessun risultato"],
+	maintenance: ["Manutenzione programmata: ", "circa 1 ora di interruzione"],
+	update: ["Nuova versione disponibile.", "Aggiorna ora", "Ricorda domani"],
+	search: ["Cerca nei post", "parola chiave", "Cerca", "Nessun risultato"],
 	bookmark: [
-		"1 post preferito",
-		"$no post preferiti",
+		"1 preferito",
+		"$no preferiti",
 		"Preferito",
 		"Senza titolo"
 	],
@@ -246,67 +246,67 @@ _h$["e"] = _h$["e"] || {
 		"$no post",
 		"Nuovo post",
 		"Nessun post",
-		"Nessun post ricevuto dal tuo amico di penna",
-		"Questo è il primo o l'ultimo post.",
-		"Nessun post da mostrare",
+		"Nessun post dagli amici di penna",
+		"Primo o ultimo post.",
+		"Nessun post",
 		"Prec.",
 		"Succ."
 	],
-	sticker: ["Ingrandisci", "Ruota", "Incolla", "Rimosso", "Vuoi più adesivi in un post?", "Passa a VIP Premium"],
+	sticker: ["Ingrandisci", "Ruota", "Incolla", "Rimosso", "Più adesivi per post?", "Passa a VIP Premium"],
 	verify_required: [
-		"Aggiorna il profilo e verifica $item per $act.",
-		"il numero di telefono", "accedere alle informazioni",
-		"cambiare la visibilità di un post", "pubblicare un post nella bacheca pubblica", "aggiungere un amico di penna", "condividere il tuo post con un amico di penna"
+		"Verifica $item per $act.",
+		"il numero di telefono", "vedere le info",
+		"cambiare la visibilità", "pubblicare in bacheca", "aggiungere un amico di penna", "condividere con un amico di penna"
 	],
 	privacy: [
-		"Il post ora è pubblico", "Il post ora è privato",
+		"Post pubblico", "Post privato",
 		'Il tuo post è in revisione, per verificare che rispetti le <a target="_blank" href="//go.hearty.me/publish"><u>regole dei post pubblici</u>. ',
-		"Sarà condiviso pubblicamente dopo l'approvazione.",
+		"Sarà condiviso dopo l'approvazione.",
 		"Sarà pubblicato dopo l'approvazione.",
-		"Evita i duplicati e attendi la moderazione. (;´ㅁ`)-3"
+		"Niente duplicati, attendi la moderazione. (;´ㅁ`)-3"
 	],
 	publish: [
-		"I post in bacheca devono contenere almeno 100 caratteri. Scrivi ancora un po'.",
-		"Certo, ho un'idea!",
-		"Vuoi pubblicare «$title» nella bacheca pubblica?",
-		"Rendere pubblico il post e pubblicarlo nella bacheca?",
+		"Servono almeno 100 caratteri. Scrivi ancora un po'.",
+		"Ho un'idea!",
+		"Pubblicare «$title» in bacheca?",
+		"Renderlo pubblico e pubblicarlo?",
 		"Pubblica",
 		"«$title» pubblicato.",
 		"Vai a vedere",
 		"Torna indietro",
 		'Segui <a target="_blank" href="//go.hearty.me/publish"><u>[le regole dei post pubblici]</u></a>. <small>Inoltre, non è consentito divulgare informazioni personali.</small>',
-		"Vuoi ritirare «$title» dalla bacheca?",
+		"Ritirare «$title» dalla bacheca?",
 		"Sì",
-		"Il post è stato ritirato dalla bacheca",
-		"Puoi pubblicare un solo post al giorno in bacheca."
+		"Ritirato dalla bacheca",
+		"Un post al giorno in bacheca."
 	],
 	penpal_add: [
-		"Invita un nuovo amico di penna. Inserisci il suo Hearty ID (o l'email dell'account): ",
-		"La versione Lite consente fino a 2 amici di penna; illimitati con VIP Premium.",
-		"Hearty ID o email dell'account",
+		"Invita un amico di penna con Hearty ID (o email): ",
+		"Lite: max 2 amici di penna. VIP Premium: illimitati.",
+		"Hearty ID o email",
 		"invita",
-		"Passa a un piano superiore per invitare altri amici di penna.",
-		"Invitare «<b>$name</b>» (Hearty ID: $user) a diventare amici di penna?",
+		"Passa a VIP per invitarne altri.",
+		"Invitare «<b>$name</b>» (Hearty ID: $user) come amico di penna?",
 		"Ora tu e $name siete amici di penna",
-		"«$user» è già tra i tuoi amici di penna",
+		"«$user» è già tuo amico di penna",
 		"«$user» non esiste",
-		"Ops, «$user» ti ha bloccato.",
-		"Ops, non puoi invitare il tuo stesso account."
+		"«$user» ti ha bloccato.",
+		"Non puoi invitare te stesso."
 	],
 	penpal_delete: [
-		"L'amico di penna selezionato verrà rimosso dalla tua lista e non potrete più aggiungervi a vicenda. Inoltre, i post che vi siete condivisi smetteranno subito di essere condivisi. (azione irreversibile)",
-		"Seleziona un amico di penna da eliminare",
+		"L'amico verrà rimosso, non potrete più aggiungervi e i post condivisi non lo saranno più. (irreversibile)",
+		"Chi vuoi eliminare?",
 		"- Seleziona una persona -",
-		"Vuoi davvero eliminare «$user» dalla tua lista?",
+		"Eliminare «$user»?",
 		"Sì",
-		"Fatto, hai eliminato «$user»."
+		"«$user» eliminato."
 	],
 	penpal_send: [
 		"Condiviso con $add",
 		"Impostazioni aggiornate"
 	],
 	pin: [
-		"PIN di assistenza: ", "Il PIN di assistenza è una misura di sicurezza per verificare la tua identità quando contatti l'assistenza."
+		"PIN di assistenza: ", "Serve a verificare la tua identità con l'assistenza."
 	],
 	chat: [
 		"Hearty ID: "
@@ -318,136 +318,136 @@ _h$["e"] = _h$["e"] || {
 		"Ticket n. #$no",
 		"Inserisci il tuo nome.",
 		"Email non valida.",
-		"Il testo è troppo breve.",
-		", grazie per aver inviato un ticket. Riceverai una risposta via email entro 24 ore lavorative. Se non trovi l'email nella posta in arrivo, controlla la cartella spam.",
+		"Testo troppo breve.",
+		", grazie! Ti risponderemo via email entro 24 ore lavorative. Controlla anche lo spam.",
 		"OK",
-		"Scopri di più sul piano VIP Premium",
+		"Scopri VIP Premium",
 		"Ops, riprova più tardi."
 	],
 	video: [
-		"Link del video YouTube",
-		"oppure clicca qui per caricare",
+		"Link YouTube",
+		"oppure carica",
 		"Imposta",
 		"Aggiungi alla playlist",
 		"Video allegato",
-		"Link del video YouTube non valido",
-		"Il video potrebbe essere privato, eliminato o non incorporabile",
-		"Controlla il link inserito",
+		"Link YouTube non valido",
+		"Video privato, eliminato o non incorporabile",
+		"Controlla il link",
 		"Rimuovere «$title»?",
 		"Rimuovi",
-		"Imposta (o lascia vuoto per cancellare)", // 預留未使用
-		"https://youtu.be/vYFnZdUiUyg (o lascia vuoto per cancellare)"
+		"Imposta (vuoto = cancella)", // 預留未使用
+		"https://youtu.be/vYFnZdUiUyg (vuoto = cancella)"
 	],
 	yt: [
 		"Playlist",
 		"Ordina",
 		"Rimuovi",
 		"Spegni la luce",
-		"Clicca ➕ per aggiungere una canzone che ami",
-		"Ascolta le tue canzoni preferite in sottofondo mentre scrivi.",
+		"Clicca ➕ per aggiungere una canzone",
+		"Ascolta le tue canzoni mentre scrivi.",
 		"Le mie canzoni preferite",
 		"Riproduci"
 	],
 	gps: [
-		"Vuoi aggiungere i dati meteo al post?",
-		"⛅ CONSENTI la richiesta di posizione e attendi qualche secondo.",
-		"Dati meteo aggiunti",
+		"Aggiungere il meteo al post?",
+		"⛅ CONSENTI la posizione e attendi qualche secondo.",
+		"Meteo aggiunto",
 		"Nessun segnale GPS",
-		"Controlla l'avviso nella barra degli indirizzi per maggiori informazioni."
+		"Vedi l'avviso nella barra degli indirizzi."
 	],
 	chars_max: [
-		"Questa pagina supera il limite di 10.000 caratteri (simboli inclusi): ne contiene $chars.",
-		"Qualcuno ha mai visto comparire questa notifica?"
+		"$chars caratteri: superato il limite di 10.000 (simboli inclusi).",
+		"Qualcuno l'ha mai vista?"
 	],
 	chars: [
-		"Hai scritto $chars caratteri, superando il limite della versione Lite ($limit caratteri).",
-		"Offerte per passare a VIP Premium",
-		"Ricordamelo più tardi"
+		"$chars caratteri: superato il limite Lite ($limit).",
+		"Offerte VIP Premium",
+		"Più tardi"
 	],
 	leave: "Potresti avere modifiche non salvate.",
-	date: ["Data del post", "Data modificata: ", "I post sono elencati per data, dal più recente."],
+	date: ["Data del post", "Data modificata: ", "Prima i più recenti."],
 	subject: ["Nuovo post, $date", "Titolo del post", "Nuovo titolo «$title»", "Aggiorna"],
 	archive: [
-		"Rimuovere «$title»? (azione irreversibile)", "Rimuovi e dimentica", "«$title» rimosso"
+		"Rimuovere «$title»? (irreversibile)", "Rimuovi per sempre", "«$title» rimosso"
 	],
-	unsafe: "Questo link è segnalato come dannoso da Google Safe Browsing.",
+	unsafe: "Segnalato come dannoso da Google Safe Browsing.",
 	offline: "Rete instabile",
 	lock: [
-		"Attivare il blocco con codice come autenticazione a due fattori?",
+		"Attivare il blocco con codice (2FA)?",
 		"Attiva",
-		"Disattiva il blocco con codice",
+		"Disattiva blocco",
 		"Blocco disattivato",
-		"Li ho dimenticati entrambi.",
-		"Se hai dimenticato sia il <u>codice di blocco</u> sia la <u>password dell'account</u>, esci e reimposta la password dell'account. Il blocco con codice verrà disattivato al termine della reimpostazione."
+		"Dimenticati entrambi?",
+		"Dimenticati <u>codice</u> e <u>password</u>? Esci e reimposta la password: il blocco verrà disattivato."
 	],
 	pincode: [
-		"Inserisci il tuo codice",
-		"Conferma il tuo codice",
-		"Inserisci il codice di blocco o la password dell'account",
+		"Inserisci il codice",
+		"Conferma il codice",
+		"Codice di blocco o password",
 		"Codice errato",
 		"I codici non coincidono",
-		"Inserisci di nuovo il codice",
-		"Il codice deve essere numerico",
-		"Blocco attivato. Il tuo codice 2FA è: $pin."
+		"Ripeti il codice",
+		"Solo numeri",
+		"Blocco attivo. Codice 2FA: $pin."
 	],
-	screenshot: "Generazione dell'immagine in corso. Potrebbero volerci fino a 10 secondi prima che inizi il download.",
+	screenshot: "Creazione immagine. Il download parte entro 10 secondi.",
 	pc: [
-		"Scarica l'app desktop", 'Visita "www.hearty.me" <i class="fal fa-globe"></i> dal tuo PC/Mac.',
-		"Vantaggi dell'app desktop", "Più facile da leggere su uno schermo grande", "Scrittura comoda con una tastiera fisica", "Pagine sincronizzate su tutti i tuoi dispositivi", "Provala"
+		"App desktop", 'Visita "www.hearty.me" <i class="fal fa-globe"></i> dal tuo PC/Mac.',
+		"Vantaggi dell'app desktop", "Lettura comoda su schermo grande", "Scrittura comoda con tastiera", "Sincronizzato su tutti i dispositivi", "Provala"
 	],
 	picture: [
 		"Carica immagine",
-		"Seleziona un'immagine (JPG, PNG, GIF, WebP, AVIF, HEIC)",
+		"Immagine (JPG, PNG, GIF, WebP, AVIF, HEIC)",
 		"Carica",
-		"Seleziona di nuovo",
-		"Puoi caricare fino a 10 foto per post.",
-		"Hai selezionato $ext, ma sono supportati solo JPG, PNG, GIF, WebP, AVIF e HEIC",
+		"Riseleziona",
+		"Max 10 foto per post.",
+		"$ext non supportato: solo JPG, PNG, GIF, WebP, AVIF e HEIC",
 		"Immagine caricata",
-		"Il download inizierà a breve",
-		"Apri la cartella Download per vedere l'immagine salvata"
+		"Download a breve",
+		"Immagine salvata in Download"
 	],
 	picture_err: [
-		"Formato immagine non supportato o estensione del file errata (supportati solo: JPG, PNG, GIF, WebP, AVIF, HEIC)",
-		"Il file supera i 6 MB; comprimilo prima di caricarlo",
-		"Il file immagine non è leggibile o è danneggiato",
-		"Conversione HEIC/HEIF non riuscita. Prova con un'altra immagine."
+		"Formato o estensione non supportati (JPG, PNG, GIF, WebP, AVIF, HEIC)",
+		"Oltre 6 MB; comprimilo prima",
+		"Immagine illeggibile o danneggiata",
+		"Conversione HEIC/HEIF non riuscita. Prova un'altra immagine."
 	],
 	picture_remove: [
-		"Rimuovere l'immagine? (azione irreversibile)", "Rimuovi", "Immagine rimossa"
+		"Rimuovere l'immagine? (irreversibile)", "Rimuovi", "Immagine rimossa"
 	],
 	file: "Hearty_Journal",
 	trial: [
-		"Come regalo di benvenuto, è iniziata la tua prova gratuita di 30 giorni di Hearty VIP Premium. Durante la prova puoi usare tutte le funzioni.",
-		"Nessun problema: al termine della prova ($exp) NON ti verrà addebitato nulla e tornerai alla versione Lite gratuita. Tutte le tue pagine resteranno nel tuo diario. ( ´･ヮ･) ♡",
+		"Regalo di benvenuto: 30 giorni gratis di Hearty VIP Premium con tutte le funzioni.",
+		"Al termine ($exp) NON paghi nulla: torni a Lite gratuito e tutte le pagine restano. ( ´･ヮ･) ♡",
 		"Scopri di più",
 		"Inizia a scrivere"
 	],
 	purchased: [
-		"Il tuo piano VIP Premium è pronto!",
-		"Se hai 3 minuti e vuoi darci la tua opinione, ci farebbe davvero piacere.",
-		"Al tuo primo sondaggio riceverai 7 giorni extra di piano Premium in regalo!",
-		"Partecipa al sondaggio",
-		"Non ora (o l'ho già fatto)"
+		"VIP Premium attivo!",
+		"Hai 3 minuti per darci un parere?",
+		"Primo sondaggio: 7 giorni Premium in regalo!",
+		"Partecipa",
+		"Non ora / fatto"
 	],
 	n_verify_email: [
-		"Verifica $item per sbloccare alcune funzioni",
-		"Per ricevere risposte è necessario verificare l'email."
+		"Verifica $item per sbloccare funzioni",
+		"Verifica l'email per ricevere risposte."
 	],
-	n_verify_phone: "Verifica il tuo numero di telefono per aumentare la sicurezza dell'account",
+	n_verify_phone: "Verifica il telefono per più sicurezza",
 	n_vip_prefix: "Il tuo piano VIP",
-	n_char_limit_exceed: "Hai scritto $chars caratteri e hai raggiunto il limite della versione Lite.",
+	n_char_limit_exceed: "$chars caratteri: limite Lite raggiunto.",
 	n_daily_checkin: [
-		"Il tuo punto ti aspetta: fai il check-in ora!",
+		"Il tuo punto ti aspetta: check-in!",
 		"Hai già fatto il check-in oggi."
 	],
 	checkin: [
 		"Check-in",
 		"I miei Hearty Points: ", "P",
-		"Ricompensa del check-in giornaliero: 1P",
-		"Hai appena ottenuto 1P. Ora hai $pP.",
+		"Check-in giornaliero: 1P",
+		"+1P! Ora hai $pP.",
 		"Hai già fatto il check-in oggi.",
 		"Torna domani.",
-		"Hearty Points è un programma a premi che ti permette di guadagnare e spendere punti. I premi disponibili saranno annunciati in futuro."
+		"Guadagna e spendi Hearty Points. Premi in arrivo."
 	],
 	reward: [
 		"Vedi i premi"
@@ -464,7 +464,7 @@ _h$["e"] = _h$["e"] || {
 
 		"Oggi",
 		"Rimuovi",
-		"Rimuovere questa registrazione?",
+		"Rimuovere?",
 		"Giorno $d", // Eng: $d$th
 		"Prossimo: tra $d giorni"
 	],
@@ -472,33 +472,33 @@ _h$["e"] = _h$["e"] || {
 	// customize my journal
 	headline: [
 		"Titolo",
-		"Inserisci il nuovo titolo del tuo diario",
+		"Nuovo titolo del diario",
 		"Salva",
 		"Nuovo titolo: «$headline»",
-		"può essere lasciato vuoto"
+		"facoltativo"
 	],
 	style: [
 		"Personalizza il mio diario",
-		"Torna al predefinito",
+		"Predefinito",
 		"Serve ispirazione?",
 		"//en.faq.hearty.me/tutorial/styles"
 	],
 	cover: [
 		"Immagine di copertina",
-		"Carica immagine di copertina",
-		"Proporzioni ideali: 1.9:1",
+		"Carica copertina",
+		"Ideale: 1.9:1",
 		"Conferma", // crop
 		"Annulla",
-		"Formato immagine non supportato: $ext .",
-		"Immagine di copertina caricata",
-		"Immagine di copertina ripristinata"
+		"Formato non supportato: $ext .",
+		"Copertina caricata",
+		"Copertina ripristinata"
 	],
 	bg: [
 		"Immagine di sfondo",
-		"Carica immagine di sfondo",
-		"Formato immagine non supportato: $ext .",
-		"Immagine di sfondo aggiornata",
-		"Immagine di sfondo ripristinata"
+		"Carica sfondo",
+		"Formato non supportato: $ext .",
+		"Sfondo aggiornato",
+		"Sfondo ripristinato"
 	],
 	color: [
 		"Scegli un colore",
@@ -508,38 +508,38 @@ _h$["e"] = _h$["e"] || {
 	// DOMs
 	title: "Il mio diario",
 	header: [
-		"Diari", "Le mie notifiche", "Adesivi", "Prezzi", "Centro assistenza", "Fatto"
+		"Diari", "Notifiche", "Adesivi", "Prezzi", "Centro assistenza", "Fatto"
 	],
 	notification: [
-		"Nessuna notifica da leggere",
+		"Nessuna novità",
 		"App desktop",
 		"Centro assistenza",
 		"Ricarica",
 		"Modalità debug",
-		"Ottieni le funzioni VIP Premium"
+		"Passa a VIP Premium"
 	],
 	link: [
-		"Stai aprendo un link esterno",
+		"Link esterno",
 		"Verificato da Google Safe Browsing",
 		"Vai"
 	],
 	share: [
-		"Privacy del post", "Link", "Privato", "Protetto da codice", "Pubblico", "Pubblica in bacheca", "Non è consentito rendere pubblici post con informazioni private o riservate."
+		"Privacy del post", "Link", "Privato", "Protetto da codice", "Pubblico", "Pubblica in bacheca", "Niente info private o riservate nei post pubblici."
 	],
 	penpal: [
-		"Amici di penna", "Invita un amico di penna", "Elimina amico di penna", "Nessun amico di penna invitato", "Condividi con: "
+		"Amici di penna", "Invita", "Elimina", "Nessun amico di penna", "Condividi con: "
 	],
 	qa: [
-		"Centro assistenza", "Generale e funzionalità", "Account e pagamenti", "Sicurezza dei dati e privacy", "Test di rete", "Segnala un bug e invia un ticket", "Stato del servizio", "Tutti i sistemi funzionano regolarmente"
+		"Centro assistenza", "Generale e funzioni", "Account e pagamenti", "Dati e privacy", "Test di rete", "Bug / ticket", "Stato del servizio", "Tutto funziona"
 	],
 	cs: [
-		"Invia un ticket", "Per domande sulle funzioni, clicca qui.", "Feedback, segnalazione di bug o un abbraccio",
-		"Riceverai presto una risposta via email.", "Invia", "Il mio PIN di assistenza: ",
-		"Funzioni beta attivate"
+		"Invia un ticket", "Domande? Clicca qui.", "Feedback, bug o un abbraccio",
+		"Risposta presto via email.", "Invia", "PIN di assistenza: ",
+		"Beta attiva"
 	],
 	csform: ["Nome", "VIP Premium", "Lite", "Allegato"],
 	gift: [
-		"Ricevi i tuoi adesivi", "Apri la scatola regalo", "50 adesivi esclusivi per il diario"
+		"I tuoi adesivi", "Apri la scatola regalo", "50 adesivi esclusivi"
 	],
 	prologue: "Com'è andata la tua giornata?",
 	pwd: "Accesso con codice",
@@ -547,10 +547,10 @@ _h$["e"] = _h$["e"] || {
 		"Manutenzione programmata", "Rete lenta", "Rete instabile", "Batteria scarica"
 	],
 	tool: [
-		"Salva", "Nuovo post", "Rimuovi", "Condividi", "Salva come immagine", "Post precedente", "Post successivo", "Schermo intero", "Apri il libro", "Sfoglia il libro"
+		"Salva", "Nuovo post", "Rimuovi", "Condividi", "Come immagine", "Precedente", "Successivo", "Schermo intero", "Apri il libro", "Sfoglia il libro"
 	],
 	rmenu: [
-		"Centro assistenza", "Info", "Schermo intero", "繁/简", "Aumenta dimensione testo", "Riduci dimensione testo", "Sfoglia il libro", "Lettura verticale"
+		"Centro assistenza", "Info", "Schermo intero", "繁/简", "Testo più grande", "Testo più piccolo", "Sfoglia il libro", "Lettura verticale"
 	],
 	image: [
 		"Immagine", "Ruota", "Applica filtri", "Scarica", "Rimuovi"
@@ -558,14 +558,14 @@ _h$["e"] = _h$["e"] || {
 	tab: [
 		"I miei", "Degli amici di penna",
 		"🔍 Cerca", "🔖 Preferiti", "🎧 Playlist musicale", "🌙 Calendario del ciclo", "🔒 Blocco con codice",
-		"Centro assistenza", "Gesti touch", "Gesti touch per gli adesivi"
+		"Centro assistenza", "Gesti touch", "Gesti adesivi"
 	],
 	book: [
-		"Info", "In un'epoca frenetica, Hearty Journal offre un rifugio caldo e tranquillo. Qui le persone si liberano della stanchezza, confidano le paure mai espresse e ritrovano il loro io più autentico. Il cielo non sarà sempre azzurro, ma noi restiamo saldi e gentili."
+		"Info", "In un'epoca frenetica, Hearty Journal è un rifugio caldo e tranquillo dove lasciare la stanchezza, confidare paure mai dette e ritrovare sé stessi. Il cielo non è sempre azzurro, ma restiamo saldi e gentili."
 	],
-	promo: ["[Offerta speciale] 3 mesi di VIP Premium a soli NT$99"],
-	403: "Accedi per leggere questo post privato. 🔒",
-	404: "Ops, il link del post potrebbe essere errato.",
+	promo: ["[Offerta] 3 mesi di VIP Premium a NT$99"],
+	403: "Post privato: accedi per leggerlo. 🔒",
+	404: "Ops, il link potrebbe essere errato.",
 	tutorial: [
 		"//i.hearty.app/b/images/tutorials/en/m1.jpg",
 		"//i.hearty.app/b/images/tutorials/en/m2.jpg",
@@ -576,8 +576,8 @@ _h$["e"] = _h$["e"] || {
 		"//i.hearty.app/b/images/tutorials/en/d3.jpg",
 		"//i.hearty.app/b/images/tutorials/en/d4.jpg"
 	],
-	stickers: ["Tutti gli adesivi", // Start with 1
-		"Parole", "Meteo", "Umore", "Vita quotidiana", "Abbigliamento", "Oggetti di uso quotidiano", "Cibo", "Viaggi e paesaggi", "Stagioni e feste", "Piante", "Animali", "Personaggi carini", "Fantasy"
+	stickers: ["Tutti", // Start with 1
+		"Parole", "Meteo", "Umore", "Vita quotidiana", "Abbigliamento", "Oggetti", "Cibo", "Viaggi", "Stagioni e feste", "Piante", "Animali", "Personaggi", "Fantasy"
 	]
 };
 
@@ -591,43 +591,43 @@ _h$["p"] = _h$["p"] || {
 	lite: ["Lite", "Gratis"],
 	vip: ["Hearty VIP Premium", "VIP Premium", "(Prova gratuita)"],
 	feat_lite: [
-		"Privacy al primo posto, senza pubblicità",
-		"Testo (limite: 5.785 caratteri)",
+		"Privacy prima di tutto, senza pubblicità",
+		"Testo (max 5.785 caratteri)",
 		"90 adesivi e 20 font eleganti",
 		"Meteo locale, promemoria giornaliero",
-		"Condividi con gli amici di penna (fino a 2 persone)",
-		"Blocco con codice 2FA, playlist musicale e calendario del ciclo",
-		"Funziona su iOS, Android, Windows e macOS",
-		"Sincronizzazione automatica sul cloud, con Amazon Web Services",
-		"Connessione crittografata con TLS 1.3",
+		"Condividi con max 2 amici di penna",
+		"Blocco 2FA, playlist e calendario del ciclo",
+		"iOS, Android, Windows e macOS",
+		"Sync automatica sul cloud (AWS)",
+		"Crittografia TLS 1.3",
 		"Fatto con ♥ a Taiwan",
 	],
 	feat_vip: [
-		"tutte le funzioni Lite, più: ",
+		"Tutto Lite, più: ",
 		"Parole illimitate",
-		"Immagini nei post (fino a 10 per post)",
-		"Galleria immagini con 15 effetti fotografici",
-		"Oltre 1.300 adesivi (aggiornati regolarmente)",
-		"Aggiungi i tuoi video YouTube preferiti",
-		"Personalizza copertina e sfondo del diario",
-		"Rinomina il diario e modifica la data delle pagine",
+		"Max 10 immagini per post",
+		"Galleria con 15 effetti foto",
+		"1.300+ adesivi (sempre nuovi)",
+		"Video YouTube incorporati",
+		"Copertina e sfondo personalizzati",
+		"Titolo e date modificabili",
 		"Ricerca semplice",
-		"Esporta in Word, TXT o come immagini"
+		"Esporta in Word, TXT o immagine"
 	],
 	remark: [
-		"Perché passare a VIP Premium?",
-		"[Promo primo acquisto] 3 mesi di VIP Premium a soli NT$99",
-		"addebito mensile, contattaci per annullare in qualsiasi momento",
-		"Garanzia soddisfatti o rimborsati di 30 giorni per i nuovi clienti",
+		"Perché VIP Premium?",
+		"[Primo acquisto] 3 mesi di VIP Premium a NT$99",
+		"mensile, annulli quando vuoi",
+		"Rimborso entro 30 giorni per i nuovi clienti",
 		"Funzioni Premium"
 	],
 	act: [
-		"Registrati gratis", "Inizia la prova gratuita (30 giorni)", "Offerte upgrade", "Rinnova ora", "Accedi per passare a VIP"
+		"Registrati gratis", "Prova gratis 30 giorni", "Offerte upgrade", "Rinnova ora", "Accedi per passare a VIP"
 	],
-	deposit: ["Prepagato", "Acquista ora", "Metodi di pagamento: carta di credito, Google Pay, Alipay, ATM di Taiwan"],
-	subscription: ["Piano mensile", "Abbonati ora", "(Offerta con carta di credito)", "Solo NT$99 / 3 mesi al primo acquisto", "Poi si rinnova a NT$99/mese", "Carte di credito accettate"],
+	deposit: ["Prepagato", "Acquista ora", "Carta, Google Pay, Alipay, ATM di Taiwan"],
+	subscription: ["Piano mensile", "Abbonati ora", "(Offerta con carta)", "Primo acquisto: NT$99 / 3 mesi", "Poi NT$99/mese", "Con carta di credito"],
 	selected: ["Selezionato", "Consigliato"],
-	currency: ["In base al tasso di cambio attuale, "],
+	currency: ["Al cambio attuale, "],
 	term: [
 		"3 mesi", "6 mesi", "1 anno"
 	],
@@ -640,34 +640,34 @@ _h$["p"] = _h$["p"] || {
 
 	due: "Il mio abbonamento",
 	due_active: ["Abbonamento attivo"],
-	due_date: ["Scade il ", "", "poi tornerai alla versione Lite"],
-	due_days: ["Scade tra ", " giorni", "poi tornerai alla versione Lite"],
-	due_tomorrow: ["Scade domani", "poi tornerai alla versione Lite"],
-	due_today: ["Scade oggi", "poi tornerai alla versione Lite"],
+	due_date: ["Scade il ", "", "poi torni a Lite"],
+	due_days: ["Scade tra ", " giorni", "poi torni a Lite"],
+	due_tomorrow: ["Scade domani", "poi torni a Lite"],
+	due_today: ["Scade oggi", "poi torni a Lite"],
 	iap_ios: [
-		"Rinnovo automatico mensile, annulla quando vuoi",
-		"[Hearty Journal] Termini dell'abbonamento iOS",
-		"La versione Lite offre funzioni e risorse limitate; passa a VIP per l'accesso completo",
-		"L'abbonamento si rinnova ogni mese al prezzo del tuo primo acquisto",
-		"Dopo l'attivazione, si rinnova automaticamente con addebito sul tuo account Apple",
-		"Una volta iniziato, un periodo di abbonamento non può essere annullato né rimborsato a metà",
-		"Si rinnova automaticamente 24 ore prima della scadenza; se non lo desideri, ricordati di annullarlo per tempo",
-		"Gestisci o modifica il tuo piano in qualsiasi momento in Account Apple > Abbonamenti",
-		"Non ti chiederemo mai bonifici o operazioni bancarie al telefono; in caso di dubbi, chiama la linea antifrode 165",
-		"Dopo l'acquisto, il periodo di prova termina subito. Se vuoi provare più a lungo, abbonati al termine della prova",
+		"Rinnovo mensile, annulli quando vuoi",
+		"[Hearty Journal] Termini iOS",
+		"Lite è limitata; VIP dà accesso completo",
+		"Rinnovo mensile al prezzo iniziale",
+		"Rinnovo e addebito automatici sull'account Apple",
+		"Un periodo iniziato non si annulla né si rimborsa",
+		"Si rinnova 24 ore prima della scadenza; annulla prima se non vuoi",
+		"Gestiscilo in Account Apple > Abbonamenti",
+		"Non chiediamo mai bonifici o operazioni bancarie al telefono; nel dubbio chiama il 165",
+		"L'acquisto termina subito la prova. Per goderla tutta, abbonati dopo",
 		"Termini di servizio",
 		"Informativa sulla privacy"
 	],
 	iap_and: [
-		"Rinnovo automatico mensile, annulla quando vuoi",
-		"[Hearty Journal] Termini dell'abbonamento Android",
-		"La versione Lite offre funzioni e risorse limitate; passa a VIP per l'accesso completo",
-		"L'abbonamento si rinnova ogni mese al prezzo del tuo primo acquisto",
-		"Dopo l'attivazione, si rinnova automaticamente con addebito tramite Google Play",
-		"Una volta iniziato, un periodo di abbonamento non può essere annullato né rimborsato a metà",
-		"Si rinnova automaticamente 24 ore prima della scadenza; se non lo desideri, ricordati di annullarlo per tempo",
-		"Gestisci o modifica il tuo piano in qualsiasi momento in Google Play > Pagamenti e abbonamenti",
-		"Non ti chiederemo mai bonifici o operazioni bancarie al telefono; in caso di dubbi, chiama la linea antifrode 165",
+		"Rinnovo mensile, annulli quando vuoi",
+		"[Hearty Journal] Termini Android",
+		"Lite è limitata; VIP dà accesso completo",
+		"Rinnovo mensile al prezzo iniziale",
+		"Rinnovo e addebito automatici tramite Google Play",
+		"Un periodo iniziato non si annulla né si rimborsa",
+		"Si rinnova 24 ore prima della scadenza; annulla prima se non vuoi",
+		"Gestiscilo in Google Play > Pagamenti e abbonamenti",
+		"Non chiediamo mai bonifici o operazioni bancarie al telefono; nel dubbio chiama il 165",
 		"",
 		"Termini di servizio",
 		"Informativa sulla privacy"
@@ -680,31 +680,31 @@ _h$["A"] = _h$["A"] || {
 	signin: ["Accedi", "Accedi per rispondere", "Accedi prima"],
 	back: "Indietro",
 	no: "No",
-	no_post: "Ops, l'articolo non esiste.",
-	penpal_guest: ["Ciao, oggi è il tuo giorno $day su Hearty Journal. Scrivi il diario per almeno 7 giorni per vedere la lista degli amici di penna.", "Ok"], // Eng: $day$th
+	no_post: "Articolo non trovato.",
+	penpal_guest: ["È il tuo giorno $day su Hearty Journal. Scrivi per 7 giorni per vedere gli amici di penna.", "Ok"], // Eng: $day$th
 	comment_limit: [
-		"Potresti aver pubblicato commenti duplicati. Tocca per rimuovere o modificare quelli precedenti.",
-		"Hai scritto $chars caratteri. I commenti devono avere al massimo 85 caratteri.",
-		"I commenti devono avere almeno 4 caratteri."
+		"Possibili commenti duplicati. Tocca per modificarli o rimuoverli.",
+		"$chars caratteri; max 85.",
+		"Almeno 4 caratteri."
 	],
 	comment_ban: [
-		"Il tuo commento sarà pubblicato dopo l'approvazione del moderatore.",
-		"Scusa per l'inconveniente. 🥺",
-		"Ti ricordiamo di seguire le ",
+		"Il commento apparirà dopo l'approvazione.",
+		"Scusa! 🥺",
+		"Segui le ",
 		"Regole dei post pubblici."
 	],
 	comment_edit: ["Modificare il commento?", "Sì"],
-	report_ask: ["Segnalare il commento come abuso/spam?", "Segnala", "Grazie per la segnalazione."],
+	report_ask: ["Segnalare come abuso/spam?", "Segnala", "Grazie per la segnalazione."],
 	url: ["Copia", "Link all'articolo", "Scarica QRcode"],
-	penpal_add: ["Invitare «<b>$id</b>» a diventare amici di penna?", "Per la qualità delle interazioni, ti consigliamo di non avere più di 2 amici di penna.", "Avanti"],
-	verify: ["Verifica prima il tuo indirizzo email e il numero di telefono.", "Il mio account"],
+	penpal_add: ["Invitare «<b>$id</b>» come amico di penna?", "Per buone interazioni, consigliamo max 2 amici di penna.", "Avanti"],
+	verify: ["Verifica prima email e telefono.", "Il mio account"],
 
 	// DOMs
-	title: "Il libro degli ospiti di Alice",
-	board: "Il libro degli ospiti di Alice",
-	tabs: ["Commenti", "Indice degli articoli", "Amici di penna", "Condividi", "Dacci 5 stelle", "Messaggi in bottiglia"],
-	comment: ["Rispondi", "Accedi per rispondere", "Limite di caratteri superato (85 caratteri)"],
-	profile: ["Invita come amico di penna", "Il mio diario"],
+	title: "Libro degli ospiti di Alice",
+	board: "Libro degli ospiti di Alice",
+	tabs: ["Commenti", "Indice degli articoli", "Amici di penna", "Condividi", "Dai 5 stelle", "Messaggi in bottiglia"],
+	comment: ["Rispondi", "Accedi per rispondere", "Max 85 caratteri"],
+	profile: ["Invita", "Il mio diario"],
 	gotop: "Su",
 	goleft: "Torna indietro"
 };
@@ -713,14 +713,14 @@ _h$["A"] = _h$["A"] || {
 _h$["f"] = _h$["f"] || {
 	// JS
 	refresh: ["Caricamento", "Trascina giù", "Rilascia per aggiornare"],
-	signin: ["Accedi", "Accedi per usare la funzione richiesta"],
+	signin: ["Accedi", "Accedi per usare questa funzione"],
 	no: "Annulla",
 	url: ["Copia", "Link e QRcode del post"],
-	publish_ask: ["Vuoi pubblicare il tuo post nella bacheca pubblica?", "Nel tuo diario, tocca", "per pubblicare un post.", "Capito", "Il mio diario"],
-	report_ask: ["Segnalare «$title» come abuso/spam?", "Segnala", "«$title» è stato segnalato. Grazie."],
+	publish_ask: ["Pubblicare in bacheca?", "Nel tuo diario, tocca", "per pubblicare un post.", "Capito", "Il mio diario"],
+	report_ask: ["Segnalare «$title» come abuso/spam?", "Segnala", "«$title» segnalato. Grazie."],
 
 	// DOMs
-	title: "Bacheca dei post pubblici (pagina $p)",
+	title: "Bacheca pubblica (pagina $p)",
 	share: "Condividi",
 	report: "Segnala abuso",
 	focus_post: "Mostra in bacheca",
@@ -728,14 +728,14 @@ _h$["f"] = _h$["f"] || {
 	publish: "Pubblica",
 	gotop: "Torna su",
 	back: "Indietro",
-	health: ["Per informazioni sulla salute, consulta il sito del CDC. ( • ̀ω•́ )", "//www.cdc.gov.tw"]
+	health: ["Info sanitarie: sito del CDC. ( • ̀ω•́ )", "//www.cdc.gov.tw"]
 };
 
 // img
 _h$["I"] = _h$["I"] || {
 	title: "Galleria",
 	upload: "Carica un'immagine",
-	empty: ["Nessuna immagine caricata", "Vuoi aggiungerne una ora?"],
+	empty: ["Nessuna immagine", "Aggiungerne una?"],
 	add: "Aggiungi immagini",
 	gotop: "Torna su",
 	layout: ["Griglia", "Mosaico"]
@@ -744,19 +744,19 @@ _h$["I"] = _h$["I"] || {
 // account
 _h$["a"] = _h$["a"] || {
 	passkey: [
-		"Passkey (chiavi d'accesso)",
+		"Passkey",
 		"Aggiungi Passkey",
 		"Nessuna Passkey",
 		"Cos'è una Passkey?",
-		"Una Passkey (chiave d'accesso) ti permette di accedere con Face ID, impronta digitale o blocco schermo del dispositivo, senza inserire Hearty ID e password, ed è al sicuro dai siti di phishing.<br><br>Le Passkey sono salvate sul tuo dispositivo o in un gestore di password (come Portachiavi iCloud o Gestore delle password di Google). Hearty Journal conserva solo una chiave pubblica, che non può essere usata per accedere.<br><br>Rimuovere una Passkey non disconnette i dispositivi già collegati. Dopo aver cambiato Hearty ID, il gestore di password potrebbe mostrare ancora il vecchio nome, ma l'accesso non ne risente.",
-		"Dopo averla creata, potrai accedere senza inserire Hearty ID e password",
+		"Accedi con Face ID, impronta o blocco schermo, senza Hearty ID né password, al sicuro dal phishing.<br><br>Le Passkey stanno sul dispositivo o in un gestore di password (es. Portachiavi iCloud, Gestore delle password di Google). Hearty Journal conserva solo una chiave pubblica, inutile per accedere.<br><br>Rimuoverla non disconnette i dispositivi collegati. Dopo un cambio di Hearty ID potresti vedere il vecchio nome, ma l'accesso funziona.",
+		"Accedi senza Hearty ID né password",
 		"Rinomina",
 		"Nome della Passkey (max 20 caratteri)",
-		"Il nome deve avere da 1 a 20 caratteri",
+		"Nome: 1 ~ 20 caratteri",
 		"Rimuovi",
-		"Vuoi rimuovere «$name»?<br>Non potrai più usarla per accedere a Hearty Journal. I dispositivi già collegati non verranno disconnessi.<br>Elimina questa Passkey anche dal tuo gestore di password.",
-		"Questa è la tua ultima Passkey e l'account non ha una password. Dopo la rimozione potrai accedere solo con un account esterno.",
-		"Questo dispositivo ha effettuato l'accesso con questa Passkey. Dopo la rimozione resterà connesso.",
+		"Rimuovere «$name»?<br>Non potrai più accedere con essa; i dispositivi collegati restano connessi.<br>Eliminala anche dal gestore di password.",
+		"Ultima Passkey e nessuna password: potrai accedere solo con un account esterno.",
+		"Questo dispositivo usa questa Passkey e resterà connesso.",
 		"Passkey rimossa",
 		"Sincronizzata con gli altri dispositivi",
 		"Solo su questo dispositivo",
@@ -765,15 +765,15 @@ _h$["a"] = _h$["a"] || {
 		"Creata il $date",
 		"Ultimo utilizzo: $date",
 		"Mai usata",
-		"Inserisci la password attuale per confermare che sei tu",
+		"Inserisci la password attuale per confermare",
 		"Password errata",
-		"Hai raggiunto il limite di Passkey (10). Rimuovi prima quelle che non usi",
-		"Su questo dispositivo o gestore di password è già stata creata una Passkey",
-		"Passkey creata! La prossima volta potrai accedere con la Passkey",
-		"Conferma la tua identità con una Passkey esistente",
+		"Limite di 10 Passkey. Rimuovine una inutilizzata",
+		"Esiste già una Passkey su questo dispositivo o gestore",
+		"Passkey creata! Usala la prossima volta",
+		"Conferma con una Passkey esistente",
 		"Avanti",
 		"Tempo scaduto. Riprova",
-		"Troppi tentativi non riusciti. Riprova tra 15 minuti"
+		"Troppi tentativi. Riprova tra 15 minuti"
 	],
 	// JS
 	ok: ["OK", "Conferma", "Certo", "Esatto"],
@@ -783,81 +783,81 @@ _h$["a"] = _h$["a"] || {
 	upload: "Carica",
 	rotate: "Ruota",
 	retry: "Riprova",
-	signin: ["Accedi", "Accedi per usare la funzione richiesta"],
-	usage: "Hai scritto $chars caratteri in $num post.",
+	signin: ["Accedi", "Accedi per usare questa funzione"],
+	usage: "$chars caratteri in $num post.",
 	points: "$p punti (vedi i premi)",
 	year: "", // CE
-	bday_ask: ["La tua data di nascita è $bday?", "La data di nascita non può essere modificata.", "Compleanno aggiornato"],
+	bday_ask: ["La tua data di nascita è $bday?", "Non sarà modificabile.", "Compleanno aggiornato"],
 	age: "$age anni",
-	nickname_edited: "«$n» è il tuo nuovo nickname",
+	nickname_edited: "Nuovo nickname: «$n»",
 	pwd_edit: "Cambia password",
 	pwd_edited: "Modificata",
-	pwd_enter: "Inserisci la nuova password.",
-	pwd_confirm: "Inserisci di nuovo la password per confermare.",
-	pwd_invalid: "La password deve essere di 6 ~ 20 caratteri. Riprova.",
-	pwd_mismatch: "Le password non coincidono. Riprova.",
+	pwd_enter: "Nuova password.",
+	pwd_confirm: "Ripeti la password.",
+	pwd_invalid: "Password: 6 ~ 20 caratteri.",
+	pwd_mismatch: "Le password non coincidono.",
 	pwd_format: "6 ~ 20 caratteri",
 	pwd_apply: ["Cambia", "Conferma"],
-	pwd_ok: ["Password modificata. Al prossimo accesso usa la nuova password.",
-				"Mantieni la password al sicuro e riservata per evitare accessi non autorizzati."],
-	avatar: ["Seleziona un'immagine (JPG, PNG, GIF, WebP, AVIF, HEIC)", "Hai selezionato $ext, ma sono supportati solo JPG, PNG, GIF, WebP, AVIF e HEIC", "Seleziona di nuovo", "Avatar caricato"],
+	pwd_ok: ["Password modificata. Usala al prossimo accesso.",
+				"Tieni la password riservata."],
+	avatar: ["Immagine (JPG, PNG, GIF, WebP, AVIF, HEIC)", "$ext non supportato: solo JPG, PNG, GIF, WebP, AVIF e HEIC", "Riseleziona", "Avatar caricato"],
 	avatar_err: [
-		"Formato immagine non supportato o estensione del file errata (supportati solo: JPG, PNG, GIF, WebP, AVIF, HEIC)",
-		"Il file supera i 6 MB; comprimilo prima di caricarlo",
-		"Il file immagine non è leggibile o è danneggiato",
-		"Conversione HEIC/HEIF non riuscita. Prova con un'altra immagine."
+		"Formato o estensione non supportati (JPG, PNG, GIF, WebP, AVIF, HEIC)",
+		"Oltre 6 MB; comprimilo prima",
+		"Immagine illeggibile o danneggiata",
+		"Conversione HEIC/HEIF non riuscita. Prova un'altra immagine."
 	],
-	email_new: "Cambia l'email dell'account",
-	email_confirm: "Confermi di voler cambiare la tua email in «$email»?",
-	email_invalid: "Indirizzo email non valido",
-	email_verify: ["Per la sicurezza dell'account, è necessario verificare l'email per ", "sbloccare alcune funzioni.", "Verifica ora"],
-	email_send: "Inviare di nuovo l'email di verifica?",
-	email_sent: ["Email di verifica inviata. Vuoi controllare la posta su $isp?",
-				"Email di verifica inviata, controlla la tua casella di posta."],
-	email_verified: "L'indirizzo email è già verificato.",
-	pin: ["PIN di assistenza: $pin<br><small>(Il PIN di assistenza è una misura di sicurezza per verificare la tua identità quando contatti l'assistenza.)</small>", "Scarica"],
+	email_new: "Cambia email",
+	email_confirm: "Cambiare email in «$email»?",
+	email_invalid: "Email non valida",
+	email_verify: ["Per sicurezza, verifica l'email per ", "sbloccare alcune funzioni.", "Verifica ora"],
+	email_send: "Reinviare la verifica?",
+	email_sent: ["Email inviata. Aprire $isp?",
+				"Email inviata, controlla la posta."],
+	email_verified: "Email già verificata.",
+	pin: ["PIN di assistenza: $pin<br><small>(Per verificare la tua identità con l'assistenza.)</small>", "Scarica"],
 	font: [
 		"Font eleganti",
 		"i/fonts_en.png",
-		"Utilizziamo il servizio webfont di Justfont, oltre a font commerciali e open source.",
+		"Font Justfont, commerciali e open source.",
 		"Licenze"
 	],
-	font_change: "Cambio font: «$font». Attendi.",
+	font_change: "Cambio font: «$font»…",
 	gender_edited: "Genere modificato",
 	newsletter_edited: "Modifica applicata",
 	lang: "Passaggio a: $lang",
-	timezone_edited: "Fuso orario impostato su «$tz»",
+	timezone_edited: "Fuso orario: «$tz»",
 	id: "Hearty ID: ",
-	id_edit: "Cambia il mio ID",
+	id_edit: "Cambia ID",
 	id_public: "Hearty ID e nickname sono pubblici",
-	id_new: "Inserisci il nuovo ID",
-	id_format: "Un Hearty ID valido deve contenere solo lettere e numeri ed essere lungo 4 ~ 20 caratteri. Puoi cambiare ID una sola volta.",
-	id_invalid: "L'ID inserito non rispetta i requisiti.",
-	id_same: "Deve essere diverso da quello attuale.",
-	id_taken: "<b>«$id»</b> è già in uso. Scegline un altro.",
-	id_edited: "Il tuo Hearty ID ora è «<b>$id</b>»",
-	id_signout: "Accedi con il nuovo Hearty ID",
-	dl: "Esporta in file TXT",
-	dl_pc: "Apri «<u>www.hearty.me</u>» su un computer per scaricare il backup.",
-	dl_pwd: ["Inserisci la password per decrittare il diario", "Password dell'account (6 ~ 20 caratteri)", "Esporta in file TXT", "Esportazione del file avviata", "Il backup è stato esportato. Controlla la cartella Download e conserva il file in un luogo privato e sicuro."],
-	dl_fmt: ["Scegli il formato del backup", "File di testo (.txt)", "Documento Word con foto (.docx)", "Avanti"],
-	dl_doc: ["$posts post, $images foto<br>La conversione può richiedere da pochi minuti a decine di minuti, abbi pazienza", "Avvia esportazione", "Conversione: $done / $total foto, attendi", "Conversione, attendi", "Il documento Word è stato salvato. Conservalo in un luogo sicuro.", "Impossibile caricare $n foto, sono state saltate", "Esportazione interrotta. Riprova più tardi.", "L'esportazione in Word è supportata solo su Chrome o Edge per computer. Cambia browser o scegli il file di testo.", "Esportato il $date · $posts post", "Password errata. Riprova.", "Nessun post da esportare", "Esporta in Word"],
+	id_new: "Nuovo ID",
+	id_format: "4 ~ 20 lettere e numeri. Modificabile una sola volta.",
+	id_invalid: "ID non valido.",
+	id_same: "Deve differire dall'attuale.",
+	id_taken: "<b>«$id»</b> è in uso. Scegline un altro.",
+	id_edited: "Nuovo Hearty ID: «<b>$id</b>»",
+	id_signout: "Accedi con il nuovo ID",
+	dl: "Esporta TXT",
+	dl_pc: "Scarica il backup da computer su «<u>www.hearty.me</u>».",
+	dl_pwd: ["Password per decrittare", "Password dell'account (6 ~ 20 caratteri)", "Esporta TXT", "Esportazione avviata", "Backup esportato in Download. Conservalo al sicuro."],
+	dl_fmt: ["Scegli il formato del backup", "File di testo (.txt)", "Word con foto (.docx)", "Avanti"],
+	dl_doc: ["$posts post, $images foto<br>La conversione richiede da pochi minuti a mezz'ora", "Avvia esportazione", "Conversione $done / $total foto…", "Conversione…", "Word salvato. Conservalo al sicuro.", "$n foto saltate (errore di caricamento)", "Esportazione interrotta. Riprova dopo.", "Word solo su Chrome o Edge da computer. Cambia browser o scegli il testo.", "Esportato il $date · $posts post", "Password errata.", "Nessun post da esportare", "Esporta in Word"],
 	vip_only: ["Questa", " è una funzione Premium.", "Offerte upgrade", "Non ora"],
-	suspend: ["Vuoi davvero eliminare l'account? Se per ora non ti serve, puoi tenerlo! Continueremo a lanciare nuove funzioni e adesivi adorabili: magari un giorno vorrai tornare a dare un'occhiata.", "Oppure clicca <u>qui</u> per cambiare ID", "Elimina", "Per ora lo tengo"],
-	auth_log: ["Ultima attività dell'account", "$browser, $device", "Aumenta la sicurezza", "//go.hearty.me/hj-sec"],
+	suspend: ["Eliminare l'account? Puoi anche tenerlo: aggiungiamo sempre funzioni e adesivi, magari un giorno tornerai.", "Oppure cambia ID <u>qui</u>", "Elimina", "Lo tengo"],
+	auth_log: ["Attività recente", "$browser, $device", "Aumenta la sicurezza", "//go.hearty.me/hj-sec"],
 	redeem: ["Codice voucher", "Riscatta"],
-	coupon_ok: ["«$coupon» è stato riscattato ed è in fase di verifica.",
-				"Dopo la verifica, riceverai il credito sull'account entro 3 giorni lavorativi. Controlla [Dettagli piano] tra qualche giorno."],
-	voucher_ok: "Codice «$code» riscattato! Hai ricevuto $days giorni di accesso VIP, con scadenza $exp.",
-	voucher_invalid: "Il codice voucher è già stato riscattato o non è valido.",
-	voucher_disqualified: "Ogni account può riscattare un solo voucher di prova. Ne hai già riscattato uno.",
+	coupon_ok: ["«$coupon» riscattato, in verifica.",
+				"Credito entro 3 giorni lavorativi dopo la verifica; vedi [Dettagli piano]."],
+	voucher_ok: "«$code» riscattato! $days giorni VIP fino al $exp.",
+	voucher_invalid: "Codice già usato o non valido.",
+	voucher_disqualified: "Un voucher di prova per account; già usato.",
 	voucher_vvip: [
-		"Offerta del programma fedeltà VVIP",
-		"Ottieni uno sconto esclusivo del 40% sul rinnovo annuale (piano prepagato)",
+		"Offerta fedeltà VVIP",
+		"-40% sul rinnovo annuale (prepagato)",
 		"Acquista"
 	],
 	voucher_ec: [
-		"Questo è un <u>buono acquisto per Hearty Life Shop</u>.",
+		"<u>Buono Hearty Life Shop</u>.",
 		"Acquista ora"
 	],
 
@@ -868,17 +868,17 @@ _h$["a"] = _h$["a"] || {
 	nickname: ["Nickname", "Aggiorna"],
 	pincode: "PIN di assistenza",
 	bday: "Data di nascita",
-	email: ["Invia email di verifica", "Invia di nuovo l'email di verifica", " secondi al reinvio"],
+	email: ["Invia verifica", "Reinvia verifica", " secondi al reinvio"],
 	style: ["Design", "Personalizza il mio diario"],
 	gender: ["Genere", "Maschio", "Femmina"],
-	phone: ["Cellulare", "Verifica il numero di telefono"],
+	phone: ["Cellulare", "Verifica telefono"],
 	pwd: "Password",
 	pfont: ["Font dei post", "Anteprima font"],
 	language: "Lingua",
 	timezone: "Fuso orario",
-	newsletter: ["Newsletter", "Iscriviti (notizie e storie occasionali)"],
-	newsletter_shop: ["Newsletter dello shop", "Iscriviti (nuovi prodotti e promozioni)"],
-	rate: ["Amore e abbracci", "Dacci 5 stelle"],
+	newsletter: ["Newsletter", "Iscriviti (notizie e storie)"],
+	newsletter_shop: ["Newsletter dello shop", "Iscriviti (prodotti e promo)"],
+	rate: ["Amore e abbracci", "Dai 5 stelle"],
 	misc: "Altro",
 	auth: ["Attività", "Elimina"],
 	chat: "Centro assistenza",
@@ -925,8 +925,8 @@ _h$["o"] = _h$["o"] || {
 	title: "Il mio piano",
 	back: "Indietro",
 	redeem: "Riscatta il tuo regalo",
-	buy: ["Prova VIP Premium", "Rinnova il mio piano"],
-	plan: ["Il mio piano", "Per modificare il piano o aggiornare la carta di credito registrata, contattaci indicando il tuo Hearty ID.", "«VIP Premium (prova gratuita)» è un regalo per i nuovi utenti.<br>Nessun problema: al termine del periodo di prova tornerai automaticamente alla versione Lite gratuita."],
+	buy: ["Prova VIP Premium", "Rinnova"],
+	plan: ["Il mio piano", "Per cambiare piano o carta, contattaci con il tuo Hearty ID.", "«VIP Premium (prova gratuita)» è un regalo di benvenuto.<br>Al termine torni automaticamente a Lite gratuito."],
 	order: ["I miei ordini"],
 	plan_th: ["Stato", "Piano", "Inizio", "Scadenza", "Hearty Journal "],
 	order_th: ["Stato", "N.", "Articolo", "TWD$", "Pagamento ", "Fattura"],
@@ -937,15 +937,15 @@ _h$["o"] = _h$["o"] || {
 	// bill
 	fail: [
 		"Pagamento non riuscito",
-		"Ti consigliamo di riprovare prima con la stessa carta di credito, oppure di usare una carta diversa. Nella maggior parte dei casi questo risolve il problema.",
-		"Per qualsiasi domanda, faccelo sapere."
+		"Riprova con la stessa carta o un'altra: di solito funziona.",
+		"Domande? Scrivici."
 	],
 	fail_info: [
 		"Causa comune", "Dettagli",
-		"Dati della carta errati", "Numero della carta, CVV o data di scadenza errati.",
-		"Fondi insufficienti", "Hai raggiunto il saldo disponibile o il limite di credito.",
-		"Carta non abilitata", "La tua carta potrebbe non essere abilitata per gli acquisti online/all'estero. In questo caso, contatta l'emittente della carta per abilitarli.",
-		"Pagamento rifiutato", "Transazioni insolite o dall'estero possono attivare il sistema antifrode automatico dell'emittente, che rifiuta il pagamento. In questo caso, può essere utile chiedere all'emittente di sbloccare la transazione."
+		"Dati della carta errati", "Numero, CVV o scadenza errati.",
+		"Fondi insufficienti", "Saldo o limite esaurito.",
+		"Carta non abilitata", "La carta forse non è abilitata online/all'estero. Chiedi alla banca di abilitarla.",
+		"Pagamento rifiutato", "L'antifrode della banca può bloccare pagamenti insoliti o esteri. Chiedile di sbloccarli."
 	],
 	fail_btn: [
 		"Riprova",
@@ -955,8 +955,8 @@ _h$["o"] = _h$["o"] || {
 
 	// thankyou
 	thx: [
-		"Il tuo ordine è completato! Grazie!",
-		"Apprezziamo molto il tuo ordine e speriamo in un rapporto lungo e sereno. Se hai bisogno di qualsiasi cosa, non esitare a contattarci."
+		"Ordine completato! Grazie!",
+		"Speriamo di accompagnarti a lungo. Per qualsiasi cosa, contattaci."
 	],
 	thx_th: [
 		"Pacchetto",
@@ -967,16 +967,16 @@ _h$["o"] = _h$["o"] || {
 		"Importo",
 		"Pagato con",
 		"Fattura",
-		"Per modificare il piano o aggiornare la carta di credito registrata, contattaci indicando il tuo Hearty ID."
+		"Per cambiare piano o carta, contattaci con il tuo Hearty ID."
 		//
 		// "For monthly plan users, you can cancel your subscription anytime by contacting us with your Hearty ID."
 	],
 	thx_inv: [
-		"Fattura IVA taiwanese emessa da Hearty Creative Inc.",
+		"Fattura taiwanese di Hearty Creative Inc.",
 		"Visualizza"
 	],
 	thx_btn: [
-		"Sondaggio VIP (per i nuovi clienti)",
+		"Sondaggio VIP (nuovi clienti)",
 		"Screenshot",
 		"Torna al diario"
 	]
@@ -988,37 +988,37 @@ _h$["pv"] = _h$["pv"] || {
 	ok: "OK",
 	no: "Annulla",
 	signin: ["Accedi", "Accedi prima."],
-	format: ["Il numero sembra troppo corto.", "Numero non valido.", "Hai raggiunto il limite di richieste. Riprova più tardi."],
-	verify1: ["Verifica", "Inserisci il codice di verifica: ", "<br><small>È stato inviato un <b>SMS Firebase</b>: attendi 45 secondi e controlla il telefono.</small>", "$no verificato!"],
-	verify2: ["Non ricevi il codice di verifica?", "Inviaci un SMS per la verifica manuale. (Potrebbero essere applicate tariffe dell'operatore)", "Invia", "La verifica manuale sarà completata entro 72 ore lavorative.", "[Verifica] Hearty ID: "],
-	verify3: ["Non ricevi il codice di verifica?", "Indica il tuo Hearty ID e il numero di telefono per la verifica manuale.", "Inviaci un messaggio"],
-	code: ["Codice di verifica SMS", "Riprova", "Deve essere un numero di 6 cifre.", "Il codice non è valido.", "Il codice è scaduto, ricomincia."],
-	fail: "Google Auth non è stato caricato correttamente, ricarica la pagina.",
+	format: ["Numero troppo corto.", "Numero non valido.", "Limite raggiunto. Riprova dopo."],
+	verify1: ["Verifica", "Codice di verifica: ", "<br><small><b>SMS Firebase</b> inviato: attendi 45 secondi.</small>", "$no verificato!"],
+	verify2: ["Nessun codice?", "Inviaci un SMS per la verifica manuale (possibili costi).", "Invia", "Verifica manuale entro 72 ore lavorative.", "[Verifica] Hearty ID: "],
+	verify3: ["Nessun codice?", "Inviaci Hearty ID e numero per la verifica manuale.", "Inviaci un messaggio"],
+	code: ["Codice di verifica SMS", "Riprova", "Servono 6 cifre.", "Codice non valido.", "Codice scaduto, ricomincia."],
+	fail: "Google Auth non caricato, ricarica la pagina.",
 
 	// DOMs
-	title: "Verifica il numero di telefono",
+	title: "Verifica telefono",
 	back: "Il mio account",
-	verify: ["Verifica il numero di telefono", "Il tuo numero di telefono", "Verifica", "Inserisci il codice", "Non hai ricevuto l'SMS?", "Invia di nuovo", "Riprova tra 30 secondi"]
+	verify: ["Verifica telefono", "Il tuo numero di telefono", "Verifica", "Inserisci il codice", "Nessun SMS?", "Invia di nuovo", "Riprova tra 30 secondi"]
 };
 
 // email
 _h$["em"] = _h$["em"] || {
 	title: [
-		"Annulla iscrizione: newsletter per i membri",
-		"Annulla iscrizione: newsletter di Hearty Life Shop"
+		"Disiscrizione: newsletter membri",
+		"Disiscrizione: newsletter Hearty Life Shop"
 	],
 	unsubscribe: "Annulla iscrizione",
 	ask: [
-		"Dopo l'annullamento, non riceverai più messaggi del sito né notifiche dagli amici di penna.",
-		"Dopo l'annullamento, non riceverai più aggiornamenti su nuovi prodotti o promozioni.",
-		"Sì, annulla l'iscrizione"
+		"Non riceverai più messaggi del sito né notifiche degli amici di penna.",
+		"Non riceverai più novità e promozioni.",
+		"Sì, annulla"
 	],
 	ok: "OK",
 	back: "Indietro",
-	unsubscribed: "Iscrizione di «$email» annullata. La modifica sarà effettiva da domani.",
+	unsubscribed: "«$email» disiscritta, effettivo da domani.",
 	remarks: [
-		"Continuerai a ricevere gli avvisi importanti sull'account (reimpostazione password, aggiornamenti delle condizioni, ecc.).",
-		"Per non ricevere più alcuna email, elimina il tuo account Hearty Journal."
+		"Riceverai comunque gli avvisi importanti (password, condizioni, ecc.).",
+		"Per nessuna email, elimina l'account Hearty Journal."
 	]
 };
 
@@ -1031,48 +1031,48 @@ _h$["pt"] = _h$["pt"] || {
 	close: "Chiudi",
 	signin: [
 		"Accedi",
-		"Accedi prima a Hearty Journal."
+		"Accedi prima."
 	],
 	redeem: [
-		"Vuoi davvero riscattare <u>$pkg</u> per $p punti?",
-		"Cliccando su «Conferma», accetti i termini",
-		"Punti insufficienti. Non puoi riscattare $pkg.",
-		"Questo piano non è ancora disponibile per il riscatto."
+		"Riscattare <u>$pkg</u> per $p punti?",
+		"Con «Conferma» accetti i termini",
+		"Punti insufficienti per $pkg.",
+		"Non ancora disponibile."
 	],
 	ec_ok: [
-		"Codice del tuo buono acquisto Hearty Life (NT$$amt): <b>$code</b>",
-		"Puoi trovarlo in «I miei riscatti». Ricordati di usarlo prima della scadenza ($exp)."
+		"Buono Hearty Life (NT$$amt): <b>$code</b>",
+		"Lo trovi in «I miei riscatti». Usalo entro il $exp."
 	],
 	vip_ok: [
-		"Riscatto riuscito! Hai ricevuto $days giorni di VIP Premium, con scadenza $exp.",
+		"Riscattato! $days giorni di VIP Premium fino al $exp.",
 		"Vedi ora"
 	],
 
 	// DOMs
-	title: "Programma a premi Hearty Points",
+	title: "Premi Hearty Points",
 	points: ["I miei Hearty Points", "P"],
 	coupons: [
 		"I miei riscatti",
-		"Cronologia dei riscatti",
+		"Cronologia",
 		"Piano",
 		"Codice",
 		"Creazione",
 		"Scadenza",
 		"Usato",
-		"Non hai ancora nessun codice."
+		"Nessun codice."
 	],
 	label: [
 		"Consigliato",
 		"Popolare"
 	],
 	use: [
-		"Usa il buono nello shop"
+		"Usa nello shop"
 	],
-	agree: ["Leggi e accetta i termini."],
+	agree: ["Accetta i termini."],
 	get: [
 		"Come guadagnare punti?",
-		"Puoi guadagnare punti facendo il check-in ogni giorno. Basta cliccare sull'icona della campanella in alto a destra nel diario per aprire la schermata del check-in.",
-		"Fai il check-in ora"
+		"Fai il check-in ogni giorno: clicca la campanella in alto a destra nel diario.",
+		"Check-in"
 	],
 
 	// Plans
@@ -1085,7 +1085,7 @@ _h$["pt"] = _h$["pt"] || {
 		"30 giorni"
 	],
 	pkg_ec100: [
-		"Buono acquisto Hearty Life (prodotti digitali)",
+		"Buono Hearty Life (digitale)",
 		"NT$ 100"
 	]
 };

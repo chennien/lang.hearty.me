@@ -9,10 +9,10 @@ _h$["h"] = _h$["h"] || {
 	ok: "Sawa",
 	qr: "QRcode_Hearty",
 	copy: "Imenakiliwa",
-	err: "Seva ina shughuli nyingi, tafadhali jaribu tena baadaye. Tatizo likiendelea, tafadhali tujulishe.",
-	satisfy: ["Iwe unatupenda au unaona tunaweza kufanya vizuri zaidi, tungependa kujua!", "Naipenda!", "Inahitaji kuboreshwa"],
-	rate: ["Maoni yako yanatutia moyo sisi timu ndogo kuifanya Hearty Journal kuwa bora zaidi.", "Je, unaweza kutupa nyota 5?", "Asante kwa maoni yako.", "༼ つ ◕_◕ ༽つ"],
-	notify: ["Washa arifa?", "Ungependa kupokea arifa zilizobinafsishwa? (k.m. ujumbe kutoka kwa marafiki wa kalamu)", "Sawa", "Si sasa"],
+	err: "Seva ina shughuli nyingi. Jaribu baadaye, na tujulishe tatizo likiendelea.",
+	satisfy: ["Unatupenda au tuboreshe? Tuambie!", "Naipenda!", "Inahitaji kuboreshwa"],
+	rate: ["Maoni yako yanatutia moyo sisi timu ndogo.", "Utatupa nyota 5?", "Asante kwa maoni yako.", "༼ つ ◕_◕ ༽つ"],
+	notify: ["Washa arifa?", "Upokee arifa binafsi? (k.m. kutoka kwa marafiki wa kalamu)", "Sawa", "Si sasa"],
 	downloading: "Upakuaji unaanza"
 };
 
@@ -27,14 +27,14 @@ _h$["m"] = _h$["m"] || {
 	no: "Hapana",
 	back: "Rudi",
 	nav: ["Menyu", "Hearty Journal", "Shajara Yangu"],
-	signout: ["Ondoka", "Je, unataka kuondoka sasa?"],
+	signout: ["Ondoka", "Uondoke sasa?"],
 
 	// DOMs
 	avatar: [
 		"Akaunti Yangu", "Ingia", "VIP Premium, Hearty Journal"
 	],
 	menu: [
-		"Aya ya Siku", "Kitabu cha Wageni cha Alice", "Mlisho wa Machapisho", "Hearty Blog", "Shajara Yangu", "Matunzio", "Life Shop", "Pandisha Daraja", "Mafunzo", "Kuhusu", "Ondoka", "kwa Windows", "kwa macOS", "Programu ya Windows/macOS", "Programu ya Simu", "Language 語言", "Tupe nyota 5", "🐞 Debug"
+		"Aya ya Siku", "Kitabu cha Wageni cha Alice", "Mlisho wa Machapisho", "Hearty Blog", "Shajara Yangu", "Matunzio", "Life Shop", "Pandisha Daraja", "Mafunzo", "Kuhusu", "Ondoka", "kwa Windows", "kwa macOS", "Windows/macOS", "Programu ya Simu", "Language 語言", "Tupe nyota 5", "🐞 Debug"
 	]
 };
 
@@ -43,11 +43,11 @@ _h$["i"] = _h$["i"] || {
 	passkey: [
 		"Ingia kwa Passkey",
 		"au",
-		"Bado huna Passkey? Ingia kwa nenosiri, kisha uiunde katika \"Akaunti Yangu\"",
-		"Passkey hii imeondolewa kwenye akaunti yako. Tafadhali ingia kwa njia nyingine",
-		"Muda wa kuthibitisha Passkey umeisha. Tafadhali jaribu tena",
-		"Imeshindwa kuingia kwa Passkey. Tafadhali jaribu tena",
-		"Akaunti hii imefutwa au imesimamishwa"
+		"Huna Passkey? Ingia kwa nenosiri, kisha uiunde katika \"Akaunti Yangu\"",
+		"Passkey imeondolewa. Ingia kwa njia nyingine",
+		"Muda wa Passkey umeisha. Jaribu tena",
+		"Kuingia kwa Passkey kumeshindikana. Jaribu tena",
+		"Akaunti imefutwa au imesimamishwa"
 	],
 	url: [
 		"//go.hearty.me/hj-faq",
@@ -65,30 +65,30 @@ _h$["i"] = _h$["i"] || {
 	back: "Rudi",
 	copy: ["Nakili", "Imenakiliwa: "],
 	email: [
-		"Barua pepe sasa imethibitishwa.", "Barua pepe tayari imethibitishwa.", "Kiungo si sahihi.", "Kiungo kimeharibika."
+		"Barua pepe imethibitishwa.", "Barua pepe tayari imethibitishwa.", "Kiungo si sahihi.", "Kiungo kimeharibika."
 	],
 	reset: [
 		"Weka upya nenosiri",
 		"Ingia kiotomatiki",
 		"Kiungo si sahihi.",
 		"Hearty ID si sahihi.",
-		"Kiungo cha kuweka upya kimetumwa. Tafadhali angalia kikasha chako cha barua pepe.",
-		"Kiungo cha kuweka upya kimetumwa kwa ***@$domain . Tafadhali angalia kikasha chako.",
-		"Fungua $url ili kuangalia barua pepe?",
+		"Kiungo kimetumwa. Angalia kikasha chako.",
+		"Kiungo kimetumwa kwa ***@$domain . Angalia kikasha chako.",
+		"Fungua $url?",
 		"Hearty ID hii haipo."
 	],
 	captcha: [
-		"Ukaguzi wa usalama umeshindwa. Tafadhali onyesha upya ukurasa kisha ujaribu tena.",
-		"Tafadhali kamilisha ukaguzi wa usalama ulio hapa chini."
+		"Ukaguzi umeshindwa. Onyesha upya ukurasa.",
+		"Kamilisha ukaguzi wa usalama."
 	],
 	ref: [
 		"🎁 Umealikwa na $user."
 	],
 	cookie: [
-		"Tafadhali washa vidakuzi (cookies) vya kivinjari ili kuingia.", "Vipi?"
+		"Washa vidakuzi (cookies) ili kuingia.", "Vipi?"
 	],
 	browser: [
-		"Kivinjari chako ni cha zamani mno kufanya kazi.", "Internet Explorer haitumiki tena."
+		"Kivinjari chako ni cha zamani mno.", "Internet Explorer haitumiki tena."
 	],
 	signin: [
 		"Ingia",
@@ -97,29 +97,29 @@ _h$["i"] = _h$["i"] || {
 		"$user haipo",
 		"$user haijasajiliwa",
 		"$user imefutwa au imesimamishwa",
-		"$user imesimamishwa kwa kukiuka sera au imeomba kufutwa",
+		"$user imesimamishwa kwa ukiukaji au imeomba kufutwa",
 		"Nenosiri si sahihi",
-		"Nenosiri linapaswa kuwa na angalau herufi 6",
+		"Nenosiri: angalau herufi 6",
 		'Ingia kwenye "$client" kupitia Hearty ID'
 	],
 	signup: [
-		"Hearty ID inapaswa kuwa na herufi na nambari pekee",
-		"Hearty ID inapaswa kuwa na herufi 4 - 20",
+		"Hearty ID: herufi na nambari pekee",
+		"Hearty ID: herufi 4 - 20",
 		"Barua pepe si sahihi",
-		"Tafadhali weka barua pepe halisi",
-		"Nenosiri linapaswa kuwa na herufi 6 - 20",
+		"Weka barua pepe halisi",
+		"Nenosiri: herufi 6 - 20",
 		"Manenosiri hayalingani",
-		"⚠ Huduma ya barua pepe ya Yahoo! haipendekezwi.\nJe, bado unataka kuitumia?",
+		"⚠ Yahoo! Mail haipendekezwi.\nUitumie hata hivyo?",
 		"Barua pepe au nenosiri si sahihi.",
 
-		"$user imeundwa! Tafadhali angalia kikasha chako cha barua pepe.",
+		"$user imeundwa! Angalia kikasha chako.",
 		"$user imeundwa!",
-		"$user tayari imeundwa. Tafadhali ingia.",
-		"Barua pepe hii tayari imesajiliwa. Tafadhali ingia.",
-		"ID hii imeshachukuliwa. Tafadhali chagua nyingine.",
+		"$user tayari ipo. Ingia.",
+		"Barua pepe imeshasajiliwa. Ingia.",
+		"ID imechukuliwa. Chagua nyingine.",
 		"Barua pepe si sahihi.",
 		"Barua pepe za muda haziruhusiwi.",
-		"Samahani, tafadhali jaribu tena baadaye."
+		"Jaribu tena baadaye."
 	],
 	box: [
 		"Jisajili",
@@ -127,23 +127,23 @@ _h$["i"] = _h$["i"] || {
 		"Weka Upya Nenosiri",
 		"Fungua Akaunti",
 		"Ingia kwenye Hearty Journal",
-		"Rejesha Hearty ID | Weka Upya Nenosiri",
-		"💡 Chagua ID yako (herufi 4 ~ 20)",
-		"💡 Hearty ID / Barua pepe ya akaunti"
+		"Rejesha ID | Weka Upya Nenosiri",
+		"💡 ID yako (herufi 4 ~ 20)",
+		"💡 Hearty ID / barua pepe"
 	],
 	timer: "Tuma tena ($min:$sec)",
 	chat: [
 		"Usaidizi",
-		"Tafadhali ingia kwanza ili kupata usaidizi.",
-		"Wasiliana nasi kwa barua pepe",
-		"Barua pepe yetu ya usaidizi: "
+		"Ingia ili kupata usaidizi.",
+		"Tuandikie",
+		"Barua pepe ya usaidizi: "
 	],
 	id_notice: [
-		"Data yako yote itasimbwa kwa njia fiche na kusawazishwa kwenye wingu.",
-		"Hearty ID yako ndiyo ufunguo pekee wa kufikia data yako binafsi kutoka kwenye vifaa vyako, ikiwemo kompyuta na simu."
+		"Data yako husimbwa na kusawazishwa kwenye wingu.",
+		"Hearty ID ndiyo ufunguo pekee wa data yako kwenye kompyuta na simu."
 	],
 	song: ["Harmony - 溫度日記", "Wimbo rasmi wa Hearty Journal"],
-	404: "Lo, ukurasa huu haupo.",
+	404: "Lo, ukurasa haupo.",
 
 	// DOMs
 	title: ["Hearty Journal 溫度日記", "Hifadhi kumbukumbu zako za thamani"],
@@ -152,30 +152,30 @@ _h$["i"] = _h$["i"] || {
 	],
 	slogan: [
 		"Hearty Journal", "<br>hifadhi kumbukumbu zako za thamani", ", ",
-		"Chaguo la Wahariri wa Apple | Watumiaji 300,000+ Wenye Furaha | Ukadiriaji wa Nyota 4.9", "Muunganisho wako ni salama na umesimbwa kwa njia fiche kwa TLS 1.3."
+		"Chaguo la Apple | Watumiaji 300,000+ | Nyota 4.9", "Muunganisho salama, umesimbwa kwa TLS 1.3."
 	],
 	scroll: "Sogeza chini",
 	preview: ["Hakiki", "Funga"],
 	feature: [
-		"Daima nawe", "Rekodi kwa usalama mawazo, hisia, mawazo mapya na nyakati zako za faragha.",
-		"Muundo mzuri", "Mandhari maridadi, vibandiko vingi vya kupendeza na fonti za kifahari",
-		"Shiriki na wapendwa wako", "Imeundwa kwa ajili ya marafiki, marafiki wa karibu, familia na wapenzi",
-		"Faragha Kwanza", "Weka shajara zako kuwa za faragha na salama"
+		"Daima nawe", "Rekodi kwa usalama mawazo, hisia, mawazo mapya na nyakati za faragha.",
+		"Muundo mzuri", "Mandhari maridadi, vibandiko vya kupendeza, fonti za kifahari",
+		"Shiriki na wapendwa wako", "Kwa marafiki, familia na wapenzi",
+		"Faragha Kwanza", "Shajara zako, za faragha na salama"
 	],
 	testimonial: [
-		"Jiunge na watumiaji 100,000+ wenye furaha wa Hearty Journal",
+		"Watumiaji 100,000+ wenye furaha",
 		"Hearty Journal ni kimbilio la akili na roho yako.", "Haitaibear, Mwandishi na Mwanasaikolojia",
 		"Mahali pazuri pa kujipa muda mwenyewe.", "Cindy Liu",
-		"Hearty ni nzuri na ya kupendeza, na ina vipengele vingi muhimu.", "Wu Chi",
-		"Hearty ilinisaidia kupita kipindi cha msongo wa mawazo. Nina afya bora kuliko awali.", "Yan-Xuan",
-		"Ni rahisi kutumia nikiwa nyumbani au safarini.", "Xiao-Jun"
+		"Nzuri, ya kupendeza na yenye vipengele vingi muhimu.", "Wu Chi",
+		"Hearty ilinisaidia kupita msongo wa mawazo. Sasa niko bora.", "Yan-Xuan",
+		"Rahisi kutumia nyumbani au safarini.", "Xiao-Jun"
 	],
 	press: [
 		"Vyombo vya Habari",
 		"Bnext Media", "Free Group", "Aotter girls", "Womany", "Sheaspire", "SEinsights", "Taiwan Startup Stadium", "Innosquare, New Taipei", "UDN", "Vita News"
 	],
 	action: [
-		"Uko tayari kwa akili yenye afya zaidi?", "Anza Kuandika Shajara"
+		"Uko tayari kwa akili yenye afya zaidi?", "Anza Kuandika"
 	],
 	rate: "Tupe nyota 5",
 	footer: [
@@ -197,18 +197,18 @@ _h$["i"] = _h$["i"] || {
 		"Alama ya Biashara",
 		"Kuhusu Sisi"
 	],
-	cookies: ["Kwa kuendelea kuvinjari tovuti hii, unakubali matumizi yetu ya vidakuzi na sera ya faragha.", "Sawa"],
+	cookies: ["Ukivinjari, unakubali vidakuzi na sera ya faragha.", "Sawa"],
 	copyright: "2016-"+new Date().getFullYear().toString()+" Hearty Creative Inc. na washirika wake",
 	isp: "inahifadhiwa na Cloudways",
 	auth: [
 		"Jisajili bila malipo",
-		"Tayari una akaunti?",
+		"Una akaunti?",
 		"Umesahau ID/Nenosiri",
 		"Ingia sasa",
-		"Hearty ID", "💡 Hearty ID au barua pepe ya akaunti",
+		"Hearty ID", "💡 Hearty ID au barua pepe",
 		"Nenosiri", "🔑 Herufi 6 ~ 20",
-		"Nenosiri tena", "🔑 Weka nenosiri tena", "Onyesha manenosiri",
-		"Nikumbuke", "Kwa kubofya kujisajili, ninakubali Masharti ya Huduma na Sera ya Faragha."
+		"Nenosiri tena", "🔑 Rudia nenosiri", "Onyesha",
+		"Nikumbuke", "Ninakubali Masharti ya Huduma na Sera ya Faragha."
 	],
 	lang: "Inabadilisha hadi: $lang"
 };
@@ -228,16 +228,16 @@ _h$["e"] = _h$["e"] || {
 	gotop: "Juu",
 	signin: ["Ingia", "Ingia ili ", "kutumia kipengele hiki"],
 	signout: "Ondoka",
-	name: ["Jina langu la utani", "Habari, jina lako la utani ni lipi?<br>Jina hili litakuwa utambulisho wako wa umma.", "Habari $name.", "Ungependa kukumbushwa kila siku kuandika shajara?", "Ndiyo, iwashe"],
-	get_stickers: ["Hongera! Umepata kifurushi cha vibandiko!", "Fungua zawadi"],
-	welcome: ["Habari $name", "Nenda kwenye shajara yangu", "Bofya ili kuingia"],
+	name: ["Jina langu la utani", "Jina lako la utani ni lipi?<br>Litaonekana hadharani.", "Habari $name.", "Ukumbushwe kuandika kila siku?", "Ndiyo, iwashe"],
+	get_stickers: ["Hongera! Kifurushi cha vibandiko!", "Fungua zawadi"],
+	welcome: ["Habari $name", "Shajara yangu", "Bofya ili kuingia"],
 	year: "BK",
-	maintenance: ["Matengenezo yaliyopangwa: ", "huduma itakatika kwa takriban saa 1"],
-	update: ["Toleo jipya la Hearty Journal linapatikana.", "Sasisha sasa", "Nikumbushe kesho"],
+	maintenance: ["Matengenezo yaliyopangwa: ", "itakatika takriban saa 1"],
+	update: ["Toleo jipya linapatikana.", "Sasisha sasa", "Nikumbushe kesho"],
 	search: ["Tafuta machapisho", "neno la kutafuta", "Tafuta", "Hakuna matokeo"],
 	bookmark: [
 		"Chapisho 1 pendwa",
-		"Machapisho $no pendwa",
+		"Pendwa $no",
 		"Vipendwa",
 		"Bila kichwa"
 	],
@@ -246,30 +246,30 @@ _h$["e"] = _h$["e"] || {
 		"Machapisho $no",
 		"Chapisho jipya",
 		"Hakuna chapisho",
-		"Hakuna chapisho jipya kutoka kwa rafiki yako wa kalamu",
-		"Hili ni chapisho la kwanza au la mwisho.",
-		"Hakuna chapisho la kuonyesha",
+		"Hakuna chapisho kutoka kwa marafiki wa kalamu",
+		"Chapisho la kwanza au la mwisho.",
+		"Hakuna chapisho",
 		"Iliyotangulia",
 		"Inayofuata"
 	],
-	sticker: ["Kuza", "Zungusha", "Bandika", "Imeondolewa", "Unataka vibandiko zaidi kwenye chapisho?", "Pandisha hadi VIP Premium"],
+	sticker: ["Kuza", "Zungusha", "Bandika", "Imeondolewa", "Vibandiko zaidi kwa chapisho?", "Pandisha hadi VIP Premium"],
 	verify_required: [
-		"Tafadhali sasisha wasifu wako na uthibitishe $item yako ili $act.",
+		"Thibitisha $item yako ili $act.",
 		"nambari ya simu", "kufikia taarifa hii",
-		"kubadilisha mwonekano wa chapisho", "kuchapisha kwenye mlisho wa umma", "kuongeza rafiki wa kalamu", "kushiriki chapisho lako na rafiki wa kalamu"
+		"kubadilisha mwonekano", "kuchapisha kwenye mlisho", "kuongeza rafiki wa kalamu", "kushiriki na rafiki wa kalamu"
 	],
 	privacy: [
-		"Chapisho sasa ni la umma", "Chapisho sasa ni la faragha",
+		"Chapisho ni la umma", "Chapisho ni la faragha",
 		'Chapisho lako linakaguliwa ili kuhakikisha linafuata <a target="_blank" href="//go.hearty.me/publish"><u>sheria za machapisho ya umma</u>. ',
-		"Litashirikiwa hadharani baada ya kuidhinishwa.",
-		"Litachapishwa hadharani baada ya kuidhinishwa.",
-		"Epuka kurudia na usubiri ukaguzi. (;´ㅁ`)-3"
+		"Litashirikiwa baada ya kuidhinishwa.",
+		"Litachapishwa baada ya kuidhinishwa.",
+		"Usirudie, subiri ukaguzi. (;´ㅁ`)-3"
 	],
 	publish: [
-		"Machapisho ya mlisho yanapaswa kuwa na angalau herufi 100. Tafadhali andika zaidi.",
+		"Mlisho unahitaji herufi 100+. Andika zaidi kidogo.",
 		"Sawa, nina wazo!",
 		'Unataka kuchapisha "$title" kwenye mlisho wa umma?',
-		"Ifanye chapisho kuwa la umma na kulichapisha kwenye mlisho wa umma?",
+		"Lifanye la umma na kulichapisha kwenye mlisho?",
 		"Chapisha",
 		'"$title" limechapishwa.',
 		"Liangalie",
@@ -277,25 +277,25 @@ _h$["e"] = _h$["e"] || {
 		'Tafadhali fuata <a target="_blank" href="//go.hearty.me/publish"><u>[sheria za machapisho ya umma]</u></a>. <small>Pia, kufichua taarifa binafsi hairuhusiwi.</small>',
 		'Unataka kuondoa chapisho "$title" kwenye mlisho?',
 		"Ndiyo",
-		"Chapisho limeondolewa kwenye mlisho",
-		"Unaweza kuwa na chapisho moja tu kwenye mlisho kwa siku."
+		"Limeondolewa kwenye mlisho",
+		"Chapisho moja kwenye mlisho kwa siku."
 	],
 	penpal_add: [
-		"Alika rafiki mpya wa kalamu. Weka Hearty ID yake (au barua pepe ya akaunti): ",
-		"Toleo la Lite linaruhusu hadi marafiki 2 wa kalamu; bila kikomo ukiwa na VIP Premium.",
-		"Hearty ID au barua pepe ya akaunti",
+		"Alika rafiki kwa Hearty ID (au barua pepe): ",
+		"Lite: hadi marafiki 2. VIP Premium: bila kikomo.",
+		"Hearty ID au barua pepe",
 		"alika",
-		"Tafadhali pandisha mpango wako ili kualika marafiki zaidi wa kalamu.",
+		"Pandisha mpango ili kualika marafiki zaidi.",
 		'Mwalike "<b>$name</b>" (Hearty ID: $user) kuwa rafiki yako wa kalamu?',
 		"$name sasa ni rafiki yako wa kalamu",
 		'"$user" tayari ni rafiki yako wa kalamu',
 		'"$user" haipo',
 		'Lo, umezuiwa na "$user".',
-		"Lo, huwezi kujialika mwenyewe."
+		"Huwezi kujialika mwenyewe."
 	],
 	penpal_delete: [
-		"Rafiki wa kalamu uliyemchagua ataondolewa kwenye orodha yako na hamtaweza kuongezana tena. Wakati huo huo, machapisho mliyoshirikiana awali yataacha kushirikiwa papo hapo. (haiwezi kutenduliwa)",
-		"Chagua rafiki wa kalamu wa kufuta",
+		"Rafiki ataondolewa, hamtaweza kuongezana tena, na machapisho mliyoshiriki yataacha kushirikiwa mara moja. (haitenduliki)",
+		"Nani wa kufuta?",
 		"- Chagua mtu -",
 		'Una uhakika unataka kumfuta "$user" kwenye orodha yako?',
 		"Ndiyo",
@@ -306,7 +306,7 @@ _h$["e"] = _h$["e"] || {
 		"Mipangilio imesasishwa"
 	],
 	pin: [
-		"PIN ya Usaidizi: ", "PIN ya usaidizi ni hatua ya usalama inayotumika kuthibitisha utambulisho wako unapowasiliana na usaidizi."
+		"PIN ya Usaidizi: ", "Huthibitisha utambulisho wako kwa usaidizi."
 	],
 	chat: [
 		"Hearty ID: "
@@ -316,141 +316,141 @@ _h$["e"] = _h$["e"] || {
 	],
 	feedback: [
 		"Tiketi Na. #$no",
-		"Tafadhali weka jina lako.",
+		"Weka jina lako.",
 		"Barua pepe si sahihi.",
-		"Maelezo yako ni mafupi mno.",
-		", asante kwa kuwasilisha tiketi. Utapokea jibu ndani ya saa 24 za kazi kupitia barua pepe. Usipoiona barua pepe kwenye kikasha chako, tafadhali angalia folda ya barua taka.",
+		"Mafupi mno.",
+		", asante! Tutajibu kwa barua pepe ndani ya saa 24 za kazi. Angalia pia barua taka.",
 		"Sawa",
-		"Jifunze zaidi kuhusu mpango wa VIP Premium",
-		"Lo, tafadhali jaribu tena baadaye."
+		"Kuhusu VIP Premium",
+		"Lo, jaribu baadaye."
 	],
 	video: [
-		"Kiungo cha Video ya YouTube",
-		"au bofya hapa kupakia",
+		"Kiungo cha YouTube",
+		"au pakia",
 		"Weka",
 		"Ongeza kwenye orodha ya kucheza",
 		"Video imeambatishwa",
-		"Kiungo cha video ya YouTube si sahihi",
-		"Video inaweza kuwa ya faragha, imefutwa au haiwezi kupachikwa",
-		"Angalia kiungo ulichotoa",
+		"Kiungo cha YouTube si sahihi",
+		"Video ni ya faragha, imefutwa au haipachikiki",
+		"Angalia kiungo",
 		'Thibitisha kuondoa "$title"?',
 		"Ondoa",
-		"Weka (au acha wazi ili kufuta)", // 預留未使用
-		"https://youtu.be/vYFnZdUiUyg (au acha wazi ili kufuta)"
+		"Weka (wazi = futa)", // 預留未使用
+		"https://youtu.be/vYFnZdUiUyg (wazi = futa)"
 	],
 	yt: [
 		"Orodha ya Kucheza",
 		"Panga",
 		"Ondoa",
 		"Zima taa",
-		"Bofya ➕ kuongeza wimbo unaoupenda",
-		"Sikiliza nyimbo unazozipenda chinichini unapoandika.",
+		"Bofya ➕ kuongeza wimbo",
+		"Sikiliza nyimbo pendwa unapoandika.",
 		"Nyimbo zangu pendwa",
 		"Cheza"
 	],
 	gps: [
-		"Je, unataka kuongeza taarifa za hali ya hewa kwenye chapisho?",
+		"Ongeza hali ya hewa kwenye chapisho?",
 		'⛅ Tafadhali RUHUSU ombi la kutambua mahali na usubiri sekunde chache.',
-		"Taarifa za hali ya hewa zimeongezwa",
+		"Hali ya hewa imeongezwa",
 		"Hakuna ishara ya GPS",
-		"Tafadhali angalia ilani kwenye upau wa anwani kwa maelezo zaidi."
+		"Angalia ilani kwenye upau wa anwani."
 	],
 	chars_max: [
-		"Chapisho hili lina herufi $chars, likizidi kikomo cha herufi 10,000 (pamoja na alama).",
-		"Kuna mtu yeyote aliyewahi kuona arifa hii?"
+		"Herufi $chars: zaidi ya kikomo cha 10,000 (pamoja na alama).",
+		"Kuna aliyewahi kuona hii?"
 	],
 	chars: [
-		"Umeandika herufi $chars, ukizidi kiwango cha toleo la Lite (herufi $limit).",
-		"Ofa za kupandisha hadi VIP Premium",
+		"Herufi $chars: zaidi ya kiwango cha Lite ($limit).",
+		"Ofa za VIP Premium",
 		"Nikumbushe baadaye"
 	],
-	leave: "Huenda una mabadiliko ambayo hayajahifadhiwa.",
-	date: ["Tarehe ya Chapisho", "Tarehe ya kubadilishwa: ", "Machapisho yamepangwa kwa tarehe kuanzia jipya zaidi."],
+	leave: "Huenda kuna mabadiliko yasiyohifadhiwa.",
+	date: ["Tarehe ya Chapisho", "Tarehe ya kubadilishwa: ", "Mapya kwanza."],
 	subject: ["Chapisho Jipya, $date", "Kichwa cha Chapisho", 'Kichwa kipya "$title"', "Sasisha"],
 	archive: [
-		'Thibitisha kuondoa "$title"? (haiwezi kutenduliwa)', "Liondoe na ulisahau", '"$title" limeondolewa'
+		'Thibitisha kuondoa "$title"? (haiwezi kutenduliwa)', "Ondoa kabisa", '"$title" limeondolewa'
 	],
-	unsafe: "Kiungo hiki kimetambuliwa kuwa hatari na Google Safe Browsing.",
+	unsafe: "Google Safe Browsing imekitambua kuwa hatari.",
 	offline: "Mtandao Hauko Thabiti",
 	lock: [
-		"Washa kufuli ya nambari ya siri kama uthibitishaji wa hatua mbili?",
+		"Washa kufuli ya nambari ya siri (2FA)?",
 		"Washa",
-		"Zima kufuli ya nambari ya siri",
+		"Zima kufuli",
 		"Kufuli imezimwa",
-		"Nimesahau zote mbili.",
-		"Ukisahau <u>nambari ya siri ya kufuli</u> na <u>nenosiri la akaunti</u>, tafadhali ondoka na uweke upya nenosiri la akaunti yako. Kufuli ya nambari ya siri itazimwa baada ya kuweka upya."
+		"Umesahau zote mbili?",
+		"Umesahau <u>nambari ya siri</u> na <u>nenosiri</u>? Ondoka na uweke upya nenosiri; kufuli itazimwa."
 	],
 	pincode: [
-		"Tafadhali weka nambari yako ya siri",
-		"Thibitisha nambari yako ya siri",
-		"Weka nambari ya siri ya kufuli au nenosiri la akaunti yako",
+		"Weka nambari ya siri",
+		"Thibitisha nambari ya siri",
+		"Nambari ya siri au nenosiri",
 		"Nambari ya Siri Si Sahihi",
 		"Nambari za siri hazilingani",
-		"Tafadhali weka nambari ya siri tena",
-		"Nambari ya siri inapaswa kuwa ya tarakimu pekee",
-		"Kufuli imewashwa. Nambari yako ya siri ya 2FA ni: $pin."
+		"Rudia nambari ya siri",
+		"Tarakimu pekee",
+		"Kufuli imewashwa. Nambari ya 2FA: $pin."
 	],
-	screenshot: "Picha inatengenezwa. Inaweza kuchukua hadi sekunde 10 kabla upakuaji kuanza.",
+	screenshot: "Picha inatengenezwa. Upakuaji utaanza ndani ya sekunde 10.",
 	pc: [
-		"Pata programu ya kompyuta", 'Tembelea "www.hearty.me" <i class="fal fa-globe"></i> kwenye PC/Mac yako.',
-		"Faida za Programu ya Kompyuta", "Rahisi kusoma kwenye skrini kubwa", "Kuandika kwa starehe ukitumia kibodi halisi", "Sawazisha machapisho kwenye vifaa vyako vyote", "Ijaribu"
+		"Programu ya kompyuta", 'Tembelea "www.hearty.me" <i class="fal fa-globe"></i> kwenye PC/Mac yako.',
+		"Faida za Kompyuta", "Kusoma rahisi kwenye skrini kubwa", "Kuandika kwa starehe kwa kibodi", "Sawazisha kwenye vifaa vyote", "Ijaribu"
 	],
 	picture: [
 		"Pakia picha",
-		"Chagua picha (JPG, PNG, GIF, WebP, AVIF, HEIC)",
+		"Picha (JPG, PNG, GIF, WebP, AVIF, HEIC)",
 		"Pakia",
 		"Chagua tena",
-		"Unaweza kupakia hadi picha 10 kwa kila chapisho.",
-		"Umechagua $ext, lakini ni JPG, PNG, GIF, WebP, AVIF na HEIC pekee zinazotumika",
+		"Hadi picha 10 kwa chapisho.",
+		"$ext haitumiki; JPG, PNG, GIF, WebP, AVIF na HEIC pekee",
 		"Picha imepakiwa",
-		"Upakuaji utaanza hivi punde",
-		"Nenda kwenye folda yako ya Vipakuliwa kuona picha iliyohifadhiwa"
+		"Upakuaji unaanza",
+		"Imehifadhiwa kwenye Vipakuliwa"
 	],
 	picture_err: [
-		"Muundo wa picha hautumiki au kiendelezi cha faili si sahihi (inatumika tu: JPG, PNG, GIF, WebP, AVIF, HEIC)",
-		"Faili la picha linazidi 6MB; tafadhali libane kabla ya kupakia",
-		"Faili la picha haliwezi kusomwa au limeharibika",
-		"Ubadilishaji wa HEIC/HEIF umeshindikana. Tafadhali jaribu picha nyingine."
+		"Muundo au kiendelezi hakitumiki (JPG, PNG, GIF, WebP, AVIF, HEIC)",
+		"Zaidi ya 6MB; libane kwanza",
+		"Picha haisomeki au imeharibika",
+		"HEIC/HEIF imeshindwa kubadilishwa. Jaribu picha nyingine."
 	],
 	picture_remove: [
-		"Thibitisha kuondoa picha? (haiwezi kutenduliwa)", "Ondoa", "Picha imeondolewa"
+		"Ondoa picha? (haitenduliki)", "Ondoa", "Picha imeondolewa"
 	],
 	file: "Hearty_Journal",
 	trial: [
-		"Kama zawadi kwa wageni, jaribio lako la bure la siku 30 la Hearty VIP Premium limeanza. Unaweza kufurahia vipengele vyote wakati wa jaribio.",
-		"Usijali. Baada ya $exp, HUTATOZWA chochote, na utarudishwa kwenye toleo la bure la Lite. Machapisho yako yote yatabaki kwenye shajara yako. ( ´･ヮ･) ♡",
+		"Zawadi ya karibu: siku 30 bure za Hearty VIP Premium na vipengele vyote.",
+		"Baada ya $exp HUTATOZWA chochote; utarudi Lite bure na machapisho yako yatabaki. ( ´･ヮ･) ♡",
 		"Jifunze zaidi",
-		"Anza kuandika shajara"
+		"Anza kuandika"
 	],
 	purchased: [
-		"Mpango wako wa VIP Premium uko tayari!",
-		"Ikiwa una dakika 3 na ungependa kushiriki maoni yako, tungefurahi kusikia kutoka kwako.",
-		"Utapokea siku 7 za ziada za mpango wa Premium bila malipo kwa utafiti wako wa kwanza!",
+		"VIP Premium imewashwa!",
+		"Una dakika 3 za kutoa maoni?",
+		"Utafiti wa kwanza: siku 7 za Premium bure!",
 		"Shiriki utafiti",
-		"Si sasa (au nimeshafanya)"
+		"Si sasa / nimeshafanya"
 	],
 	n_verify_email: [
-		"Thibitisha $item yako ili kufungua baadhi ya vipengele",
-		"Ili kupokea majibu, uthibitishaji wa barua pepe unahitajika."
+		"Thibitisha $item yako kufungua vipengele",
+		"Thibitisha barua pepe ili kupokea majibu."
 	],
-	n_verify_phone: "Thibitisha nambari yako ya simu ili kuimarisha usalama wa akaunti",
+	n_verify_phone: "Thibitisha simu kwa usalama zaidi",
 	n_vip_prefix: "Mpango wako wa VIP",
-	n_char_limit_exceed: "Umeandika herufi $chars na kufikia kiwango cha maandishi cha toleo la Lite.",
+	n_char_limit_exceed: "Herufi $chars: kiwango cha Lite kimefikiwa.",
 	n_daily_checkin: [
-		"Pointi yako inakusubiri — jisajili leo sasa!",
+		"Pointi yako inakusubiri — jisajili leo!",
 		"Umeshajisajili leo."
 	],
 	checkin: [
 		"Kujisajili Kila Siku",
 		"Pointi Zangu za Hearty: ", "P",
-		"Zawadi ya kujisajili kila siku: 1P",
-		"Umepata 1P. Sasa una $pP.",
+		"Kujisajili kila siku: 1P",
+		"+1P! Sasa una $pP.",
 		"Tayari umejisajili leo.",
 		"Rudi kesho.",
-		"Hearty Point ni mpango wa zawadi unaowapa watumiaji pointi za kukusanya na kutumia. Bidhaa zitakazopatikana zitatangazwa siku zijazo."
+		"Kusanya na utumie Pointi za Hearty. Zawadi zitatangazwa."
 	],
 	reward: [
-		"Tazama mipango ya zawadi"
+		"Zawadi"
 	],
 	pd: [
 		"Kifuatiliaji cha Hedhi",
@@ -464,7 +464,7 @@ _h$["e"] = _h$["e"] || {
 
 		"Leo",
 		"Ondoa",
-		"Thibitisha kuondoa rekodi?",
+		"Ondoa rekodi?",
 		"Siku ya $d", // Eng: $d$th
 		"Inayofuata: baada ya siku $d"
 	],
@@ -472,33 +472,33 @@ _h$["e"] = _h$["e"] || {
 	// customize my journal
 	headline: [
 		"Kichwa",
-		"Weka kichwa kipya cha shajara yako",
+		"Kichwa kipya cha shajara",
 		"Hifadhi",
 		'Kichwa kipya: "$headline"',
-		"kinaweza kuachwa wazi"
+		"si lazima"
 	],
 	style: [
 		"Binafsisha Shajara Yangu",
-		"Rudi kwenye chaguo-msingi",
+		"Chaguo-msingi",
 		"Unahitaji msukumo?",
 		"//en.faq.hearty.me/tutorial/styles"
 	],
 	cover: [
 		"Picha ya Jalada",
-		"Pakia picha ya jalada",
-		"Uwiano bora: 1.9:1",
+		"Pakia jalada",
+		"Bora: 1.9:1",
 		"Thibitisha", // crop
 		"Ghairi",
-		"Muundo wa picha hautumiki: $ext .",
-		"Picha ya jalada imepakiwa",
-		"Picha ya jalada imewekwa upya"
+		"Muundo hautumiki: $ext .",
+		"Jalada limepakiwa",
+		"Jalada limewekwa upya"
 	],
 	bg: [
 		"Picha ya Mandharinyuma",
-		"Pakia picha ya mandharinyuma",
-		"Muundo wa picha hautumiki: $ext .",
-		"Picha ya mandharinyuma imesasishwa",
-		"Picha ya mandharinyuma imewekwa upya"
+		"Pakia mandharinyuma",
+		"Muundo hautumiki: $ext .",
+		"Mandharinyuma yamesasishwa",
+		"Mandharinyuma yamewekwa upya"
 	],
 	color: [
 		"Chagua Rangi",
@@ -511,35 +511,35 @@ _h$["e"] = _h$["e"] || {
 		"Shajara", "Arifa zangu", "Vibandiko", "Bei", "Kituo cha Usaidizi", "Imekamilika"
 	],
 	notification: [
-		"Hakuna arifa ambayo haijasomwa",
+		"Hakuna jipya",
 		"Programu ya Kompyuta",
 		"Kituo cha Usaidizi",
 		"Pakia upya",
 		"Hali ya Debug",
-		"Pata vipengele vya VIP Premium"
+		"Pata VIP Premium"
 	],
 	link: [
-		"Unatembelea Kiungo cha Nje",
+		"Kiungo cha Nje",
 		"Kimekaguliwa na Google Safe Browsing",
 		"Nenda"
 	],
 	share: [
-		"Faragha ya chapisho", "Kiungo", "Faragha", "Nambari ya siri", "Umma", "Chapisha kwenye mlisho", "Chapisho lenye taarifa binafsi au za siri haliruhusiwi kuwa la umma."
+		"Faragha ya chapisho", "Kiungo", "Faragha", "Nambari ya siri", "Umma", "Chapisha kwenye mlisho", "Usiweke hadharani taarifa binafsi au za siri."
 	],
 	penpal: [
-		"Rafiki wa Kalamu", "Alika rafiki wa kalamu", "Futa rafiki wa kalamu", "Hujaalika rafiki wa kalamu", "Shiriki hili na: "
+		"Rafiki wa Kalamu", "Alika", "Futa", "Hakuna marafiki wa kalamu", "Shiriki hili na: "
 	],
 	qa: [
-		"Kituo cha Usaidizi", "Jumla na Vipengele vya Bidhaa", "Akaunti na Malipo", "Usalama wa Data na Faragha", "Jaribio la Mtandao", "Ripoti Hitilafu na Wasilisha Tiketi", "Hali ya Huduma", "Mifumo Yote Inafanya Kazi"
+		"Kituo cha Usaidizi", "Jumla na Vipengele", "Akaunti na Malipo", "Data na Faragha", "Jaribio la Mtandao", "Hitilafu / Tiketi", "Hali ya Huduma", "Yote Yanafanya Kazi"
 	],
 	cs: [
-		"Wasilisha Tiketi", "Kwa maswali kuhusu vipengele, bofya hapa.", "Maoni ya Bidhaa, Ripoti ya Hitilafu au Kumbatio",
-		"Utapokea jibu kupitia barua pepe hivi karibuni.", "Wasilisha", "PIN yangu ya usaidizi: ",
-		"Vipengele vya Beta vimewashwa"
+		"Wasilisha Tiketi", "Maswali? Bofya hapa.", "Maoni, Hitilafu au Kumbatio",
+		"Tutajibu kwa barua pepe hivi karibuni.", "Wasilisha", "PIN ya usaidizi: ",
+		"Beta imewashwa"
 	],
 	csform: ["Jina", "VIP Premium", "Lite", "Kiambatisho"],
 	gift: [
-		"Pata vibandiko vyako", "Fungua sanduku la zawadi", "Vibandiko 50 vya kipekee vya shajara"
+		"Vibandiko vyako", "Fungua sanduku la zawadi", "Vibandiko 50 vya kipekee"
 	],
 	prologue: "Siku yako ilikuwaje?",
 	pwd: "Nambari ya Siri",
@@ -547,10 +547,10 @@ _h$["e"] = _h$["e"] || {
 		"Matengenezo Yaliyopangwa", "Mtandao wa Polepole", "Mtandao Hauko Thabiti", "Betri Iko Chini"
 	],
 	tool: [
-		"Hifadhi", "Chapisho jipya", "Ondoa", "Shiriki", "Hifadhi kama picha", "Chapisho lililotangulia", "Chapisho linalofuata", "Skrini nzima", "Fungua kitabu", "Pindua kitabu"
+		"Hifadhi", "Chapisho jipya", "Ondoa", "Shiriki", "Kama picha", "Lililotangulia", "Linalofuata", "Skrini nzima", "Fungua kitabu", "Pindua kitabu"
 	],
 	rmenu: [
-		"Kituo cha Usaidizi", "Kuhusu", "Skrini nzima", "繁/简", "Ongeza Ukubwa wa Fonti", "Punguza Ukubwa wa Fonti", "Pindua kitabu", "Hali ya Kusoma Wima"
+		"Kituo cha Usaidizi", "Kuhusu", "Skrini nzima", "繁/简", "Fonti Kubwa", "Fonti Ndogo", "Pindua kitabu", "Kusoma Wima"
 	],
 	image: [
 		"Picha", "Zungusha", "Weka vichujio", "Pakua", "Ondoa"
@@ -558,14 +558,14 @@ _h$["e"] = _h$["e"] || {
 	tab: [
 		"Yangu", "Ya Rafiki wa Kalamu",
 		"🔍 Tafuta", "🔖 Vipendwa", "🎧 Orodha ya Muziki", "🌙 Kifuatiliaji cha Hedhi", "🔒 Kufuli ya Nambari ya Siri",
-		"Kituo cha Usaidizi", "Ishara za Kugusa", "Ishara za Kugusa kwa Vibandiko"
+		"Kituo cha Usaidizi", "Ishara za Kugusa", "Ishara za Vibandiko"
 	],
 	book: [
-		"Kuhusu", "Katika zama zenye shughuli nyingi, Hearty Journal inatoa kimbilio lenye joto na utulivu. Hapa, watu huweka chini uchovu wao, hukiri hofu zao zisizosemwa, na kujigundua upya nafsi zao halisi. Anga huenda lisiwe la buluu kila wakati, lakini tunabaki imara na wapole."
+		"Kuhusu", "Katika zama zenye shughuli nyingi, Hearty Journal ni kimbilio lenye joto na utulivu: weka chini uchovu, kiri hofu zisizosemwa na ujipate upya. Anga si la buluu kila wakati, lakini tunabaki imara na wapole."
 	],
-	promo: ["[Ofa Maalum] Pata miezi 3 ya VIP Premium kwa NT$99 tu"],
-	403: "Tafadhali ingia ili kusoma chapisho hili la faragha. 🔒",
-	404: "Lo, huenda kiungo cha chapisho si sahihi.",
+	promo: ["[Ofa] Miezi 3 ya VIP Premium kwa NT$99"],
+	403: "Chapisho la faragha: ingia. 🔒",
+	404: "Lo, huenda kiungo si sahihi.",
 	tutorial: [
 		"//i.hearty.app/b/images/tutorials/en/m1.jpg",
 		"//i.hearty.app/b/images/tutorials/en/m2.jpg",
@@ -577,7 +577,7 @@ _h$["e"] = _h$["e"] || {
 		"//i.hearty.app/b/images/tutorials/en/d4.jpg"
 	],
 	stickers: ["Vibandiko vyote", // Start with 1
-		"Maneno", "Hali ya Hewa", "Hisia", "Maisha", "Mavazi", "Mahitaji ya Kila Siku", "Chakula", "Safari na Mandhari", "Misimu na Sikukuu", "Mimea", "Wanyama", "Wahusika Warembo", "Njozi"
+		"Maneno", "Hali ya Hewa", "Hisia", "Maisha", "Mavazi", "Vitu", "Chakula", "Safari", "Misimu na Sikukuu", "Mimea", "Wanyama", "Wahusika Warembo", "Njozi"
 	]
 };
 
@@ -591,43 +591,43 @@ _h$["p"] = _h$["p"] || {
 	lite: ["Lite", "Bure"],
 	vip: ["Hearty VIP Premium", "VIP Premium", "(Jaribio la Bure)"],
 	feat_lite: [
-		"Faragha Kwanza, Bila Matangazo",
-		"Maandishi (Kiwango: herufi 5,785)",
+		"Faragha, Bila Matangazo",
+		"Maandishi (hadi herufi 5,785)",
 		"Vibandiko 90 na Fonti 20 za Kifahari",
-		"Hali ya Hewa ya Eneo Lako, Kikumbusho cha Kila Siku",
-		"Shiriki na Marafiki wa Kalamu (Hadi watu 2)",
-		"Kufuli ya Nambari ya Siri ya 2FA, Orodha ya Muziki na Kifuatiliaji cha Hedhi",
-		"Inafanya kazi kwenye iOS, Android, Windows na macOS",
-		"Usawazishaji wa Kiotomatiki kwenye Wingu, kwa Amazon Web Services",
-		"Muunganisho Uliosimbwa kwa TLS 1.3",
+		"Hali ya Hewa, Kikumbusho cha Kila Siku",
+		"Shiriki na hadi Marafiki 2",
+		"Kufuli ya 2FA, Muziki na Kifuatiliaji cha Hedhi",
+		"iOS, Android, Windows na macOS",
+		"Usawazishaji wa Wingu Kiotomatiki (AWS)",
+		"Usimbaji wa TLS 1.3",
 		"Imetengenezwa kwa ♥ nchini Taiwan",
 	],
 	feat_vip: [
-		"vipengele vyote vya Lite, pamoja na: ",
+		"Vyote vya Lite, pamoja na: ",
 		"Maneno Bila Kikomo",
-		"Weka Picha (Hadi 10 kwa kila chapisho)",
-		"Matunzio ya Picha yenye Madoido 15",
-		"Vibandiko 1,300+ (vinasasishwa mara kwa mara)",
-		"Ongeza Video Zako Pendwa za YouTube",
-		"Binafsisha Jalada na Mandharinyuma ya Shajara",
-		"Badilisha Jina la Shajara na Tarehe za Machapisho",
+		"Hadi Picha 10 kwa Chapisho",
+		"Matunzio yenye Madoido 15",
+		"Vibandiko 1,300+ (vipya kila mara)",
+		"Video za YouTube",
+		"Jalada na Mandharinyuma Yako",
+		"Badilisha Kichwa na Tarehe",
 		"Utafutaji Rahisi",
-		"Hamisha kama Word, TXT au Picha"
+		"Hamisha Word, TXT au Picha"
 	],
 	remark: [
-		"Kwa nini upandishe hadi VIP Premium?",
-		"[Ofa ya Ununuzi wa Kwanza] Pata miezi 3 ya VIP Premium kwa NT$99 tu",
-		"inatozwa kila mwezi, wasiliana nasi kusitisha wakati wowote",
-		"Hakikisho la kurudishiwa pesa ndani ya siku 30 kwa wateja wapya",
+		"Kwa nini VIP Premium?",
+		"[Ununuzi wa Kwanza] Miezi 3 ya VIP Premium kwa NT$99",
+		"kila mwezi, sitisha wakati wowote",
+		"Pesa kurudishwa ndani ya siku 30 (wateja wapya)",
 		"Vipengele vya Premium"
 	],
 	act: [
-		"Jisajili Bila Malipo", "Anza Jaribio la Bure (siku 30)", "Ofa za Kupandisha Daraja", "Fanya Upya Sasa", "Ingia ili Kupandisha Daraja"
+		"Jisajili Bila Malipo", "Siku 30 Bure", "Ofa za Kupandisha Daraja", "Fanya Upya Sasa", "Ingia na Upandishe"
 	],
-	deposit: ["Kulipia Kabla", "Nunua sasa", "Njia za malipo: Kadi ya mkopo, Google Pay, Alipay, ATM ya Taiwan"],
-	subscription: ["Mpango wa Kila Mwezi", "Jisajili Sasa", "(Ofa ya Kadi ya Mkopo)", "NT$99 tu / miezi 3 kwa ununuzi wa kwanza", "Inajisasisha kwa NT$99/mwezi", "Kadi za mkopo zinakubaliwa"],
+	deposit: ["Kulipia Kabla", "Nunua sasa", "Kadi, Google Pay, Alipay, ATM ya Taiwan"],
+	subscription: ["Mpango wa Kila Mwezi", "Jisajili Sasa", "(Ofa ya Kadi ya Mkopo)", "Ununuzi wa kwanza: NT$99 / miezi 3", "Kisha NT$99/mwezi", "Kadi ya mkopo"],
 	selected: ["Imechaguliwa", "Bora"],
-	currency: ["Kulingana na kiwango cha sasa cha ubadilishaji, "],
+	currency: ["Kwa kiwango cha sasa, "],
 	term: [
 		"Miezi 3", "Miezi 6", "Mwaka 1"
 	],
@@ -640,34 +640,34 @@ _h$["p"] = _h$["p"] || {
 
 	due: "Usajili Wangu",
 	due_active: ["Usajili Unaoendelea"],
-	due_date: ["Unaisha tarehe ", "", "kisha utarudishwa kwenye toleo la Lite"],
-	due_days: ["Unaisha baada ya siku ", "", "kisha utarudishwa kwenye toleo la Lite"],
-	due_tomorrow: ["Unaisha kesho", "kisha utarudishwa kwenye toleo la Lite"],
-	due_today: ["Unaisha leo", "kisha utarudishwa kwenye toleo la Lite"],
+	due_date: ["Unaisha tarehe ", "", "kisha Lite"],
+	due_days: ["Unaisha baada ya siku ", "", "kisha Lite"],
+	due_tomorrow: ["Unaisha kesho", "kisha Lite"],
+	due_today: ["Unaisha leo", "kisha Lite"],
 	iap_ios: [
-		"Unajisasisha kila mwezi, sitisha wakati wowote",
-		"[Hearty Journal] Masharti ya Usajili wa iOS",
-		"Toleo la Lite lina vipengele na rasilimali chache; pandisha hadi VIP kwa ufikiaji kamili",
-		"Usajili unajisasisha kila mwezi kwa bei ya ununuzi wako wa kwanza",
-		"Baada ya kuwashwa, unajisasisha na kutoza kupitia akaunti yako ya Apple",
-		"Kipindi cha usajili kikishaanza, hakiwezi kusitishwa wala kurejeshewa pesa katikati",
-		"Unajisasisha saa 24 kabla ya kuisha; kumbuka kusitisha mapema ikiwa hutaki kuendelea",
-		"Simamia au badilisha mpango wako wakati wowote kwenye Akaunti ya Apple > Usajili",
-		"Hatuombi kamwe uhamisho wa ATM au shughuli za benki kwa simu; ukishuku, piga simu ya dharura ya kupambana na ulaghai 165",
-		"Baada ya kununua, kipindi cha jaribio kinaisha mara moja. Ikiwa unataka muda zaidi wa jaribio, subiri jaribio liishe kabla ya kujisajili",
+		"Hujisasisha kila mwezi, sitisha wakati wowote",
+		"[Hearty Journal] Masharti ya iOS",
+		"Lite ina vikomo; VIP inatoa ufikiaji kamili",
+		"Hujisasisha kila mwezi kwa bei ya awali",
+		"Hujisasisha na kutoza kupitia akaunti ya Apple",
+		"Kipindi kilichoanza hakisitishwi wala kurejeshewa pesa",
+		"Hujisasisha saa 24 kabla ya kuisha; sitisha mapema usipotaka",
+		"Simamia kwenye Akaunti ya Apple > Usajili",
+		"Hatuombi kamwe shughuli za ATM au benki kwa simu; ukishuku, piga 165",
+		"Ununuzi humaliza jaribio mara moja. Ili kulitumia lote, jisajili baadaye",
 		"Masharti ya Huduma",
 		"Sera ya Faragha"
 	],
 	iap_and: [
-		"Unajisasisha kila mwezi, sitisha wakati wowote",
-		"[Hearty Journal] Masharti ya Usajili wa Android",
-		"Toleo la Lite lina vipengele na rasilimali chache; pandisha hadi VIP kwa ufikiaji kamili",
-		"Usajili unajisasisha kila mwezi kwa bei ya ununuzi wako wa kwanza",
-		"Baada ya kuwashwa, unajisasisha na kutoza kupitia Google Play",
-		"Kipindi cha usajili kikishaanza, hakiwezi kusitishwa wala kurejeshewa pesa katikati",
-		"Unajisasisha saa 24 kabla ya kuisha; kumbuka kusitisha mapema ikiwa hutaki kuendelea",
-		"Simamia au badilisha mpango wako wakati wowote kwenye Google Play > Malipo na Usajili",
-		"Hatuombi kamwe uhamisho wa ATM au shughuli za benki kwa simu; ukishuku, piga simu ya dharura ya kupambana na ulaghai 165",
+		"Hujisasisha kila mwezi, sitisha wakati wowote",
+		"[Hearty Journal] Masharti ya Android",
+		"Lite ina vikomo; VIP inatoa ufikiaji kamili",
+		"Hujisasisha kila mwezi kwa bei ya awali",
+		"Hujisasisha na kutoza kupitia Google Play",
+		"Kipindi kilichoanza hakisitishwi wala kurejeshewa pesa",
+		"Hujisasisha saa 24 kabla ya kuisha; sitisha mapema usipotaka",
+		"Simamia kwenye Google Play > Malipo na Usajili",
+		"Hatuombi kamwe shughuli za ATM au benki kwa simu; ukishuku, piga 165",
 		"",
 		"Masharti ya Huduma",
 		"Sera ya Faragha"
@@ -680,31 +680,31 @@ _h$["A"] = _h$["A"] || {
 	signin: ["Ingia", "Ingia ili kujibu", "Ingia kwanza"],
 	back: "Rudi",
 	no: "Hapana",
-	no_post: "Lo, makala hii haipo.",
-	penpal_guest: ["Habari, hii ni siku yako ya $day kwenye Hearty Journal. Tafadhali andika shajara kwa angalau siku 7 ili kuona orodha ya marafiki wa kalamu.", "Nimeelewa"], // Eng: $day$th
+	no_post: "Makala haipo.",
+	penpal_guest: ["Hii ni siku yako ya $day kwenye Hearty Journal. Andika siku 7 ili uone marafiki wa kalamu.", "Nimeelewa"], // Eng: $day$th
 	comment_limit: [
-		"Huenda umechapisha maoni yanayojirudia. Gusa ili kuondoa au kubadilisha yale ya awali.",
-		"Umeandika herufi $chars. Maoni lazima yawe na herufi 85 au chini.",
-		"Maoni yote lazima yawe na angalau herufi 4."
+		"Huenda maoni yamejirudia. Gusa ili kuhariri au kuondoa.",
+		"Herufi $chars; kikomo ni 85.",
+		"Angalau herufi 4."
 	],
 	comment_ban: [
-		"Maoni yako yatachapishwa baada ya kuidhinishwa na msimamizi.",
-		"Samahani kwa usumbufu. 🥺",
-		"Kama ukumbusho, tafadhali fuata ",
+		"Maoni yataonekana baada ya kuidhinishwa.",
+		"Samahani! 🥺",
+		"Tafadhali fuata ",
 		"Sheria za Machapisho ya Umma."
 	],
 	comment_edit: ["Badilisha maoni?", "Ndiyo"],
-	report_ask: ["Ripoti maoni haya kwa matusi/barua taka?", "Ripoti", "Asante kwa ripoti yako."],
+	report_ask: ["Ripoti kama matusi/barua taka?", "Ripoti", "Asante kwa ripoti yako."],
 	url: ["Nakili", "Kiungo cha Makala", "Pakua QRcode"],
-	penpal_add: ['Mwalike "<b>$id</b>" kuwa rafiki yako wa kalamu?', "Kwa ubora wa mawasiliano, tunapendekeza usiwe na marafiki wa kalamu zaidi ya 2.", "Endelea"],
-	verify: ["Tafadhali thibitisha barua pepe na nambari yako ya simu kwanza.", "Akaunti Yangu"],
+	penpal_add: ['Mwalike "<b>$id</b>" kuwa rafiki yako wa kalamu?', "Tunapendekeza marafiki wa kalamu wasizidi 2.", "Endelea"],
+	verify: ["Thibitisha barua pepe na simu kwanza.", "Akaunti Yangu"],
 
 	// DOMs
 	title: "Kitabu cha Wageni cha Alice",
 	board: "Kitabu cha wageni cha Alice",
 	tabs: ["Maoni", "Orodha ya Makala", "Marafiki wa Kalamu", "Shiriki", "Tupe nyota 5", "Ujumbe Ndani ya Chupa"],
-	comment: ["Jibu", "Ingia ili kujibu", "Umezidi kikomo cha herufi (herufi 85)"],
-	profile: ["Alika kama rafiki wa kalamu", "Shajara yangu"],
+	comment: ["Jibu", "Ingia ili kujibu", "Herufi 85 pekee"],
+	profile: ["Alika", "Shajara yangu"],
 	gotop: "Juu",
 	goleft: "Rudi"
 };
@@ -713,14 +713,14 @@ _h$["A"] = _h$["A"] || {
 _h$["f"] = _h$["f"] || {
 	// JS
 	refresh: ["Inapakia", "Vuta chini", "Achilia ili kuonyesha upya"],
-	signin: ["Ingia", "Ingia ili kutumia kipengele ulichoomba"],
+	signin: ["Ingia", "Ingia ili kutumia kipengele hiki"],
 	no: "Ghairi",
 	url: ["Nakili", "Kiungo cha chapisho na QRcode"],
-	publish_ask: ["Unataka kuchapisha chapisho lako kwenye mlisho wa umma?", "Kwenye shajara yako, gusa", "ili kuchapisha.", "Nimeelewa", "Shajara yangu"],
+	publish_ask: ["Chapisha kwenye mlisho?", "Kwenye shajara yako, gusa", "ili kuchapisha.", "Nimeelewa", "Shajara yangu"],
 	report_ask: ['Ripoti "$title" kwa matusi/barua taka?', "Ripoti", '"$title" limeripotiwa. Asante.'],
 
 	// DOMs
-	title: "Mlisho wa Machapisho ya Umma (Ukurasa $p)",
+	title: "Mlisho wa Umma (Ukurasa $p)",
 	share: "Shiriki hili",
 	report: "Ripoti Matumizi Mabaya",
 	focus_post: "Onyesha kwenye mlisho",
@@ -728,14 +728,14 @@ _h$["f"] = _h$["f"] || {
 	publish: "Chapisha",
 	gotop: "Juu",
 	back: "Rudi",
-	health: ["Kwa taarifa za afya, tafadhali rejelea tovuti ya CDC. ( • ̀ω•́ )", "//www.cdc.gov.tw"]
+	health: ["Taarifa za afya: tovuti ya CDC. ( • ̀ω•́ )", "//www.cdc.gov.tw"]
 };
 
 // img
 _h$["I"] = _h$["I"] || {
 	title: "Matunzio",
 	upload: "Pakia picha",
-	empty: ["Hakuna picha iliyopakiwa", "Ongeza moja sasa?"],
+	empty: ["Hakuna picha", "Ongeza moja sasa?"],
 	add: "Ongeza picha",
 	gotop: "Juu",
 	layout: ["Gridi", "Matofali"]
@@ -748,32 +748,32 @@ _h$["a"] = _h$["a"] || {
 		"Ongeza Passkey",
 		"Bado hakuna Passkey",
 		"Passkey ni nini?",
-		"Passkey hukuwezesha kuingia kwa Face ID, alama ya kidole au kufuli ya skrini ya kifaa chako, bila kuandika Hearty ID na nenosiri, na iko salama dhidi ya tovuti za ulaghai (phishing).<br><br>Passkey huhifadhiwa kwenye kifaa chako au kwenye kidhibiti cha manenosiri (kama iCloud Keychain au Google Password Manager). Hearty Journal huhifadhi tu ufunguo wa umma, ambao hauwezi kutumika kuingia.<br><br>Kuondoa Passkey hakutoi vifaa ambavyo tayari vimeingia. Baada ya kubadilisha Hearty ID, kidhibiti cha manenosiri kinaweza bado kuonyesha jina la zamani; hili haliathiri kuingia.",
-		"Baada ya kuiunda, utaweza kuingia bila kuandika Hearty ID na nenosiri",
+		"Ingia kwa Face ID, alama ya kidole au kufuli ya skrini, bila Hearty ID wala nenosiri, salama dhidi ya ulaghai (phishing).<br><br>Passkey huhifadhiwa kwenye kifaa au kidhibiti cha manenosiri (k.m. iCloud Keychain, Google Password Manager). Hearty Journal huhifadhi ufunguo wa umma tu, usioweza kutumika kuingia.<br><br>Kuiondoa hakutoi vifaa vilivyoingia. Ukibadilisha ID, jina la zamani linaweza kuonekana bila kuathiri kuingia.",
+		"Ingia bila Hearty ID na nenosiri",
 		"Badilisha jina",
 		"Jina la Passkey (hadi herufi 20)",
-		"Jina lazima liwe na herufi 1 ~ 20",
+		"Jina: herufi 1 ~ 20",
 		"Ondoa",
-		"Una uhakika unataka kuondoa \"$name\"?<br>Baada ya kuiondoa, hutaweza tena kuitumia kuingia kwenye Hearty Journal. Vifaa vilivyoingia havitatolewa.<br>Tafadhali futa pia Passkey hii kwenye kidhibiti chako cha manenosiri.",
-		"Hii ndiyo Passkey yako ya mwisho na akaunti haina nenosiri. Baada ya kuiondoa, utaweza kuingia kwa akaunti ya nje pekee.",
-		"Hii ndiyo Passkey inayotumiwa na kifaa hiki kuingia sasa. Baada ya kuiondoa, kifaa hiki kitabaki kimeingia.",
+		"Ondoa \"$name\"?<br>Hutaweza tena kuingia nayo; vifaa vilivyoingia vitabaki.<br>Ifute pia kwenye kidhibiti cha manenosiri.",
+		"Passkey ya mwisho na hakuna nenosiri: baadaye ni akaunti ya nje pekee.",
+		"Kifaa hiki kinatumia Passkey hii na kitabaki kimeingia.",
 		"Passkey imeondolewa",
-		"Husawazishwa na vifaa vyako vingine",
+		"Husawazishwa na vifaa vyako",
 		"Iko kwenye kifaa hiki pekee",
 		"Bado haijasawazishwa",
 		"Inatumika sasa",
 		"Iliundwa $date",
 		"Ilitumika mwisho $date",
 		"Bado haijatumika",
-		"Weka nenosiri lako la sasa ili kuthibitisha kuwa ni wewe",
+		"Weka nenosiri la sasa kuthibitisha",
 		"Nenosiri si sahihi",
-		"Umefikia kikomo cha Passkey (10). Tafadhali ondoa kwanza Passkey usiyoitumia",
-		"Kifaa hiki au kidhibiti hiki cha manenosiri tayari kina Passkey",
-		"Passkey imeundwa! Wakati ujao unaweza kuingia kwa Passkey",
-		"Tafadhali thibitisha utambulisho wako kwa Passkey iliyopo",
+		"Kikomo ni Passkey 10. Ondoa isiyotumika",
+		"Kifaa au kidhibiti hiki tayari kina Passkey",
+		"Passkey imeundwa! Itumie wakati ujao",
+		"Thibitisha kwa Passkey iliyopo",
 		"Endelea",
-		"Muda umeisha. Tafadhali jaribu tena",
-		"Majaribio mengi mno yameshindwa. Tafadhali jaribu tena baada ya dakika 15"
+		"Muda umeisha. Jaribu tena",
+		"Majaribio mengi mno. Jaribu baada ya dakika 15"
 	],
 	// JS
 	ok: ["Sawa", "Thibitisha", "Bila shaka", "Sahihi"],
@@ -783,43 +783,43 @@ _h$["a"] = _h$["a"] || {
 	upload: "Pakia",
 	rotate: "Zungusha",
 	retry: "Jaribu tena",
-	signin: ["Ingia", "Ingia ili kutumia kipengele ulichoomba"],
-	usage: "Umeandika herufi $chars katika machapisho $num.",
-	points: "Pointi $p (Tazama mipango ya ukombozi)",
+	signin: ["Ingia", "Ingia ili kutumia kipengele hiki"],
+	usage: "Herufi $chars katika machapisho $num.",
+	points: "Pointi $p (komboa)",
 	year: "BK", // CE
-	bday_ask: ["Je, $bday ni siku yako ya kuzaliwa?", "Tarehe ya kuzaliwa haiwezi kubadilishwa.", "Siku ya kuzaliwa imesasishwa"],
+	bday_ask: ["Je, $bday ni siku yako ya kuzaliwa?", "Haitabadilishwa baadaye.", "Siku ya kuzaliwa imesasishwa"],
 	age: "Umri $age",
 	nickname_edited: '"$n" ni jina lako jipya la utani',
 	pwd_edit: "Badilisha Nenosiri",
 	pwd_edited: "Imebadilishwa",
-	pwd_enter: "Weka nenosiri lako jipya.",
-	pwd_confirm: "Weka nenosiri tena ili kuthibitisha.",
-	pwd_invalid: "Nenosiri linapaswa kuwa na herufi 6 ~ 20. Tafadhali jaribu tena.",
-	pwd_mismatch: "Manenosiri hayalingani. Tafadhali jaribu tena.",
+	pwd_enter: "Nenosiri jipya.",
+	pwd_confirm: "Rudia nenosiri.",
+	pwd_invalid: "Nenosiri: herufi 6 ~ 20.",
+	pwd_mismatch: "Manenosiri hayalingani.",
 	pwd_format: "Herufi 6 ~ 20",
 	pwd_apply: ["Badilisha", "Thibitisha"],
-	pwd_ok: ["Nenosiri limebadilishwa. Tafadhali ingia kwa nenosiri lako jipya wakati ujao.",
-				"Tafadhali weka nenosiri lako salama na la siri ili kuzuia ufikiaji usioidhinishwa."],
-	avatar: ["Chagua picha (JPG, PNG, GIF, WebP, AVIF, HEIC)", "Umechagua $ext, lakini ni JPG, PNG, GIF, WebP, AVIF na HEIC pekee zinazotumika", "Chagua tena", "Picha ya wasifu imepakiwa"],
+	pwd_ok: ["Nenosiri limebadilishwa. Litumie wakati ujao.",
+				"Weka nenosiri lako siri."],
+	avatar: ["Picha (JPG, PNG, GIF, WebP, AVIF, HEIC)", "$ext haitumiki; JPG, PNG, GIF, WebP, AVIF na HEIC pekee", "Chagua tena", "Picha ya wasifu imepakiwa"],
 	avatar_err: [
-		"Muundo wa picha hautumiki au kiendelezi cha faili si sahihi (inatumika tu: JPG, PNG, GIF, WebP, AVIF, HEIC)",
-		"Faili la picha linazidi 6MB; tafadhali libane kabla ya kupakia",
-		"Faili la picha haliwezi kusomwa au limeharibika",
-		"Ubadilishaji wa HEIC/HEIF umeshindikana. Tafadhali jaribu picha nyingine."
+		"Muundo au kiendelezi hakitumiki (JPG, PNG, GIF, WebP, AVIF, HEIC)",
+		"Zaidi ya 6MB; libane kwanza",
+		"Picha haisomeki au imeharibika",
+		"HEIC/HEIF imeshindwa kubadilishwa. Jaribu picha nyingine."
 	],
-	email_new: "Badilisha barua pepe ya akaunti",
+	email_new: "Badilisha barua pepe",
 	email_confirm: 'Thibitisha kubadilisha barua pepe yako kuwa "$email"?',
 	email_invalid: "Barua pepe si sahihi",
-	email_verify: ["Kwa usalama wa akaunti, uthibitishaji wa barua pepe unahitajika ili ", "kufungua baadhi ya vipengele.", "Thibitisha sasa"],
-	email_send: "Tuma barua pepe ya uthibitisho tena?",
-	email_sent: ["Barua pepe ya uthibitisho imetumwa, ungependa kuangalia barua pepe yako kwenye $isp?",
-				"Barua pepe ya uthibitisho imetumwa, tafadhali angalia kikasha chako."],
+	email_verify: ["Kwa usalama, thibitisha barua pepe ili ", "kufungua vipengele.", "Thibitisha sasa"],
+	email_send: "Tuma uthibitisho tena?",
+	email_sent: ["Barua pepe imetumwa. Fungua $isp?",
+				"Barua pepe imetumwa. Angalia kikasha."],
 	email_verified: "Barua pepe tayari imethibitishwa.",
-	pin: ["PIN ya Usaidizi: $pin<br><small>(PIN ya usaidizi ni hatua ya usalama inayotumika kuthibitisha utambulisho wako unapowasiliana na usaidizi.)</small>", "Pakua"],
+	pin: ["PIN ya Usaidizi: $pin<br><small>(Huthibitisha utambulisho wako kwa usaidizi.)</small>", "Pakua"],
 	font: [
 		"Fonti za Kifahari",
 		"i/fonts_en.png",
-		"Huduma ya fonti za wavuti ya Justfont, pamoja na fonti za kibiashara na za chanzo huria zinatumika.",
+		"Fonti za Justfont, za kibiashara na za chanzo huria.",
 		"Leseni"
 	],
 	font_change: 'Inabadilisha fonti: "$font". Tafadhali subiri.',
@@ -828,36 +828,36 @@ _h$["a"] = _h$["a"] || {
 	lang: "Inabadilisha hadi: $lang",
 	timezone_edited: 'Saa za eneo zimewekwa kuwa "$tz"',
 	id: "Hearty ID: ",
-	id_edit: "Badilisha ID yangu",
-	id_public: "Hearty ID na jina la utani ni za umma",
+	id_edit: "Badilisha ID",
+	id_public: "ID na jina la utani ni za umma",
 	id_new: "Weka ID yako mpya",
-	id_format: "Hearty ID halali inapaswa kuwa na herufi na nambari pekee, herufi 4 ~ 20. Unaweza kubadilisha ID yako mara moja tu.",
-	id_invalid: "ID uliyoweka haikidhi masharti.",
-	id_same: "Inapaswa kuwa tofauti na ile ya awali.",
+	id_format: "Herufi na nambari 4 ~ 20. Inabadilishwa mara moja tu.",
+	id_invalid: "ID si sahihi.",
+	id_same: "Lazima itofautiane na ya sasa.",
 	id_taken: '<b>"$id"</b> tayari inatumika. Tafadhali chagua nyingine.',
 	id_edited: 'Hearty ID yako sasa ni "<b>$id</b>"',
-	id_signout: "Ingia kwa Hearty ID yako mpya",
-	dl: "Hamisha kwenye faili la TXT",
+	id_signout: "Ingia kwa ID mpya",
+	dl: "Hamisha TXT",
 	dl_pc: 'Fungua "<u>www.hearty.me</u>" kwenye kompyuta ili kupakua nakala yako ya akiba.',
-	dl_pwd: ["Weka nenosiri lako ili kufungua shajara iliyosimbwa", "Nenosiri la akaunti (herufi 6 ~ 20)", "Hamisha kwenye faili la TXT", "Uhamishaji wa faili umeanza", "Nakala yako ya akiba imehamishwa. Tafadhali angalia folda yako ya vipakuliwa na uweke faili hilo kwa faragha na usalama."],
-	dl_fmt: ["Chagua muundo wa nakala rudufu", "Faili la maandishi (.txt)", "Hati ya Word yenye picha (.docx)", "Endelea"],
-	dl_doc: ["Machapisho $posts, picha $images<br>Ubadilishaji unaweza kuchukua dakika chache hadi makumi ya dakika, tafadhali kuwa mvumilivu", "Anza kuhamisha", "Inabadilisha: picha $done / $total, tafadhali subiri", "Inabadilisha, tafadhali subiri", "Hati yako ya Word imehifadhiwa. Tafadhali iweke mahali salama.", "Picha $n hazikuweza kupakiwa na zimerukwa", "Uhamishaji umekatizwa. Tafadhali jaribu tena baadaye.", "Kuhamisha kwenda Word kunawezekana tu kwenye Chrome au Edge ya kompyuta. Tafadhali badilisha kivinjari, au chagua faili la maandishi.", "Imehamishwa tarehe $date · machapisho $posts", "Nenosiri si sahihi. Tafadhali jaribu tena.", "Bado hakuna machapisho ya kuhamisha", "Hamisha kwenda Word"],
+	dl_pwd: ["Nenosiri la kufungua usimbaji", "Nenosiri la akaunti (herufi 6 ~ 20)", "Hamisha TXT", "Uhamishaji umeanza", "Nakala imehifadhiwa kwenye Vipakuliwa. Iweke salama."],
+	dl_fmt: ["Muundo wa nakala", "Faili la maandishi (.txt)", "Word yenye picha (.docx)", "Endelea"],
+	dl_doc: ["Machapisho $posts, picha $images<br>Ubadilishaji huchukua dakika chache hadi nusu saa", "Anza kuhamisha", "Inabadilisha picha $done / $total…", "Inabadilisha…", "Word imehifadhiwa. Iweke salama.", "Picha $n zimerukwa (hazikupakiwa)", "Uhamishaji umekatizwa. Jaribu baadaye.", "Word ni kwa Chrome/Edge ya kompyuta tu. Badilisha kivinjari au chagua maandishi.", "Imehamishwa tarehe $date · machapisho $posts", "Nenosiri si sahihi.", "Hakuna cha kuhamisha", "Hamisha kwenda Word"],
 	vip_only: ["Kipengele hiki cha", " ni cha Premium.", "Ofa za Kupandisha Daraja", "Si sasa"],
-	suspend: ["Una uhakika unataka kufuta akaunti? Ikiwa huihitaji kwa sasa, unaweza kuibakiza! Tutaendelea kuzindua vipengele vipya na vibandiko vya kupendeza — huenda ukataka kurudi kuangalia siku moja.", "Au bofya <u>hapa</u> kubadilisha ID yako", "Ifute", "Ibakize kwa sasa"],
-	auth_log: ["Shughuli ya Mwisho ya Akaunti", "$browser, $device", "Imarisha usalama", "//go.hearty.me/hj-sec"],
+	suspend: ["Futa akaunti? Unaweza pia kuibakiza — tunaongeza vipengele na vibandiko kila mara, huenda ukarudi siku moja.", "Au badilisha ID <u>hapa</u>", "Ifute", "Ibakize kwa sasa"],
+	auth_log: ["Shughuli za Karibuni", "$browser, $device", "Imarisha usalama", "//go.hearty.me/hj-sec"],
 	redeem: ["Msimbo wa vocha", "Komboa"],
 	coupon_ok: ['"$coupon" imekombolewa na sasa inakaguliwa.',
-				"Baada ya ukaguzi, utapokea salio kwenye akaunti ndani ya siku 3 za kazi. Tafadhali angalia [Maelezo ya Mpango] baada ya siku chache."],
+				"Salio litaingia ndani ya siku 3 za kazi baada ya ukaguzi; angalia [Maelezo ya Mpango]."],
 	voucher_ok: 'Msimbo "$code" umekombolewa kwa mafanikio! Umepokea siku $days za ufikiaji wa VIP, halali hadi $exp.',
-	voucher_invalid: "Msimbo wa vocha umeshakombolewa au si sahihi.",
-	voucher_disqualified: "Kila akaunti inaweza kukomboa vocha moja tu ya jaribio. Tayari umekomboa moja.",
+	voucher_invalid: "Msimbo umetumika au si sahihi.",
+	voucher_disqualified: "Vocha moja ya jaribio kwa akaunti; imeshatumika.",
 	voucher_vvip: [
-		"Ofa ya Mpango wa Uaminifu wa VVIP",
-		"Pata punguzo la kipekee la 40% unapofanya upya kwa mwaka (Mpango wa Kulipia Kabla)",
+		"Ofa ya VVIP",
+		"Punguzo la 40% kwa upya wa mwaka (kulipia kabla)",
 		"Nunua"
 	],
 	voucher_ec: [
-		"Hii ni <u>vocha ya ununuzi ya Hearty Life Shop</u>.",
+		"<u>Vocha ya Hearty Life Shop</u>.",
 		"Nunua sasa"
 	],
 
@@ -868,15 +868,15 @@ _h$["a"] = _h$["a"] || {
 	nickname: ["Jina la Utani", "Sasisha"],
 	pincode: "PIN ya Usaidizi",
 	bday: "Kuzaliwa",
-	email: ["Tuma barua pepe ya uthibitisho", "Tuma tena barua pepe ya uthibitisho", " sekunde kabla ya kutuma tena"],
+	email: ["Tuma uthibitisho", "Tuma uthibitisho tena", " sekunde kabla ya kutuma tena"],
 	style: ["Muundo", "Binafsisha Shajara Yangu"],
 	gender: ["Jinsia", "Mwanamume", "Mwanamke"],
-	phone: ["Simu", "Thibitisha nambari ya simu"],
+	phone: ["Simu", "Thibitisha simu"],
 	pwd: "Nenosiri",
 	pfont: ["Fonti za Machapisho", "Hakiki fonti"],
 	language: "Lugha",
 	timezone: "Saa za Eneo",
-	newsletter: ["Jarida", "Jiunge (habari na hadithi za mara kwa mara)"],
+	newsletter: ["Jarida", "Jiunge (habari na hadithi)"],
 	newsletter_shop: ["Barua za Duka", "Jiunge (bidhaa mpya na ofa)"],
 	rate: ["Upendo na Kumbatio", "Tupe nyota 5"],
 	misc: "Mengineyo",
@@ -925,27 +925,27 @@ _h$["o"] = _h$["o"] || {
 	title: "Mpango Wangu",
 	back: "Rudi",
 	redeem: "Komboa Zawadi Yako",
-	buy: ["Jaribu VIP Premium", "Fanya upya mpango wangu"],
-	plan: ["Mpango Wangu", "Kwa mabadiliko ya mpango au kusasisha kadi ya mkopo iliyohifadhiwa, tafadhali wasiliana nasi na utoe Hearty ID yako.", '"VIP Premium (Jaribio la bure)" ni zawadi ya bure kwa wageni.<br>Usijali, utarudishwa kiotomatiki kwenye toleo la bure la Lite baada ya kipindi cha jaribio.'],
+	buy: ["Jaribu VIP Premium", "Fanya upya"],
+	plan: ["Mpango Wangu", "Kubadilisha mpango au kadi, wasiliana nasi ukitaja Hearty ID yako.", '"VIP Premium (Jaribio la bure)" ni zawadi ya bure kwa wageni.<br>Usijali, utarudishwa kiotomatiki kwenye toleo la bure la Lite baada ya kipindi cha jaribio.'],
 	order: ["Maagizo Yangu"],
 	plan_th: ["Hali", "Mpango", "Ulianza", "Unaisha", "Hearty Journal "],
 	order_th: ["Hali", "Na.", "Bidhaa", "TWD$", "Malipo ", "Ankara"],
 	order_status: ["Haijalipwa", "Imelipwa",  "Imewashwa", "Imechelewa", "Imeghairiwa"],
 	plan_status: ["Unaendelea", "Umeisha"],
-	url: ["Kiungo cha kushiriki | QRcode", "Nakili"],
+	url: ["Kiungo | QRcode", "Nakili"],
 
 	// bill
 	fail: [
 		"Malipo Yameshindikana",
-		"Inapendekezwa kwanza ujaribu tena kwa kadi ile ile ya mkopo, au ujaribu kadi nyingine. Mara nyingi hii hutatua tatizo.",
-		"Ukiwa na swali lolote, tafadhali tujulishe."
+		"Jaribu tena kwa kadi ile ile au nyingine; kwa kawaida hufanikiwa.",
+		"Maswali? Tujulishe."
 	],
 	fail_info: [
 		"Sababu ya Kawaida", "Maelezo",
-		"Makosa ya Kuandika Taarifa za Kadi", "Nambari ya kadi, CVV au tarehe ya kuisha si sahihi.",
-		"Salio Halitoshi", "Salio lako au kikomo cha mkopo kimefikiwa.",
-		"Kadi Haistahiki", "Huenda kadi yako haijawezeshwa kwa matumizi ya mtandaoni/nje ya nchi. Katika hali hii, wasiliana na mtoaji wa kadi ili kuwezesha ununuzi wa mtandaoni/nje ya nchi kwenye kadi yako",
-		"Malipo Yamekataliwa", "Miamala isiyo ya kawaida au ya nje ya nchi inaweza kusababisha mfumo wa kiotomatiki wa kuzuia ulaghai wa mtoaji wa kadi kukataa malipo. Katika hali hii, kumjulisha mtoaji wa kadi ili aruhusu muamala kunaweza kusaidia."
+		"Taarifa za Kadi Si Sahihi", "Nambari, CVV au tarehe ya kuisha si sahihi.",
+		"Salio Halitoshi", "Salio au kikomo kimefikiwa.",
+		"Kadi Haistahiki", "Huenda kadi haikubali malipo ya mtandaoni/nje ya nchi. Omba benki iiwezeshe.",
+		"Malipo Yamekataliwa", "Mfumo wa benki wa kuzuia ulaghai unaweza kukataa malipo yasiyo ya kawaida au ya nje. Omba benki iruhusu."
 	],
 	fail_btn: [
 		"Jaribu tena",
@@ -955,8 +955,8 @@ _h$["o"] = _h$["o"] || {
 
 	// thankyou
 	thx: [
-		"Agizo lako limekamilika! Asante!",
-		"Tunathamini sana agizo lako na tunatarajia uhusiano mrefu na mzuri. Ukihitaji chochote, tafadhali usisite kuwasiliana nasi."
+		"Agizo limekamilika! Asante!",
+		"Tunatarajia uhusiano mrefu. Ukihitaji chochote, wasiliana nasi."
 	],
 	thx_th: [
 		"Kifurushi",
@@ -967,16 +967,16 @@ _h$["o"] = _h$["o"] || {
 		"Kiasi",
 		"Imelipwa kupitia",
 		"Ankara",
-		"Kwa mabadiliko ya mpango au kusasisha kadi ya mkopo iliyohifadhiwa, tafadhali wasiliana nasi na utoe Hearty ID yako."
+		"Kubadilisha mpango au kadi, wasiliana nasi ukitaja Hearty ID yako."
 		//
 		// "For monthly plan users, you can cancel your subscription anytime by contacting us with your Hearty ID."
 	],
 	thx_inv: [
-		"Ankara ya VAT ya Taiwan iliyotolewa na Hearty Creative Inc.",
+		"Ankara ya Taiwan kutoka Hearty Creative Inc.",
 		"Tazama"
 	],
 	thx_btn: [
-		"Utafiti wa VIP (kwa wateja wapya)",
+		"Utafiti wa VIP (wateja wapya)",
 		"Picha ya skrini",
 		"Rudi kwenye Shajara"
 	]
@@ -987,18 +987,18 @@ _h$["pv"] = _h$["pv"] || {
 	// JS
 	ok: "Sawa",
 	no: "Ghairi",
-	signin: ["Ingia", "Tafadhali ingia kwanza."],
-	format: ["Nambari inaonekana kuwa fupi mno.", "Nambari si sahihi.", "Umefikia kikomo cha matumizi. Tafadhali jaribu tena baadaye."],
-	verify1: ["Thibitisha", "Weka msimbo wa uthibitisho: ", "<br><small><b>SMS ya Firebase</b> imetumwa, tafadhali subiri sekunde 45 kisha uangalie simu yako.</small>", "$no sasa imethibitishwa!"],
-	verify2: ["Hupokei msimbo wa uthibitisho?", "Tutumie SMS kwa uthibitisho wa mkono. (Huenda ukatozwa ada za mtandao)", "Tuma", "Uthibitisho wa mkono utakamilika ndani ya saa 72 za kazi.", "[Thibitisha] Hearty ID: "],
-	verify3: ["Hupokei msimbo wa uthibitisho?", "Tafadhali toa Hearty ID na nambari yako ya simu kwa uthibitisho wa mkono.", "Tutumie ujumbe"],
-	code: ["Msimbo wa uthibitisho wa SMS", "Jaribu tena", "Unapaswa kuwa nambari ya tarakimu 6.", "Msimbo si sahihi.", "Msimbo umeisha muda, tafadhali anza upya."],
-	fail: "Google Auth haijapakiwa ipasavyo, tafadhali onyesha ukurasa upya.",
+	signin: ["Ingia", "Ingia kwanza."],
+	format: ["Nambari ni fupi mno.", "Nambari si sahihi.", "Kikomo kimefikiwa. Jaribu baadaye."],
+	verify1: ["Thibitisha", "Msimbo wa uthibitisho: ", "<br><small><b>SMS ya Firebase</b> imetumwa; subiri sekunde 45.</small>", "$no imethibitishwa!"],
+	verify2: ["Hujapata msimbo?", "Tutumie SMS kwa uthibitisho wa mkono (huenda kuna ada).", "Tuma", "Uthibitisho wa mkono ndani ya saa 72 za kazi.", "[Thibitisha] Hearty ID: "],
+	verify3: ["Hujapata msimbo?", "Tuma Hearty ID na nambari ya simu kwa uthibitisho wa mkono.", "Tutumie ujumbe"],
+	code: ["Msimbo wa uthibitisho wa SMS", "Jaribu tena", "Tarakimu 6.", "Msimbo si sahihi.", "Msimbo umeisha muda; anza upya."],
+	fail: "Google Auth haikupakiwa; onyesha ukurasa upya.",
 
 	// DOMs
 	title: "Thibitisha Nambari ya Simu",
 	back: "Akaunti Yangu",
-	verify: ["Thibitisha Nambari ya Simu", "Nambari yako ya simu", "Thibitisha", "Weka msimbo", "Hupokei ujumbe wa SMS?", "Tuma tena", "Jaribu tena baada ya sekunde 30"]
+	verify: ["Thibitisha Nambari ya Simu", "Nambari yako ya simu", "Thibitisha", "Weka msimbo", "Hujapata SMS?", "Tuma tena", "Jaribu baada ya sekunde 30"]
 };
 
 // email
@@ -1009,16 +1009,16 @@ _h$["em"] = _h$["em"] || {
 	],
 	unsubscribe: "Jiondoe",
 	ask: [
-		"Baada ya kujiondoa, hutapokea tena ujumbe wa tovuti wala arifa za marafiki wa kalamu.",
-		"Baada ya kujiondoa, hutapokea tena taarifa za bidhaa mpya au ofa.",
+		"Hutapokea tena ujumbe wa tovuti wala arifa za marafiki.",
+		"Hutapokea tena taarifa za bidhaa au ofa.",
 		"Ndiyo, niondoe"
 	],
 	ok: "Sawa",
 	back: "Rudi",
 	unsubscribed: '"$email" imeondolewa kwenye usajili. Mabadiliko yataanza kutumika kesho.',
 	remarks: [
-		"Bado utapokea arifa muhimu za akaunti (kuweka upya nenosiri, masasisho ya sera, n.k.).",
-		"Ili kuacha kupokea barua pepe zote, tafadhali futa akaunti yako ya Hearty Journal."
+		"Arifa muhimu (nenosiri, sera, n.k.) zitaendelea kufika.",
+		"Kuacha barua pepe zote, futa akaunti yako."
 	]
 };
 
@@ -1031,47 +1031,47 @@ _h$["pt"] = _h$["pt"] || {
 	close: "Funga",
 	signin: [
 		"Ingia",
-		"Tafadhali ingia kwenye Hearty Journal kwanza."
+		"Ingia kwanza."
 	],
 	redeem: [
-		"Una uhakika unataka kukomboa <u>$pkg</u> kwa pointi $p?",
+		"Komboa <u>$pkg</u> kwa pointi $p?",
 		'Kwa kubofya "Thibitisha", unakubali masharti',
-		"Pointi hazitoshi. Huwezi kukomboa $pkg.",
-		"Mpango huu bado haupatikani kwa ukombozi."
+		"Pointi hazitoshi kwa $pkg.",
+		"Bado haupatikani."
 	],
 	ec_ok: [
-		"Msimbo wa vocha yako ya ununuzi ya Hearty Life (NT$$amt): <b>$code</b>",
+		"Vocha ya Hearty Life (NT$$amt): <b>$code</b>",
 		'Unaweza kuuangalia kwenye "Rekodi Zangu." Usisahau kuutumia kabla ya $exp.'
 	],
 	vip_ok: [
-		"Ukombozi umefanikiwa! Umepokea siku $days za uanachama wa VIP Premium, halali hadi $exp.",
+		"Imekombolewa! Siku $days za VIP Premium hadi $exp.",
 		"Tazama sasa"
 	],
 
 	// DOMs
-	title: "Mpango wa Zawadi wa Pointi za Hearty",
+	title: "Zawadi za Pointi za Hearty",
 	points: ["Pointi Zangu za Hearty", "P"],
 	coupons: [
 		"Rekodi Zangu",
-		"Rekodi Zangu za Ukombozi",
+		"Historia ya Ukombozi",
 		"Mpango",
 		"Msimbo",
 		"Iliundwa",
 		"Inaisha",
 		"Imetumika",
-		"Bado huna msimbo wowote."
+		"Hakuna msimbo."
 	],
 	label: [
 		"Bora",
 		"Maarufu"
 	],
 	use: [
-		"Tumia kuponi dukani"
+		"Tumia dukani"
 	],
-	agree: ["Tafadhali soma na ukubali masharti."],
+	agree: ["Kubali masharti."],
 	get: [
 		"Jinsi ya kupata pointi?",
-		"Unaweza kupata pointi kwa kujisajili kila siku. Bofya tu aikoni ya kengele kwenye kona ya juu kulia ya shajara ili kufungua skrini ya kujisajili.",
+		"Jisajili kila siku: bofya kengele kwenye kona ya juu kulia ya shajara.",
 		"Jisajili Sasa"
 	],
 
@@ -1085,7 +1085,7 @@ _h$["pt"] = _h$["pt"] || {
 		"Siku 30"
 	],
 	pkg_ec100: [
-		"Vocha ya Ununuzi ya Hearty Life (Bidhaa za Kidijitali)",
+		"Vocha ya Hearty Life (Kidijitali)",
 		"NT$ 100"
 	]
 };

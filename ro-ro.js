@@ -9,11 +9,11 @@ _h$["h"] = _h$["h"] || {
 	ok: "Sigur",
 	qr: "QRcode_Hearty",
 	copy: "Copiat",
-	err: "Serverul este ocupat, te rugăm să încerci din nou mai târziu. Dacă problema persistă, anunță-ne.",
-	satisfy: ["Fie că ne iubești, fie că simți că am putea face mai bine, vrem să știm!", "Îmi place!", "Mai e de lucru"],
-	rate: ["Recenzia ta motivează echipa noastră mică să facă Hearty Journal și mai bun.", "Ne poți acorda 5 stele?", "Îți mulțumim pentru recenzie.", "༼ つ ◕_◕ ༽つ"],
-	notify: ["Activezi notificările?", "Vrei să primești notificări personalizate? (de ex. mesaje de la prietenii de corespondență)", "Sigur", "Nu acum"],
-	downloading: "Descărcarea a început"
+	err: "Server ocupat. Încearcă mai târziu și anunță-ne dacă persistă.",
+	satisfy: ["Ne iubești sau putem mai bine? Spune-ne!", "Îmi place!", "Mai e de lucru"],
+	rate: ["Recenzia ta motivează echipa noastră mică.", "Ne poți acorda 5 stele?", "Îți mulțumim pentru recenzie.", "༼ つ ◕_◕ ༽つ"],
+	notify: ["Activezi notificările?", "Primești notificări personalizate? (de ex. de la prieteni)", "Sigur", "Nu acum"],
+	downloading: "Se descarcă…"
 };
 
 // menu
@@ -27,14 +27,14 @@ _h$["m"] = _h$["m"] || {
 	no: "Nu",
 	back: "Înapoi",
 	nav: ["Meniu", "Hearty Journal", "Jurnalul meu"],
-	signout: ["Deconectare", "Vrei să te deconectezi acum?"],
+	signout: ["Deconectare", "Te deconectezi?"],
 
 	// DOMs
 	avatar: [
 		"Contul meu", "Conectare", "VIP Premium, Hearty Journal"
 	],
 	menu: [
-		"Versetul zilei", "Cartea de oaspeți a lui Alice", "Fluxul de postări", "Blogul Hearty", "Jurnalul meu", "Galerie", "Life Shop", "Upgrade", "Tutoriale", "Despre", "Deconectare", "pentru Windows", "pentru macOS", "Aplicația Windows/macOS", "Aplicația mobilă", "Language 語言", "Acordă-ne 5 stele", "🐞 Depanare"
+		"Versetul zilei", "Cartea de oaspeți Alice", "Fluxul de postări", "Blogul Hearty", "Jurnalul meu", "Galerie", "Life Shop", "Upgrade", "Tutoriale", "Despre", "Deconectare", "pentru Windows", "pentru macOS", "Windows/macOS", "Pe mobil", "Language 語言", "Dă 5 stele", "🐞 Depanare"
 	]
 };
 
@@ -43,11 +43,11 @@ _h$["i"] = _h$["i"] || {
 	passkey: [
 		"Conectează-te cu Passkey",
 		"sau",
-		"Nu ai încă un Passkey? Conectează-te cu parola, apoi creează-l în „Contul meu”",
-		"Acest Passkey a fost eliminat din cont. Conectează-te în alt mod",
-		"Verificarea Passkey a expirat. Încearcă din nou",
-		"Conectarea cu Passkey a eșuat. Încearcă din nou",
-		"Acest cont a fost șters sau suspendat"
+		"Fără Passkey? Conectează-te cu parola și creează-l în „Contul meu”",
+		"Passkey eliminat. Conectează-te altfel",
+		"Verificare expirată. Încearcă din nou",
+		"Conectare Passkey eșuată. Încearcă din nou",
+		"Cont șters sau suspendat"
 	],
 	url: [
 		"//go.hearty.me/hj-faq",
@@ -65,61 +65,61 @@ _h$["i"] = _h$["i"] || {
 	back: "Înapoi",
 	copy: ["Copiază", "Copiat: "],
 	email: [
-		"Adresa de e-mail a fost verificată.", "Adresa de e-mail a fost deja verificată.", "Linkul nu este valid.", "Linkul este corupt."
+		"E-mail verificat.", "E-mail deja verificat.", "Link invalid.", "Link corupt."
 	],
 	reset: [
 		"Resetează parola",
 		"Conectare automată",
-		"Linkul nu este valid.",
-		"Hearty ID nu este valid.",
-		"Linkul de resetare a fost trimis. Verifică-ți căsuța de e-mail.",
-		"Linkul de resetare a fost trimis la ***@$domain . Verifică-ți căsuța de e-mail.",
-		"Deschizi $url pentru a verifica e-mailul?",
-		"Acest Hearty ID nu există."
+		"Link invalid.",
+		"Hearty ID invalid.",
+		"Link trimis. Verifică e-mailul.",
+		"Link trimis la ***@$domain . Verifică e-mailul.",
+		"Deschizi $url?",
+		"Hearty ID inexistent."
 	],
 	captcha: [
-		"Verificarea de securitate a eșuat. Reîmprospătează pagina și încearcă din nou.",
-		"Finalizează verificarea de securitate de mai jos."
+		"Verificare eșuată. Reîmprospătează pagina.",
+		"Finalizează verificarea de securitate."
 	],
 	ref: [
 		"🎁 Ai fost invitat(ă) de $user."
 	],
 	cookie: [
-		"Activează cookie-urile din browser pentru a te conecta.", "Cum"
+		"Activează cookie-urile pentru conectare.", "Cum"
 	],
 	browser: [
-		"Browserul tău este prea vechi pentru a funcționa.", "Internet Explorer a fost retras."
+		"Browserul tău e prea vechi.", "Internet Explorer a fost retras."
 	],
 	signin: [
 		"Conectare",
 		"Conectare securizată cu $user",
-		"Hearty ID nu este valid",
+		"Hearty ID invalid",
 		"$user nu există",
 		"$user nu este înregistrat",
 		"$user este șters sau suspendat",
-		"$user a fost suspendat pentru încălcarea regulilor sau a solicitat ștergerea",
+		"$user e suspendat pentru încălcări sau a cerut ștergerea",
 		"Parolă greșită",
-		"Parola trebuie să aibă cel puțin 6 caractere",
+		"Parolă: minim 6 caractere",
 		"Conectează-te la „$client” cu Hearty ID"
 	],
 	signup: [
-		"Hearty ID trebuie să fie alfanumeric",
-		"Hearty ID trebuie să aibă între 4 și 20 de caractere",
-		"Adresa de e-mail nu este validă",
-		"Introdu o adresă de e-mail reală",
-		"Parola trebuie să aibă între 6 și 20 de caractere",
+		"Hearty ID: doar litere și cifre",
+		"Hearty ID: 4–20 caractere",
+		"E-mail invalid",
+		"Folosește un e-mail real",
+		"Parolă: 6–20 caractere",
 		"Parolele nu se potrivesc",
-		"⚠ Serviciul de e-mail Yahoo! nu este recomandat.\nVrei totuși să-l folosești?",
-		"E-mailul sau parola nu sunt valide.",
+		"⚠ Yahoo! Mail nu e recomandat.\nÎl folosești totuși?",
+		"E-mail sau parolă invalide.",
 
-		"$user a fost creat! Verifică-ți căsuța de e-mail.",
+		"$user a fost creat! Verifică e-mailul.",
 		"$user a fost creat!",
-		"$user există deja. Te rugăm să te conectezi.",
-		"Adresa de e-mail este deja înregistrată. Te rugăm să te conectezi.",
-		"Acest ID este deja folosit. Alege altul.",
-		"Adresa de e-mail nu este validă.",
-		"Adresele de e-mail temporare nu sunt acceptate.",
-		"Ne pare rău, încearcă din nou mai târziu."
+		"$user există deja. Conectează-te.",
+		"E-mail deja înregistrat. Conectează-te.",
+		"ID folosit. Alege altul.",
+		"E-mail invalid.",
+		"E-mailurile temporare nu sunt acceptate.",
+		"Încearcă mai târziu."
 	],
 	box: [
 		"Înregistrare",
@@ -127,23 +127,23 @@ _h$["i"] = _h$["i"] || {
 		"Resetare parolă",
 		"Creează un cont",
 		"Conectează-te la Hearty Journal",
-		"Recuperare Hearty ID | Resetare parolă",
-		"💡 Alege-ți ID-ul (4 ~ 20 caractere)",
-		"💡 Hearty ID / E-mailul contului"
+		"Recuperare ID | Resetare parolă",
+		"💡 ID-ul tău (4 ~ 20 caractere)",
+		"💡 Hearty ID / e-mail"
 	],
 	timer: "Retrimite ($min:$sec)",
 	chat: [
 		"Asistență",
-		"Conectează-te mai întâi pentru a primi asistență.",
-		"Contactează-ne prin e-mail",
-		"E-mailul nostru de asistență: "
+		"Conectează-te pentru asistență.",
+		"Scrie-ne",
+		"E-mail asistență: "
 	],
 	id_notice: [
-		"Toate datele tale vor fi criptate și sincronizate în cloud.",
-		"Hearty ID-ul tău este singura cheie de acces la datele tale private de pe dispozitivele tale, inclusiv computere și telefoane."
+		"Datele tale sunt criptate și sincronizate în cloud.",
+		"Hearty ID-ul e singura cheie a datelor tale pe computer și telefon."
 	],
 	song: ["Harmony - 溫度日記", "Coloana sonoră Hearty Journal"],
-	404: "Hopa, această pagină nu există.",
+	404: "Hopa, pagina nu există.",
 
 	// DOMs
 	title: ["Hearty Journal 溫度日記", "Păstrează-ți amintirile prețioase"],
@@ -152,23 +152,23 @@ _h$["i"] = _h$["i"] || {
 	],
 	slogan: [
 		"Hearty Journal", "<br>păstrează-ți amintirile prețioase", ", ",
-		"Alegerea editorilor Apple | Peste 300.000 de utilizatori fericiți | Rating de 4,9 stele", "Conexiunea ta este securizată și criptată cu TLS 1.3."
+		"Alegerea Apple | 300.000+ utilizatori | 4,9 stele", "Conexiune sigură, criptată TLS 1.3."
 	],
 	scroll: "Derulează în jos",
 	preview: ["Previzualizare", "Închide"],
 	feature: [
-		"Mereu alături de tine", "Notează în siguranță gândurile, sentimentele, ideile și momentele tale private.",
-		"Interfață frumoasă", "Teme frumoase, autocolante drăguțe și fonturi elegante",
-		"Împărtășește cu cei dragi", "Creat pentru prieteni, prieteni cei mai buni, familie și îndrăgostiți",
-		"Accent pe confidențialitate", "Păstrează-ți jurnalele private și în siguranță"
+		"Mereu alături de tine", "Notează în siguranță gânduri, sentimente, idei și momente private.",
+		"Interfață frumoasă", "Teme frumoase, autocolante drăguțe, fonturi elegante",
+		"Împărtășește cu cei dragi", "Pentru prieteni, familie și îndrăgostiți",
+		"Accent pe confidențialitate", "Jurnalele tale, private și în siguranță"
 	],
 	testimonial: [
-		"Alătură-te celor peste 100.000 de utilizatori fericiți ai Hearty Journal",
+		"Peste 100.000 de utilizatori fericiți",
 		"Hearty Journal este un sanctuar pentru minte și suflet.", "Haitaibear, scriitor și psiholog",
-		"Un loc minunat în care să petrec timp cu mine însămi.", "Cindy Liu",
-		"Hearty este frumos și drăguț și vine cu o mulțime de funcții utile.", "Wu Chi",
-		"Hearty m-a ajutat să trec prin depresie. Sunt mai sănătoasă decât înainte.", "Yan-Xuan",
-		"Ușor de folosit pe laptop și în buzunar.", "Xiao-Jun"
+		"Un loc minunat pentru o întâlnire cu mine însămi.", "Cindy Liu",
+		"Frumos, drăguț și plin de funcții utile.", "Wu Chi",
+		"Hearty m-a ajutat să trec prin depresie. Acum sunt mai bine.", "Yan-Xuan",
+		"Ușor de folosit pe laptop și telefon.", "Xiao-Jun"
 	],
 	press: [
 		"Presă",
@@ -177,7 +177,7 @@ _h$["i"] = _h$["i"] || {
 	action: [
 		"Pregătit(ă) pentru o minte mai sănătoasă?", "Începe să scrii"
 	],
-	rate: "Acordă-ne 5 stele",
+	rate: "Dă 5 stele",
 	footer: [
 		"Language 語言",
 		"pentru Windows",
@@ -197,18 +197,18 @@ _h$["i"] = _h$["i"] || {
 		"Marcă înregistrată",
 		"Despre noi"
 	],
-	cookies: ["Continuând navigarea pe site, ești de acord cu utilizarea cookie-urilor și cu politica noastră de confidențialitate.", "OK"],
+	cookies: ["Navigând, accepți cookie-urile și politica de confidențialitate.", "OK"],
 	copyright: "2016-"+new Date().getFullYear().toString()+" Hearty Creative Inc. și afiliații săi",
 	isp: "găzduit pe Cloudways",
 	auth: [
 		"Înregistrează-te gratuit",
-		"Ai deja un cont?",
+		"Ai cont?",
 		"Ai uitat ID-ul/parola",
 		"Conectează-te acum",
-		"Hearty ID", "💡 Hearty ID sau e-mailul contului",
+		"Hearty ID", "💡 Hearty ID sau e-mail",
 		"Parolă", "🔑 6 ~ 20 caractere",
-		"Confirmă parola", "🔑 Introdu din nou parola", "Afișează parolele",
-		"Ține-mă minte", "Prin înregistrare, sunt de acord cu Termenii și condițiile și cu Politica de confidențialitate."
+		"Confirmă parola", "🔑 Repetă parola", "Afișează",
+		"Ține-mă minte", "Accept Termenii și condițiile și Politica de confidențialitate."
 	],
 	lang: "Se schimbă în: $lang"
 };
@@ -228,16 +228,16 @@ _h$["e"] = _h$["e"] || {
 	gotop: "Sus",
 	signin: ["Conectare", "Conectează-te la ", "pentru a folosi această funcție"],
 	signout: "Deconectare",
-	name: ["Porecla mea", "Salut, care este porecla ta?<br>Numele va fi identitatea ta publică.", "Salut, $name.", "Vrei un memento zilnic pentru a scrie în jurnal?", "Sigur, activează-l"],
-	get_stickers: ["Uau! Ai primit pachetul de autocolante!", "Deschide cadoul"],
-	welcome: ["Salut, $name", "Mergi la jurnalul meu", "Apasă pentru a te conecta"],
+	name: ["Porecla mea", "Care e porecla ta?<br>Va fi publică.", "Salut, $name.", "Memento zilnic de scris?", "Activează"],
+	get_stickers: ["Uau! Pachet de autocolante primit!", "Deschide cadoul"],
+	welcome: ["Salut, $name", "Jurnalul meu", "Conectare"],
 	year: "",
-	maintenance: ["Mentenanță programată: ", "Se estimează o întrerupere de 1 oră"],
-	update: ["Este disponibilă o nouă versiune a Hearty Journal.", "Actualizează acum", "Amintește-mi mâine"],
-	search: ["Caută postări", "cuvânt-cheie de căutat", "Caută", "Niciun rezultat"],
+	maintenance: ["Mentenanță programată: ", "întrerupere de circa 1 oră"],
+	update: ["Versiune nouă disponibilă.", "Actualizează", "Amintește mâine"],
+	search: ["Caută postări", "cuvânt-cheie", "Caută", "Niciun rezultat"],
 	bookmark: [
-		"1 postare favorită",
-		"$no postări favorite",
+		"1 favorită",
+		"$no favorite",
 		"Favorite",
 		"Fără titlu"
 	],
@@ -246,67 +246,67 @@ _h$["e"] = _h$["e"] || {
 		"$no postări",
 		"Postare nouă",
 		"Nicio postare",
-		"Nicio postare primită de la prietenul de corespondență",
-		"Aceasta este prima sau ultima postare.",
-		"Nicio postare de afișat",
+		"Nicio postare de la prieteni",
+		"Prima sau ultima postare.",
+		"Nicio postare",
 		"Anterior",
 		"Următor"
 	],
-	sticker: ["Mărește", "Rotește", "Lipește", "Eliminat", "Vrei mai multe autocolante într-o postare?", "Fă upgrade la VIP Premium"],
+	sticker: ["Mărește", "Rotește", "Lipește", "Eliminat", "Mai multe autocolante pe postare?", "Treci la VIP Premium"],
 	verify_required: [
-		"Actualizează-ți profilul și verifică-ți $item pentru a $act.",
+		"Verifică-ți $item pentru a $act.",
 		"numărul de telefon", "accesa informațiile",
-		"schimba vizibilitatea unei postări", "publica postarea în fluxul public", "adăuga un prieten de corespondență", "împărtăși postarea cu un prieten de corespondență"
+		"schimba vizibilitatea", "publica în flux", "adăuga un prieten", "împărtăși cu un prieten"
 	],
 	privacy: [
-		"Postarea este acum publică", "Postarea este acum privată",
+		"Postare publică", "Postare privată",
 		'Postarea ta este în curs de verificare, pentru a ne asigura că respectă <a target="_blank" href="//go.hearty.me/publish"><u>regulile pentru postări publice</u>. ',
-		"Va fi distribuită public după aprobare.",
+		"Va fi distribuită după aprobare.",
 		"Va fi publicată după aprobare.",
-		"Evită duplicatele și așteaptă moderarea. (;´ㅁ`)-3"
+		"Fără duplicate, așteaptă moderarea. (;´ㅁ`)-3"
 	],
 	publish: [
-		"Postările din flux trebuie să aibă cel puțin 100 de caractere. Te rugăm să scrii mai mult.",
-		"Sigur, am o idee!",
-		"Vrei să publici „$title” în fluxul public?",
-		"Faci postarea publică și o publici în fluxul public?",
+		"Fluxul cere minim 100 de caractere. Mai scrie puțin.",
+		"Am o idee!",
+		"Publici „$title” în flux?",
+		"O faci publică și o publici în flux?",
 		"Publică",
 		"„$title” a fost publicată.",
 		"Vezi postarea",
 		"Înapoi",
 		'Te rugăm să respecți <a target="_blank" href="//go.hearty.me/publish"><u>[regulile pentru postări publice]</u></a>. <small>De asemenea, dezvăluirea informațiilor personale nu este permisă.</small>',
-		"Vrei să retragi postarea „$title” din flux?",
+		"Retragi „$title” din flux?",
 		"Da",
-		"Postarea a fost retrasă din flux",
-		"Poți avea o singură postare în flux pe zi."
+		"Retrasă din flux",
+		"O postare în flux pe zi."
 	],
 	penpal_add: [
-		"Invită un nou prieten de corespondență. Introdu Hearty ID-ul său (sau e-mailul contului): ",
-		"Ediția Lite permite până la 2 prieteni de corespondență; nelimitat cu VIP Premium.",
-		"Hearty ID sau e-mailul contului",
+		"Invită un prieten prin Hearty ID (sau e-mail): ",
+		"Lite: max. 2 prieteni. VIP Premium: nelimitat.",
+		"Hearty ID sau e-mail",
 		"invită",
-		"Fă upgrade la planul tău pentru a invita mai mulți prieteni de corespondență.",
-		"Inviți pe „<b>$name</b>” (Hearty ID: $user) să-ți fie prieten de corespondență?",
-		"$name este acum prietenul tău de corespondență",
-		"„$user” este deja prietenul tău de corespondență",
+		"Fă upgrade pentru mai mulți prieteni.",
+		"Inviți „<b>$name</b>” (Hearty ID: $user) ca prieten?",
+		"$name e acum prietenul tău",
+		"„$user” e deja prietenul tău",
 		"„$user” nu există",
-		"Hopa, ai fost blocat(ă) de „$user”.",
-		"Hopa, nu te poți invita pe tine însuți/însăți."
+		"„$user” te-a blocat.",
+		"Nu te poți invita pe tine."
 	],
 	penpal_delete: [
-		"Prietenul de corespondență selectat va fi eliminat din listă și nu vă veți mai putea adăuga reciproc. Totodată, postările împărtășite anterior între voi vor înceta imediat să mai fie partajate. (acțiune ireversibilă)",
-		"Selectează un prieten de corespondență pentru ștergere",
+		"Prietenul va fi eliminat, nu vă veți mai putea adăuga, iar postările comune nu vor mai fi partajate. (ireversibil)",
+		"Pe cine ștergi?",
 		"- Selectează o persoană -",
-		"Sigur vrei să ștergi pe „$user” din listă?",
+		"Ștergi „$user”?",
 		"Da",
-		"Gata, „$user” a fost șters."
+		"„$user” a fost șters."
 	],
 	penpal_send: [
 		"Împărtășit cu $add",
 		"Setări actualizate"
 	],
 	pin: [
-		"PIN de asistență: ", "PIN-ul de asistență este o măsură de securitate folosită pentru a-ți verifica identitatea când contactezi echipa de asistență."
+		"PIN de asistență: ", "Îți verifică identitatea la asistență."
 	],
 	chat: [
 		"Hearty ID: "
@@ -316,141 +316,141 @@ _h$["e"] = _h$["e"] || {
 	],
 	feedback: [
 		"Tichet nr. #$no",
-		"Numele tău, te rog.",
-		"E-mailul nu este valid.",
-		"Textul tău este prea scurt.",
-		", îți mulțumim că ai trimis un tichet. Vei primi un răspuns prin e-mail în maximum 24 de ore lucrătoare. Dacă nu găsești e-mailul în căsuța de mesaje primite, verifică dosarul Spam.",
+		"Numele tău?",
+		"E-mail invalid.",
+		"Text prea scurt.",
+		", mulțumim! Răspundem prin e-mail în 24 de ore lucrătoare. Verifică și Spam.",
 		"OK",
-		"Află mai multe despre planul VIP Premium",
-		"Hopa, te rugăm să încerci din nou mai târziu."
+		"Despre VIP Premium",
+		"Hopa, încearcă mai târziu."
 	],
 	video: [
-		"Link video YouTube",
-		"sau apasă aici pentru a încărca",
+		"Link YouTube",
+		"sau încarcă",
 		"Setează",
 		"Adaugă în playlist",
 		"Videoclip atașat",
-		"Linkul video YouTube nu este valid",
-		"Videoclipul poate fi privat, șters sau indisponibil pentru încorporare",
-		"Verifică linkul furnizat",
-		"Confirmi eliminarea „$title”?",
+		"Link YouTube invalid",
+		"Video privat, șters sau neîncorporabil",
+		"Verifică linkul",
+		"Elimini „$title”?",
 		"Elimină",
-		"Setează (sau lasă gol pentru a șterge)", // 預留未使用
-		"https://youtu.be/vYFnZdUiUyg (sau lasă gol pentru a șterge)"
+		"Setează (gol = șterge)", // 預留未使用
+		"https://youtu.be/vYFnZdUiUyg (gol = șterge)"
 	],
 	yt: [
 		"Playlist",
 		"Sortează",
 		"Elimină",
 		"Stinge lumina",
-		"Apasă ➕ pentru a adăuga o melodie preferată",
-		"Ascultă melodiile preferate în fundal în timp ce scrii.",
+		"Apasă ➕ pentru o melodie",
+		"Ascultă melodiile preferate în timp ce scrii.",
 		"Melodiile mele preferate",
 		"Redă"
 	],
 	gps: [
-		"Vrei să adaugi datele meteo la postare?",
+		"Adaugi vremea la postare?",
 		'⛅ Te rugăm să PERMIȚI solicitarea de localizare și să aștepți câteva secunde.',
-		"Date meteo adăugate",
+		"Vreme adăugată",
 		"Niciun semnal GPS",
-		"Verifică notificarea din bara de adrese pentru mai multe informații."
+		"Vezi notificarea din bara de adrese."
 	],
 	chars_max: [
-		"Această intrare depășește limita de 10.000 de caractere (inclusiv simboluri), având $chars caractere.",
-		"A declanșat cineva vreodată această notificare?"
+		"$chars caractere: peste limita de 10.000 (cu simboluri).",
+		"A văzut cineva vreodată asta?"
 	],
 	chars: [
-		"Ai scris $chars caractere, depășind limita ediției Lite ($limit caractere).",
-		"Oferte de upgrade la VIP Premium",
-		"Amintește-mi mai târziu"
+		"$chars caractere: peste limita Lite ($limit).",
+		"Oferte VIP Premium",
+		"Mai târziu"
 	],
-	leave: "Este posibil să ai modificări nesalvate.",
-	date: ["Data postării", "Data modificării: ", "Postările sunt afișate în ordine descrescătoare după dată."],
+	leave: "Posibile modificări nesalvate.",
+	date: ["Data postării", "Data modificării: ", "Cele mai noi primele."],
 	subject: ["Postare nouă, $date", "Titlul postării", "Titlu nou „$title”", "Actualizează"],
 	archive: [
-		"Confirmi eliminarea „$title”? (acțiune ireversibilă)", "Elimină și uită", "„$title” a fost eliminată"
+		"Elimini „$title”? (ireversibil)", "Elimină și uită", "„$title” a fost eliminată"
 	],
-	unsafe: "Linkul este marcat ca periculos de Google Safe Browsing.",
+	unsafe: "Marcat ca periculos de Google Safe Browsing.",
 	offline: "Rețea instabilă",
 	lock: [
-		"Activezi blocarea cu cod ca autentificare în doi pași?",
+		"Activezi blocarea cu cod (2FA)?",
 		"Activează",
-		"Dezactivează blocarea cu cod",
+		"Dezactivează blocarea",
 		"Blocare dezactivată",
-		"Le-am uitat pe amândouă.",
-		"Dacă ai uitat atât <u>codul de blocare</u>, cât și <u>parola contului</u>, deconectează-te și resetează parola contului. Blocarea cu cod va fi dezactivată după finalizarea resetării."
+		"Le-ai uitat pe amândouă?",
+		"Ai uitat <u>codul</u> și <u>parola</u>? Deconectează-te și resetează parola; blocarea se va dezactiva."
 	],
 	pincode: [
-		"Introdu codul de acces",
-		"Confirmă codul de acces",
-		"Introdu codul de blocare sau parola contului",
+		"Introdu codul",
+		"Confirmă codul",
+		"Codul de blocare sau parola",
 		"Cod greșit",
 		"Codurile nu se potrivesc",
-		"Introdu din nou codul",
-		"Codul trebuie să fie numeric",
-		"Blocare activată. Codul tău 2FA este: $pin."
+		"Repetă codul",
+		"Doar cifre",
+		"Blocare activă. Cod 2FA: $pin."
 	],
-	screenshot: "Imaginea se generează. Poate dura până la 10 secunde până începe descărcarea.",
+	screenshot: "Se generează imaginea. Descărcarea pornește în max. 10 secunde.",
 	pc: [
-		"Descarcă aplicația desktop", 'Vizitează „www.hearty.me” <i class="fal fa-globe"></i> pe PC/Mac.',
-		"Avantajele aplicației desktop", "Citire ușoară pe un ecran mai mare", "Tastare confortabilă cu o tastatură fizică", "Sincronizarea intrărilor pe toate dispozitivele", "Încearcă"
+		"Aplicația desktop", 'Vizitează „www.hearty.me” <i class="fal fa-globe"></i> pe PC/Mac.',
+		"Avantaje desktop", "Citire ușoară pe ecran mare", "Tastare comodă", "Sincronizare pe toate dispozitivele", "Încearcă"
 	],
 	picture: [
 		"Încarcă imagine",
-		"Selectează o imagine (JPG, PNG, GIF, WebP, AVIF, HEIC)",
+		"Imagine (JPG, PNG, GIF, WebP, AVIF, HEIC)",
 		"Încarcă",
-		"Selectează din nou",
-		"Poți încărca până la 10 fotografii în fiecare postare.",
-		"Ai selectat $ext, dar sunt acceptate doar JPG, PNG, GIF, WebP, AVIF și HEIC",
+		"Alege alta",
+		"Max. 10 fotografii pe postare.",
+		"$ext neacceptat; doar JPG, PNG, GIF, WebP, AVIF și HEIC",
 		"Imagine încărcată",
-		"Descărcarea va începe în curând",
-		"Deschide dosarul Descărcări pentru a vedea imaginea salvată"
+		"Descărcarea începe curând",
+		"Salvată în Descărcări"
 	],
 	picture_err: [
-		"Format de imagine neacceptat sau extensie de fișier incorectă (sunt acceptate doar: JPG, PNG, GIF, WebP, AVIF, HEIC)",
-		"Fișierul imagine depășește 6MB; te rugăm să-l comprimi înainte de încărcare",
-		"Fișierul imagine nu poate fi citit sau este corupt",
-		"Conversia HEIC/HEIF a eșuat. Încearcă altă imagine."
+		"Format sau extensie neacceptate (JPG, PNG, GIF, WebP, AVIF, HEIC)",
+		"Peste 6MB; comprimă-l mai întâi",
+		"Imagine ilizibilă sau coruptă",
+		"Conversie HEIC/HEIF eșuată. Încearcă alta."
 	],
 	picture_remove: [
-		"Confirmi eliminarea imaginii? (acțiune ireversibilă)", "Elimină", "Imagine eliminată"
+		"Elimini imaginea? (ireversibil)", "Elimină", "Imagine eliminată"
 	],
 	file: "Hearty_Journal",
 	trial: [
-		"Drept cadou pentru noii utilizatori, perioada ta de probă gratuită de 30 de zile pentru Hearty VIP Premium a început. Te poți bucura de toate funcțiile în această perioadă.",
-		"Fără griji. După $exp NU vei fi taxat(ă), iar contul va trece la ediția gratuită Lite. Toate intrările tale vor rămâne în jurnal. ( ´･ヮ･) ♡",
+		"Cadou de bun venit: 30 de zile gratuite de Hearty VIP Premium, cu toate funcțiile.",
+		"După $exp NU plătești nimic: treci la Lite gratuit și îți păstrezi intrările. ( ´･ヮ･) ♡",
 		"Află mai multe",
 		"Începe să scrii"
 	],
 	purchased: [
-		"Planul tău VIP Premium este gata!",
-		"Dacă ai 3 minute și vrei să ne împărtășești părerea ta, ne-ar plăcea să te ascultăm.",
-		"Vei primi gratuit încă 7 zile de plan Premium la primul tău sondaj!",
-		"Completează sondajul",
-		"Nu acum (sau l-am completat deja)"
+		"VIP Premium activ!",
+		"Ai 3 minute pentru părerea ta?",
+		"Primul sondaj: 7 zile Premium gratuit!",
+		"Completează",
+		"Nu acum / gata"
 	],
 	n_verify_email: [
-		"Verifică-ți $item pentru a debloca unele funcții",
-		"Pentru a primi răspuns, este necesară verificarea e-mailului."
+		"Verifică-ți $item pentru mai multe funcții",
+		"Verifică e-mailul ca să primești răspuns."
 	],
-	n_verify_phone: "Verifică-ți numărul de telefon pentru a crește securitatea contului",
+	n_verify_phone: "Verifică telefonul pentru siguranță",
 	n_vip_prefix: "Planul tău VIP",
-	n_char_limit_exceed: "Ai scris $chars caractere și ai atins limita de text a ediției Lite.",
+	n_char_limit_exceed: "$chars caractere: limita Lite atinsă.",
 	n_daily_checkin: [
-		"Punctul tău te așteaptă — fă check-in acum!",
+		"Punctul tău te așteaptă — check-in!",
 		"Ai făcut deja check-in astăzi."
 	],
 	checkin: [
 		"Check-in",
 		"Punctele mele Hearty: ", "P",
-		"Recompensă zilnică pentru check-in: 1P",
-		"Tocmai ai primit 1P. Acum ai $pP.",
+		"Check-in zilnic: 1P",
+		"+1P! Ai $pP.",
 		"Ai făcut deja check-in astăzi.",
 		"Revino mâine.",
-		"Hearty Point este un program de recompense prin care utilizatorii câștigă și folosesc puncte. Ofertele de produse vor fi anunțate în viitor."
+		"Câștigă și folosește Hearty Points. Recompensele vin curând."
 	],
 	reward: [
-		"Vezi planurile de recompense"
+		"Recompense"
 	],
 	pd: [
 		"Calendar menstrual",
@@ -464,7 +464,7 @@ _h$["e"] = _h$["e"] || {
 
 		"Astăzi",
 		"Elimină",
-		"Confirmi eliminarea înregistrării?",
+		"Elimini înregistrarea?",
 		"Ziua $d", // Eng: $d$th
 		"Următorul: peste $d zile"
 	],
@@ -472,33 +472,33 @@ _h$["e"] = _h$["e"] || {
 	// customize my journal
 	headline: [
 		"Titlu",
-		"Introdu noul titlu al jurnalului tău",
+		"Titlu nou pentru jurnal",
 		"Salvează",
 		"Titlu nou: „$headline”",
-		"poate fi lăsat gol"
+		"opțional"
 	],
 	style: [
 		"Personalizează-mi jurnalul",
-		"Revino la implicit",
+		"Implicit",
 		"Ai nevoie de inspirație?",
 		"//en.faq.hearty.me/tutorial/styles"
 	],
 	cover: [
 		"Imagine de copertă",
-		"Încarcă imaginea de copertă",
-		"Raport optim: 1,9:1",
+		"Încarcă coperta",
+		"Optim: 1,9:1",
 		"Confirmă", // crop
 		"Anulează",
-		"Formatul imaginii nu este acceptat: $ext .",
-		"Imaginea de copertă a fost încărcată",
-		"Imaginea de copertă a fost resetată"
+		"Format neacceptat: $ext .",
+		"Copertă încărcată",
+		"Copertă resetată"
 	],
 	bg: [
 		"Imagine de fundal",
-		"Încarcă imaginea de fundal",
-		"Formatul imaginii nu este acceptat: $ext .",
-		"Imaginea de fundal a fost actualizată",
-		"Imaginea de fundal a fost resetată"
+		"Încarcă fundal",
+		"Format neacceptat: $ext .",
+		"Fundal actualizat",
+		"Fundal resetat"
 	],
 	color: [
 		"Alege o culoare",
@@ -508,38 +508,38 @@ _h$["e"] = _h$["e"] || {
 	// DOMs
 	title: "Jurnalul meu",
 	header: [
-		"Jurnale", "Notificările mele", "Autocolante", "Prețuri", "Centru de ajutor", "Gata"
+		"Jurnale", "Notificări", "Autocolante", "Prețuri", "Centru de ajutor", "Gata"
 	],
 	notification: [
-		"Nicio notificare necitită",
+		"Nimic nou",
 		"Aplicația desktop",
 		"Centru de ajutor",
 		"Reîncarcă",
 		"Mod depanare",
-		"Obține funcțiile VIP Premium"
+		"Treci la VIP Premium"
 	],
 	link: [
-		"Accesezi un link extern",
+		"Link extern",
 		"Scanat de Google Safe Browsing",
 		"Mergi"
 	],
 	share: [
-		"Confidențialitatea postării", "Link", "Privat", "Acces cu cod", "Public", "Publică în flux", "Postările care conțin informații private sau confidențiale nu pot fi făcute publice."
+		"Confidențialitatea postării", "Link", "Privat", "Acces cu cod", "Public", "Publică în flux", "Nu face publice informații private sau confidențiale."
 	],
 	penpal: [
-		"Prieten de corespondență", "Invită un prieten de corespondență", "Șterge un prieten de corespondență", "Niciun prieten de corespondență invitat", "Împărtășește cu: "
+		"Prieten de corespondență", "Invită", "Șterge", "Niciun prieten", "Împărtășește cu: "
 	],
 	qa: [
-		"Centru de ajutor", "General și funcțiile produsului", "Cont și facturare", "Siguranța datelor și confidențialitate", "Test de rețea", "Raportează o eroare și trimite un tichet", "Starea serviciilor", "Toate sistemele funcționează"
+		"Centru de ajutor", "General și funcții", "Cont și facturare", "Date și confidențialitate", "Test de rețea", "Eroare / tichet", "Starea serviciilor", "Toate sistemele funcționează"
 	],
 	cs: [
-		"Trimite un tichet", "Pentru întrebări despre funcții, apasă aici.", "Feedback despre produs, raportare de erori sau o îmbrățișare",
-		"Vei primi în curând un răspuns prin e-mail.", "Trimite", "PIN-ul meu de asistență: ",
-		"Funcții beta activate"
+		"Trimite un tichet", "Întrebări? Apasă aici.", "Feedback, erori sau o îmbrățișare",
+		"Răspundem curând prin e-mail.", "Trimite", "PIN asistență: ",
+		"Beta activ"
 	],
 	csform: ["Nume", "VIP Premium", "Lite", "Atașament"],
 	gift: [
-		"Ia-ți autocolantele", "Deschide cutia cu cadouri", "50 de autocolante exclusive pentru jurnal"
+		"Autocolantele tale", "Deschide cadoul", "50 de autocolante exclusive"
 	],
 	prologue: "Cum a fost ziua ta?",
 	pwd: "Acces cu cod",
@@ -547,10 +547,10 @@ _h$["e"] = _h$["e"] || {
 		"Mentenanță programată", "Rețea lentă", "Rețea instabilă", "Baterie descărcată"
 	],
 	tool: [
-		"Salvează", "Postare nouă", "Elimină", "Distribuie", "Salvează ca imagine", "Postarea anterioară", "Postarea următoare", "Ecran complet", "Deschide cartea", "Răsfoiește cartea"
+		"Salvează", "Postare nouă", "Elimină", "Distribuie", "Ca imagine", "Anterioara", "Următoarea", "Ecran complet", "Deschide cartea", "Răsfoiește cartea"
 	],
 	rmenu: [
-		"Centru de ajutor", "Despre", "Ecran complet", "繁/简", "Mărește fontul", "Micșorează fontul", "Răsfoiește cartea", "Mod de citire vertical"
+		"Centru de ajutor", "Despre", "Ecran complet", "繁/简", "Mărește fontul", "Micșorează fontul", "Răsfoiește cartea", "Citire verticală"
 	],
 	image: [
 		"Imagine", "Rotește", "Aplică filtre", "Descarcă", "Elimină"
@@ -558,14 +558,14 @@ _h$["e"] = _h$["e"] || {
 	tab: [
 		"Ale mele", "Ale prietenului",
 		"🔍 Căutare", "🔖 Favorite", "🎧 Playlist muzical", "🌙 Calendar menstrual", "🔒 Blocare cu cod",
-		"Centru de ajutor", "Gesturi tactile", "Gesturi tactile pentru autocolante"
+		"Centru de ajutor", "Gesturi tactile", "Gesturi autocolante"
 	],
 	book: [
-		"Despre", "Într-o epocă agitată, Hearty Journal oferă un refugiu cald și liniștit. Aici, oamenii își lasă deoparte oboseala, își mărturisesc temerile nespuse și își redescoperă sinele cel mai autentic. Cerul nu este mereu senin, dar noi rămânem statornici și blânzi."
+		"Despre", "Într-o epocă agitată, Hearty Journal e un refugiu cald și liniștit unde lași oboseala, îți mărturisești temerile nespuse și te regăsești. Cerul nu e mereu senin, dar rămânem statornici și blânzi."
 	],
-	promo: ["[Ofertă specială] 3 luni de VIP Premium pentru doar NT$99"],
-	403: "Conectează-te pentru a citi postarea privată. 🔒",
-	404: "Hopa, linkul postării poate fi incorect.",
+	promo: ["[Ofertă] 3 luni VIP Premium la NT$99"],
+	403: "Postare privată: conectează-te. 🔒",
+	404: "Hopa, linkul poate fi greșit.",
 	tutorial: [
 		"//i.hearty.app/b/images/tutorials/en/m1.jpg",
 		"//i.hearty.app/b/images/tutorials/en/m2.jpg",
@@ -576,8 +576,8 @@ _h$["e"] = _h$["e"] || {
 		"//i.hearty.app/b/images/tutorials/en/d3.jpg",
 		"//i.hearty.app/b/images/tutorials/en/d4.jpg"
 	],
-	stickers: ["Toate autocolantele", // Start with 1
-		"Cuvinte", "Vreme", "Stări", "Viață", "Îmbrăcăminte", "Obiecte de zi cu zi", "Mâncare", "Călătorii și peisaje", "Anotimpuri și sărbători", "Plante", "Animale", "Personaje drăguțe", "Fantezie"
+	stickers: ["Toate", // Start with 1
+		"Cuvinte", "Vreme", "Stări", "Viață", "Îmbrăcăminte", "Obiecte", "Mâncare", "Călătorii", "Anotimpuri și sărbători", "Plante", "Animale", "Personaje", "Fantezie"
 	]
 };
 
@@ -591,43 +591,43 @@ _h$["p"] = _h$["p"] || {
 	lite: ["Lite", "Gratuit"],
 	vip: ["Hearty VIP Premium", "VIP Premium", "(Perioadă de probă gratuită)"],
 	feat_lite: [
-		"Accent pe confidențialitate, fără reclame",
-		"Text (limită: 5.785 de caractere)",
+		"Confidențialitate, fără reclame",
+		"Text (max. 5.785 caractere)",
 		"90 de autocolante și 20 de fonturi elegante",
 		"Vremea locală, memento zilnic",
-		"Împărtășește cu prietenii de corespondență (până la 2 persoane)",
-		"Blocare cu cod 2FA, playlist muzical și calendar menstrual",
-		"Funcționează pe iOS, Android, Windows și macOS",
-		"Sincronizare automată în cloud, oferită de Amazon Web Services",
-		"Conexiune criptată cu TLS 1.3",
+		"Împărtășire cu max. 2 prieteni",
+		"Blocare 2FA, playlist și calendar menstrual",
+		"iOS, Android, Windows și macOS",
+		"Sincronizare automată în cloud (AWS)",
+		"Criptare TLS 1.3",
 		"Creat cu ♥ în Taiwan",
 	],
 	feat_vip: [
-		"include toate funcțiile Lite, plus: ",
+		"Tot din Lite, plus: ",
 		"Cuvinte nelimitate",
-		"Imagini în postări (până la 10 pe postare)",
-		"Galerie de imagini cu 15 efecte foto",
-		"Peste 1.300 de autocolante (actualizate regulat)",
-		"Adaugă videoclipurile tale preferate de pe YouTube",
-		"Personalizează coperta și fundalul jurnalului",
-		"Redenumește jurnalul și editează datele intrărilor",
+		"Max. 10 imagini pe postare",
+		"Galerie cu 15 efecte foto",
+		"1.300+ autocolante (mereu noi)",
+		"Videoclipuri YouTube încorporate",
+		"Copertă și fundal personalizate",
+		"Titlu și date editabile",
 		"Căutare ușoară",
-		"Export ca Word, TXT sau imagini"
+		"Export Word, TXT sau imagine"
 	],
 	remark: [
-		"De ce să faci upgrade la VIP Premium?",
-		"[Promoție la prima achiziție] 3 luni de VIP Premium pentru doar NT$99",
-		"facturat lunar, ne poți contacta oricând pentru anulare",
-		"Garanție de returnare a banilor în 30 de zile pentru clienții noi",
+		"De ce VIP Premium?",
+		"[Prima achiziție] 3 luni VIP Premium la NT$99",
+		"lunar, anulezi oricând",
+		"Banii înapoi în 30 de zile (clienți noi)",
 		"Funcții Premium"
 	],
 	act: [
-		"Înregistrează-te gratuit", "Începe perioada de probă gratuită (30 de zile)", "Oferte de upgrade", "Reînnoiește acum", "Conectează-te pentru upgrade"
+		"Înregistrează-te gratuit", "30 de zile gratuit", "Oferte de upgrade", "Reînnoiește acum", "Conectare și upgrade"
 	],
-	deposit: ["Preplătit", "Cumpără acum", "Metode de plată: card de credit, Google Pay, Alipay, ATM Taiwan"],
-	subscription: ["Plan lunar", "Abonează-te acum", "(Ofertă pentru card de credit)", "Doar NT$99 / 3 luni la prima achiziție", "Se reînnoiește la NT$99/lună", "Se acceptă carduri de credit"],
+	deposit: ["Preplătit", "Cumpără acum", "Card, Google Pay, Alipay, ATM Taiwan"],
+	subscription: ["Plan lunar", "Abonează-te acum", "(Ofertă cu cardul)", "Prima achiziție: NT$99 / 3 luni", "Apoi NT$99/lună", "Card de credit"],
 	selected: ["Selectat", "Cel mai bun"],
-	currency: ["Pe baza cursului de schimb actual, "],
+	currency: ["La cursul actual, "],
 	term: [
 		"3 luni", "6 luni", "1 an"
 	],
@@ -640,34 +640,34 @@ _h$["p"] = _h$["p"] || {
 
 	due: "Abonamentul meu",
 	due_active: ["Abonament activ"],
-	due_date: ["Expiră pe ", "", "apoi vei trece la ediția Lite"],
-	due_days: ["Expiră în ", " zile", "apoi vei trece la ediția Lite"],
-	due_tomorrow: ["Expiră mâine", "apoi vei trece la ediția Lite"],
-	due_today: ["Expiră astăzi", "apoi vei trece la ediția Lite"],
+	due_date: ["Expiră pe ", "", "apoi Lite"],
+	due_days: ["Expiră în ", " zile", "apoi Lite"],
+	due_tomorrow: ["Expiră mâine", "apoi Lite"],
+	due_today: ["Expiră astăzi", "apoi Lite"],
 	iap_ios: [
-		"Reînnoire automată lunară, anulezi oricând",
-		"[Hearty Journal] Termenii abonamentului iOS",
-		"Ediția Lite oferă funcții și resurse limitate; fă upgrade la VIP pentru acces complet",
-		"Abonamentul se reînnoiește lunar la prețul achiziției inițiale",
-		"După activare, se reînnoiește automat și se taxează prin contul tău Apple",
-		"Odată începută o perioadă de abonament, aceasta nu poate fi anulată sau rambursată la jumătatea perioadei",
-		"Se reînnoiește automat cu 24 de ore înainte de expirare; amintește-ți să anulezi din timp dacă nu dorești reînnoirea",
-		"Gestionează sau schimbă-ți planul oricând din Cont Apple > Abonamente",
-		"Nu îți cerem niciodată transferuri ATM sau operațiuni bancare prin telefon; dacă ai suspiciuni, sună la linia antifraudă 165",
-		"După achiziție, perioada de probă se încheie imediat. Dacă vrei mai mult timp de probă, așteaptă până la finalul perioadei de probă pentru a te abona",
+		"Reînnoire lunară, anulezi oricând",
+		"[Hearty Journal] Termeni iOS",
+		"Lite e limitată; VIP oferă acces complet",
+		"Reînnoire lunară la prețul inițial",
+		"Reînnoire și plată automate prin contul Apple",
+		"O perioadă începută nu se anulează și nu se rambursează",
+		"Se reînnoiește cu 24 de ore înainte de expirare; anulează din timp dacă nu vrei",
+		"Gestionează din Cont Apple > Abonamente",
+		"Nu cerem niciodată la telefon operațiuni ATM sau bancare; dacă ai dubii, sună la 165",
+		"Achiziția încheie imediat perioada de probă. Ca s-o folosești complet, abonează-te după",
 		"Termeni și condiții",
 		"Politica de confidențialitate"
 	],
 	iap_and: [
-		"Reînnoire automată lunară, anulezi oricând",
-		"[Hearty Journal] Termenii abonamentului Android",
-		"Ediția Lite oferă funcții și resurse limitate; fă upgrade la VIP pentru acces complet",
-		"Abonamentul se reînnoiește lunar la prețul achiziției inițiale",
-		"După activare, se reînnoiește automat și se taxează prin Google Play",
-		"Odată începută o perioadă de abonament, aceasta nu poate fi anulată sau rambursată la jumătatea perioadei",
-		"Se reînnoiește automat cu 24 de ore înainte de expirare; amintește-ți să anulezi din timp dacă nu dorești reînnoirea",
-		"Gestionează sau schimbă-ți planul oricând din Google Play > Plăți și abonamente",
-		"Nu îți cerem niciodată transferuri ATM sau operațiuni bancare prin telefon; dacă ai suspiciuni, sună la linia antifraudă 165",
+		"Reînnoire lunară, anulezi oricând",
+		"[Hearty Journal] Termeni Android",
+		"Lite e limitată; VIP oferă acces complet",
+		"Reînnoire lunară la prețul inițial",
+		"Reînnoire și plată automate prin Google Play",
+		"O perioadă începută nu se anulează și nu se rambursează",
+		"Se reînnoiește cu 24 de ore înainte de expirare; anulează din timp dacă nu vrei",
+		"Gestionează din Google Play > Plăți și abonamente",
+		"Nu cerem niciodată la telefon operațiuni ATM sau bancare; dacă ai dubii, sună la 165",
 		"",
 		"Termeni și condiții",
 		"Politica de confidențialitate"
@@ -680,31 +680,31 @@ _h$["A"] = _h$["A"] || {
 	signin: ["Conectare", "Conectează-te pentru a răspunde", "Conectează-te mai întâi"],
 	back: "Înapoi",
 	no: "Nu",
-	no_post: "Hopa, articolul nu există.",
-	penpal_guest: ["Hei, aceasta este ziua ta cu numărul $day pe Hearty Journal. Scrie în jurnal cel puțin 7 zile pentru a vedea lista prietenilor de corespondență.", "Am reținut"], // Eng: $day$th
+	no_post: "Articol inexistent.",
+	penpal_guest: ["E ziua ta nr. $day pe Hearty Journal. Scrie 7 zile ca să vezi lista prietenilor.", "Am reținut"], // Eng: $day$th
 	comment_limit: [
-		"Este posibil să fi postat comentarii duplicate. Atinge pentru a le elimina sau modifica pe cele anterioare.",
-		"Ai scris $chars caractere. Comentariile trebuie să aibă cel mult 85 de caractere.",
-		"Toate comentariile trebuie să aibă cel puțin 4 caractere."
+		"Posibile comentarii duplicate. Atinge pentru a edita sau elimina.",
+		"$chars caractere; max. 85.",
+		"Minim 4 caractere."
 	],
 	comment_ban: [
-		"Comentariul tău va fi publicat după aprobarea moderatorului.",
-		"Ne pare rău pentru neplăcere. 🥺",
-		"Îți reamintim să respecți ",
+		"Comentariul apare după aprobare.",
+		"Ne pare rău! 🥺",
+		"Respectă ",
 		"Regulile pentru postări publice."
 	],
 	comment_edit: ["Modifici comentariul?", "Da"],
-	report_ask: ["Raportezi comentariul ca abuz/spam?", "Raportează", "Îți mulțumim pentru raportare."],
+	report_ask: ["Raportezi ca abuz/spam?", "Raportează", "Îți mulțumim pentru raportare."],
 	url: ["Copiază", "Linkul articolului", "Descarcă codul QR"],
-	penpal_add: ["Inviți pe „<b>$id</b>” să-ți fie prieten de corespondență?", "Pentru calitatea interacțiunilor, îți recomandăm să nu ai mai mult de 2 prieteni de corespondență.", "Următorul"],
-	verify: ["Te rugăm să-ți verifici mai întâi adresa de e-mail și numărul de telefon.", "Contul meu"],
+	penpal_add: ["Inviți „<b>$id</b>” ca prieten?", "Pentru interacțiuni bune, recomandăm max. 2 prieteni.", "Următorul"],
+	verify: ["Verifică mai întâi e-mailul și telefonul.", "Contul meu"],
 
 	// DOMs
-	title: "Cartea de oaspeți a lui Alice",
-	board: "Cartea de oaspeți a lui Alice",
-	tabs: ["Comentarii", "Indexul articolelor", "Prieteni de corespondență", "Distribuie", "Acordă-ne 5 stele", "Mesaje în sticle"],
-	comment: ["Răspunde", "Conectează-te pentru a răspunde", "Limita de caractere a fost depășită (85 de caractere)"],
-	profile: ["Invită ca prieten de corespondență", "Jurnalul meu"],
+	title: "Cartea de oaspeți Alice",
+	board: "Cartea de oaspeți Alice",
+	tabs: ["Comentarii", "Indexul articolelor", "Prieteni de corespondență", "Distribuie", "Dă 5 stele", "Mesaje în sticle"],
+	comment: ["Răspunde", "Conectează-te pentru a răspunde", "Max. 85 de caractere"],
+	profile: ["Invită", "Jurnalul meu"],
 	gotop: "Sus",
 	goleft: "Înapoi"
 };
@@ -713,14 +713,14 @@ _h$["A"] = _h$["A"] || {
 _h$["f"] = _h$["f"] || {
 	// JS
 	refresh: ["Se încarcă", "Trage în jos", "Eliberează pentru a reîmprospăta"],
-	signin: ["Conectare", "Conectează-te pentru a folosi funcția solicitată"],
+	signin: ["Conectare", "Conectează-te pentru a folosi funcția"],
 	no: "Anulează",
 	url: ["Copiază", "Linkul postării și codul QR"],
-	publish_ask: ["Vrei să publici postarea ta în fluxul public?", "În jurnalul tău, atinge", "pentru a publica o postare.", "Am înțeles", "Jurnalul meu"],
+	publish_ask: ["Publici în flux?", "În jurnalul tău, atinge", "pentru a publica o postare.", "Am înțeles", "Jurnalul meu"],
 	report_ask: ["Raportezi „$title” ca abuz/spam?", "Raportează", "„$title” a fost raportată. Îți mulțumim."],
 
 	// DOMs
-	title: "Fluxul de postări publice (Pagina $p)",
+	title: "Flux public (pagina $p)",
 	share: "Distribuie",
 	report: "Raportează abuz",
 	focus_post: "Afișează în flux",
@@ -728,14 +728,14 @@ _h$["f"] = _h$["f"] || {
 	publish: "Publică",
 	gotop: "Sus",
 	back: "Înapoi",
-	health: ["Pentru informații despre sănătate, consultă site-ul CDC. ( • ̀ω•́ )", "//www.cdc.gov.tw"]
+	health: ["Info sănătate: site-ul CDC. ( • ̀ω•́ )", "//www.cdc.gov.tw"]
 };
 
 // img
 _h$["I"] = _h$["I"] || {
 	title: "Galerie",
 	upload: "Încarcă o imagine",
-	empty: ["Nicio imagine încărcată", "Adaugi una acum?"],
+	empty: ["Nicio imagine", "Adaugi una acum?"],
 	add: "Adaugă imagini",
 	gotop: "Sus",
 	layout: ["Grilă", "Mozaic"]
@@ -744,36 +744,36 @@ _h$["I"] = _h$["I"] || {
 // account
 _h$["a"] = _h$["a"] || {
 	passkey: [
-		"Passkey-uri (chei de acces)",
+		"Passkey-uri",
 		"Adaugă Passkey",
-		"Încă nu ai Passkey-uri",
+		"Niciun Passkey",
 		"Ce este un Passkey?",
-		"Un Passkey (cheie de acces) îți permite să te conectezi cu Face ID, amprenta sau blocarea ecranului dispozitivului, fără să introduci Hearty ID-ul și parola, și te protejează de site-urile de phishing.<br><br>Passkey-urile sunt stocate pe dispozitivul tău sau într-un manager de parole (de exemplu Portchei iCloud sau Managerul de parole Google). Hearty Journal păstrează doar o cheie publică, ce nu poate fi folosită pentru conectare.<br><br>Eliminarea unui Passkey nu deconectează dispozitivele deja conectate. După ce îți schimbi Hearty ID-ul, managerul de parole poate afișa încă numele vechi, fără să afecteze conectarea.",
-		"După creare, te poți conecta fără să introduci Hearty ID-ul și parola",
+		"Conectează-te cu Face ID, amprenta sau blocarea ecranului, fără Hearty ID și parolă, protejat de phishing.<br><br>Passkey-urile stau pe dispozitiv sau în managerul de parole (ex. Portchei iCloud, Managerul de parole Google). Hearty Journal păstrează doar o cheie publică, inutilă pentru conectare.<br><br>Eliminarea nu deconectează dispozitivele. După schimbarea ID-ului poate apărea numele vechi, fără efect asupra conectării.",
+		"Conectare fără Hearty ID și parolă",
 		"Redenumește",
-		"Numele Passkey-ului (max. 20 de caractere)",
-		"Numele trebuie să aibă între 1 și 20 de caractere",
+		"Nume (max. 20 caractere)",
+		"Nume: 1–20 caractere",
 		"Elimină",
-		"Sigur vrei să elimini „$name”?<br>Nu te vei mai putea conecta cu el la Hearty Journal. Dispozitivele deja conectate nu vor fi deconectate.<br>Șterge acest Passkey și din managerul de parole.",
-		"Acesta este ultimul tău Passkey, iar contul nu are parolă. După eliminare te vei putea conecta doar cu un cont extern.",
-		"Acest dispozitiv este conectat acum cu acest Passkey. După eliminare, rămâne conectat.",
+		"Elimini „$name”?<br>Nu te vei mai putea conecta cu el; dispozitivele conectate rămân conectate.<br>Șterge-l și din managerul de parole.",
+		"Ultimul Passkey și fără parolă: apoi doar cu cont extern.",
+		"Dispozitivul folosește acest Passkey și rămâne conectat.",
 		"Passkey eliminat",
-		"Se sincronizează cu celelalte dispozitive",
+		"Sincronizat cu dispozitivele tale",
 		"Doar pe acest dispozitiv",
 		"Încă nesincronizat",
 		"În uz acum",
 		"Creat pe $date",
 		"Ultima utilizare: $date",
 		"Neutilizat încă",
-		"Introdu parola actuală pentru a confirma că ești tu",
+		"Parola actuală pentru confirmare",
 		"Parolă greșită",
-		"Ai atins limita de Passkey-uri (10). Elimină mai întâi unul pe care nu îl folosești",
-		"Pe acest dispozitiv sau în acest manager de parole a fost deja creat un Passkey",
-		"Passkey creat! Data viitoare te poți conecta cu Passkey",
-		"Confirmă-ți identitatea cu un Passkey existent",
+		"Limită de 10 Passkey-uri. Elimină unul nefolosit",
+		"Există deja un Passkey pe acest dispozitiv sau manager",
+		"Passkey creat! Folosește-l data viitoare",
+		"Confirmă cu un Passkey existent",
 		"Următorul",
 		"Timpul a expirat. Încearcă din nou",
-		"Prea multe încercări eșuate. Încearcă din nou peste 15 minute"
+		"Prea multe încercări. Reîncearcă peste 15 minute"
 	],
 	// JS
 	ok: ["OK", "Confirmă", "Desigur", "Corect"],
@@ -783,81 +783,81 @@ _h$["a"] = _h$["a"] || {
 	upload: "Încarcă",
 	rotate: "Rotește",
 	retry: "Încearcă din nou",
-	signin: ["Conectare", "Conectează-te pentru a folosi funcția solicitată"],
-	usage: "Ai scris $chars caractere în $num postări.",
-	points: "$p puncte (Vezi planurile de revendicare)",
+	signin: ["Conectare", "Conectează-te pentru a folosi funcția"],
+	usage: "$chars caractere în $num postări.",
+	points: "$p puncte (revendică)",
 	year: "", // CE
-	bday_ask: ["Este $bday ziua ta de naștere?", "Data nașterii nu poate fi modificată.", "Ziua de naștere a fost actualizată"],
+	bday_ask: ["Este $bday ziua ta de naștere?", "Nu mai poate fi modificată.", "Zi de naștere salvată"],
 	age: "Vârsta: $age",
-	nickname_edited: "„$n” este noua ta poreclă",
+	nickname_edited: "Poreclă nouă: „$n”",
 	pwd_edit: "Schimbă parola",
 	pwd_edited: "Schimbată",
-	pwd_enter: "Introdu noua parolă.",
-	pwd_confirm: "Introdu din nou parola pentru confirmare.",
-	pwd_invalid: "Parola trebuie să aibă între 6 și 20 de caractere. Încearcă din nou.",
-	pwd_mismatch: "Parolele nu se potrivesc. Încearcă din nou.",
+	pwd_enter: "Parolă nouă.",
+	pwd_confirm: "Repetă parola.",
+	pwd_invalid: "Parolă: 6–20 caractere.",
+	pwd_mismatch: "Parolele nu se potrivesc.",
 	pwd_format: "6 ~ 20 caractere",
 	pwd_apply: ["Schimbă", "Confirmă"],
-	pwd_ok: ["Parola a fost schimbată. Data viitoare conectează-te cu noua parolă.",
-				"Păstrează-ți parola în siguranță și nu o împărtăși, pentru a preveni accesul neautorizat."],
-	avatar: ["Selectează o imagine (JPG, PNG, GIF, WebP, AVIF, HEIC)", "Ai selectat $ext, dar sunt acceptate doar JPG, PNG, GIF, WebP, AVIF și HEIC", "Selectează din nou", "Avatarul a fost încărcat"],
+	pwd_ok: ["Parolă schimbată. Folosește-o data viitoare.",
+				"Nu-ți împărtăși parola."],
+	avatar: ["Imagine (JPG, PNG, GIF, WebP, AVIF, HEIC)", "$ext neacceptat; doar JPG, PNG, GIF, WebP, AVIF și HEIC", "Alege alta", "Avatarul a fost încărcat"],
 	avatar_err: [
-		"Format de imagine neacceptat sau extensie de fișier incorectă (sunt acceptate doar: JPG, PNG, GIF, WebP, AVIF, HEIC)",
-		"Fișierul imagine depășește 6MB; te rugăm să-l comprimi înainte de încărcare",
-		"Fișierul imagine nu poate fi citit sau este corupt",
-		"Conversia HEIC/HEIF a eșuat. Încearcă altă imagine."
+		"Format sau extensie neacceptate (JPG, PNG, GIF, WebP, AVIF, HEIC)",
+		"Peste 6MB; comprimă-l mai întâi",
+		"Imagine ilizibilă sau coruptă",
+		"Conversie HEIC/HEIF eșuată. Încearcă alta."
 	],
-	email_new: "Schimbă e-mailul contului",
-	email_confirm: "Confirmi schimbarea e-mailului în „$email”?",
-	email_invalid: "Adresa de e-mail nu este validă",
-	email_verify: ["Pentru securitatea contului, este necesară verificarea e-mailului pentru a ", "debloca unele funcții.", "Verifică acum"],
-	email_send: "Trimiți din nou e-mailul de verificare?",
-	email_sent: ["E-mailul de verificare a fost trimis. Verifici e-mailul pe $isp?",
-				"E-mailul de verificare a fost trimis. Verifică-ți căsuța de e-mail."],
-	email_verified: "Adresa de e-mail este deja verificată.",
-	pin: ["PIN de asistență: $pin<br><small>(PIN-ul de asistență este o măsură de securitate folosită pentru a-ți verifica identitatea când contactezi echipa de asistență.)</small>", "Descarcă"],
+	email_new: "Schimbă e-mailul",
+	email_confirm: "Schimbi e-mailul în „$email”?",
+	email_invalid: "E-mail invalid",
+	email_verify: ["Pentru siguranță, verifică e-mailul pentru a ", "debloca funcții.", "Verifică acum"],
+	email_send: "Retrimiți verificarea?",
+	email_sent: ["E-mail trimis. Deschizi $isp?",
+				"E-mail trimis. Verifică-ți căsuța."],
+	email_verified: "E-mail deja verificat.",
+	pin: ["PIN de asistență: $pin<br><small>(Îți verifică identitatea la asistență.)</small>", "Descarcă"],
 	font: [
 		"Fonturi elegante",
 		"i/fonts_en.png",
-		"Sunt folosite serviciul de fonturi web Justfont, precum și fonturi comerciale și open source.",
+		"Fonturi Justfont, comerciale și open source.",
 		"Licențe"
 	],
-	font_change: "Se schimbă fontul: „$font”. Te rugăm să aștepți.",
+	font_change: "Se schimbă fontul: „$font”…",
 	gender_edited: "Genul a fost modificat",
 	newsletter_edited: "Modificare aplicată",
 	lang: "Se schimbă în: $lang",
-	timezone_edited: "Fusul orar a fost setat la „$tz”",
+	timezone_edited: "Fus orar: „$tz”",
 	id: "Hearty ID: ",
-	id_edit: "Schimbă-mi ID-ul",
-	id_public: "Hearty ID-ul și porecla sunt publice",
-	id_new: "Introdu noul tău ID",
-	id_format: "Un Hearty ID valid trebuie să fie alfanumeric și să aibă între 4 și 20 de caractere. Îți poți schimba ID-ul o singură dată.",
-	id_invalid: "ID-ul introdus nu îndeplinește cerințele.",
-	id_same: "Trebuie să fie diferit de cel inițial.",
-	id_taken: "<b>„$id”</b> este deja folosit. Te rugăm să alegi altul.",
-	id_edited: "Hearty ID-ul tău este acum „<b>$id</b>”",
-	id_signout: "Conectează-te cu noul tău Hearty ID",
-	dl: "Exportă ca fișier TXT",
-	dl_pc: "Deschide „<u>www.hearty.me</u>” pe un computer pentru a descărca copia de rezervă.",
-	dl_pwd: ["Introdu parola pentru a decripta jurnalul", "Parola contului (6 ~ 20 caractere)", "Exportă ca fișier TXT", "Exportul fișierului a început", "Copia de rezervă a fost exportată. Verifică dosarul de descărcări și păstrează fișierul privat și în siguranță."],
-	dl_fmt: ["Alege formatul copiei de rezervă", "Fișier text (.txt)", "Document Word cu fotografii (.docx)", "Înainte"],
-	dl_doc: ["$posts postări, $images fotografii<br>Conversia poate dura de la câteva minute la câteva zeci de minute, te rugăm să ai răbdare", "Începe exportul", "Se convertește: $done / $total fotografii, te rugăm să aștepți", "Se convertește, te rugăm să aștepți", "Documentul Word a fost salvat. Păstrează-l într-un loc sigur.", "$n fotografii nu au putut fi încărcate și au fost omise", "Exportul a fost întrerupt. Încearcă din nou mai târziu.", "Exportul în Word funcționează doar în Chrome sau Edge pe computer. Schimbă browserul sau alege fișierul text.", "Exportat pe $date · $posts postări", "Parolă incorectă. Încearcă din nou.", "Încă nu există postări de exportat", "Exportă în Word"],
+	id_edit: "Schimbă ID-ul",
+	id_public: "ID-ul și porecla sunt publice",
+	id_new: "ID nou",
+	id_format: "4–20 litere și cifre. Se poate schimba o singură dată.",
+	id_invalid: "ID invalid.",
+	id_same: "Trebuie să difere de cel actual.",
+	id_taken: "<b>„$id”</b> e folosit. Alege altul.",
+	id_edited: "Hearty ID nou: „<b>$id</b>”",
+	id_signout: "Conectează-te cu noul ID",
+	dl: "Exportă TXT",
+	dl_pc: "Descarcă copia pe computer din „<u>www.hearty.me</u>”.",
+	dl_pwd: ["Parola pentru decriptare", "Parola contului (6 ~ 20 caractere)", "Exportă TXT", "Export pornit", "Copia a fost salvată în Descărcări. Păstreaz-o în siguranță."],
+	dl_fmt: ["Formatul copiei", "Fișier text (.txt)", "Word cu fotografii (.docx)", "Înainte"],
+	dl_doc: ["$posts postări, $images fotografii<br>Conversia durează de la minute la o jumătate de oră", "Începe exportul", "Se convertesc $done / $total fotografii…", "Se convertește…", "Word salvat. Păstrează-l în siguranță.", "$n fotografii omise (eroare la încărcare)", "Export întrerupt. Încearcă mai târziu.", "Word doar în Chrome/Edge pe computer. Schimbă browserul sau alege text.", "Exportat pe $date · $posts postări", "Parolă incorectă.", "Nimic de exportat", "Exportă în Word"],
 	vip_only: ["Această funcție", " este o funcție Premium.", "Oferte de upgrade", "Nu acum"],
-	suspend: ["Sigur vrei să ștergi contul? Dacă nu ai nevoie de el acum, îl poți păstra! Vom continua să lansăm funcții noi și autocolante drăguțe — poate vei vrea să revii cândva să le vezi.", "Sau apasă <u>aici</u> pentru a-ți schimba ID-ul", "Șterge-l", "Îl păstrez deocamdată"],
-	auth_log: ["Ultima activitate a contului", "$browser, $device", "Crește securitatea", "//go.hearty.me/hj-sec"],
+	suspend: ["Ștergi contul? Îl poți și păstra — adăugăm mereu funcții și autocolante, poate revii cândva.", "Sau schimbă ID-ul <u>aici</u>", "Șterge-l", "Îl păstrez"],
+	auth_log: ["Activitate recentă", "$browser, $device", "Crește securitatea", "//go.hearty.me/hj-sec"],
 	redeem: ["Cod voucher", "Revendică"],
-	coupon_ok: ["„$coupon” a fost revendicat și este acum în curs de verificare.",
-				"După verificare, vei primi credit în cont în maximum 3 zile lucrătoare. Verifică [Detaliile planului] peste câteva zile."],
-	voucher_ok: "Codul „$code” a fost revendicat cu succes! Ai primit $days zile de acces VIP, valabil până la $exp.",
-	voucher_invalid: "Codul voucher a fost deja revendicat sau nu este valid.",
-	voucher_disqualified: "Fiecare cont poate revendica un singur voucher de probă. Ai revendicat deja unul.",
+	coupon_ok: ["„$coupon” revendicat, în verificare.",
+				"Creditul vine în 3 zile lucrătoare după verificare; vezi [Detaliile planului]."],
+	voucher_ok: "„$code” revendicat! $days zile VIP până la $exp.",
+	voucher_invalid: "Cod deja folosit sau invalid.",
+	voucher_disqualified: "Un voucher de probă pe cont; deja folosit.",
 	voucher_vvip: [
-		"Ofertă program de fidelitate VVIP",
-		"Reducere exclusivă de 40% la reînnoirea anuală (plan preplătit)",
+		"Ofertă VVIP",
+		"40% reducere la reînnoirea anuală (preplătit)",
 		"Cumpără"
 	],
 	voucher_ec: [
-		"Acesta este un <u>voucher de cumpărături pentru Hearty Life Shop</u>.",
+		"<u>Voucher Hearty Life Shop</u>.",
 		"Cumpără acum"
 	],
 
@@ -868,17 +868,17 @@ _h$["a"] = _h$["a"] || {
 	nickname: ["Poreclă", "Actualizează"],
 	pincode: "PIN de asistență",
 	bday: "Naștere",
-	email: ["Trimite un e-mail de verificare", "Retrimite e-mailul de verificare", " secunde până la retrimitere"],
+	email: ["Trimite verificarea", "Retrimite verificarea", " secunde până la retrimitere"],
 	style: ["Design", "Personalizează-mi jurnalul"],
 	gender: ["Gen", "Masculin", "Feminin"],
-	phone: ["Mobil", "Verifică numărul de telefon"],
+	phone: ["Mobil", "Verifică telefonul"],
 	pwd: "Parolă",
 	pfont: ["Fonturi pentru postări", "Previzualizare font"],
 	language: "Limbă",
 	timezone: "Fus orar",
-	newsletter: ["Newsletter", "Abonare (noutăți și povești ocazionale)"],
-	newsletter_shop: ["Mesaje de la magazin", "Abonare (lansări de produse și promoții)"],
-	rate: ["Dragoste și îmbrățișări", "Acordă-ne 5 stele"],
+	newsletter: ["Newsletter", "Abonare (noutăți și povești)"],
+	newsletter_shop: ["Mesaje de la magazin", "Abonare (produse și promoții)"],
+	rate: ["Dragoste și îmbrățișări", "Dă 5 stele"],
 	misc: "Diverse",
 	auth: ["Activitate", "Șterge"],
 	chat: "Centru de ajutor",
@@ -925,27 +925,27 @@ _h$["o"] = _h$["o"] || {
 	title: "Planul meu",
 	back: "Înapoi",
 	redeem: "Revendică-ți cadoul",
-	buy: ["Încearcă VIP Premium", "Reînnoiește-mi planul"],
-	plan: ["Planul meu", "Pentru modificarea planului sau actualizarea cardului de credit înregistrat, contactează-ne și furnizează Hearty ID-ul tău.", "„VIP Premium (perioadă de probă gratuită)” este un cadou gratuit pentru noii utilizatori.<br>Fără griji, după perioada de probă vei trece automat la ediția gratuită Lite."],
+	buy: ["Încearcă VIP Premium", "Reînnoiește"],
+	plan: ["Planul meu", "Pentru schimbarea planului sau a cardului, contactează-ne cu Hearty ID-ul tău.", "„VIP Premium (perioadă de probă gratuită)” e un cadou de bun venit.<br>Apoi treci automat la Lite gratuit."],
 	order: ["Comenzile mele"],
 	plan_th: ["Stare", "Plan", "Început pe", "Expiră pe", "Hearty Journal "],
 	order_th: ["Stare", "Nr.", "Articol", "TWD$", "Plată ", "Factură"],
 	order_status: ["Neplătită", "Plătită",  "Activată", "Restantă", "Anulată"],
 	plan_status: ["Activ", "Expirat"],
-	url: ["Link de distribuire | Cod QR", "Copiază"],
+	url: ["Link | Cod QR", "Copiază"],
 
 	// bill
 	fail: [
 		"Plata a eșuat",
-		"Îți recomandăm să încerci mai întâi din nou cu același card de credit sau să folosești un alt card. În majoritatea cazurilor, problema se rezolvă astfel.",
-		"Dacă ai întrebări, anunță-ne."
+		"Reîncearcă cu același card sau altul; de obicei merge.",
+		"Întrebări? Anunță-ne."
 	],
 	fail_info: [
 		"Motiv frecvent", "Detalii",
-		"Date de card introduse greșit", "Numărul cardului, codul CVV sau data de expirare sunt greșite.",
-		"Fonduri insuficiente", "Soldul disponibil sau limita de credit a fost atinsă.",
-		"Cardul nu este eligibil", "Este posibil ca cardul tău să nu fie activat pentru plăți online/internaționale. În acest caz, contactează emitentul cardului pentru a activa achizițiile online/internaționale",
-		"Plată refuzată", "Tranzacțiile neobișnuite sau din străinătate pot declanșa sistemul automat antifraudă al emitentului cardului, care refuză plata. În acest caz, poate fi util să anunți emitentul cardului pentru a debloca tranzacția."
+		"Date de card greșite", "Număr, CVV sau dată de expirare greșite.",
+		"Fonduri insuficiente", "Sold sau limită atinse.",
+		"Cardul nu este eligibil", "Cardul poate să nu permită plăți online/internaționale. Cere băncii activarea.",
+		"Plată refuzată", "Antifrauda băncii poate refuza plăți neobișnuite sau străine. Cere-i deblocarea."
 	],
 	fail_btn: [
 		"Reîncearcă",
@@ -955,8 +955,8 @@ _h$["o"] = _h$["o"] || {
 
 	// thankyou
 	thx: [
-		"Comanda ta a fost finalizată! Îți mulțumim!",
-		"Apreciem foarte mult comanda ta și așteptăm cu nerăbdare o relație lungă și sănătoasă. Dacă ai nevoie de orice, nu ezita să ne contactezi."
+		"Comandă finalizată! Mulțumim!",
+		"Sperăm să fim împreună mult timp. Ai nevoie de ceva? Contactează-ne."
 	],
 	thx_th: [
 		"Pachet",
@@ -967,16 +967,16 @@ _h$["o"] = _h$["o"] || {
 		"Sumă",
 		"Plătit prin",
 		"Factură",
-		"Pentru modificarea planului sau actualizarea cardului de credit înregistrat, contactează-ne și furnizează Hearty ID-ul tău."
+		"Pentru schimbarea planului sau a cardului, contactează-ne cu Hearty ID-ul tău."
 		//
 		// "For monthly plan users, you can cancel your subscription anytime by contacting us with your Hearty ID."
 	],
 	thx_inv: [
-		"Factură fiscală taiwaneză emisă de Hearty Creative Inc.",
+		"Factură taiwaneză de la Hearty Creative Inc.",
 		"Vezi"
 	],
 	thx_btn: [
-		"Sondaj VIP (pentru clienții noi)",
+		"Sondaj VIP (clienți noi)",
 		"Captură de ecran",
 		"Înapoi la jurnal"
 	]
@@ -987,38 +987,38 @@ _h$["pv"] = _h$["pv"] || {
 	// JS
 	ok: "OK",
 	no: "Anulează",
-	signin: ["Conectare", "Te rugăm să te conectezi mai întâi."],
-	format: ["Numărul pare prea scurt.", "Numărul nu este valid.", "Ai atins limita de solicitări. Încearcă din nou mai târziu."],
-	verify1: ["Verifică", "Introdu codul de verificare: ", "<br><small>A fost trimis un <b>SMS Firebase</b>, te rugăm să aștepți 45 de secunde și să-ți verifici telefonul.</small>", "$no a fost verificat!"],
-	verify2: ["Nu primești codul de verificare?", "Trimite-ne un SMS pentru verificare manuală. (Se pot aplica tarifele operatorului)", "Trimite", "Verificarea manuală va fi finalizată în maximum 72 de ore lucrătoare.", "[Verificare] Hearty ID: "],
-	verify3: ["Nu primești codul de verificare?", "Te rugăm să ne furnizezi Hearty ID-ul și numărul de telefon pentru verificare manuală.", "Trimite-ne un mesaj"],
-	code: ["Cod de verificare prin SMS", "Încearcă din nou", "Trebuie să fie un număr din 6 cifre.", "Codul nu este valid.", "Codul a expirat, te rugăm să începi din nou."],
-	fail: "Google Auth nu s-a încărcat corect, te rugăm să reîmprospătezi pagina.",
+	signin: ["Conectare", "Conectează-te mai întâi."],
+	format: ["Număr prea scurt.", "Număr invalid.", "Limită atinsă. Încearcă mai târziu."],
+	verify1: ["Verifică", "Cod de verificare: ", "<br><small><b>SMS Firebase</b> trimis; așteaptă 45 de secunde.</small>", "$no a fost verificat!"],
+	verify2: ["Nu primești codul?", "Trimite-ne un SMS pentru verificare manuală (pot exista costuri).", "Trimite", "Verificare manuală în 72 de ore lucrătoare.", "[Verificare] Hearty ID: "],
+	verify3: ["Nu primești codul?", "Trimite Hearty ID-ul și numărul pentru verificare manuală.", "Trimite-ne un mesaj"],
+	code: ["Cod de verificare prin SMS", "Încearcă din nou", "6 cifre.", "Cod invalid.", "Cod expirat, reîncepe."],
+	fail: "Google Auth nu s-a încărcat; reîmprospătează pagina.",
 
 	// DOMs
-	title: "Verifică numărul de telefon",
+	title: "Verifică telefonul",
 	back: "Contul meu",
-	verify: ["Verifică numărul de telefon", "Numărul tău de telefon", "Verifică", "Introdu codul", "Nu primești SMS-ul?", "Trimite din nou", "Reîncearcă după 30 de secunde"]
+	verify: ["Verifică telefonul", "Numărul tău de telefon", "Verifică", "Introdu codul", "Nu primești SMS-ul?", "Trimite din nou", "Reîncearcă în 30 s"]
 };
 
 // email
 _h$["em"] = _h$["em"] || {
 	title: [
-		"Dezabonare: Newsletter pentru membri",
+		"Dezabonare: newsletter membri",
 		"Dezabonare: Newsletter Hearty Life Shop"
 	],
 	unsubscribe: "Dezabonare",
 	ask: [
-		"După dezabonare, nu vei mai primi mesaje de pe site sau notificări de la prietenii de corespondență.",
-		"După dezabonare, nu vei mai primi noutăți despre produse noi sau promoții.",
+		"Nu vei mai primi mesaje de pe site sau notificări de la prieteni.",
+		"Nu vei mai primi noutăți și promoții.",
 		"Da, dezabonează-mă"
 	],
 	ok: "OK",
 	back: "Înapoi",
-	unsubscribed: "„$email” a fost dezabonat. Modificarea intră în vigoare de mâine.",
+	unsubscribed: "„$email” dezabonat, de mâine.",
 	remarks: [
-		"Vei primi în continuare notificări importante despre cont (resetări de parolă, actualizări ale politicilor etc.).",
-		"Pentru a nu mai primi niciun e-mail, șterge-ți contul Hearty Journal."
+		"Vei primi în continuare notificări importante (parolă, politici etc.).",
+		"Ca să nu mai primești e-mailuri, șterge contul."
 	]
 };
 
@@ -1031,48 +1031,48 @@ _h$["pt"] = _h$["pt"] || {
 	close: "Închide",
 	signin: [
 		"Conectare",
-		"Te rugăm să te conectezi mai întâi la Hearty Journal."
+		"Conectează-te mai întâi."
 	],
 	redeem: [
-		"Sigur vrei să revendici <u>$pkg</u> pentru $p puncte?",
-		"Apăsând „Confirmă”, ești de acord cu termenii",
-		"Puncte insuficiente. Nu poți revendica $pkg.",
-		"Acest plan nu este încă disponibil pentru revendicare."
+		"Revendici <u>$pkg</u> pentru $p puncte?",
+		"„Confirmă” înseamnă acordul cu termenii",
+		"Puncte insuficiente pentru $pkg.",
+		"Încă indisponibil."
 	],
 	ec_ok: [
-		"Codul voucherului tău de cumpărături Hearty Life (NT$$amt): <b>$code</b>",
-		"Îl poți vedea în „Înregistrările mele”. Nu uita să-l folosești înainte de $exp."
+		"Voucher Hearty Life (NT$$amt): <b>$code</b>",
+		"Îl găsești în „Înregistrările mele”. Folosește-l până la $exp."
 	],
 	vip_ok: [
-		"Revendicare reușită! Ai primit $days zile de abonament VIP Premium, valabil până la $exp.",
+		"Revendicat! $days zile VIP Premium până la $exp.",
 		"Vezi acum"
 	],
 
 	// DOMs
-	title: "Programul de recompense Hearty Point",
+	title: "Recompense Hearty Point",
 	points: ["Punctele mele Hearty", "P"],
 	coupons: [
 		"Înregistrările mele",
-		"Înregistrările mele de revendicare",
+		"Istoric revendicări",
 		"Plan",
 		"Cod",
 		"Creat",
 		"Expiră",
 		"Folosit",
-		"Nu ai încă niciun cod."
+		"Niciun cod."
 	],
 	label: [
 		"Cel mai bun",
 		"Popular"
 	],
 	use: [
-		"Folosește cuponul în magazin"
+		"Folosește în magazin"
 	],
-	agree: ["Te rugăm să citești și să accepți termenii."],
+	agree: ["Acceptă termenii."],
 	get: [
 		"Cum câștigi puncte?",
-		"Poți câștiga puncte făcând check-in zilnic. Apasă pe pictograma clopoțel din colțul din dreapta sus al jurnalului pentru a accesa ecranul de check-in.",
-		"Fă check-in acum"
+		"Fă check-in zilnic: apasă clopoțelul din dreapta sus al jurnalului.",
+		"Check-in"
 	],
 
 	// Plans
@@ -1085,7 +1085,7 @@ _h$["pt"] = _h$["pt"] || {
 		"30 de zile"
 	],
 	pkg_ec100: [
-		"Voucher de cumpărături Hearty Life (produse digitale)",
+		"Voucher Hearty Life (digital)",
 		"NT$ 100"
 	]
 };
