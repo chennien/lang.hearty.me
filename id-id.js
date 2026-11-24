@@ -877,6 +877,8 @@ _h$["a"] = _h$["a"] || {
 	language: "Bahasa",
 	timezone: "Zona Waktu",
 	newsletter: ["Buletin", "Berlangganan (berita & cerita)"],
+	reminder: ["Pengingat harian", "Ingatkan saya menulis"],
+	reminder_set: "Kami akan mengingatkan Anda menulis setiap hari pukul %t",
 	newsletter_shop: ["Buletin toko", "Berlangganan (produk & promo)"],
 	rate: ["Cinta & Pelukan", "Beri 5 bintang"],
 	misc: "Lainnya",

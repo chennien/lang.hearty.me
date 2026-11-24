@@ -879,6 +879,8 @@ _h$["a"] = _h$["a"] || {
 	language: "Idioma",
 	timezone: "Zona horaria",
 	newsletter: ["Avisos por correo", "Diarios compartidos y boletín"],
+	reminder: ["Recordatorio diario", "Recordarme escribir"],
+	reminder_set: "Te recordaremos escribir cada día a las %t",
 	newsletter_shop: ["Boletín de Hearty Life Shop", "Novedades y ofertas"],
 	rate: ["Apóyanos", "Danos 5 estrellas"],
 	misc: "Otros",

@@ -877,6 +877,8 @@ _h$["a"] = _h$["a"] || {
 	language: "Lugha",
 	timezone: "Saa za Eneo",
 	newsletter: ["Jarida", "Jiunge (habari na hadithi)"],
+	reminder: ["Kikumbusho cha kila siku", "Nikumbushe kuandika"],
+	reminder_set: "Tutakukumbusha kuandika kila siku saa %t",
 	newsletter_shop: ["Barua za Duka", "Jiunge (bidhaa mpya na ofa)"],
 	rate: ["Upendo na Kumbatio", "Tupe nyota 5"],
 	misc: "Mengineyo",

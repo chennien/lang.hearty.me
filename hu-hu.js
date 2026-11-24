@@ -878,6 +878,8 @@ _h$["a"] = _h$["a"] || {
 	language: "Nyelv",
 	timezone: "Időzóna",
 	newsletter: ["E-mail-értesítések", "Közös napló értesítések, hírlevél"],
+	reminder: ["Napi emlékeztető", "Emlékeztess az írásra"],
+	reminder_set: "Napi írási emlékeztető beállítva: %t",
 	newsletter_shop: ["Life Shop hírlevél", "Újdonságok, akciók"],
 	rate: ["Biztass minket", "5 csillag"],
 	misc: "Egyéb",

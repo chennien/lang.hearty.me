@@ -878,6 +878,8 @@ _h$["a"] = _h$["a"] || {
 	language: "語言", 
 	timezone: "時區", 
 	newsletter: ["Email通知", "筆友交換日記通知、會員電子報"], 
+	reminder: ["每日提醒", "提醒我寫日記"], 
+	reminder_set: "每天 %t 提醒你寫日記", 
 	newsletter_shop: ["療癒商城電子報", "新品上架、優惠通知"], 
 	rate: ["鼓勵我們", "給 5顆小星星"], 
 	misc: "其他", 

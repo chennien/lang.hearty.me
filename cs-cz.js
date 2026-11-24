@@ -878,6 +878,8 @@ _h$["a"] = _h$["a"] || {
 	language: "Jazyk",
 	timezone: "Časové pásmo",
 	newsletter: ["E-mailová oznámení", "Oznámení od dopisovatelů, newsletter"],
+	reminder: ["Denní připomínka", "Připomínat psaní"],
+	reminder_set: "Každý den v %t vám připomeneme psaní",
 	newsletter_shop: ["Newsletter Life Shopu", "Novinky a slevy"],
 	rate: ["Povzbuď nás", "Dej nám 5 hvězdiček"],
 	misc: "Ostatní",

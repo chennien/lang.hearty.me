@@ -877,6 +877,8 @@ _h$["a"] = _h$["a"] || {
 	language: "Harshe",
 	timezone: "Yankin Lokaci",
 	newsletter: ["Wasiƙar Labarai", "Karɓa (labarai lokaci-lokaci)"],
+	reminder: ["Tunatarwa ta yau da kullum", "Tunatar da ni in rubuta"],
+	reminder_set: "Za mu tunatar da kai ka rubuta kowace rana da ƙarfe %t",
 	newsletter_shop: ["Wasiƙar Shago", "Karɓa (sababbin kayayyaki & tayi)"],
 	rate: ["Ƙauna & Runguma", "Ba mu taurari 5"],
 	misc: "Sauransu",

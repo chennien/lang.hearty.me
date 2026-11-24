@@ -877,6 +877,8 @@ _h$["a"] = _h$["a"] || {
 	language: "Ngôn ngữ",
 	timezone: "Múi giờ",
 	newsletter: ["Bản tin", "Đăng ký (tin tức & câu chuyện)"],
+	reminder: ["Lời nhắc hằng ngày", "Nhắc tôi viết nhật ký"],
+	reminder_set: "Chúng tôi sẽ nhắc bạn viết nhật ký lúc %t mỗi ngày",
 	newsletter_shop: ["Thư từ cửa hàng", "Đăng ký (sản phẩm & khuyến mãi)"],
 	rate: ["Yêu thương & Ôm", "Đánh giá 5 sao"],
 	misc: "Khác",

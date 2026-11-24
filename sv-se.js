@@ -878,6 +878,8 @@ _h$["a"] = _h$["a"] || {
 	language: "Språk",
 	timezone: "Tidszon",
 	newsletter: ["E-postaviseringar", "Brevväns- och medlemsnyhetsbrev"],
+	reminder: ["Daglig påminnelse", "Påminn mig om att skriva"],
+	reminder_set: "Vi påminner dig om att skriva varje dag kl. %t",
 	newsletter_shop: ["Life Shops nyhetsbrev", "Nyheter och erbjudanden"],
 	rate: ["Uppmuntra oss", "Ge 5 stjärnor"],
 	misc: "Övrigt",

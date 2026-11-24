@@ -877,6 +877,8 @@ _h$["a"] = _h$["a"] || {
 	language: "Dil",
 	timezone: "Saat Dilimi",
 	newsletter: ["Bülten", "Abone ol (haberler ve hikayeler)"],
+	reminder: ["Günlük hatırlatma", "Yazmamı hatırlat"],
+	reminder_set: "Yazma hatırlatıcısı her gün saat %t için ayarlandı",
 	newsletter_shop: ["Mağaza bülteni", "Abone ol (ürünler ve kampanyalar)"],
 	rate: ["Sevgi ve Sarılma", "Bize 5 yıldız ver"],
 	misc: "Diğer",

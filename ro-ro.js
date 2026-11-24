@@ -877,6 +877,8 @@ _h$["a"] = _h$["a"] || {
 	language: "Limbă",
 	timezone: "Fus orar",
 	newsletter: ["Newsletter", "Abonare (noutăți și povești)"],
+	reminder: ["Memento zilnic", "Amintește-mi să scriu"],
+	reminder_set: "Îți vom aminti să scrii în fiecare zi la %t",
 	newsletter_shop: ["Mesaje de la magazin", "Abonare (produse și promoții)"],
 	rate: ["Dragoste și îmbrățișări", "Dă 5 stele"],
 	misc: "Diverse",

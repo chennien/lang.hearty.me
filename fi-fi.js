@@ -878,6 +878,8 @@ _h$["a"] = _h$["a"] || {
 	language: "Kieli",
 	timezone: "Aikavyöhyke",
 	newsletter: ["Sähköposti-ilmoitukset", "Kirjekaveri-ilmoitukset, uutiskirje"],
+	reminder: ["Päivittäinen muistutus", "Muistuta kirjoittamaan"],
+	reminder_set: "Muistutamme sinua kirjoittamaan joka päivä klo %t",
 	newsletter_shop: ["Life Shopin uutiskirje", "Uutuudet ja tarjoukset"],
 	rate: ["Kannusta meitä", "Anna 5 tähteä"],
 	misc: "Muut",

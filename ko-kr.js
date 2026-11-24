@@ -877,6 +877,8 @@ _h$["a"] = _h$["a"] || {
 	language: "언어",
 	timezone: "시간대",
 	newsletter: ["뉴스레터", "구독 (소식 & 이야기)"],
+	reminder: ["매일 알림", "일기 쓰기 알림 받기"],
+	reminder_set: "매일 %t에 일기 쓰기 알림을 보내 드릴게요",
 	newsletter_shop: ["쇼핑 소식", "구독 (신제품 & 프로모션)"],
 	rate: ["사랑 & 응원", "별 5개 주기"],
 	misc: "기타",

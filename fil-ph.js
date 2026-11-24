@@ -879,6 +879,8 @@ _h$["a"] = _h$["a"] || {
 	language: "Wika",
 	timezone: "Time Zone",
 	newsletter: ["Email Notification", "Exchange diary at newsletter"],
+	reminder: ["Pang-araw-araw na paalala", "Paalalahanan akong magsulat"],
+	reminder_set: "Ipapaalala namin sa iyo na magsulat araw-araw nang %t",
 	newsletter_shop: ["Life Shop Newsletter", "Bagong produkto at mga alok"],
 	rate: ["Suportahan Kami", "Bigyan ng 5 bituin"],
 	misc: "Iba pa",
